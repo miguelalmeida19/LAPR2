@@ -1,0 +1,239 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+' Still working on that'
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+
+endheader
+title <b>US4 - Sequence Diagram\n
+autonumber
+
+actor ":Receptionist" as Receptionist
+
+participant ":RegisterTestUI" as RegisterTestUI
+
+participant ":RegisterTestController" as controller
+
+participant ":Company" as company
+participant "testStore:TestStore" as TestStore
+
+participant "parameterStore: ParameterStore" as Parameterstore
+'participant "parameterCategoryStore: ParameterCategoryStore" as ParameterCategorystore
+participant "testTypeStore:TestTypeStore" as TestTypeStore
+participant ":TestTypeMapper" as TestTypeMapper
+participant ":ParameterMapper" as ParameterMapper
+participant "listTestType : List<TestType>" as listTestType
+' participant "parameterCategoryList : List<ParameterCategory>" as parameterCategoryList
+participant "listParameter : List<Parameter>" as listParameter
+participant "listTestTypeDTO : List<TestTypeDTO>" as listTestTypeDTO
+participant "listParameterDTO : List<ParameterDTO>" as listParameterDTO
+participant "TestTypeDTO : TestTypeDTO" as TestTypeDTO
+participant "ParametereDTO : ParameterDTO" as ParameterDTO
+participant "test: Test" as test
+activate Receptionist
+activate RegisterTestUI
+
+' ===================================================
+Receptionist -> RegisterTestUI: Starts registering a test.
+RegisterTestUI -> Receptionist: asks to introduce the client TIN.
+deactivate RegisterTestUI
+Receptionist -> RegisterTestUI: types the TIN of the client.
+activate RegisterTestUI
+activate controller
+RegisterTestUI -> controller : checkIfClientHasAlreadyTestInSystem(TIN)
+controller -> company : testStore = getTestStore()
+activate company
+deactivate company
+
+controller -> TestStore: checkIfClientHasAlreadyTestInSystem(TIN)
+activate TestStore
+deactivate TestStore
+deactivate controller
+
+
+' ===================================================
+
+
+RegisterTestUI -> controller: listTestTypeDTO = getListOfTestType()
+activate controller
+controller -> company: testTypeStore = getTestTypeStore()
+activate company
+deactivate company
+controller -> TestTypeStore: testsList = getListOfTestType()
+activate TestTypeStore
+TestTypeStore -> listTestType** : create()
+deactivate TestTypeStore
+
+note right:loop to populate TestTypeList is omitted
+controller -> TestTypeMapper: listTestTypeDTO = toDTO(testsList)
+activate TestTypeMapper
+deactivate controller
+TestTypeMapper -> listTestTypeDTO**: create()
+
+loop    for each object in testsList
+
+TestTypeMapper -> listTestType: testType = get(i)
+activate listTestType
+deactivate listTestType
+TestTypeMapper -> TestTypeMapper: testTypeDTO = toDTO(testType)
+activate TestTypeMapper
+
+TestTypeMapper -> TestTypeDTO** : create(testType)
+deactivate TestTypeMapper
+TestTypeMapper -> listTestTypeDTO: add(testTypeDTO)
+activate listTestTypeDTO
+deactivate listTestTypeDTO
+
+
+end
+deactivate TestTypeMapper
+
+
+activate RegisterTestUI
+RegisterTestUI --> Receptionist : Shows all the types of test and ask to select one of them.
+deactivate RegisterTestUI
+ RegisterTestUI <-- Receptionist : selects the test type
+
+' ===================================================
+
+activate RegisterTestUI
+
+
+deactivate controller
+RegisterTestUI --> Receptionist : Shows all the parameter categories and ask to select some of them.
+
+deactivate RegisterTestUI
+
+loop while !parameterCategoriesSelected
+RegisterTestUI <-- Receptionist : selects the parameter categories.
+activate RegisterTestUI
+end
+
+
+
+activate RegisterTestUI
+
+RegisterTestUI -> controller: listParameterDTO = getListOfParameters(testType)
+activate controller
+
+controller -> company: parameterStore = getParameterStore()
+activate company
+deactivate company
+controller -> Parameterstore: ParameterList = getListOfParameters(parameterCategoryCode)
+activate Parameterstore
+
+Parameterstore -> listParameter** : create()
+deactivate Parameterstore
+
+note right:loop to populate ParameterList is omitted
+controller -> ParameterMapper: listParameterDTO = toDTO(ParameterList)
+activate ParameterMapper
+deactivate controller
+ParameterMapper -> listParameterDTO**: create()
+
+loop    for each object in Parameter
+
+ParameterMapper -> listParameter: parameter = get(i)
+activate listParameter
+deactivate listParameter
+ParameterMapper -> ParameterMapper: parameterDTO = toDTO(parameter)
+activate ParameterMapper
+ParameterMapper -> ParameterDTO** : create(parameter)
+deactivate ParameterMapper
+
+ParameterMapper -> listParameterDTO: add(parameterDTO)
+activate listParameterDTO
+deactivate listParameterDTO
+
+
+end
+RegisterTestUI --> Receptionist : Shows all the parameters and ask to select some of them.
+
+deactivate ParameterMapper
+deactivate RegisterTestUI
+loop while !parametersSelected
+RegisterTestUI <-- Receptionist : selects the test parameters.
+activate RegisterTestUI
+
+end
+' ===================================================
+
+Receptionist <-- RegisterTestUI: Request data ( nhsCode)
+deactivate RegisterTestUI
+
+
+deactivate RegisterTestUI
+RegisterTestUI <- Receptionist : Types the requested data.
+activate RegisterTestUI
+RegisterTestUI -> controller : registerTest(registerTestDTO)
+activate controller
+
+controller -> company : testStore = getTestStore()
+activate company
+deactivate company
+controller -> TestTypeDTO : listParameterDTO = getListOfParameterDTO()
+activate TestTypeDTO
+deactivate TestTypeDTO
+note bottom:Getting more data from the dto is omitted. Similar to message 32.
+controller -> ParameterMapper : parameterList = toParameterList(listParameterDto)
+activate ParameterMapper
+deactivate ParameterMapper
+controller -> TestTypeMapper : testType = toTestType(testTypeDTO)
+activate TestTypeMapper
+deactivate TestTypeMapper
+
+controller -> TestStore : test = createTest(testType, parameterList, nhsCode, laboratory, TINOfClient)
+
+activate TestStore
+TestStore -> test** : create(testType, parameterList, nhsCode, laboratory, TINOfClient)
+test -> test : validateNhsCode(NhsCode)
+activate test
+deactivate test
+deactivate TestStore
+controller -> TestStore: validateTest(test)
+activate TestStore
+deactivate TestStore
+
+deactivate controller
+Receptionist <-- RegisterTestUI :  Shows all the data and requests a confirmation
+deactivate RegisterTestUI
+
+Receptionist -> RegisterTestUI : confirms the data
+
+
+activate RegisterTestUI
+RegisterTestUI -> controller : saveTest()
+activate controller
+activate controller
+controller -> TestStore : saveTest(test)
+
+activate TestStore
+TestStore -> TestStore : validateTest(test)
+TestStore -> TestStore : addTest(test)
+RegisterTestUI --> Receptionist : informs operation success
+deactivate RegisterTestUI
+@enduml
+Receptionist <-- RegisterTestUI: Request data (code, name, description )
+
+
+@enduml

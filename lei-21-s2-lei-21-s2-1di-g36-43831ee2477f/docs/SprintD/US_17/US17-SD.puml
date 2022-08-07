@@ -1,0 +1,124 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Laboratory Coordinator" as LC
+
+participant ":ImportTestUI" as UI
+participant ":ImportTestController" as Controller
+participant ":Company" as Company
+participant "store:TestStore" as Store
+participant "mapper:TestMapper" as TestMapper
+participant "TestDTO : TestDTO" as TestDTO
+participant "CSVFile" as File
+participant "fileChooser:FileChooser" as FileChooser
+participant "clientStore: ClientStore" as ClientStore
+participant "parameterStore: ParameterStore" as ParameterStore
+participant "parameterCategoryStore: ParameterCategoryStore" as ParameterCategoryStore
+participant "testTypeStore: TestTypeStore" as TestTypeStore
+participant "laboratoryStore: LaboratoryStore" as LaboratoryStore
+
+activate LC
+
+LC -> UI : starts importing tests
+activate UI
+UI --> LC : asks to select the file
+deactivate UI
+LC -> UI : selects the file
+activate UI
+UI -> FileChooser : selectedFile = showOpenDialog();
+activate FileChooser
+deactivate FileChooser
+UI -> UI : filename = getName()
+activate UI
+deactivate UI
+UI -> Controller : getTestList(filename)
+activate Controller
+Controller -> Company : store = getTestStore()
+activate Company
+deactivate Company
+Controller -> Store: getTestListCSV(filename)
+activate Store
+Store -> File** : file = readFile()
+Store -> ParameterCategoryStore : createCategories()
+activate ParameterCategoryStore
+deactivate ParameterCategoryStore
+Store -> ParameterStore : createParameters()
+activate ParameterStore
+deactivate ParameterStore
+loop #97b8a5 for each line in file
+alt client exists
+    Store -> ClientStore : client = getClientByTin()
+    activate ClientStore
+    deactivate ClientStore
+else client does not exist
+    Store -> Store : createClient()
+    activate Store
+    deactivate Store
+    Store -> ClientStore : client = getClientByTin()
+    activate ClientStore
+    deactivate ClientStore
+end
+Store->TestTypeStore : testType = getTestTypeByName(name)
+activate TestTypeStore
+deactivate TestTypeStore
+Store->ParameterCategoryStore : parameterCategoryList = getParameterCategoryList()
+activate ParameterCategoryStore
+deactivate ParameterCategoryStore
+Store->ParameterStore : parameterList = getListOfParametersByCategoryList(parameterCategory)
+activate ParameterStore
+deactivate ParameterStore
+Store->LaboratoryStore : laboratory = getLabByID(labId)
+activate LaboratoryStore
+deactivate LaboratoryStore
+Store->Store : test = createTest()
+activate Store
+deactivate Store
+
+
+deactivate Store
+end
+Controller -> Store : testlist = getTestList()
+activate Store
+deactivate Store
+Controller -> TestMapper: testListDTO = toDTOParam(testlist)
+
+deactivate Controller
+activate TestMapper
+TestMapper -> listTestDTO**: create()
+deactivate TestMapper
+
+
+
+UI --> LC : informs operation success
+
+
+deactivate UI
+deactivate LC
+
+@enduml

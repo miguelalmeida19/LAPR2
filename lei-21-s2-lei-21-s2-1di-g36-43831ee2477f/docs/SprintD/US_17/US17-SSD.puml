@@ -1,0 +1,48 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Laboratory Coordinator" as LC
+
+participant ":System" as System
+
+activate LC
+
+LC -> System : starts importing tests
+activate System
+System --> LC : asks to select the file
+deactivate System
+LC -> System : selects the file
+activate System
+System --> LC : informs operation success
+deactivate System
+
+deactivate System
+deactivate LC
+
+@enduml

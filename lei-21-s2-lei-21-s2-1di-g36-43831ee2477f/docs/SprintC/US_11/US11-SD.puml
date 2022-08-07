@@ -1,0 +1,100 @@
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":CreateParameter\nCategoryUI" as UI
+participant ":CreateParameter\nCategoryController" as CTRL
+participant ":Company" as Company
+participant ":store: Parameter\nCategoryStore" as Store
+participant "pc : Parameter\nCategory" as Parameter
+
+activate ADM
+ADM -> UI : starts new parameter category
+activate UI
+UI --> ADM : request data (i.e., code, description, nhsId)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : createParameterCategory(code, description, nhsId)
+activate CTRL
+
+CTRL -> Company: store = getParameterCategoryStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : pc = createParameterCategory(code, description, nhsId)
+
+activate Store
+
+Store --> Parameter** : create(code, description, nhsId)
+
+deactivate Parameter
+
+deactivate Store
+
+CTRL -> Store: validateParameterCategory(pc)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI --> ADM : shows the data and requests a confirmation
+
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveParameterCategory()
+activate CTRL
+
+CTRL -> Store : saveParameterCategory(pc)
+
+activate Store
+
+Store -> Store: validateParameterCategory(pc)
+activate Store
+deactivate Store
+
+Store -> Store: addParameterCategory(pc)
+activate Store
+deactivate Store
+
+UI --> ADM: informs operation success
+
+deactivate ADM
+deactivate UI
+deactivate CTRL
+deactivate Company
+deactivate Parameter
+
+@enduml

@@ -1,0 +1,120 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US14 - Class Diagram\n
+
+' ======= classes =========
+
+class WriteReportUI{
+}
+class Company{
+  -designation
+   +getTestStore()
+}
+class TestStore{
++add(test)
++add(parameterResult)
++getlistTestParameterResult()
++getTestList()
+}
+class TestMapper{
++toDTO(testList)
++toDTO(test)
+}
+class ParameterResultMapper{
++toDTO(listTestParameterResult)
++toDTO(parameterResult)
+}
+class TestDTO{
+ testTypeDTO;
+    - parameterDTOS;
+    - nhsCode;
+    - testCode;
+    - testCreationDate;
+    - laboratoryMapper;
+    - reportMapper;
+    - laboratory;
+    - reportMadeDate;
+    - samplesAnalysedDate;
+    - report;
+    + getReport()
+    + getNhsCode()
+    + getTestCode()
+    + getParameterDTO()
+    + getTestTypeDTO()
+    + getTestCreationDate()
+    + getReportMadeDate()
+    + getSamplesAnalysedDate()
+    + getTestParameterFor()
+    + getLaboratory()
+    + toString()
+
+}
+class TestParameterResultDTO{
+ -testParameterResult
+ -result
+ -metric
+ -refValue
+ +getMetric()
+ +getResult()
+ +getRefValue()
+}
+class WriteReportController{
+ +getTestList()
+ +getlistTestParameterResult()
+ +createReport(report,diagnosis,testCode)
+}
+class Test{
+     - TINOfClient;
+     - testParameterList
+     - testType
+     - nhsCode
+     - testCode
++createReport(report,diagnosis)
++validateReport(rep)
++addReport(rep)
+}
+class Report{
+-report
+-diagnosis
++create(report,diagnosis)
+}
+WriteReportUI ..-> WriteReportController
+WriteReportUI ..-> TestMapper
+WriteReportUI ..-> TestDTO
+WriteReportUI ..-> TestParameterResultDTO
+WriteReportUI ..-> ParameterResultMapper
+Test "1"--> "1" Report : creates >
+WriteReportController ..-> Company
+Company "1" -> "1" TestStore : uses
+WriteReportController ..-> TestStore
+WriteReportController ..-> TestDTO
+WriteReportController ..-> TestParameterResultDTO
+TestStore "1" -- "*" Test: knows >
+ParameterResultMapper "1" --> "*" TestParameterResultDTO : creates >
+TestMapper "1" --> "*" TestDTO : creates >
+WriteReportController ..-> Test
+
+
+@enduml

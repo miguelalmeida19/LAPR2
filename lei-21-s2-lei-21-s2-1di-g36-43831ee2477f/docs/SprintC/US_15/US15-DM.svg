@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1345.5px" preserveAspectRatio="none" style="width:435px;height:1345px;background:#FCF9EA;" version="1.1" viewBox="0 0 435 1345" width="435px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ejkkzrw6srr8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.0" dy="6.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="0" x="212.25" y="15.5713"/><text fill="#888888" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="0" x="212.25" y="34.4385"/><text fill="#000000" font-family="sans-serif" font-size="22.5" font-weight="bold" lengthAdjust="spacing" textLength="189" x="115.5" y="61.0913">Built by WeByte ©</text><text fill="#F8A978" font-family="Arial Black" font-size="45" font-weight="bold" lengthAdjust="spacing" textLength="414" x="3" y="115.5615">DOMAIN MODEL</text><text fill="#F8A978" font-family="Arial Black" font-size="45" lengthAdjust="spacing" textLength="0" x="217.5" y="179.0186"/><!--MD5=[7421f545a0d8420c5bec41e74b387d9c]
+class Employee--><rect codeLine="28" fill="#BADFDB" filter="url(#f1ejkkzrw6srr8)" height="226.0313" id="Employee" rx="15" ry="15" style="stroke:#FFFFFF;stroke-width:2.25;" width="144" x="14.25" y="380.4492"/><ellipse cx="42.825" cy="404.4492" fill="#FFC5A1" rx="16.5" ry="16.5" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M45.825,399.1992 Q46.1297,398.4492 46.4813,398.0742 Q46.8328,397.6992 47.2313,397.6992 Q47.9344,397.6992 48.3797,398.1211 Q48.825,398.543 48.825,399.5273 L48.825,401.8711 Q48.825,402.8555 48.4031,403.2773 Q47.9813,403.6992 47.325,403.6992 Q46.7391,403.6992 46.3641,403.4414 Q45.9891,403.1836 45.825,402.5039 Q45.7547,402.0352 45.4969,401.7773 Q45.0281,401.2852 44.1844,401.0039 Q43.3406,400.6992 42.4969,400.6992 Q41.4422,400.6992 40.5516,401.1211 Q39.6844,401.543 39.0047,402.4805 Q38.325,403.418 38.325,404.707 L38.325,406.0898 Q38.325,407.6367 39.5906,408.668 Q40.8563,409.6992 43.1063,409.6992 Q44.4422,409.6992 45.3797,409.3945 Q45.9188,409.2305 46.5281,408.6914 Q46.9266,408.3867 47.1375,408.293 Q47.3484,408.1992 47.6063,408.1992 Q48.0984,408.1992 48.45,408.5977 Q48.825,408.9727 48.825,409.5117 Q48.825,410.0273 48.3094,410.6367 Q47.5594,411.5273 46.3641,412.0195 Q44.7938,412.6992 42.8719,412.6992 Q40.6219,412.6992 38.8172,411.8086 Q37.3641,411.1055 36.3328,409.582 Q35.325,408.0586 35.325,406.2539 L35.325,404.6133 Q35.325,402.7383 36.2156,401.0977 Q37.1297,399.457 38.7,398.5898 Q40.2938,397.6992 42.075,397.6992 Q43.1531,397.6992 44.0906,398.0742 Q45.0281,398.4492 45.825,399.1992 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="82.5" x="65.175" y="411.8145">Employee</text><line style="stroke:#FFFFFF;stroke-width:2.25;" x1="15.75" x2="156.75" y1="428.4492" y2="428.4492"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="78" x="23.25" y="451.5776">-username</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="87" x="23.25" y="472.3315">-employeeId</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="126" x="23.25" y="493.0854">-organizationRole</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="45" x="23.25" y="513.8394">-name</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="66" x="23.25" y="534.5933">-address</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="106.5" x="23.25" y="555.3472">-phoneNumber</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="48" x="23.25" y="576.1011">-e-Mail</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="70.5" x="23.25" y="596.855">-socCode</text><!--MD5=[052425de1c0eb6cc1c1b48342b0bb88f]
+class LaboratoryCoordinator--><rect codeLine="38" fill="#BADFDB" filter="url(#f1ejkkzrw6srr8)" height="60" id="LaboratoryCoordinator" rx="15" ry="15" style="stroke:#FFFFFF;stroke-width:2.25;" width="232.5" x="58.5" y="203.4492"/><ellipse cx="81" cy="227.4492" fill="#FFC5A1" rx="16.5" ry="16.5" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M84,222.1992 Q84.3047,221.4492 84.6563,221.0742 Q85.0078,220.6992 85.4063,220.6992 Q86.1094,220.6992 86.5547,221.1211 Q87,221.543 87,222.5273 L87,224.8711 Q87,225.8555 86.5781,226.2773 Q86.1563,226.6992 85.5,226.6992 Q84.9141,226.6992 84.5391,226.4414 Q84.1641,226.1836 84,225.5039 Q83.9297,225.0352 83.6719,224.7773 Q83.2031,224.2852 82.3594,224.0039 Q81.5156,223.6992 80.6719,223.6992 Q79.6172,223.6992 78.7266,224.1211 Q77.8594,224.543 77.1797,225.4805 Q76.5,226.418 76.5,227.707 L76.5,229.0898 Q76.5,230.6367 77.7656,231.668 Q79.0313,232.6992 81.2813,232.6992 Q82.6172,232.6992 83.5547,232.3945 Q84.0938,232.2305 84.7031,231.6914 Q85.1016,231.3867 85.3125,231.293 Q85.5234,231.1992 85.7813,231.1992 Q86.2734,231.1992 86.625,231.5977 Q87,231.9727 87,232.5117 Q87,233.0273 86.4844,233.6367 Q85.7344,234.5273 84.5391,235.0195 Q82.9688,235.6992 81.0469,235.6992 Q78.7969,235.6992 76.9922,234.8086 Q75.5391,234.1055 74.5078,232.582 Q73.5,231.0586 73.5,229.2539 L73.5,227.6133 Q73.5,225.7383 74.3906,224.0977 Q75.3047,222.457 76.875,221.5898 Q78.4688,220.6992 80.25,220.6992 Q81.3281,220.6992 82.2656,221.0742 Q83.2031,221.4492 84,222.1992 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="184.5" x="102" y="234.8145">LaboratoryCoordinator</text><line style="stroke:#FFFFFF;stroke-width:2.25;" x1="60" x2="289.5" y1="251.4492" y2="251.4492"/><!--MD5=[ced94f7cdcbb8a57022a623199f6da4c]
+class Validation--><rect codeLine="40" fill="#BADFDB" filter="url(#f1ejkkzrw6srr8)" height="122.2617" id="Validation" rx="15" ry="15" style="stroke:#FFFFFF;stroke-width:2.25;" width="178.5" x="211.5" y="432.1992"/><ellipse cx="256.275" cy="456.1992" fill="#FFC5A1" rx="16.5" ry="16.5" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M259.275,450.9492 Q259.5797,450.1992 259.9313,449.8242 Q260.2828,449.4492 260.6813,449.4492 Q261.3844,449.4492 261.8297,449.8711 Q262.275,450.293 262.275,451.2773 L262.275,453.6211 Q262.275,454.6055 261.8531,455.0273 Q261.4313,455.4492 260.775,455.4492 Q260.1891,455.4492 259.8141,455.1914 Q259.4391,454.9336 259.275,454.2539 Q259.2047,453.7852 258.9469,453.5273 Q258.4781,453.0352 257.6344,452.7539 Q256.7906,452.4492 255.9469,452.4492 Q254.8922,452.4492 254.0016,452.8711 Q253.1344,453.293 252.4547,454.2305 Q251.775,455.168 251.775,456.457 L251.775,457.8398 Q251.775,459.3867 253.0406,460.418 Q254.3062,461.4492 256.5563,461.4492 Q257.8922,461.4492 258.8297,461.1445 Q259.3688,460.9805 259.9781,460.4414 Q260.3766,460.1367 260.5875,460.043 Q260.7984,459.9492 261.0563,459.9492 Q261.5484,459.9492 261.9,460.3477 Q262.275,460.7227 262.275,461.2617 Q262.275,461.7773 261.7594,462.3867 Q261.0094,463.2773 259.8141,463.7695 Q258.2438,464.4492 256.3219,464.4492 Q254.0719,464.4492 252.2672,463.5586 Q250.8141,462.8555 249.7828,461.332 Q248.775,459.8086 248.775,458.0039 L248.775,456.3633 Q248.775,454.4883 249.6656,452.8477 Q250.5797,451.207 252.15,450.3398 Q253.7437,449.4492 255.525,449.4492 Q256.6031,449.4492 257.5406,449.8242 Q258.4781,450.1992 259.275,450.9492 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="81" x="282.225" y="463.5645">Validation</text><line style="stroke:#FFFFFF;stroke-width:2.25;" x1="213" x2="388.5" y1="480.1992" y2="480.1992"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="160.5" x="220.5" y="503.3276">-testReferenceValues</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="37.5" x="220.5" y="524.0815">-date</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="34.5" x="220.5" y="544.8354">-time</text><!--MD5=[4e608140b854dae633589343bce77383]
+class TestParameterResult--><rect codeLine="45" fill="#BADFDB" filter="url(#f1ejkkzrw6srr8)" height="80.7539" id="TestParameterResult" rx="15" ry="15" style="stroke:#FFFFFF;stroke-width:2.25;" width="225" x="188.25" y="723.9492"/><ellipse cx="210.75" cy="747.9492" fill="#FFC5A1" rx="16.5" ry="16.5" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M213.75,742.6992 Q214.0547,741.9492 214.4063,741.5742 Q214.7578,741.1992 215.1563,741.1992 Q215.8594,741.1992 216.3047,741.6211 Q216.75,742.043 216.75,743.0273 L216.75,745.3711 Q216.75,746.3555 216.3281,746.7773 Q215.9063,747.1992 215.25,747.1992 Q214.6641,747.1992 214.2891,746.9414 Q213.9141,746.6836 213.75,746.0039 Q213.6797,745.5352 213.4219,745.2773 Q212.9531,744.7852 212.1094,744.5039 Q211.2656,744.1992 210.4219,744.1992 Q209.3672,744.1992 208.4766,744.6211 Q207.6094,745.043 206.9297,745.9805 Q206.25,746.918 206.25,748.207 L206.25,749.5898 Q206.25,751.1367 207.5156,752.168 Q208.7813,753.1992 211.0313,753.1992 Q212.3672,753.1992 213.3047,752.8945 Q213.8438,752.7305 214.4531,752.1914 Q214.8516,751.8867 215.0625,751.793 Q215.2734,751.6992 215.5313,751.6992 Q216.0234,751.6992 216.375,752.0977 Q216.75,752.4727 216.75,753.0117 Q216.75,753.5273 216.2344,754.1367 Q215.4844,755.0273 214.2891,755.5195 Q212.7188,756.1992 210.7969,756.1992 Q208.5469,756.1992 206.7422,755.3086 Q205.2891,754.6055 204.2578,753.082 Q203.25,751.5586 203.25,749.7539 L203.25,748.1133 Q203.25,746.2383 204.1406,744.5977 Q205.0547,742.957 206.625,742.0898 Q208.2188,741.1992 210,741.1992 Q211.0781,741.1992 212.0156,741.5742 Q212.9531,741.9492 213.75,742.6992 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="177" x="231.75" y="755.3145">TestParameterResult</text><line style="stroke:#FFFFFF;stroke-width:2.25;" x1="189.75" x2="411.75" y1="771.9492" y2="771.9492"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="45" x="197.25" y="795.0776">-value</text><!--MD5=[f00dbe8c0302c6aec2cb26b3c659c8fc]
+class Report--><rect codeLine="48" fill="#BADFDB" filter="url(#f1ejkkzrw6srr8)" height="80.7539" id="Report" rx="15" ry="15" style="stroke:#FFFFFF;stroke-width:2.25;" width="103.5" x="249" y="921.9492"/><ellipse cx="271.5" cy="945.9492" fill="#FFC5A1" rx="16.5" ry="16.5" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M274.5,940.6992 Q274.8047,939.9492 275.1563,939.5742 Q275.5078,939.1992 275.9063,939.1992 Q276.6094,939.1992 277.0547,939.6211 Q277.5,940.043 277.5,941.0273 L277.5,943.3711 Q277.5,944.3555 277.0781,944.7773 Q276.6563,945.1992 276,945.1992 Q275.4141,945.1992 275.0391,944.9414 Q274.6641,944.6836 274.5,944.0039 Q274.4297,943.5352 274.1719,943.2773 Q273.7031,942.7852 272.8594,942.5039 Q272.0156,942.1992 271.1719,942.1992 Q270.1172,942.1992 269.2266,942.6211 Q268.3594,943.043 267.6797,943.9805 Q267,944.918 267,946.207 L267,947.5898 Q267,949.1367 268.2656,950.168 Q269.5313,951.1992 271.7813,951.1992 Q273.1172,951.1992 274.0547,950.8945 Q274.5938,950.7305 275.2031,950.1914 Q275.6016,949.8867 275.8125,949.793 Q276.0234,949.6992 276.2813,949.6992 Q276.7734,949.6992 277.125,950.0977 Q277.5,950.4727 277.5,951.0117 Q277.5,951.5273 276.9844,952.1367 Q276.2344,953.0273 275.0391,953.5195 Q273.4688,954.1992 271.5469,954.1992 Q269.2969,954.1992 267.4922,953.3086 Q266.0391,952.6055 265.0078,951.082 Q264,949.5586 264,947.7539 L264,946.1133 Q264,944.2383 264.8906,942.5977 Q265.8047,940.957 267.375,940.0898 Q268.9688,939.1992 270.75,939.1992 Q271.8281,939.1992 272.7656,939.5742 Q273.7031,939.9492 274.5,940.6992 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="55.5" x="292.5" y="953.3145">Report</text><line style="stroke:#FFFFFF;stroke-width:2.25;" x1="250.5" x2="351" y1="969.9492" y2="969.9492"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="75" x="258" y="993.0776">-diagnosis</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="51" fill="#BADFDB" filter="url(#f1ejkkzrw6srr8)" height="205.2773" id="Client" rx="15" ry="15" style="stroke:#FFFFFF;stroke-width:2.25;" width="124.5" x="238.5" y="1119.9492"/><ellipse cx="273.825" cy="1143.9492" fill="#FFC5A1" rx="16.5" ry="16.5" style="stroke:#FFFFFF;stroke-width:1.5;"/><path d="M276.825,1138.6992 Q277.1297,1137.9492 277.4813,1137.5742 Q277.8328,1137.1992 278.2313,1137.1992 Q278.9344,1137.1992 279.3797,1137.6211 Q279.825,1138.043 279.825,1139.0273 L279.825,1141.3711 Q279.825,1142.3555 279.4031,1142.7773 Q278.9813,1143.1992 278.325,1143.1992 Q277.7391,1143.1992 277.3641,1142.9414 Q276.9891,1142.6836 276.825,1142.0039 Q276.7547,1141.5352 276.4969,1141.2773 Q276.0281,1140.7852 275.1844,1140.5039 Q274.3406,1140.1992 273.4969,1140.1992 Q272.4422,1140.1992 271.5516,1140.6211 Q270.6844,1141.043 270.0047,1141.9805 Q269.325,1142.918 269.325,1144.207 L269.325,1145.5898 Q269.325,1147.1367 270.5906,1148.168 Q271.8563,1149.1992 274.1063,1149.1992 Q275.4422,1149.1992 276.3797,1148.8945 Q276.9188,1148.7305 277.5281,1148.1914 Q277.9266,1147.8867 278.1375,1147.793 Q278.3484,1147.6992 278.6063,1147.6992 Q279.0984,1147.6992 279.45,1148.0977 Q279.825,1148.4727 279.825,1149.0117 Q279.825,1149.5273 279.3094,1150.1367 Q278.5594,1151.0273 277.3641,1151.5195 Q275.7938,1152.1992 273.8719,1152.1992 Q271.6219,1152.1992 269.8172,1151.3086 Q268.3641,1150.6055 267.3328,1149.082 Q266.325,1147.5586 266.325,1145.7539 L266.325,1144.1133 Q266.325,1142.2383 267.2156,1140.5977 Q268.1297,1138.957 269.7,1138.0898 Q271.2938,1137.1992 273.075,1137.1992 Q274.1531,1137.1992 275.0906,1137.5742 Q276.0281,1137.9492 276.825,1138.6992 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="48" x="297.675" y="1151.3145">Client</text><line style="stroke:#FFFFFF;stroke-width:2.25;" x1="240" x2="361.5" y1="1167.9492" y2="1167.9492"/><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="88.5" x="247.5" y="1191.0776">-nhsNumber</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="70.5" x="247.5" y="1211.8315">-birthDate</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="33" x="247.5" y="1232.5854">-sex</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="22.5" x="247.5" y="1253.3394">-tin</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="106.5" x="247.5" y="1274.0933">-phoneNumber</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="48" x="247.5" y="1294.8472">-e-mail</text><text fill="#000000" font-family="sans-serif" font-size="16.5" lengthAdjust="spacing" textLength="45" x="247.5" y="1315.6011">-name</text><!--MD5=[bc1c1d8da623d615fbfb1cbca2838790]
+link LaboratoryCoordinator to Employee--><path codeLine="60" d="M135.27,263.7192 C121.605,275.8992 107.73,291.2442 99.75,308.4492 C89.52,330.4992 84.165,355.6542 81.705,380.1192 " fill="none" id="LaboratoryCoordinator-Employee" style="stroke:#FFC5A1;stroke-width:1.5;"/><polygon fill="#000000" points="104.1147,329.0261,113.7912,318.5438,105.7818,314.858,104.1147,329.0261" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="94.5" x="120.75" y="330.1919">is rolled as</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="7.5" x="115.6116" y="295.9245">*</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="70.2408" y="364.0491">1</text><!--MD5=[c18d4b631a2987fc927d57ad4a612b6f]
+link LaboratoryCoordinator to Validation--><path codeLine="61" d="M195.12,263.5542 C204.165,276.8742 214.575,293.1192 222.75,308.4492 C244.035,348.3492 263.88,395.3292 278.235,431.7792 " fill="none" id="LaboratoryCoordinator-Validation" style="stroke:#FFC5A1;stroke-width:1.5;"/><polygon fill="#000000" points="247.0722,328.937,245.0146,314.8203,237.11,318.7257,247.0722,328.937" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="42" x="257.25" y="330.1919">does</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="188.8725" y="295.7131">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="7.5" x="266.3849" y="415.8837">*</text><!--MD5=[a225a914300766f657c0fe864395d2fb]
+link Validation to TestParameterResult--><path codeLine="62" d="M300.75,555.2892 C300.75,606.7842 300.75,679.4592 300.75,723.7692 " fill="none" id="Validation-TestParameterResult" style="stroke:#FFC5A1;stroke-width:1.5;"/><polygon fill="#000000" points="308.25,673.2129,312.6584,659.6453,303.8416,659.6453,308.25,673.2129" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="75" x="321.75" y="673.6919">validates</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="289.4461" y="586.8973">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="7.5" x="292.3828" y="707.9191">*</text><!--MD5=[631065daa0134e8a799c431ad1bf528b]
+link TestParameterResult to Report--><path codeLine="63" d="M300.75,805.4142 C300.75,839.2392 300.75,887.7342 300.75,921.5442 " fill="none" id="TestParameterResult-Report" style="stroke:#FFC5A1;stroke-width:1.5;"/><polygon fill="#000000" points="308.25,871.2129,312.6584,857.6453,303.8416,857.6453,308.25,871.2129" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="102" x="321.75" y="871.6919">delivered as</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="7.5" x="292.4766" y="836.6607">*</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="289.0359" y="905.642">1</text><!--MD5=[1dbb730aa792675a530b390feeeb5270]
+link Report to Client--><path codeLine="64" d="M300.75,1003.0242 C300.75,1033.9392 300.75,1078.5792 300.75,1119.4242 " fill="none" id="Report-Client" style="stroke:#FFC5A1;stroke-width:1.5;"/><polygon fill="#000000" points="308.25,1069.2129,312.6584,1055.6453,303.8416,1055.6453,308.25,1069.2129" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="81" x="321.75" y="1069.6919">is sent to</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="289.1016" y="1034.8523">1</text><text fill="#000000" font-family="sans-serif" font-size="19.5" lengthAdjust="spacing" textLength="10.5" x="289.7086" y="1103.8178">1</text><!--MD5=[9993c015ebda9f9068efa8b8d1399a69]
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+class Employee{
+     - username
+         - employeeId
+         - organizationRole
+         - name
+         - address
+         - phoneNumber
+         - e-Mail
+         - socCode
+    }
+class LaboratoryCoordinator{
+    }
+class Validation{
+    - testReferenceValues
+        - date
+        - time
+}
+class TestParameterResult{
+    - value
+    }
+    class Report{
+    -diagnosis
+        }
+        class Client{
+           - nhsNumber
+           - birthDate
+           - sex
+           - tin
+           - phoneNumber
+           - e-mail
+           - name
+           }
+LaboratoryCoordinator "*" - - "1" Employee : is rolled as >
+LaboratoryCoordinator "1" - - "*" Validation : does >
+Validation "1" - - "*" TestParameterResult : validates >
+TestParameterResult "*" - - "1" Report : delivered as >
+Report "1" - - "1" Client : is sent to >
+
+
+
+@enduml
+
+@startuml
+hide methods
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+class Employee{
+     - username
+         - employeeId
+         - organizationRole
+         - name
+         - address
+         - phoneNumber
+         - e-Mail
+         - socCode
+    }
+class LaboratoryCoordinator{
+    }
+class Validation{
+    - testReferenceValues
+        - date
+        - time
+}
+class TestParameterResult{
+    - value
+    }
+    class Report{
+    -diagnosis
+        }
+        class Client{
+           - nhsNumber
+           - birthDate
+           - sex
+           - tin
+           - phoneNumber
+           - e-mail
+           - name
+           }
+LaboratoryCoordinator "*" - - "1" Employee : is rolled as >
+LaboratoryCoordinator "1" - - "*" Validation : does >
+Validation "1" - - "*" TestParameterResult : validates >
+TestParameterResult "*" - - "1" Report : delivered as >
+Report "1" - - "1" Client : is sent to >
+
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

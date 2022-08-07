@@ -1,0 +1,50 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Administrator" as OE
+activate OE
+OE -> ":System" : asks to register a new employee
+activate ":System"
+OE <-- ":System": shows all roles and ask to type one of them.
+deactivate ":System"
+OE -> ":System": type the role.
+activate ":System"
+":System" --> OE : requests data (Employee ID, Name, Address,\n Phone Number, E-Mail,SOC code,Doctor Index Number)
+deactivate ":System"
+deactivate ":System"
+
+OE -> ":System" : types requested data
+activate ":System"
+":System" --> OE : shows the data and requests a confirmation
+deactivate ":System"
+
+OE -> ":System" : confirms the data
+activate ":System"
+
+OE <-- ":System" : informs operation success
+deactivate ":System"
+
+@enduml

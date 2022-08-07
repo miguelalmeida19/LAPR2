@@ -1,0 +1,51 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+
+
+class SendReportUI {
+}
+
+class SendReportNhsController{
+ + generateReport(NHSReportDTO)
+ -checkIfTestsAdClientsAreISystem()
+}
+class NHSReport{
+    -testsMadeInInterval
+    -testStore
+}
+
+class NHSReport{
+    -reportString
+}
+class Company{
+    -designation;
+    -authFacade;
+    -parameterCategoryStore;
+    -employeeStore;
+    -clientStore;
+    -parameterStore;
+    -laboratoryStore;
+    -testTypeStore;
+    -nhsReportStore;
+
+    +getNhsReportStore()
+    +getParameterCategoryStore()
+    +getParameterStore()
+    +getDesignation()
+    +getClientStore()
+    +getAuthFacade()
+    +getEmployeeStore()
+    +getLaboratoryStore()
+    +getTestTypeStore()
+    }
+
+
+
+
+SendReportUI "1" ...> "1" SendReportNhsController
+SendReportNhsController "1" ..> "1" Company
+SendReportNhsController "1" --> "1.." NHSReport: creates >
+@enduml

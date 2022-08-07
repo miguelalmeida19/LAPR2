@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="630px" preserveAspectRatio="none" style="width:1483px;height:630px;" version="1.1" viewBox="0 0 1483 630" width="1483.75px" zoomAndPan="magnify"><defs><filter height="300%" id="ftysdoxh6kom7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="499.3262" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="156.875" y="64.5117"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="163.125" y="102.4512"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="368.4473" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1061.875" y="184.1406"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1068.125" y="470.8984"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1365" y="222.0801"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1365" y="297.5195"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1365" y="379.209"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="162.5" x2="162.5" y1="52.0117" y2="575.0879"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1068.125" x2="1068.125" y1="52.0117" y2="575.0879"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1370.625" x2="1370.625" y1="52.0117" y2="575.0879"/><rect fill="#FEFECE" filter="url(#ftysdoxh6kom7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="308.75" x="6.25" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="291.25" x="15" y="33.1665">nhsReportMapper:NhsReportMapper</text><rect fill="#FEFECE" filter="url(#ftysdoxh6kom7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="308.75" x="6.25" y="573.8379"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="291.25" x="15" y="600.7544">nhsReportMapper:NhsReportMapper</text><rect fill="#FEFECE" filter="url(#ftysdoxh6kom7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="375" x="878.125" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="357.5" x="886.875" y="33.1665">nhsReportValuesDTO;NHSReportValuesDTO</text><rect fill="#FEFECE" filter="url(#ftysdoxh6kom7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="375" x="878.125" y="573.8379"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="357.5" x="886.875" y="600.7544">nhsReportValuesDTO;NHSReportValuesDTO</text><rect fill="#FEFECE" filter="url(#ftysdoxh6kom7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="196.25" x="1270.625" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="178.75" x="1279.375" y="33.1665">regression:Regression</text><rect fill="#FEFECE" filter="url(#ftysdoxh6kom7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="196.25" x="1270.625" y="573.8379"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="178.75" x="1279.375" y="600.7544">regression:Regression</text><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="499.3262" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="156.875" y="64.5117"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="163.125" y="102.4512"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="368.4473" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1061.875" y="184.1406"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1068.125" y="470.8984"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1365" y="222.0801"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1365" y="297.5195"/><rect fill="#FFFFFF" filter="url(#ftysdoxh6kom7)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1365" y="379.209"/><line style="stroke:#A80036;stroke-width:1.25;" x1="175.625" x2="228.125" y1="92.4512" y2="92.4512"/><line style="stroke:#A80036;stroke-width:1.25;" x1="228.125" x2="228.125" y1="92.4512" y2="108.7012"/><line style="stroke:#A80036;stroke-width:1.25;" x1="176.875" x2="228.125" y1="108.7012" y2="108.7012"/><polygon fill="#A80036" points="189.375,103.7012,176.875,108.7012,189.375,113.7012,184.375,108.7012" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="184.375" y="86.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="861.25" x="198.125" y="86.3806">hypothesisTestForRegressionCoefficientsString = hypothesisTestForRegressionCoefficients(regression, nhsReportDTO)</text><polygon fill="#A80036" points="1046.875,179.1406,1059.375,184.1406,1046.875,189.1406,1051.875,184.1406" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="169.375" x2="1054.375" y1="184.1406" y2="184.1406"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="178.125" y="178.0701">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="685" x="191.875" y="178.0701">create(nhsReportDTO, regression, hypothesisTestForRegressionCoefficientsString, tableString)</text><polygon fill="#A80036" points="1350,217.0801,1362.5,222.0801,1350,227.0801,1355,222.0801" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="1074.375" x2="1357.5" y1="222.0801" y2="222.0801"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1083.125" y="216.0095">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="70" x="1096.875" y="216.0095">R2 = R2()</text><polygon fill="#A80036" points="1350,292.5195,1362.5,297.5195,1350,302.5195,1355,297.5195" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="1074.375" x2="1357.5" y1="297.5195" y2="297.5195"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1083.125" y="291.449">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="242.5" x="1096.875" y="291.449">R2Adj = calculateR2Adjusted(R2)</text><polygon fill="#A80036" points="1350,374.209,1362.5,379.209,1350,384.209,1355,379.209" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="1074.375" x2="1357.5" y1="379.209" y2="379.209"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1083.125" y="373.1384">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="137.5" x="1096.875" y="373.1384">DF = calculateDF()</text><path d="M417.5,351.2695 L417.5,383.7695 L1050,383.7695 L1050,363.7695 L1037.5,351.2695 L417.5,351.2695 " fill="#FBFB77" filter="url(#ftysdoxh6kom7)" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1037.5,351.2695 L1037.5,363.7695 L1050,363.7695 L1037.5,351.2695 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="606.25" x="425" y="374.3884">getting more values from the regression model is similar to the messages 3, 4 and 5</text><line style="stroke:#A80036;stroke-width:1.25;" x1="1080.625" x2="1133.125" y1="460.8984" y2="460.8984"/><line style="stroke:#A80036;stroke-width:1.25;" x1="1133.125" x2="1133.125" y1="460.8984" y2="477.1484"/><line style="stroke:#A80036;stroke-width:1.25;" x1="1081.875" x2="1133.125" y1="477.1484" y2="477.1484"/><polygon fill="#A80036" points="1094.375,472.1484,1081.875,477.1484,1094.375,482.1484,1089.375,477.1484" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1089.375" y="454.8279">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="132.5" x="1103.125" y="454.8279">table = tableString</text><polygon fill="#A80036" points="183.125,547.5879,170.625,552.5879,183.125,557.5879,178.125,552.5879" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="175.625" x2="1066.875" y1="552.5879" y2="552.5879"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="190.625" y="546.5173">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="156.25" x="204.375" y="546.5173">nhsReportValuesDTO</text><!--MD5=[33cff5d91c1a1b765dd5ddb771f2ccd9]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant "nhsReportMapper:NhsReportMapper" as nhsReportMapper
+participant "nhsReportValuesDTO;NHSReportValuesDTO" as nhsReportValuesDto
+participant "regression:Regression" as regression
+
+activate nhsReportMapper
+
+nhsReportMapper -> nhsReportMapper: hypothesisTestForRegressionCoefficientsString = hypothesisTestForRegressionCoefficients(regression, nhsReportDTO)
+activate nhsReportMapper
+deactivate nhsReportMapper
+nhsReportMapper -> nhsReportValuesDto: create(nhsReportDTO, regression, hypothesisTestForRegressionCoefficientsString, tableString)
+activate nhsReportValuesDto
+nhsReportValuesDto -> regression: R2 = R2()
+activate regression
+deactivate regression
+nhsReportValuesDto -> regression: R2Adj = calculateR2Adjusted(R2)
+activate regression
+deactivate regression
+nhsReportValuesDto -> regression: DF = calculateDF()
+activate regression
+deactivate regression
+note left: getting more values from the regression model is similar to the messages 3, 4 and 5
+
+nhsReportValuesDto -> nhsReportValuesDto: table = tableString
+activate nhsReportValuesDto
+deactivate nhsReportValuesDto
+nhsReportValuesDto - -> nhsReportMapper: nhsReportValuesDTO
+
+deactivate nhsReportValuesDto
+@enduml
+
+@startuml
+
+autonumber
+participant "nhsReportMapper:NhsReportMapper" as nhsReportMapper
+participant "nhsReportValuesDTO;NHSReportValuesDTO" as nhsReportValuesDto
+participant "regression:Regression" as regression
+
+activate nhsReportMapper
+
+nhsReportMapper -> nhsReportMapper: hypothesisTestForRegressionCoefficientsString = hypothesisTestForRegressionCoefficients(regression, nhsReportDTO)
+activate nhsReportMapper
+deactivate nhsReportMapper
+nhsReportMapper -> nhsReportValuesDto: create(nhsReportDTO, regression, hypothesisTestForRegressionCoefficientsString, tableString)
+activate nhsReportValuesDto
+nhsReportValuesDto -> regression: R2 = R2()
+activate regression
+deactivate regression
+nhsReportValuesDto -> regression: R2Adj = calculateR2Adjusted(R2)
+activate regression
+deactivate regression
+nhsReportValuesDto -> regression: DF = calculateDF()
+activate regression
+deactivate regression
+note left: getting more values from the regression model is similar to the messages 3, 4 and 5
+
+nhsReportValuesDto -> nhsReportValuesDto: table = tableString
+activate nhsReportValuesDto
+deactivate nhsReportValuesDto
+nhsReportValuesDto - -> nhsReportMapper: nhsReportValuesDTO
+
+deactivate nhsReportValuesDto
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

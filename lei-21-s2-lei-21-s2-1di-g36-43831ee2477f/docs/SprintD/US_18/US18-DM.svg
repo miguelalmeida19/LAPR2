@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="436.25px" preserveAspectRatio="none" style="width:307px;height:436px;background:#FCF9EA;" version="1.1" viewBox="0 0 307 436" width="307.5px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gtf0r355mqkb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="17" fill="#BADFDB" filter="url(#f1gtf0r355mqkb)" height="60" id="Administrator" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="131.25" x="8.75" y="17.5"/><ellipse cx="27.5" cy="37.5" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M30,33.125 Q30.2539,32.5 30.5469,32.1875 Q30.8398,31.875 31.1719,31.875 Q31.7578,31.875 32.1289,32.2266 Q32.5,32.5781 32.5,33.3984 L32.5,35.3516 Q32.5,36.1719 32.1484,36.5234 Q31.7969,36.875 31.25,36.875 Q30.7617,36.875 30.4492,36.6602 Q30.1367,36.4453 30,35.8789 Q29.9414,35.4883 29.7266,35.2734 Q29.3359,34.8633 28.6328,34.6289 Q27.9297,34.375 27.2266,34.375 Q26.3477,34.375 25.6055,34.7266 Q24.8828,35.0781 24.3164,35.8594 Q23.75,36.6406 23.75,37.7148 L23.75,38.8672 Q23.75,40.1563 24.8047,41.0156 Q25.8594,41.875 27.7344,41.875 Q28.8477,41.875 29.6289,41.6211 Q30.0781,41.4844 30.5859,41.0352 Q30.918,40.7813 31.0938,40.7031 Q31.2695,40.625 31.4844,40.625 Q31.8945,40.625 32.1875,40.957 Q32.5,41.2695 32.5,41.7188 Q32.5,42.1484 32.0703,42.6563 Q31.4453,43.3984 30.4492,43.8086 Q29.1406,44.375 27.5391,44.375 Q25.6641,44.375 24.1602,43.6328 Q22.9492,43.0469 22.0898,41.7773 Q21.25,40.5078 21.25,39.0039 L21.25,37.6367 Q21.25,36.0742 21.9922,34.707 Q22.7539,33.3398 24.0625,32.6172 Q25.3906,31.875 26.875,31.875 Q27.7734,31.875 28.5547,32.1875 Q29.3359,32.5 30,33.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="91.25" x="45" y="43.6377">Administrator</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="10" x2="138.75" y1="57.5" y2="57.5"/><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="10" x2="138.75" y1="67.5" y2="67.5"/><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="21" fill="#BADFDB" filter="url(#f1gtf0r355mqkb)" height="77.2949" id="Company" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="106.25" x="183.75" y="8.75"/><ellipse cx="202.5" cy="28.75" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M205,24.375 Q205.2539,23.75 205.5469,23.4375 Q205.8398,23.125 206.1719,23.125 Q206.7578,23.125 207.1289,23.4766 Q207.5,23.8281 207.5,24.6484 L207.5,26.6016 Q207.5,27.4219 207.1484,27.7734 Q206.7969,28.125 206.25,28.125 Q205.7617,28.125 205.4492,27.9102 Q205.1367,27.6953 205,27.1289 Q204.9414,26.7383 204.7266,26.5234 Q204.3359,26.1133 203.6328,25.8789 Q202.9297,25.625 202.2266,25.625 Q201.3477,25.625 200.6055,25.9766 Q199.8828,26.3281 199.3164,27.1094 Q198.75,27.8906 198.75,28.9648 L198.75,30.1172 Q198.75,31.4063 199.8047,32.2656 Q200.8594,33.125 202.7344,33.125 Q203.8477,33.125 204.6289,32.8711 Q205.0781,32.7344 205.5859,32.2852 Q205.918,32.0313 206.0938,31.9531 Q206.2695,31.875 206.4844,31.875 Q206.8945,31.875 207.1875,32.207 Q207.5,32.5195 207.5,32.9688 Q207.5,33.3984 207.0703,33.9063 Q206.4453,34.6484 205.4492,35.0586 Q204.1406,35.625 202.5391,35.625 Q200.6641,35.625 199.1602,34.8828 Q197.9492,34.2969 197.0898,33.0273 Q196.25,31.7578 196.25,30.2539 L196.25,28.8867 Q196.25,27.3242 196.9922,25.957 Q197.7539,24.5898 199.0625,23.8672 Q200.3906,23.125 201.875,23.125 Q202.7734,23.125 203.5547,23.4375 Q204.3359,23.75 205,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="220" y="34.8877">Company</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="185" x2="288.75" y1="48.75" y2="48.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="73.75" x="191.25" y="68.0237">-designation</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="185" x2="288.75" y1="76.0449" y2="76.0449"/><!--MD5=[74783ec010d186752c4ffd5c6de5633a]
+class NHSReport--><rect codeLine="25" fill="#BADFDB" filter="url(#f1gtf0r355mqkb)" height="77.2949" id="NHSReport" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="118.75" x="96.25" y="183.75"/><ellipse cx="115" cy="203.75" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M117.5,199.375 Q117.7539,198.75 118.0469,198.4375 Q118.3398,198.125 118.6719,198.125 Q119.2578,198.125 119.6289,198.4766 Q120,198.8281 120,199.6484 L120,201.6016 Q120,202.4219 119.6484,202.7734 Q119.2969,203.125 118.75,203.125 Q118.2617,203.125 117.9492,202.9102 Q117.6367,202.6953 117.5,202.1289 Q117.4414,201.7383 117.2266,201.5234 Q116.8359,201.1133 116.1328,200.8789 Q115.4297,200.625 114.7266,200.625 Q113.8477,200.625 113.1055,200.9766 Q112.3828,201.3281 111.8164,202.1094 Q111.25,202.8906 111.25,203.9648 L111.25,205.1172 Q111.25,206.4063 112.3047,207.2656 Q113.3594,208.125 115.2344,208.125 Q116.3477,208.125 117.1289,207.8711 Q117.5781,207.7344 118.0859,207.2852 Q118.418,207.0313 118.5938,206.9531 Q118.7695,206.875 118.9844,206.875 Q119.3945,206.875 119.6875,207.207 Q120,207.5195 120,207.9688 Q120,208.3984 119.5703,208.9063 Q118.9453,209.6484 117.9492,210.0586 Q116.6406,210.625 115.0391,210.625 Q113.1641,210.625 111.6602,209.8828 Q110.4492,209.2969 109.5898,208.0273 Q108.75,206.7578 108.75,205.2539 L108.75,203.8867 Q108.75,202.3242 109.4922,200.957 Q110.2539,199.5898 111.5625,198.8672 Q112.8906,198.125 114.375,198.125 Q115.2734,198.125 116.0547,198.4375 Q116.8359,198.75 117.5,199.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="78.75" x="132.5" y="209.8877">NHSReport</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="97.5" x2="213.75" y1="223.75" y2="223.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="41.25" x="103.75" y="243.0237">-report</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="97.5" x2="213.75" y1="251.0449" y2="251.0449"/><!--MD5=[0a105ea8d9af02dadec02d3e239f1d60]
+class NHS--><rect codeLine="29" fill="#BADFDB" filter="url(#f1gtf0r355mqkb)" height="60" id="NHS" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="72.5" x="119.375" y="358.75"/><ellipse cx="138.125" cy="378.75" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M140.625,374.375 Q140.8789,373.75 141.1719,373.4375 Q141.4648,373.125 141.7969,373.125 Q142.3828,373.125 142.7539,373.4766 Q143.125,373.8281 143.125,374.6484 L143.125,376.6016 Q143.125,377.4219 142.7734,377.7734 Q142.4219,378.125 141.875,378.125 Q141.3867,378.125 141.0742,377.9102 Q140.7617,377.6953 140.625,377.1289 Q140.5664,376.7383 140.3516,376.5234 Q139.9609,376.1133 139.2578,375.8789 Q138.5547,375.625 137.8516,375.625 Q136.9727,375.625 136.2305,375.9766 Q135.5078,376.3281 134.9414,377.1094 Q134.375,377.8906 134.375,378.9648 L134.375,380.1172 Q134.375,381.4063 135.4297,382.2656 Q136.4844,383.125 138.3594,383.125 Q139.4727,383.125 140.2539,382.8711 Q140.7031,382.7344 141.2109,382.2852 Q141.543,382.0313 141.7188,381.9531 Q141.8945,381.875 142.1094,381.875 Q142.5195,381.875 142.8125,382.207 Q143.125,382.5195 143.125,382.9688 Q143.125,383.3984 142.6953,383.9063 Q142.0703,384.6484 141.0742,385.0586 Q139.7656,385.625 138.1641,385.625 Q136.2891,385.625 134.7852,384.8828 Q133.5742,384.2969 132.7148,383.0273 Q131.875,381.7578 131.875,380.2539 L131.875,378.8867 Q131.875,377.3242 132.6172,375.957 Q133.3789,374.5898 134.6875,373.8672 Q136.0156,373.125 137.5,373.125 Q138.3984,373.125 139.1797,373.4375 Q139.9609,373.75 140.625,374.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="32.5" x="155.625" y="384.8877">NHS</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="120.625" x2="190.625" y1="398.75" y2="398.75"/><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="120.625" x2="190.625" y1="408.75" y2="408.75"/><!--MD5=[8ab086dc2d99d892dc6fd5d865ad098e]
+link Administrator to NHSReport--><path codeLine="33" d="M78.175,77.55 C81.5625,97.5375 87.6625,124.4125 98.125,146.25 C104.3625,159.275 113.1,172.2 121.8875,183.575 " fill="none" id="Administrator-NHSReport" style="stroke:#FFC5A1;stroke-width:1.25;"/><polygon fill="#000000" points="106.7573,140.9979,105.844,129.1448,99.0514,131.9453,106.7573,140.9979" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="66.25" x="115.625" y="141.8689">can send</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="69.2848" y="104.2346">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="108.0346" y="170.4196">*</text><!--MD5=[1a29efac474ed00332939ff55dd5f4e3]
+link Company to NHSReport--><path codeLine="34" d="M219.05,86.6 C205.5,115.3625 186.95,154.7375 173.4125,183.4875 " fill="none" id="Company-NHSReport" style="stroke:#FFC5A1;stroke-width:1.25;"/><polygon fill="#000000" points="204.2117,140.8739,212.3531,132.2109,205.7062,129.08,204.2117,140.8739" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="71.25" x="218.125" y="141.8689">generates</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="206.0681" y="112.89">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="170.1866" y="170.314">*</text><!--MD5=[5853f8747c18e89b10dd024359cfe8ec]
+link NHSReport to NHS--><path codeLine="35" d="M155.625,261.3125 C155.625,290.775 155.625,331.1875 155.625,358.2625 " fill="none" id="NHSReport-NHS" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="77.5" x="156.875" y="316.8689">are sent to</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="148.7598" y="287.8548">*</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="145.8086" y="345.3161">1</text><!--MD5=[5589c825f25a3314e92b18e7ea6ce469]
+@startuml
+'https://plantuml.com/class-diagram
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+class Administrator{
+
+}
+
+class Company{
+-designation
+}
+
+class NHSReport {
+-report
+}
+
+class NHS{
+
+}
+
+Administrator "1" - - "*" NHSReport : can send >
+Company "1" - - "*" NHSReport: generates >
+NHSReport "*" - - "1" NHS : are sent to
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+class Administrator{
+
+}
+
+class Company{
+-designation
+}
+
+class NHSReport {
+-report
+}
+
+class NHS{
+
+}
+
+Administrator "1" - - "*" NHSReport : can send >
+Company "1" - - "*" NHSReport: generates >
+NHSReport "*" - - "1" NHS : are sent to
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

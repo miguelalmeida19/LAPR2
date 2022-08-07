@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="642.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.TestResultsUI">
+   <children>
+      <VBox prefHeight="642.0" prefWidth="116.0" style="-fx-background-color: #052b42;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane id="lateralMenuPane" fx:id="lateralMenuPane" prefHeight="699.0" prefWidth="285.0" style="-fx-background-color: #FBC687;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Circle id="circle" fx:id="circle" fill="#fba641" layoutX="67.0" layoutY="74.0" radius="37.0" stroke="WHITE" strokeType="INSIDE" />
+                  <VBox fx:id="buttonsBox" alignment="TOP_CENTER" layoutX="4.0" layoutY="147.0" prefHeight="386.0" prefWidth="276.0" spacing="10.0">
+                     <children>
+                        <Button id="button" fx:id="button" mnemonicParsing="false" onAction="#buttonHandlerAction" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button1" mnemonicParsing="false" onAction="#buttonHandlerAction1" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Label fx:id="name" layoutX="119.0" layoutY="35.0" prefHeight="47.0" prefWidth="152.0" text="role" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="email" layoutX="119.0" layoutY="82.0" prefHeight="18.0" prefWidth="137.0" text="email@isep.ipp.pt" textFill="#797272">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+                  <Button id="button" fx:id="session" alignment="CENTER" layoutX="30.0" layoutY="561.0" mnemonicParsing="false" onAction="#sessionClicked" prefHeight="30.0" prefWidth="225.0" style="-fx-background-color: f5b971;" text="Button">
+                     <stylesheets>
+                        <URL value="@/styles/styles.css" />
+                     </stylesheets>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="281.0" prefHeight="642.0" prefWidth="960.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="281.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="welcome" alignment="CENTER" layoutX="48.0" layoutY="108.0" prefHeight="77.0" prefWidth="864.0" text="Select the test:" AnchorPane.bottomAnchor="457.0" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="48.0" AnchorPane.topAnchor="108.0">
+               <font>
+                  <Font name="Arial Black" size="43.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Label>
+            <TableView fx:id="testsTable" editable="true" layoutX="92.0" layoutY="185.0" prefHeight="102.0" prefWidth="790.0" style="-fx-background-color: #F5B971;" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="92.0" AnchorPane.rightAnchor="78.0">
+               <columns>
+                  <TableColumn fx:id="testCodeCol" prefWidth="131.0" sortable="false" text="TestCode" />
+                  <TableColumn fx:id="testRegCol" prefWidth="131.0" text="Test_Reg_DateHour" />
+                  <TableColumn fx:id="testChemCol" prefWidth="166.0" sortable="false" text="Test_Chemical_DateHour" />
+                  <TableColumn fx:id="testDoctorCol" prefWidth="164.0" sortable="false" text="Test_Doctor_DateHour" />
+                  <TableColumn fx:id="testValiCol" prefWidth="199.0" sortable="false" text="Test_Validation_DateHour" />
+               </columns></TableView>
+            <Button id="button" fx:id="testResultsButton" alignment="CENTER" layoutX="368.0" layoutY="320.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#testResultsClicked" prefHeight="54.0" prefWidth="225.0" style="-fx-background-color: f5b971;" text="See Test Results" AnchorPane.bottomAnchor="268.0" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="367.0">
+               <stylesheets>
+                  <URL value="@/styles/styles.css" />
+               </stylesheets>
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <VBox fx:id="resultsBoard" alignment="CENTER" layoutX="212.0" layoutY="397.0" prefHeight="200.0" prefWidth="549.0" style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="212.0" AnchorPane.rightAnchor="199.0">
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0">
+                     <color>
+                        <Color opacity="0.04782608523964882" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </VBox>
+         </children></AnchorPane>
+      <AnchorPane fx:id="titleBarContainer" layoutX="118.0" prefHeight="54.0" prefWidth="960.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_RIGHT" layoutX="746.0" layoutY="11.0" prefHeight="32.0" prefWidth="200.0">
+               <children>
+                  <Button id="titlebarMinimizeButton" fx:id="minimizeButton" mnemonicParsing="false" onAction="#minimizeAction" stylesheets="@/styles/styles.css" text="➖">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button id="titlebarExitButton" fx:id="exitButton" mnemonicParsing="false" onAction="#exitAction" stylesheets="@/styles/styles.css" text="❌">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,117 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as admin
+
+participant ":SendReportUI" as system
+participant ":SendReportController" as controller
+participant ":Company" as company
+
+participant "nhsAPI : ExternalModule" as nhsAPI
+participant "nhsReportDTO:NhsReportDTO" as nhsReportDto
+participant "nhsReportMapper:NhsReportMapper" as nhsReportMapper
+participant ":TestStore" as testStore
+participant "mlr:MultipleLinearRegression" as mlr
+participant "sr:LinearRegression" as sr
+participant "x:List<double[]>" as listX
+participant "nhsAPI: NHSApiExternalModule" as api
+participant "nhsReportValuesDTO:NHSReportValuesDTO" as nhsReportValuesDTO
+participant "nhsReport:NHSReport" as nhsReport
+
+activate admin
+
+
+activate admin
+admin -> system: starts the creation of the report to send to NHS.
+activate system
+system -> admin: asks to select the current day.
+deactivate system
+
+admin -> system: selects the current day
+activate system
+system -> admin: asks to select to send the day or week data to NHS.
+deactivate system
+
+admin -> system: selects to send the day/week data to NHS.
+activate system
+system -> admin: asks to introduce the number of historical points to send to NHS.
+deactivate system
+admin -> system: types the number of historical points to send to NHS.
+activate system
+system -> admin: asks to define the interval of days to fit the model.
+deactivate system
+admin -> system: selects the interval of days to fit the model.
+activate system
+system -> admin: asks to select the regression model to use.
+
+deactivate system
+admin -> system: selects the linear regression model to use.
+alt simple linear regression model was selected
+
+activate system
+system -> admin: asks to select the independent variable
+
+deactivate system
+admin -> system: selects the independent variable.
+activate system
+end
+system -> admin: asks to  introduce the significance level for hypothesis tests.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin:  asks to  introduce the significance level for confidence intervals.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin: shows all the data ans asks for a confirmation.
+deactivate system
+admin -> system: confirms all the data.
+activate system
+
+system -> controller: generateReport(NhsReportDTO)
+
+
+activate controller
+
+' ##################################
+controller -> controller: checkIfTestsAdClientsAreISystem()
+controller -> company: testStore = getTestStore()
+activate company
+deactivate company
+
+controller -> api: create()
+activate api
+deactivate api
+note left: somehow it creates the object of the NHS API. (java reflection))
+
+
+
+' ##################################
+ref over controller
+  SD_RegressionCreation
+end ref
+
+
+controller -> nhsReportMapper : nhsReportValuesDTO = toDTO(nhsReportDto, regression, tableString)
+activate nhsReportMapper
+ref over nhsReportMapper
+    SD_ReportValuesDTO
+end ref
+deactivate nhsReportMapper
+controller -> nhsReport**: create()
+
+controller -> nhsReport: reportString = generateReportString(nhsReportValuesDTO)
+activate nhsReport
+deactivate nhsReport
+
+controller -> nhsAPI: SendReport(reportString)
+
+activate nhsAPI
+deactivate nhsAPI
+
+system -> admin: informs operation success.
+@enduml

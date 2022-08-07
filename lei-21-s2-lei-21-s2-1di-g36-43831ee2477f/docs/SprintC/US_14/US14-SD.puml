@@ -1,0 +1,155 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Specialist Doctor" as SPEC
+
+participant ":WriteReportUI" as WriteReportUI
+participant ":WriteReportController" as WriteReportController
+participant ":Company" as Company
+participant "store:TestStore" as TestStore
+participant ":Test" as Test
+participant ":mapper:TestMapper" as TestMapper
+participant ":mapper:ParameterResultMapper" as ParameterResultMapper
+participant  "listTest : List<Test>" as TestList
+participant "listTestParameterResult : List<Test>" as listTestParameterResult
+participant "listTestDTO : List<TestDTO>" as listTestDTO
+participant "listTestParameterResultDTO : List<ParameterResultDTO>" as listTestParameterResultDTO
+participant "TestDTO : TestDTO" as TestDTO
+participant "TestParameterResultDTO : TestParameterResultDTO" as TestParameterResultDTO
+participant "rep : Report" as Report
+activate SPEC
+activate WriteReportUI
+SPEC -> WriteReportUI : starts new report
+WriteReportUI -> WriteReportController : listTestDTO = getTestList()
+activate WriteReportController
+WriteReportController -> Company : testStore = getTestStore()
+activate Company
+deactivate Company
+
+activate TestStore
+WriteReportController -> TestStore: testsList = getTestList()
+TestStore --> TestList** : create()
+loop for tests stored
+
+alt #bfd6c9 test in "SAMPLES ANALYSED"" state
+TestStore --> TestStore : add(test)
+end
+end
+deactivate TestStore
+WriteReportController -> TestMapper: testListDTO = toDTO(testList)
+activate TestMapper
+deactivate WriteReportController
+TestMapper -> listTestDTO**: create()
+loop #97b8a5 for each object in testsList
+TestMapper -> TestList: test = get(i)
+activate TestList
+deactivate TestList
+TestMapper -> TestMapper: testDTO = toDTO(test)
+activate TestMapper
+TestMapper -> TestDTO** : create(test)
+deactivate TestMapper
+TestMapper -> listTestDTO: add(testDTO)
+activate listTestDTO
+deactivate listTestDTO
+end
+deactivate TestMapper
+
+
+WriteReportUI --> SPEC : shows tests waiting for diagnosis
+
+
+deactivate WriteReportUI
+loop for each test selected
+SPEC -> WriteReportUI : selects the test to write report
+activate WriteReportUI
+WriteReportUI -> WriteReportController : listTestParameterResultDTO = getlistTestParameterResult()
+activate WriteReportController
+activate TestStore
+WriteReportController -> TestStore: listTestParameterResult = getlistTestParameterResult()
+TestStore --> listTestParameterResult** : create()
+note right: loop to populate list is omitted
+loop #97b8a5 for tests stored
+TestStore --> TestStore : add(parameterResult)
+end
+deactivate TestStore
+WriteReportController -> ParameterResultMapper: listTestParameterResultDTO = toDTO(listTestParameterResult)
+activate ParameterResultMapper
+deactivate WriteReportController
+ParameterResultMapper -> listTestParameterResultDTO**: create()
+loop #97b8a5 for each object in testsList
+ParameterResultMapper -> listTestParameterResult: parameterResult = get(i)
+activate listTestParameterResult
+deactivate listTestParameterResult
+ParameterResultMapper -> ParameterResultMapper: testParameterResultDTO = toDTO(parameterResult)
+
+ParameterResultMapper -> TestParameterResultDTO** : create(parameterResult)
+ParameterResultMapper -> listTestParameterResultDTO: add(testParameterResultDTO)
+activate listTestParameterResultDTO
+deactivate listTestParameterResultDTO
+end
+deactivate ParameterResultMapper
+WriteReportUI --> SPEC : shows the data and requests a confirmation
+deactivate WriteReportController
+deactivate WriteReportUI
+SPEC -> WriteReportUI : confirms the data
+
+activate WriteReportUI
+WriteReportUI --> SPEC : asks for diagnosis
+deactivate WriteReportUI
+SPEC -> WriteReportUI : writes diagnosis
+activate WriteReportUI
+WriteReportUI --> SPEC : asks for report
+deactivate WriteReportUI
+
+deactivate WriteReportUI
+SPEC -> WriteReportUI : writes report
+activate WriteReportUI
+WriteReportUI->WriteReportController : createReport(report,diagnosis,testCode)
+activate WriteReportController
+WriteReportController -> TestStore : test = getTestByCode(testCode)
+
+activate TestStore
+deactivate TestStore
+WriteReportController -> Test: addReport()
+activate Test
+Test -> Report**: create(report,diagnosis)
+Test -> Test: validateReport(rep)
+activate Test
+deactivate Test
+Test -> Test: addReport(rep)
+activate Test
+deactivate Test
+deactivate WriteReportController
+deactivate Test
+WriteReportUI --> SPEC : shows the data and informs operation success
+end
+deactivate WriteReportUI
+deactivate SPEC
+
+@enduml

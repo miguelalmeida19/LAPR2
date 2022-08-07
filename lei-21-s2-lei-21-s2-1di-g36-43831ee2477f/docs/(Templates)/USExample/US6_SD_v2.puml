@@ -1,0 +1,94 @@
+@startuml
+autonumber
+'hide footbox
+actor "Organization Employee" as ADM
+
+participant ":CreateTaskUI" as UI
+participant ":CreateTaskController" as CTRL
+participant "ApplicationPOT" as _APP
+participant "app\n:ApplicationPOT" as APP
+participant "session\n:UserSession" as SESSAO
+participant ":Platform" as PLAT
+participant "org\n:Organization" as ORG
+participant "task\n:Task" as TAREFA
+participant "cat\n:Category" as CAT
+participant "lc\n:List<Category>" as LIST_CAT
+
+activate ADM
+ADM -> UI : asks to create a new task
+activate UI
+UI --> ADM : requests data (reference, designation,  informal \n description, technical description, duration, cost)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : lc=getTaskCategories()
+activate CTRL
+
+CTRL -> PLAT : lc=getTaskCategories()
+activate PLAT
+|||
+deactivate PLAT
+deactivate CTRL
+
+UI --> ADM : shows task categories list and ask to select one
+deactivate PLAT
+deactivate UI
+
+ADM -> UI : selects a task category
+activate UI
+
+UI --> ADM: shows all data and requests confirmation
+deactivate ORG
+deactivate PLAT
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+
+UI -> CTRL : createTask(ref,designation,informalDesc,technicalDesc,duration,cost,categoryId)
+activate CTRL
+
+CTRL -> PLAT : cat=getCategoryById(categoryId)
+activate PLAT
+|||
+deactivate PLAT
+
+CTRL -> _APP: app = getInstance()
+activate _APP
+|||
+deactivate _APP
+
+CTRL -> APP: session = getCurrentSession()
+activate APP
+|||
+deactivate APP
+
+CTRL -> SESSAO: email = getUserEmail()
+activate SESSAO
+|||
+deactivate SESSAO
+
+CTRL -> PLAT: org = getOrganizationByUserEmail(email)
+activate PLAT
+|||
+deactivate PLAT
+
+CTRL -> ORG: task=createAndSaveTask(ref,designation,informalDesc,technicalDesc,duration,cost,cat)
+activate ORG
+ORG --> TAREFA**: create(ref,designation,informalDesc,technicalDesc,duration,cost,cat)
+ORG -> ORG: validateTask(task)
+ORG -> ORG: addTask(task)
+
+CTRL --> UI: result
+
+UI --> ADM : informs operation success
+deactivate ORG
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml

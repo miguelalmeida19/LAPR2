@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="906.0" prefWidth="1826.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.SendReportUI">
+   <children>
+      <VBox layoutX="-1.0" prefHeight="906.0" prefWidth="282.0" style="-fx-background-color: #052b42;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane id="lateralMenuPane" fx:id="lateralMenuPane" prefHeight="906.0" prefWidth="256.0" style="-fx-background-color: #FBC687;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Circle id="circle" fx:id="circle" fill="#fba641" layoutX="67.0" layoutY="74.0" radius="37.0" stroke="WHITE" strokeType="INSIDE" />
+                  <VBox alignment="TOP_CENTER" layoutX="4.0" layoutY="147.0" prefHeight="386.0" prefWidth="276.0" spacing="10.0">
+                     <children>
+                        <Button id="button" fx:id="button" mnemonicParsing="false" onAction="#buttonHandlerAction" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button1" mnemonicParsing="false" onAction="#buttonHandlerAction1" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button2" mnemonicParsing="false" onAction="#buttonHandlerAction2" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button3" mnemonicParsing="false" onAction="#buttonHandlerAction3" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button4" mnemonicParsing="false" onAction="#buttonHandlerAction4" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button5" mnemonicParsing="false" onAction="#buttonHandlerAction5" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Label fx:id="name" layoutX="114.0" layoutY="21.0" prefHeight="86.0" prefWidth="152.0" text="role" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="email" layoutX="114.0" layoutY="109.0" prefHeight="18.0" prefWidth="137.0" text="email@isep.ipp.pt" textFill="#797272">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+                  <Button id="button" fx:id="session" alignment="CENTER" layoutX="30.0" layoutY="561.0" mnemonicParsing="false" onAction="#sessionClicked" prefHeight="30.0" prefWidth="225.0" style="-fx-background-color: f5b971;" text="Logout">
+                     <stylesheets>
+                        <URL value="@/styles/styles.css" />
+                     </stylesheets>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="281.0" prefHeight="1263.0" prefWidth="1545.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="281.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="348.0" layoutY="176.0" prefHeight="812.0" prefWidth="1496.0" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="176.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="welcome" alignment="CENTER" layoutX="338.0" prefHeight="117.0" prefWidth="550.0" style="-fx-background-color: #c9e4fe; -fx-background-radius: 60;" text="Send Report" textAlignment="CENTER" textFill="#06397d" wrapText="true" AnchorPane.leftAnchor="338.0" AnchorPane.rightAnchor="337.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font name="Arial Black" size="59.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="76.0" prefWidth="1418.0">
+                     <children>
+                        <Label fx:id="welcome1112" alignment="CENTER" layoutX="40.0" layoutY="2.0" prefHeight="74.0" prefWidth="250.0" style="-fx-background-color: #d13e1b; -fx-background-radius: 60;" text="Today's Date" textAlignment="CENTER" textFill="#fccaca" wrapText="true" AnchorPane.leftAnchor="40.0">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                        <DatePicker fx:id="todayDate" editable="false" layoutX="310.0" layoutY="19.0" prefHeight="39.0" prefWidth="225.0" />
+                        <Label fx:id="welcome11121" alignment="CENTER" layoutX="557.0" layoutY="1.0" prefHeight="74.0" prefWidth="282.0" style="-fx-background-color: #9f124a; -fx-background-radius: 60;" text="Send data from" textAlignment="CENTER" textFill="#fccaca" wrapText="true">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                        <ComboBox fx:id="sendDataFrom" layoutX="857.0" layoutY="19.0" prefHeight="39.0" prefWidth="171.0" />
+                        <Spinner fx:id="criticalPoints" layoutX="1429.0" layoutY="20.0" max="1.0" min="0.0" prefHeight="39.0" prefWidth="66.0" AnchorPane.leftAnchor="1429.0" AnchorPane.rightAnchor="53.0" />
+                        <Label fx:id="welcome111211" alignment="CENTER" layoutX="1063.0" layoutY="1.0" prefHeight="74.0" prefWidth="355.0" style="-fx-background-color: #9f124a; -fx-background-radius: 60;" text="Nº of Critical Points" textAlignment="CENTER" textFill="#fccaca" wrapText="true">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="136.0" prefWidth="1545.0">
+                     <children>
+                        <Label fx:id="welcome1" alignment="CENTER" contentDisplay="CENTER" layoutX="174.0" layoutY="27.0" prefHeight="74.0" prefWidth="877.0" style="-fx-background-color: #06397d; -fx-background-radius: 60;" text="Select the dates to create the Regression Model" textAlignment="CENTER" textFill="#c9e4fe" wrapText="true" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="174.0" AnchorPane.topAnchor="27.0">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="16.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="92.0" prefWidth="1548.0">
+                     <children>
+                        <AnchorPane layoutX="387.0" prefHeight="109.0" prefWidth="774.0" AnchorPane.leftAnchor="387.0" AnchorPane.rightAnchor="387.0">
+                           <children>
+                              <Label fx:id="welcome111" alignment="CENTER" layoutX="235.0" layoutY="22.0" prefHeight="74.0" prefWidth="152.0" style="-fx-background-color: #06397d; -fx-background-radius: 60;" text="Start" textAlignment="CENTER" textFill="#c9e4fe" wrapText="true" AnchorPane.leftAnchor="235.0">
+                                 <font>
+                                    <Font name="Arial Black" size="27.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                              </Label>
+                              <DatePicker fx:id="startDate" editable="false" layoutX="41.0" layoutY="34.0" prefHeight="54.0" prefWidth="184.0" AnchorPane.leftAnchor="41.0" />
+                              <Label fx:id="welcome1111" alignment="CENTER" layoutX="387.0" layoutY="24.0" prefHeight="74.0" prefWidth="152.0" style="-fx-background-color: #06397d; -fx-background-radius: 60;" text="End" textAlignment="CENTER" textFill="#c9e4fe" wrapText="true" AnchorPane.rightAnchor="235.0">
+                                 <font>
+                                    <Font name="Arial Black" size="27.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                              </Label>
+                              <DatePicker fx:id="endDate" editable="false" layoutX="548.0" layoutY="34.0" prefHeight="54.0" prefWidth="171.0" AnchorPane.rightAnchor="55.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="436.0" prefHeight="200.0" prefWidth="200.0">
+                     <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="240.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="welcome111212" alignment="CENTER" layoutX="245.0" prefHeight="74.0" prefWidth="414.0" style="-fx-background-color: #9f124a; -fx-background-radius: 60;" text="Select the type of model" textAlignment="CENTER" textFill="#fccaca" wrapText="true" AnchorPane.leftAnchor="245.0">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                        <ComboBox fx:id="typeOfModel" layoutX="680.0" layoutY="18.0" prefHeight="39.0" prefWidth="200.0" AnchorPane.leftAnchor="680.0" AnchorPane.rightAnchor="345.0" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="16.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="731.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="welcome1112121" alignment="CENTER" layoutX="109.0" prefHeight="74.0" prefWidth="550.0" style="-fx-background-color: #9f124a; -fx-background-radius: 60;" text="Select the independent variable" textAlignment="CENTER" textFill="#fccaca" wrapText="true" AnchorPane.leftAnchor="109.0">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                        <ComboBox fx:id="independentVariable" layoutX="680.0" layoutY="18.0" prefHeight="39.0" prefWidth="200.0" AnchorPane.leftAnchor="680.0" AnchorPane.rightAnchor="345.0" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="16.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="559.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="welcome11121211" alignment="CENTER" layoutX="449.0" layoutY="14.0" prefHeight="74.0" prefWidth="325.0" style="-fx-background-color: #06397D; -fx-background-radius: 60;" text="Significance level" textAlignment="CENTER" textFill="#c9e4fe" wrapText="true" AnchorPane.leftAnchor="449.0">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                        <Spinner fx:id="significanceLevel" amountToStepBy="0.01" initialValue="0.0" layoutX="383.0" layoutY="31.0" max="1.0" min="0.0" prefHeight="39.0" prefWidth="66.0" AnchorPane.leftAnchor="383.0" />
+                        <Label fx:id="welcome111212111" alignment="CENTER" layoutX="774.0" layoutY="15.0" prefHeight="74.0" prefWidth="325.0" style="-fx-background-color: #06397D; -fx-background-radius: 60;" text="Confidence Interval" textAlignment="CENTER" textFill="#c9e4fe" wrapText="true" AnchorPane.rightAnchor="449.0">
+                           <font>
+                              <Font name="Arial Black" size="27.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Label>
+                        <Spinner fx:id="confidenceInterval" amountToStepBy="0.01" initialValue="0.0" layoutX="1099.0" layoutY="33.0" max="1.0" min="0.0" prefHeight="39.0" prefWidth="66.0" AnchorPane.rightAnchor="383.0" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="16.0" />
+                     </padding>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="549.0" prefHeight="99.0" prefWidth="1247.0">
+                     <children>
+                        <Button contentDisplay="CENTER" layoutX="496.0" layoutY="3.0" mnemonicParsing="false" onAction="#seeButton" prefHeight="54.0" prefWidth="282.0" style="-fx-background-color: #82add6; -fx-background-radius: 40;" text="Send" textFill="WHITE" AnchorPane.leftAnchor="496.0" AnchorPane.rightAnchor="496.0" AnchorPane.topAnchor="3.0">
+                           <font>
+                              <Font name="Arial Black" size="23.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fx:id="success" fitHeight="74.0" fitWidth="74.0">
+                     <image>
+                        <Image url="@../images/success.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="12.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="titleBarContainer" layoutX="118.0" prefHeight="54.0" prefWidth="960.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_RIGHT" layoutX="746.0" layoutY="11.0" prefHeight="32.0" prefWidth="200.0">
+               <children>
+                  <Button id="titlebarMinimizeButton" fx:id="minimizeButton" mnemonicParsing="false" onAction="#minimizeAction" stylesheets="@/styles/styles.css" text="➖">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button id="titlebarExitButton" fx:id="exitButton" mnemonicParsing="false" onAction="#exitAction" stylesheets="@/styles/styles.css" text="❌">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

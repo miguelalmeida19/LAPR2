@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1502.5px" preserveAspectRatio="none" style="width:2563px;height:1502px;background:#FCF9EA;" version="1.1" viewBox="0 0 2563 1502" width="2563.75px" zoomAndPan="magnify"><defs><filter height="300%" id="fmuhcxppyd94j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="37.5" font-weight="bold" lengthAdjust="spacing" textLength="533.75" x="1012.1875" y="115.0513">US8 - Sequence Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="37.5" lengthAdjust="spacing" textLength="0" x="1285.3125" y="167.9321"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="1078.7402" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="76.875" y="306.5527"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="226.7578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="334.4922"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="46.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="630.8789"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="398.3984" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="715.5078"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="233.4473" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="1151.8457"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="150.8789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1104.375" y="372.4316"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="398.3984" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1104.375" y="753.4473"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="195.5078" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1104.375" y="1189.7852"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1413.125" y="410.3711"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1413.125" y="791.3867"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1828.125" y="942.2656"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1828.125" y="1038.4668"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="157.5684" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1828.125" y="1227.7246"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="2041.875" y="485.8105"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="2041.875" y="866.8262"/><rect fill="#FCF9EA" filter="url(#fmuhcxppyd94j)" height="60.8789" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:2.5;" width="636.875" x="12.5" y="580"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="82.5" x2="82.5" y1="294.0527" y2="1396.543"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="529.375" x2="529.375" y1="294.0527" y2="1396.543"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1110.625" x2="1110.625" y1="294.0527" y2="1396.543"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1419.375" x2="1419.375" y1="294.0527" y2="1396.543"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1833.75" x2="1833.75" y1="294.0527" y2="1396.543"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2048.125" x2="2048.125" y1="294.0527" y2="1396.543"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2480.625" x2="2480.625" y1="993.8965" y2="1396.543"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="108.75" x="25" y="290.2075">:Administrator</text><ellipse cx="83.125" cy="200.791" fill="#FEFECE" filter="url(#fmuhcxppyd94j)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M83.125,210.791 L83.125,244.541 M66.875,220.791 L99.375,220.791 M83.125,244.541 L66.875,263.291 M83.125,244.541 L99.375,263.291 " fill="none" filter="url(#fmuhcxppyd94j)" style="stroke:#A80036;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="108.75" x="25" y="1413.4595">:Administrator</text><ellipse cx="83.125" cy="1429.8047" fill="#FEFECE" filter="url(#fmuhcxppyd94j)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M83.125,1439.8047 L83.125,1473.5547 M66.875,1449.8047 L99.375,1449.8047 M83.125,1473.5547 L66.875,1492.3047 M83.125,1473.5547 L99.375,1492.3047 " fill="none" filter="url(#fmuhcxppyd94j)" style="stroke:#A80036;stroke-width:2.5;"/><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="210" x="421.875" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="192.5" x="430.625" y="275.2075">:CreateNewClinicalLabUI</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="210" x="421.875" y="1395.293"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="192.5" x="430.625" y="1422.2095">:CreateNewClinicalLabUI</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="272.5" x="971.875" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="255" x="980.625" y="275.2075">:CreateNewClinicalLabController</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="272.5" x="971.875" y="1395.293"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="255" x="980.625" y="1422.2095">:CreateNewClinicalLabController</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="92.5" x="1370.625" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="1379.375" y="275.2075">Company</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="92.5" x="1370.625" y="1395.293"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="1379.375" y="1422.2095">Company</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="201.25" x="1731.25" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="183.75" x="1740" y="275.2075">:store: LaboratoryStore</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="201.25" x="1731.25" y="1395.293"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="183.75" x="1740" y="1422.2095">:store: LaboratoryStore</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="190" x="1950.625" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="172.5" x="1959.375" y="275.2075">:store: TestTypeStore</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="190" x="1950.625" y="1395.293"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="172.5" x="1959.375" y="1422.2095">:store: TestTypeStore</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="137.5" x="2409.375" y="1395.293"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="2418.125" y="1422.2095">lab: Laboratory</text><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="1078.7402" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="76.875" y="306.5527"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="226.7578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="334.4922"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="46.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="630.8789"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="398.3984" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="715.5078"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="233.4473" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="523.125" y="1151.8457"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="150.8789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1104.375" y="372.4316"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="398.3984" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1104.375" y="753.4473"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="195.5078" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1104.375" y="1189.7852"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1413.125" y="410.3711"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1413.125" y="791.3867"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1828.125" y="942.2656"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1828.125" y="1038.4668"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="157.5684" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1828.125" y="1227.7246"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="2041.875" y="485.8105"/><rect fill="#FFFFFF" filter="url(#fmuhcxppyd94j)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="2041.875" y="866.8262"/><polygon fill="#FFC5A1" points="508.125,329.4922,520.625,334.4922,508.125,339.4922,513.125,334.4922" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="89.375" x2="515.625" y1="334.4922" y2="334.4922"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="98.125" y="328.4216">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="392.5" x="111.875" y="328.4216">starts the creation of a new clinical analysis laboratory</text><polygon fill="#FFC5A1" points="1089.375,367.4316,1101.875,372.4316,1089.375,377.4316,1094.375,372.4316" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="535.625" x2="1096.875" y1="372.4316" y2="372.4316"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="544.375" y="366.3611">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="198.75" x="558.125" y="366.3611">testTypes = getTestTypes()</text><polygon fill="#FFC5A1" points="1398.125,405.3711,1410.625,410.3711,1398.125,415.3711,1403.125,410.3711" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="1405.625" y1="410.3711" y2="410.3711"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1125.625" y="404.3005">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="258.75" x="1139.375" y="404.3005">testTypeStore = getTestTypeStore()</text><polygon fill="#FFC5A1" points="2026.875,480.8105,2039.375,485.8105,2026.875,490.8105,2031.875,485.8105" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="2034.375" y1="485.8105" y2="485.8105"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1125.625" y="479.74">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="198.75" x="1139.375" y="479.74">testTypes = getTestTypes()</text><polygon fill="#FFC5A1" points="103.125,556.25,90.625,561.25,103.125,566.25,98.125,561.25" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="95.625" x2="528.125" y1="561.25" y2="561.25"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="110.625" y="555.1794">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="350" x="124.375" y="555.1794">Shows all tests and ask to select some of them.</text><path d="M25,580 L103.75,580 L103.75,590 L91.25,602.5 L12.5,602.5 L12.5,592.5 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.25;"/><rect fill="none" height="60.8789" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:2.5;" width="636.875" x="12.5" y="580"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="35" x="31.25" y="598.1189">loop</text><text fill="#000000" font-family="sans-serif" font-size="13.75" font-weight="bold" lengthAdjust="spacing" textLength="170" x="122.5" y="596.7737">[while !allTestsSelected]</text><polygon fill="#FFC5A1" points="508.125,625.8789,520.625,630.8789,508.125,635.8789,513.125,630.8789" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="89.375" x2="515.625" y1="630.8789" y2="630.8789"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="98.125" y="624.8083">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="126.25" x="111.875" y="624.8083">selects the tests.</text><polygon fill="#FFC5A1" points="103.125,672.5684,90.625,677.5684,103.125,682.5684,98.125,677.5684" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="95.625" x2="528.125" y1="677.5684" y2="677.5684"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="110.625" y="671.4978">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="390" x="124.375" y="671.4978">Request data (name, ID, address, phone number, TIN)</text><polygon fill="#FFC5A1" points="508.125,710.5078,520.625,715.5078,508.125,720.5078,513.125,715.5078" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="89.375" x2="515.625" y1="715.5078" y2="715.5078"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="98.125" y="709.4373">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="188.75" x="111.875" y="709.4373">Types the requested data.</text><polygon fill="#FFC5A1" points="1089.375,748.4473,1101.875,753.4473,1089.375,758.4473,1094.375,753.4473" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="535.625" x2="1096.875" y1="753.4473" y2="753.4473"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="544.375" y="747.3767">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="531.25" x="558.125" y="747.3767">createLaboratory(name, typesOfTestList, ID, address, phoneNumber, TIN)</text><polygon fill="#FFC5A1" points="1398.125,786.3867,1410.625,791.3867,1398.125,796.3867,1403.125,791.3867" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="1405.625" y1="791.3867" y2="791.3867"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1125.625" y="785.3162">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="203.75" x="1148.125" y="785.3162">store = getLaboratoryStore()</text><polygon fill="#FFC5A1" points="2026.875,861.8262,2039.375,866.8262,2026.875,871.8262,2031.875,866.8262" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="2034.375" y1="866.8262" y2="866.8262"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1125.625" y="860.7556">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="386.25" x="1148.125" y="860.7556">typesOfTest = getTestTypeByCodes(typesOfTestList)</text><polygon fill="#FFC5A1" points="1813.125,937.2656,1825.625,942.2656,1813.125,947.2656,1818.125,942.2656" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="1820.625" y1="942.2656" y2="942.2656"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1125.625" y="936.1951">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="665" x="1148.125" y="936.1951">lab = createNewLaboratory(nameOfLaboratory, ID, address, phoneNumber, TIN,typesOfTest)</text><polygon fill="#FFC5A1" points="2394.375,975.2051,2406.875,980.2051,2394.375,985.2051,2399.375,980.2051" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1834.375" x2="2401.875" y1="980.2051" y2="980.2051"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1843.125" y="974.1345">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="516.25" x="1865.625" y="974.1345">create(nameOfLaboratory, ID, address, phoneNumber, TIN,typesOfTest)</text><rect fill="#FEFECE" filter="url(#fmuhcxppyd94j)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="137.5" x="2409.375" y="952.2656"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="2418.125" y="979.1821">lab: Laboratory</text><polygon fill="#FFC5A1" points="1813.125,1033.4668,1825.625,1038.4668,1813.125,1043.4668,1818.125,1038.4668" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="1820.625" y1="1038.4668" y2="1038.4668"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1125.625" y="1032.3962">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="161.25" x="1148.125" y="1032.3962">validateLaboratory(lab)</text><polygon fill="#FFC5A1" points="103.125,1108.9063,90.625,1113.9063,103.125,1118.9063,98.125,1113.9063" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="95.625" x2="528.125" y1="1113.9063" y2="1113.9063"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="110.625" y="1107.8357">15</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="338.75" x="133.125" y="1107.8357">Shows all the data and requests a confirmation</text><polygon fill="#FFC5A1" points="508.125,1146.8457,520.625,1151.8457,508.125,1156.8457,513.125,1151.8457" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="89.375" x2="515.625" y1="1151.8457" y2="1151.8457"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="98.125" y="1145.7751">16</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="125" x="120.625" y="1145.7751">confirms the data</text><polygon fill="#FFC5A1" points="1089.375,1184.7852,1101.875,1189.7852,1089.375,1194.7852,1094.375,1189.7852" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="535.625" x2="1096.875" y1="1189.7852" y2="1189.7852"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="544.375" y="1183.7146">17</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="118.75" x="566.875" y="1183.7146">saveLaboratory()</text><polygon fill="#FFC5A1" points="1813.125,1222.7246,1825.625,1227.7246,1813.125,1232.7246,1818.125,1227.7246" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1116.875" x2="1820.625" y1="1227.7246" y2="1227.7246"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1125.625" y="1221.6541">18</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="140" x="1148.125" y="1221.6541">saveLaboratory(lab)</text><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1840.625" x2="1893.125" y1="1265.6641" y2="1265.6641"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1893.125" x2="1893.125" y1="1265.6641" y2="1281.9141"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1841.875" x2="1893.125" y1="1281.9141" y2="1281.9141"/><polygon fill="#FFC5A1" points="1854.375,1276.9141,1841.875,1281.9141,1854.375,1286.9141,1849.375,1281.9141" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1849.375" y="1259.5935">19</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="161.25" x="1871.875" y="1259.5935">validateLaboratory(lab)</text><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1840.625" x2="1893.125" y1="1319.8535" y2="1319.8535"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1893.125" x2="1893.125" y1="1319.8535" y2="1336.1035"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1841.875" x2="1893.125" y1="1336.1035" y2="1336.1035"/><polygon fill="#FFC5A1" points="1854.375,1331.1035,1841.875,1336.1035,1854.375,1341.1035,1849.375,1336.1035" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1849.375" y="1313.783">20</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="133.75" x="1871.875" y="1313.783">addLaboratory(lab)</text><polygon fill="#FFC5A1" points="103.125,1369.043,90.625,1374.043,103.125,1379.043,98.125,1374.043" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="95.625" x2="521.875" y1="1374.043" y2="1374.043"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="110.625" y="1367.9724">21</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="190" x="133.125" y="1367.9724">informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="0" x="1280.9375" y="19.2261"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="0" x="1280.9375" y="34.9487"/><text fill="#000000" font-family="sans-serif" font-size="18.75" font-weight="bold" lengthAdjust="spacing" textLength="157.5" x="1200.3125" y="57.1594">Built by WeByte ©</text><!--MD5=[012c86ff04330fe50cfbf31f9f3494e3]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US8 - Sequence Diagram\n
+'https://plantuml.com/sequence-diagram
+' Still working on that'
+autonumber
+
+actor ":Administrator" as Administrator
+
+participant ":CreateNewClinicalLabUI" as LaboratoryUI
+
+participant ":CreateNewClinicalLabController" as controller
+participant "Company" as company
+participant ":store: LaboratoryStore" as store
+participant ":store: TestTypeStore" as testStore
+participant "lab: Laboratory" as laboratory
+
+activate Administrator
+
+Administrator -> LaboratoryUI: starts the creation of a new clinical analysis laboratory
+activate LaboratoryUI
+
+
+LaboratoryUI -> controller : testTypes = getTestTypes()
+activate controller
+controller -> company : testTypeStore = getTestTypeStore()
+
+activate company
+deactivate company
+controller -> testStore : testTypes = getTestTypes()
+activate testStore
+deactivate testStore
+
+deactivate controller
+Administrator <- - LaboratoryUI : Shows all tests and ask to select some of them.
+deactivate LaboratoryUI
+loop while !allTestsSelected
+Administrator -> LaboratoryUI: selects the tests.
+activate LaboratoryUI
+end
+Administrator <- - LaboratoryUI: Request data (name, ID, address, phone number, TIN)
+deactivate LaboratoryUI
+Administrator -> LaboratoryUI: Types the requested data.
+activate LaboratoryUI
+LaboratoryUI -> controller: createLaboratory(name, typesOfTestList, ID, address, phoneNumber, TIN)
+activate controller
+
+controller -> company : store = getLaboratoryStore()
+activate company
+deactivate company
+
+
+controller -> testStore : typesOfTest = getTestTypeByCodes(typesOfTestList)
+activate testStore
+deactivate testStore
+
+controller -> store : lab = createNewLaboratory(nameOfLaboratory, ID, address, phoneNumber, TIN,typesOfTest)
+activate store
+store -> laboratory** : create(nameOfLaboratory, ID, address, phoneNumber, TIN,typesOfTest)
+
+deactivate store
+
+controller -> store : validateLaboratory(lab)
+activate store
+deactivate store
+LaboratoryUI - -> Administrator : Shows all the data and requests a confirmation
+
+deactivate LaboratoryUI
+Administrator -> LaboratoryUI : confirms the data
+deactivate controller
+activate LaboratoryUI
+LaboratoryUI -> controller : saveLaboratory()
+
+activate controller
+controller -> store : saveLaboratory(lab)
+activate store
+store -> store : validateLaboratory(lab)
+store -> store : addLaboratory(lab)
+LaboratoryUI - -> Administrator : informs operation success
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US8 - Sequence Diagram\n
+autonumber
+
+actor ":Administrator" as Administrator
+
+participant ":CreateNewClinicalLabUI" as LaboratoryUI
+
+participant ":CreateNewClinicalLabController" as controller
+participant "Company" as company
+participant ":store: LaboratoryStore" as store
+participant ":store: TestTypeStore" as testStore
+participant "lab: Laboratory" as laboratory
+
+activate Administrator
+
+Administrator -> LaboratoryUI: starts the creation of a new clinical analysis laboratory
+activate LaboratoryUI
+
+
+LaboratoryUI -> controller : testTypes = getTestTypes()
+activate controller
+controller -> company : testTypeStore = getTestTypeStore()
+
+activate company
+deactivate company
+controller -> testStore : testTypes = getTestTypes()
+activate testStore
+deactivate testStore
+
+deactivate controller
+Administrator <- - LaboratoryUI : Shows all tests and ask to select some of them.
+deactivate LaboratoryUI
+loop while !allTestsSelected
+Administrator -> LaboratoryUI: selects the tests.
+activate LaboratoryUI
+end
+Administrator <- - LaboratoryUI: Request data (name, ID, address, phone number, TIN)
+deactivate LaboratoryUI
+Administrator -> LaboratoryUI: Types the requested data.
+activate LaboratoryUI
+LaboratoryUI -> controller: createLaboratory(name, typesOfTestList, ID, address, phoneNumber, TIN)
+activate controller
+
+controller -> company : store = getLaboratoryStore()
+activate company
+deactivate company
+
+
+controller -> testStore : typesOfTest = getTestTypeByCodes(typesOfTestList)
+activate testStore
+deactivate testStore
+
+controller -> store : lab = createNewLaboratory(nameOfLaboratory, ID, address, phoneNumber, TIN,typesOfTest)
+activate store
+store -> laboratory** : create(nameOfLaboratory, ID, address, phoneNumber, TIN,typesOfTest)
+
+deactivate store
+
+controller -> store : validateLaboratory(lab)
+activate store
+deactivate store
+LaboratoryUI - -> Administrator : Shows all the data and requests a confirmation
+
+deactivate LaboratoryUI
+Administrator -> LaboratoryUI : confirms the data
+deactivate controller
+activate LaboratoryUI
+LaboratoryUI -> controller : saveLaboratory()
+
+activate controller
+controller -> store : saveLaboratory(lab)
+activate store
+store -> store : validateLaboratory(lab)
+store -> store : addLaboratory(lab)
+LaboratoryUI - -> Administrator : informs operation success
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="522px" preserveAspectRatio="none" style="width:550px;height:522px;background:#FCF9EA;" version="1.1" viewBox="0 0 550 522" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f18cro289d7bpd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="525" x="9" y="92.041">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="276.5" y="134.3457"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="154.25" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="422.25" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="422.25" y="328.2969"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="422.25" y="389"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="158.75" x2="158.75" y1="235.2422" y2="437.3516"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="427.25" x2="427.25" y1="235.2422" y2="437.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="81.75" y="232.166">Medical Lab Technician</text><ellipse cx="159.25" cy="160.6328" fill="#FEFECE" filter="url(#f18cro289d7bpd)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M159.25,168.6328 L159.25,195.6328 M146.25,176.6328 L172.25,176.6328 M159.25,195.6328 L146.25,210.6328 M159.25,195.6328 L172.25,210.6328 " fill="none" filter="url(#f18cro289d7bpd)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="81.75" y="450.8848">Medical Lab Technician</text><ellipse cx="159.25" cy="463.9609" fill="#FEFECE" filter="url(#f18cro289d7bpd)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M159.25,471.9609 L159.25,498.9609 M146.25,479.9609 L172.25,479.9609 M159.25,498.9609 L146.25,513.9609 M159.25,498.9609 L172.25,513.9609 " fill="none" filter="url(#f18cro289d7bpd)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f18cro289d7bpd)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="393.25" y="198.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="400.25" y="220.166">:System</text><rect fill="#FEFECE" filter="url(#f18cro289d7bpd)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="393.25" y="436.3516"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="400.25" y="457.8848">:System</text><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="154.25" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="422.25" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="422.25" y="328.2969"/><rect fill="#FFFFFF" filter="url(#f18cro289d7bpd)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="422.25" y="389"/><polygon fill="#FFC5A1" points="410.25,263.5938,420.25,267.5938,410.25,271.5938,414.25,267.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="164.25" x2="416.25" y1="267.5938" y2="267.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="171.25" y="262.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="182.25" y="262.7373">record new test samples results</text><polygon fill="#FFC5A1" points="175.25,293.9453,165.25,297.9453,175.25,301.9453,171.25,297.9453" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="169.25" x2="426.25" y1="297.9453" y2="297.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="181.25" y="293.0889">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="192.25" y="293.0889">shows all tests and asks to select one</text><polygon fill="#FFC5A1" points="410.25,324.2969,420.25,328.2969,410.25,332.2969,414.25,328.2969" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="164.25" x2="416.25" y1="328.2969" y2="328.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="171.25" y="323.4404">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="182.25" y="323.4404">selects the test</text><polygon fill="#FFC5A1" points="175.25,354.6484,165.25,358.6484,175.25,362.6484,171.25,358.6484" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="169.25" x2="426.25" y1="358.6484" y2="358.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="181.25" y="353.792">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="154" x="192.25" y="353.792">request number of barcode</text><polygon fill="#FFC5A1" points="410.25,385,420.25,389,410.25,393,414.25,389" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="164.25" x2="416.25" y1="389" y2="389"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="171.25" y="384.1436">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="182.25" y="384.1436">types requested data (sample code)</text><polygon fill="#FFC5A1" points="175.25,415.3516,165.25,419.3516,175.25,423.3516,171.25,419.3516" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="169.25" x2="426.25" y1="419.3516" y2="419.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="181.25" y="414.4951">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="192.25" y="414.4951">informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="273" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="273" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="208.5" y="45.7275">Built by WeByte ©</text><!--MD5=[96eca72e3e4c341f54105f768438b023]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Medical Lab Technician" as medicalLabTechnician
+
+participant ":System" as System
+
+
+activate medicalLabTechnician
+activate System
+medicalLabTechnician -> System : record new test samples results
+System - -> medicalLabTechnician : shows all tests and asks to select one
+deactivate System
+medicalLabTechnician -> System : selects the test
+activate System
+System - -> medicalLabTechnician : request number of barcode
+deactivate System
+medicalLabTechnician -> System : types requested data (sample code)
+activate System
+System - -> medicalLabTechnician : informs operation success
+deactivate System
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Medical Lab Technician" as medicalLabTechnician
+
+participant ":System" as System
+
+
+activate medicalLabTechnician
+activate System
+medicalLabTechnician -> System : record new test samples results
+System - -> medicalLabTechnician : shows all tests and asks to select one
+deactivate System
+medicalLabTechnician -> System : selects the test
+activate System
+System - -> medicalLabTechnician : request number of barcode
+deactivate System
+medicalLabTechnician -> System : types requested data (sample code)
+activate System
+System - -> medicalLabTechnician : informs operation success
+deactivate System
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

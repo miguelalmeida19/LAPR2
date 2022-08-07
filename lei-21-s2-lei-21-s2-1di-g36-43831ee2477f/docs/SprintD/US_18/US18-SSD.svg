@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1042.5px" preserveAspectRatio="none" style="width:677px;height:1042px;" version="1.1" viewBox="0 0 677 1042" width="677.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fyaombhovevi8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="800.4785" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="74.375" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="152.4512"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="228.3301"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="304.209"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="380.0879"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="455.9668"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="69.6289" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="531.8457"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="46.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="639.4141"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="724.043"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="799.9219"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="49.1895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="875.8008"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="98.8184" style="stroke:#000000;stroke-width:2.5;" width="648.125" x="12.5" y="550.5957"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="80" x2="80" y1="112.0117" y2="936.2402"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="605.625" x2="605.625" y1="112.0117" y2="936.2402"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="25" y="108.1665">Administrator</text><ellipse cx="80.625" cy="18.75" fill="#FEFECE" filter="url(#fyaombhovevi8)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M80.625,28.75 L80.625,62.5 M64.375,38.75 L96.875,38.75 M80.625,62.5 L64.375,81.25 M80.625,62.5 L96.875,81.25 " fill="none" filter="url(#fyaombhovevi8)" style="stroke:#A80036;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="25" y="953.1567">Administrator</text><ellipse cx="80.625" cy="969.502" fill="#FEFECE" filter="url(#fyaombhovevi8)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M80.625,979.502 L80.625,1013.252 M64.375,989.502 L96.875,989.502 M80.625,1013.252 L64.375,1032.002 M80.625,1013.252 L96.875,1032.002 " fill="none" filter="url(#fyaombhovevi8)" style="stroke:#A80036;stroke-width:2.5;"/><rect fill="#FEFECE" filter="url(#fyaombhovevi8)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="80" x="563.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="62.5" x="571.875" y="93.1665">:System</text><rect fill="#FEFECE" filter="url(#fyaombhovevi8)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="80" x="563.125" y="934.9902"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="62.5" x="571.875" y="961.9067">:System</text><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="800.4785" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="74.375" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="152.4512"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="228.3301"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="304.209"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="380.0879"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="455.9668"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="69.6289" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="531.8457"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="46.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="639.4141"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="724.043"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="799.9219"/><rect fill="#FFFFFF" filter="url(#fyaombhovevi8)" height="49.1895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="599.375" y="875.8008"/><polygon fill="#A80036" points="584.375,147.4512,596.875,152.4512,584.375,157.4512,589.375,152.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="152.4512" y2="152.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="95.625" y="146.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="343.75" x="109.375" y="146.3806">starts the creation of the report to send to NHS.</text><polygon fill="#A80036" points="100.625,185.3906,88.125,190.3906,100.625,195.3906,95.625,190.3906" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="190.3906" y2="190.3906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="184.3201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="221.25" x="121.875" y="184.3201">asks to select the current day.</text><polygon fill="#A80036" points="584.375,223.3301,596.875,228.3301,584.375,233.3301,589.375,228.3301" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="228.3301" y2="228.3301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="95.625" y="222.2595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="166.25" x="109.375" y="222.2595">selects the current day</text><polygon fill="#A80036" points="100.625,261.2695,88.125,266.2695,100.625,271.2695,95.625,266.2695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="266.2695" y2="266.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="260.199">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="380" x="121.875" y="260.199">asks to select to send the day or week data to NHS.</text><polygon fill="#A80036" points="584.375,299.209,596.875,304.209,584.375,309.209,589.375,304.209" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="304.209" y2="304.209"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="95.625" y="298.1384">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="311.25" x="109.375" y="298.1384">selects to send the day/week data to NHS.</text><polygon fill="#A80036" points="100.625,337.1484,88.125,342.1484,100.625,347.1484,95.625,342.1484" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="342.1484" y2="342.1484"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="336.0779">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="468.75" x="121.875" y="336.0779">asks to introduce the number of historical points to send to NHS.</text><polygon fill="#A80036" points="584.375,375.0879,596.875,380.0879,584.375,385.0879,589.375,380.0879" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="380.0879" y2="380.0879"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="95.625" y="374.0173">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="383.75" x="109.375" y="374.0173">types the number of historical points to send to NHS.</text><polygon fill="#A80036" points="100.625,413.0273,88.125,418.0273,100.625,423.0273,95.625,418.0273" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="418.0273" y2="418.0273"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="108.125" y="411.9568">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="358.75" x="121.875" y="411.9568">asks to define the interval of days to fit the model.</text><polygon fill="#A80036" points="584.375,450.9668,596.875,455.9668,584.375,460.9668,589.375,455.9668" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="455.9668" y2="455.9668"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="95.625" y="449.8962">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="310" x="109.375" y="449.8962">selects the interval of days to fit the model.</text><polygon fill="#A80036" points="100.625,488.9063,88.125,493.9063,100.625,498.9063,95.625,493.9063" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="493.9063" y2="493.9063"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="487.8357">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="313.75" x="130.625" y="487.8357">asks to select the regression model to use.</text><polygon fill="#A80036" points="584.375,526.8457,596.875,531.8457,584.375,536.8457,589.375,531.8457" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="531.8457" y2="531.8457"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="95.625" y="525.7751">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="307.5" x="118.125" y="525.7751">selects the linear regression model to use.</text><path d="M12.5,550.5957 L88.75,550.5957 L88.75,560.5957 L76.25,573.0957 L12.5,573.0957 L12.5,550.5957 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.25;"/><rect fill="none" height="98.8184" style="stroke:#000000;stroke-width:2.5;" width="648.125" x="12.5" y="550.5957"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="20" x="31.25" y="568.7146">alt</text><text fill="#000000" font-family="sans-serif" font-size="13.75" font-weight="bold" lengthAdjust="spacing" textLength="325" x="107.5" y="567.3694">[simple linear regression model was selected]</text><polygon fill="#A80036" points="100.625,596.4746,88.125,601.4746,100.625,606.4746,95.625,601.4746" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="601.4746" y2="601.4746"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="595.4041">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="281.25" x="130.625" y="595.4041">asks to select the independent variable</text><polygon fill="#A80036" points="584.375,634.4141,596.875,639.4141,584.375,644.4141,589.375,639.4141" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="639.4141" y2="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="95.625" y="633.3435">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="236.25" x="118.125" y="633.3435">selects the independent variable.</text><polygon fill="#A80036" points="100.625,681.1035,88.125,686.1035,100.625,691.1035,95.625,686.1035" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="686.1035" y2="686.1035"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="680.033">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="436.25" x="130.625" y="680.033">asks to  introduce the significance level for hypothesis tests.</text><polygon fill="#A80036" points="584.375,719.043,596.875,724.043,584.375,729.043,589.375,724.043" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="724.043" y2="724.043"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="95.625" y="717.9724">15</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="193.75" x="118.125" y="717.9724">types the significance level</text><polygon fill="#A80036" points="100.625,756.9824,88.125,761.9824,100.625,766.9824,95.625,761.9824" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="761.9824" y2="761.9824"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="755.9119">16</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="457.5" x="130.625" y="755.9119">asks to  introduce the significance level for confidence intervals.</text><polygon fill="#A80036" points="584.375,794.9219,596.875,799.9219,584.375,804.9219,589.375,799.9219" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="799.9219" y2="799.9219"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="95.625" y="793.8513">17</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="193.75" x="118.125" y="793.8513">types the significance level</text><polygon fill="#A80036" points="100.625,832.8613,88.125,837.8613,100.625,842.8613,95.625,837.8613" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="604.375" y1="837.8613" y2="837.8613"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="831.7908">18</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="336.25" x="130.625" y="831.7908">shows all the data ans asks for a confirmation.</text><polygon fill="#A80036" points="584.375,870.8008,596.875,875.8008,584.375,880.8008,589.375,875.8008" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="86.875" x2="591.875" y1="875.8008" y2="875.8008"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="95.625" y="869.7302">19</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="151.25" x="118.125" y="869.7302">confirms all the data.</text><polygon fill="#A80036" points="100.625,908.7402,88.125,913.7402,100.625,918.7402,95.625,913.7402" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="913.7402" y2="913.7402"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="108.125" y="907.6697">20</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="195" x="130.625" y="907.6697">informs operation success.</text><!--MD5=[1ecd36546c7b71edb7039051b1c75da6]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as admin
+participant ":System" as system
+activate admin
+admin -> system: starts the creation of the report to send to NHS.
+activate system
+system -> admin: asks to select the current day.
+deactivate system
+
+admin -> system: selects the current day
+activate system
+system -> admin: asks to select to send the day or week data to NHS.
+deactivate system
+
+admin -> system: selects to send the day/week data to NHS.
+activate system
+system -> admin: asks to introduce the number of historical points to send to NHS.
+deactivate system
+admin -> system: types the number of historical points to send to NHS.
+activate system
+system -> admin: asks to define the interval of days to fit the model.
+deactivate system
+admin -> system: selects the interval of days to fit the model.
+activate system
+system -> admin: asks to select the regression model to use.
+
+deactivate system
+admin -> system: selects the linear regression model to use.
+alt simple linear regression model was selected
+
+activate system
+system -> admin: asks to select the independent variable
+
+deactivate system
+admin -> system: selects the independent variable.
+activate system
+end
+system -> admin: asks to  introduce the significance level for hypothesis tests.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin:  asks to  introduce the significance level for confidence intervals.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin: shows all the data ans asks for a confirmation.
+deactivate system
+admin -> system: confirms all the data.
+activate system
+system -> admin: informs operation success.
+@enduml
+
+@startuml
+
+autonumber
+
+actor Administrator as admin
+participant ":System" as system
+activate admin
+admin -> system: starts the creation of the report to send to NHS.
+activate system
+system -> admin: asks to select the current day.
+deactivate system
+
+admin -> system: selects the current day
+activate system
+system -> admin: asks to select to send the day or week data to NHS.
+deactivate system
+
+admin -> system: selects to send the day/week data to NHS.
+activate system
+system -> admin: asks to introduce the number of historical points to send to NHS.
+deactivate system
+admin -> system: types the number of historical points to send to NHS.
+activate system
+system -> admin: asks to define the interval of days to fit the model.
+deactivate system
+admin -> system: selects the interval of days to fit the model.
+activate system
+system -> admin: asks to select the regression model to use.
+
+deactivate system
+admin -> system: selects the linear regression model to use.
+alt simple linear regression model was selected
+
+activate system
+system -> admin: asks to select the independent variable
+
+deactivate system
+admin -> system: selects the independent variable.
+activate system
+end
+system -> admin: asks to  introduce the significance level for hypothesis tests.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin:  asks to  introduce the significance level for confidence intervals.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin: shows all the data ans asks for a confirmation.
+deactivate system
+admin -> system: confirms all the data.
+activate system
+system -> admin: informs operation success.
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

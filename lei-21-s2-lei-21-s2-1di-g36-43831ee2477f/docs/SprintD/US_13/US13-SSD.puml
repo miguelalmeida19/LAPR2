@@ -1,0 +1,54 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as CCL
+
+participant ":System" as System
+
+activate CCL
+activate System
+CCL -> System : starts the view of tests
+System --> CCL : asks the way to choose clients(TIN or name)
+deactivate System
+CCL -> System : chooses the way to sort
+activate System
+
+System --> CCL : shows clients with tests
+deactivate System
+CCL -> System : selects the client
+activate System
+loop for each client selected
+System --> CCL : shows tests associated with the client
+deactivate System
+CCL -> System : selects the test
+activate System
+System --> CCL :  shows the data and informs operation success
+deactivate System
+end
+deactivate System
+deactivate CCL
+
+@enduml

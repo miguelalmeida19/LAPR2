@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="785.4px" preserveAspectRatio="none" style="width:935px;height:785px;background:#FCF9EA;" version="1.1" viewBox="0 0 935 785" width="935px" zoomAndPan="magnify"><defs><filter height="300%" id="fzt18ykof81tp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.4"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.8" dy="6.8" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="51" font-weight="bold" lengthAdjust="spacing" textLength="892.5" x="15.3" y="156.4697">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="51" lengthAdjust="spacing" textLength="0" x="470.05" y="228.3877"/><rect fill="#FFFFFF" filter="url(#fzt18ykof81tp)" height="192.7906" style="stroke:#A80036;stroke-width:1.7;" width="17" x="322.15" y="416.9117"/><rect fill="#FFFFFF" filter="url(#fzt18ykof81tp)" height="51.5977" style="stroke:#A80036;stroke-width:1.7;" width="17" x="657.05" y="454.9094"/><rect fill="#FFFFFF" filter="url(#fzt18ykof81tp)" height="51.5977" style="stroke:#A80036;stroke-width:1.7;" width="17" x="657.05" y="558.1047"/><line style="stroke:#A80036;stroke-width:1.7;stroke-dasharray:5.0,5.0;" x1="330.65" x2="330.65" y1="399.9117" y2="640.3023"/><line style="stroke:#A80036;stroke-width:1.7;stroke-dasharray:5.0,5.0;" x1="665.55" x2="665.55" y1="399.9117" y2="640.3023"/><text fill="#000000" font-family="sans-serif" font-size="23.8" lengthAdjust="spacing" textLength="251.6" x="199.75" y="394.6822">Laboratory Coordinator</text><ellipse cx="330.65" cy="273.0758" fill="#FEFECE" filter="url(#fzt18ykof81tp)" rx="13.6" ry="13.6" style="stroke:#A80036;stroke-width:3.4;"/><path d="M330.65,286.6758 L330.65,332.5758 M308.55,300.2758 L352.75,300.2758 M330.65,332.5758 L308.55,358.0758 M330.65,332.5758 L352.75,358.0758 " fill="none" filter="url(#fzt18ykof81tp)" style="stroke:#A80036;stroke-width:3.4;"/><text fill="#000000" font-family="sans-serif" font-size="23.8" lengthAdjust="spacing" textLength="251.6" x="199.75" y="663.3088">Laboratory Coordinator</text><ellipse cx="330.65" cy="685.5383" fill="#FEFECE" filter="url(#fzt18ykof81tp)" rx="13.6" ry="13.6" style="stroke:#A80036;stroke-width:3.4;"/><path d="M330.65,699.1383 L330.65,745.0383 M308.55,712.7383 L352.75,712.7383 M330.65,745.0383 L308.55,770.5383 M330.65,745.0383 L352.75,770.5383 " fill="none" filter="url(#fzt18ykof81tp)" style="stroke:#A80036;stroke-width:3.4;"/><rect fill="#FEFECE" filter="url(#fzt18ykof81tp)" height="53.7359" rx="17" ry="17" style="stroke:#A80036;stroke-width:2.55;" width="108.8" x="607.75" y="337.6758"/><text fill="#000000" font-family="sans-serif" font-size="23.8" lengthAdjust="spacing" textLength="85" x="619.65" y="374.2822">:System</text><rect fill="#FEFECE" filter="url(#fzt18ykof81tp)" height="53.7359" rx="17" ry="17" style="stroke:#A80036;stroke-width:2.55;" width="108.8" x="607.75" y="638.6023"/><text fill="#000000" font-family="sans-serif" font-size="23.8" lengthAdjust="spacing" textLength="85" x="619.65" y="675.2088">:System</text><rect fill="#FFFFFF" filter="url(#fzt18ykof81tp)" height="192.7906" style="stroke:#A80036;stroke-width:1.7;" width="17" x="322.15" y="416.9117"/><rect fill="#FFFFFF" filter="url(#fzt18ykof81tp)" height="51.5977" style="stroke:#A80036;stroke-width:1.7;" width="17" x="657.05" y="454.9094"/><rect fill="#FFFFFF" filter="url(#fzt18ykof81tp)" height="51.5977" style="stroke:#A80036;stroke-width:1.7;" width="17" x="657.05" y="558.1047"/><polygon fill="#FFC5A1" points="636.65,448.1094,653.65,454.9094,636.65,461.7094,643.45,454.9094" style="stroke:#FFC5A1;stroke-width:1.7;"/><line style="stroke:#FFC5A1;stroke-width:1.7;" x1="339.15" x2="646.85" y1="454.9094" y2="454.9094"/><text fill="#000000" font-family="sans-serif" font-size="22.1" font-weight="bold" lengthAdjust="spacing" textLength="11.9" x="351.05" y="446.6534">1</text><text fill="#000000" font-family="sans-serif" font-size="22.1" lengthAdjust="spacing" textLength="209.1" x="369.75" y="446.6534">starts importing tests</text><polygon fill="#FFC5A1" points="357.85,499.707,340.85,506.507,357.85,513.307,351.05,506.507" style="stroke:#FFC5A1;stroke-width:1.7;"/><line style="stroke:#FFC5A1;stroke-width:1.7;stroke-dasharray:2.0,2.0;" x1="347.65" x2="663.85" y1="506.507" y2="506.507"/><text fill="#000000" font-family="sans-serif" font-size="22.1" font-weight="bold" lengthAdjust="spacing" textLength="11.9" x="368.05" y="498.2511">2</text><text fill="#000000" font-family="sans-serif" font-size="22.1" lengthAdjust="spacing" textLength="210.8" x="386.75" y="498.2511">asks to select the file</text><polygon fill="#FFC5A1" points="636.65,551.3047,653.65,558.1047,636.65,564.9047,643.45,558.1047" style="stroke:#FFC5A1;stroke-width:1.7;"/><line style="stroke:#FFC5A1;stroke-width:1.7;" x1="339.15" x2="646.85" y1="558.1047" y2="558.1047"/><text fill="#000000" font-family="sans-serif" font-size="22.1" font-weight="bold" lengthAdjust="spacing" textLength="11.9" x="351.05" y="549.8487">3</text><text fill="#000000" font-family="sans-serif" font-size="22.1" lengthAdjust="spacing" textLength="142.8" x="369.75" y="549.8487">selects the file</text><polygon fill="#FFC5A1" points="349.35,602.9023,332.35,609.7023,349.35,616.5023,342.55,609.7023" style="stroke:#FFC5A1;stroke-width:1.7;"/><line style="stroke:#FFC5A1;stroke-width:1.7;stroke-dasharray:2.0,2.0;" x1="339.15" x2="663.85" y1="609.7023" y2="609.7023"/><text fill="#000000" font-family="sans-serif" font-size="22.1" font-weight="bold" lengthAdjust="spacing" textLength="11.9" x="359.55" y="601.4464">4</text><text fill="#000000" font-family="sans-serif" font-size="22.1" lengthAdjust="spacing" textLength="258.4" x="378.25" y="601.4464">informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="17" lengthAdjust="spacing" textLength="0" x="464.1" y="26.1475"/><text fill="#888888" font-family="sans-serif" font-size="17" lengthAdjust="spacing" textLength="0" x="464.1" y="47.5303"/><text fill="#000000" font-family="sans-serif" font-size="25.5" font-weight="bold" lengthAdjust="spacing" textLength="214.2" x="354.45" y="77.7368">Built by WeByte ©</text><!--MD5=[caeebd2502c8d012a4272e3360afba29]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Laboratory Coordinator" as LC
+
+participant ":System" as System
+
+activate LC
+
+LC -> System : starts importing tests
+activate System
+System - -> LC : asks to select the file
+deactivate System
+LC -> System : selects the file
+activate System
+System - -> LC : informs operation success
+deactivate System
+
+deactivate System
+deactivate LC
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Laboratory Coordinator" as LC
+
+participant ":System" as System
+
+activate LC
+
+LC -> System : starts importing tests
+activate System
+System - -> LC : asks to select the file
+deactivate System
+LC -> System : selects the file
+activate System
+System - -> LC : informs operation success
+deactivate System
+
+deactivate System
+deactivate LC
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

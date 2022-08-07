@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2333.75px" preserveAspectRatio="none" style="width:2928px;height:2333px;" version="1.1" viewBox="0 0 2928 2333" width="2928.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f114n1aymw6mns" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[634d73a9c2b632c8315a0d703c87098d]
+class SendReportUI--><rect codeLine="7" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="60" id="SendReportUI" style="stroke:#A80036;stroke-width:1.875;" width="137.5" x="1479.375" y="8.75"/><ellipse cx="1498.125" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1500.625,24.375 Q1500.8789,23.75 1501.1719,23.4375 Q1501.4648,23.125 1501.7969,23.125 Q1502.3828,23.125 1502.7539,23.4766 Q1503.125,23.8281 1503.125,24.6484 L1503.125,26.6016 Q1503.125,27.4219 1502.7734,27.7734 Q1502.4219,28.125 1501.875,28.125 Q1501.3867,28.125 1501.0742,27.9102 Q1500.7617,27.6953 1500.625,27.1289 Q1500.5664,26.7383 1500.3516,26.5234 Q1499.9609,26.1133 1499.2578,25.8789 Q1498.5547,25.625 1497.8516,25.625 Q1496.9727,25.625 1496.2305,25.9766 Q1495.5078,26.3281 1494.9414,27.1094 Q1494.375,27.8906 1494.375,28.9648 L1494.375,30.1172 Q1494.375,31.4063 1495.4297,32.2656 Q1496.4844,33.125 1498.3594,33.125 Q1499.4727,33.125 1500.2539,32.8711 Q1500.7031,32.7344 1501.2109,32.2852 Q1501.543,32.0313 1501.7188,31.9531 Q1501.8945,31.875 1502.1094,31.875 Q1502.5195,31.875 1502.8125,32.207 Q1503.125,32.5195 1503.125,32.9688 Q1503.125,33.3984 1502.6953,33.9063 Q1502.0703,34.6484 1501.0742,35.0586 Q1499.7656,35.625 1498.1641,35.625 Q1496.2891,35.625 1494.7852,34.8828 Q1493.5742,34.2969 1492.7148,33.0273 Q1491.875,31.7578 1491.875,30.2539 L1491.875,28.8867 Q1491.875,27.3242 1492.6172,25.957 Q1493.3789,24.5898 1494.6875,23.8672 Q1496.0156,23.125 1497.5,23.125 Q1498.3984,23.125 1499.1797,23.4375 Q1499.9609,23.75 1500.625,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="97.5" x="1515.625" y="34.8877">SendReportUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1480.625" x2="1615.625" y1="48.75" y2="48.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1480.625" x2="1615.625" y1="58.75" y2="58.75"/><!--MD5=[d6d03a24ddaddfc757d057c10e8a8b53]
+class Regression--><rect codeLine="10" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="388.6035" id="Regression" style="stroke:#A80036;stroke-width:1.875;" width="461.25" x="261.25" y="1173.75"/><ellipse cx="447.1875" cy="1193.75" fill="#B4A7E5" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M448.4375,1190 L448.4375,1197.5 L450.9375,1197.5 L451.543,1197.5 L452.1875,1198.2813 L452.1875,1198.75 L452.1875,1199.2188 L451.543,1200 L450.9375,1200 L443.4375,1200 L442.832,1200 L442.1875,1199.2188 L442.1875,1198.75 L442.1875,1198.2813 L442.832,1197.5 L443.4375,1197.5 L445.9375,1197.5 L445.9375,1190 L443.4375,1190 L442.832,1190 L442.1875,1189.2188 L442.1875,1188.75 L442.1875,1188.2813 L442.832,1187.5 L443.4375,1187.5 L450.9375,1187.5 L451.543,1187.5 L452.1875,1188.2813 L452.1875,1188.75 L452.1875,1189.2188 L451.543,1190 L450.9375,1190 L448.4375,1190 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="78.75" x="472.8125" y="1199.8877">Regression</text><line style="stroke:#A80036;stroke-width:1.875;" x1="262.5" x2="721.25" y1="1213.75" y2="1213.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="262.5" x2="721.25" y1="1223.75" y2="1223.75"/><ellipse cx="275" cy="1237.5" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="167.5" x="286.25" y="1243.0237">getEquationOfRegression();</text><ellipse cx="275" cy="1254.7949" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="30" x="286.25" y="1260.3186">R2();</text><ellipse cx="275" cy="1272.0898" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="150" x="286.25" y="1277.6135">calculateR2Adjusted(r2);</text><ellipse cx="275" cy="1289.3848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="428.75" x="286.25" y="1294.9084">double[] value =  confidenceIntervalsForRegressionCoefficients(alfa, j);</text><ellipse cx="275" cy="1306.6797" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="100" x="286.25" y="1312.2034">calculateTobs(j);</text><ellipse cx="275" cy="1323.9746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="195" x="286.25" y="1329.4983">rejectullHypotesis(levelOfSig, j );</text><ellipse cx="275" cy="1341.2695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="286.25" y="1346.7932">predict( x);</text><ellipse cx="275" cy="1358.5645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="97.5" x="286.25" y="1364.0881">calculateFstat();</text><ellipse cx="275" cy="1375.8594" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="102.5" x="286.25" y="1381.3831">calculateDFTot();</text><ellipse cx="275" cy="1393.1543" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="113.75" x="286.25" y="1398.678">calculateDFError();</text><ellipse cx="275" cy="1410.4492" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="83.75" x="286.25" y="1415.9729">calculateDF();</text><ellipse cx="275" cy="1427.7441" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="88.75" x="286.25" y="1433.2678">calculateSqr();</text><ellipse cx="275" cy="1445.0391" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="87.5" x="286.25" y="1450.5627">calculateSqt();</text><ellipse cx="275" cy="1462.334" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="91.25" x="286.25" y="1467.8577">calculateSqe();</text><ellipse cx="275" cy="1479.6289" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="96.25" x="286.25" y="1485.1526">calculateMQR();</text><ellipse cx="275" cy="1496.9238" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="95" x="286.25" y="1502.4475">calculateMQE();</text><ellipse cx="275" cy="1514.2188" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="138.75" x="286.25" y="1519.7424">significancy( alphaFD);</text><ellipse cx="275" cy="1531.5137" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="393.75" x="286.25" y="1537.0374">double[] value = confidenceIntervalForY( predict, levelOfSig,  x0);</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="68.75" x="286.25" y="1554.3323">getCritFD();</text><!--MD5=[ef340af6512c03d5eeac92509be9c66b]
+class LinearRegression--><rect codeLine="32" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="769.0918" id="LinearRegression" style="stroke:#A80036;stroke-width:1.875;" width="461.25" x="8.75" y="298.75"/><ellipse cx="171.5625" cy="318.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M174.0625,314.375 Q174.3164,313.75 174.6094,313.4375 Q174.9023,313.125 175.2344,313.125 Q175.8203,313.125 176.1914,313.4766 Q176.5625,313.8281 176.5625,314.6484 L176.5625,316.6016 Q176.5625,317.4219 176.2109,317.7734 Q175.8594,318.125 175.3125,318.125 Q174.8242,318.125 174.5117,317.9102 Q174.1992,317.6953 174.0625,317.1289 Q174.0039,316.7383 173.7891,316.5234 Q173.3984,316.1133 172.6953,315.8789 Q171.9922,315.625 171.2891,315.625 Q170.4102,315.625 169.668,315.9766 Q168.9453,316.3281 168.3789,317.1094 Q167.8125,317.8906 167.8125,318.9648 L167.8125,320.1172 Q167.8125,321.4063 168.8672,322.2656 Q169.9219,323.125 171.7969,323.125 Q172.9102,323.125 173.6914,322.8711 Q174.1406,322.7344 174.6484,322.2852 Q174.9805,322.0313 175.1563,321.9531 Q175.332,321.875 175.5469,321.875 Q175.957,321.875 176.25,322.207 Q176.5625,322.5195 176.5625,322.9688 Q176.5625,323.3984 176.1328,323.9063 Q175.5078,324.6484 174.5117,325.0586 Q173.2031,325.625 171.6016,325.625 Q169.7266,325.625 168.2227,324.8828 Q167.0117,324.2969 166.1523,323.0273 Q165.3125,321.7578 165.3125,320.2539 L165.3125,318.8867 Q165.3125,317.3242 166.0547,315.957 Q166.8164,314.5898 168.125,313.8672 Q169.4531,313.125 170.9375,313.125 Q171.8359,313.125 172.6172,313.4375 Q173.3984,313.75 174.0625,314.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="125" x="197.1875" y="324.8877">LinearRegression</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="468.75" y1="338.75" y2="338.75"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="348.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="52.5" x="33.75" y="358.0237">intercept</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="366.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="36.25" x="33.75" y="375.3186">slope;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="383.3398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="12.5" x="33.75" y="392.6135">r2</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="400.6348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="33.75" y="409.9084">svar0</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="417.9297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="33.75" y="427.2034">svar1</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="435.2246"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="41.25" x="33.75" y="444.4983">MeanX</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="452.5195"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="20" x="33.75" y="461.7932">rss</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="469.8145"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="20" x="33.75" y="479.0881">ssr</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="487.1094"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="18.75" x="33.75" y="496.3831">sst</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="504.4043"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="22.5" x="33.75" y="513.678">sxx</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="13.75" x="33.75" y="530.9729">-N</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="538.9941"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="33.75" y="548.2678">critFD</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="468.75" y1="556.2891" y2="556.2891"/><ellipse cx="22.5" cy="570.0391" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="62.5" x="33.75" y="575.5627">intercept()</text><ellipse cx="22.5" cy="587.334" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="42.5" x="33.75" y="592.8577">slope()</text><ellipse cx="22.5" cy="604.6289" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="26.25" x="33.75" y="610.1526">R2()</text><ellipse cx="22.5" cy="621.9238" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="72.5" x="33.75" y="627.4475">calculateR()</text><ellipse cx="22.5" cy="639.2188" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="150" x="33.75" y="644.7424">calculateR2Adjusted( r2)</text><ellipse cx="22.5" cy="656.5137" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="100" x="33.75" y="662.0374">interceptStdErr()</text><ellipse cx="22.5" cy="673.8086" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="80" x="33.75" y="679.3323">slopeStdErr()</text><ellipse cx="22.5" cy="691.1035" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="58.75" x="33.75" y="696.6272">predict(x)</text><ellipse cx="22.5" cy="708.3984" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="428.75" x="33.75" y="713.9221">double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)</text><ellipse cx="22.5" cy="725.6934" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="191.25" x="33.75" y="731.217">rejectullHypotesis( levelOfSig, j)</text><ellipse cx="22.5" cy="742.9883" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="96.25" x="33.75" y="748.512">calculateTobs(j)</text><ellipse cx="22.5" cy="760.2832" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="107.5" x="33.75" y="765.8069">calculateStdDev()</text><ellipse cx="22.5" cy="777.5781" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="50" x="33.75" y="783.1018">getSsr()</text><ellipse cx="22.5" cy="794.873" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="52.5" x="33.75" y="800.3967">getSse()</text><ellipse cx="22.5" cy="812.168" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="48.75" x="33.75" y="817.6917">getSst()</text><ellipse cx="22.5" cy="829.4629" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="80" x="33.75" y="834.9866">calculateDF()</text><ellipse cx="22.5" cy="846.7578" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="85" x="33.75" y="852.2815">calculateSqr()</text><ellipse cx="22.5" cy="864.0527" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="83.75" x="33.75" y="869.5764">calculateSqt()</text><ellipse cx="22.5" cy="881.3477" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="87.5" x="33.75" y="886.8713">calculateSqe()</text><ellipse cx="22.5" cy="898.6426" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="110" x="33.75" y="904.1663">calculateDFError()</text><ellipse cx="22.5" cy="915.9375" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="98.75" x="33.75" y="921.4612">calculateDFTot()</text><ellipse cx="22.5" cy="933.2324" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="92.5" x="33.75" y="938.7561">calculateMQR()</text><ellipse cx="22.5" cy="950.5273" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="91.25" x="33.75" y="956.051">calculateMQE()</text><ellipse cx="22.5" cy="967.8223" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="163.75" x="33.75" y="973.3459">getEquationOfRegression()</text><ellipse cx="22.5" cy="985.1172" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="93.75" x="33.75" y="990.6409">calculateFstat()</text><ellipse cx="22.5" cy="1002.4121" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="135" x="33.75" y="1007.9358">significancy( alphaFD)</text><ellipse cx="22.5" cy="1019.707" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="378.75" x="33.75" y="1025.2307">double[] value = confidenceIntervalForY( predict, levelOfSig, x)</text><ellipse cx="22.5" cy="1037.002" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="61.25" x="33.75" y="1042.5256">toString(){</text><ellipse cx="22.5" cy="1054.2969" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="65" x="33.75" y="1059.8206">getCritFD()</text><!--MD5=[9ba96d1365e70e830885c197f6567fa3]
+class MultipleLinearRegression--><rect codeLine="78" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="561.5527" id="MultipleLinearRegression" style="stroke:#A80036;stroke-width:1.875;" width="461.25" x="513.75" y="402.5"/><ellipse cx="650.3125" cy="422.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M652.8125,418.125 Q653.0664,417.5 653.3594,417.1875 Q653.6523,416.875 653.9844,416.875 Q654.5703,416.875 654.9414,417.2266 Q655.3125,417.5781 655.3125,418.3984 L655.3125,420.3516 Q655.3125,421.1719 654.9609,421.5234 Q654.6094,421.875 654.0625,421.875 Q653.5742,421.875 653.2617,421.6602 Q652.9492,421.4453 652.8125,420.8789 Q652.7539,420.4883 652.5391,420.2734 Q652.1484,419.8633 651.4453,419.6289 Q650.7422,419.375 650.0391,419.375 Q649.1602,419.375 648.418,419.7266 Q647.6953,420.0781 647.1289,420.8594 Q646.5625,421.6406 646.5625,422.7148 L646.5625,423.8672 Q646.5625,425.1563 647.6172,426.0156 Q648.6719,426.875 650.5469,426.875 Q651.6602,426.875 652.4414,426.6211 Q652.8906,426.4844 653.3984,426.0352 Q653.7305,425.7813 653.9063,425.7031 Q654.082,425.625 654.2969,425.625 Q654.707,425.625 655,425.957 Q655.3125,426.2695 655.3125,426.7188 Q655.3125,427.1484 654.8828,427.6563 Q654.2578,428.3984 653.2617,428.8086 Q651.9531,429.375 650.3516,429.375 Q648.4766,429.375 646.9727,428.6328 Q645.7617,428.0469 644.9023,426.7773 Q644.0625,425.5078 644.0625,424.0039 L644.0625,422.6367 Q644.0625,421.0742 644.8047,419.707 Q645.5664,418.3398 646.875,417.6172 Q648.2031,416.875 649.6875,416.875 Q650.5859,416.875 651.3672,417.1875 Q652.1484,417.5 652.8125,418.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="177.5" x="675.9375" y="428.6377">MultipleLinearRegression</text><line style="stroke:#A80036;stroke-width:1.875;" x1="515" x2="973.75" y1="442.5" y2="442.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="12.5" x="538.75" y="461.7737">-x</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="523.75" y="469.7949"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="102.5" x="538.75" y="479.0686">double[][] Xready</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="523.75" y="487.0898"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="68.75" x="538.75" y="496.3635">double[][] Y</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="523.75" y="504.3848"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="538.75" y="513.6584">critFD</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="523.75" y="521.6797"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="191.25" x="538.75" y="530.9534">double[][] coeficientsOfEquation</text><line style="stroke:#A80036;stroke-width:1.875;" x1="515" x2="973.75" y1="538.9746" y2="538.9746"/><ellipse cx="527.5" cy="552.7246" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="26.25" x="538.75" y="558.2483">R2()</text><ellipse cx="527.5" cy="570.0195" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="72.5" x="538.75" y="575.5432">calculateR()</text><ellipse cx="527.5" cy="587.3145" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="163.75" x="538.75" y="592.8381">getEquationOfRegression()</text><ellipse cx="527.5" cy="604.6094" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="150" x="538.75" y="610.1331">calculateR2Adjusted( r2)</text><ellipse cx="527.5" cy="621.9043" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="85" x="538.75" y="627.428">calculateSqr()</text><ellipse cx="527.5" cy="639.1992" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="83.75" x="538.75" y="644.7229">calculateSqt()</text><ellipse cx="527.5" cy="656.4941" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="87.5" x="538.75" y="662.0178">calculateSqe()</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="523.75" y="670.0391"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="120" x="538.75" y="679.3127">calculateMeanY( Y)</text><ellipse cx="527.5" cy="691.084" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="98.75" x="538.75" y="696.6077">calculateDFTot()</text><ellipse cx="527.5" cy="708.3789" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="80" x="538.75" y="713.9026">calculateDF()</text><ellipse cx="527.5" cy="725.6738" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="110" x="538.75" y="731.1975">calculateDFError()</text><ellipse cx="527.5" cy="742.9688" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="100" x="538.75" y="748.4924">calculateMean ()</text><ellipse cx="527.5" cy="760.2637" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="101.25" x="538.75" y="765.7874">CalculateSSTot()</text><ellipse cx="527.5" cy="777.5586" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="92.5" x="538.75" y="783.0823">calculateMQR()</text><ellipse cx="527.5" cy="794.8535" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="91.25" x="538.75" y="800.3772">calculateMQE()</text><ellipse cx="527.5" cy="812.1484" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="93.75" x="538.75" y="817.6721">calculateFstat()</text><ellipse cx="527.5" cy="829.4434" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="62.5" x="538.75" y="834.967">predict( x)</text><ellipse cx="527.5" cy="846.7383" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="428.75" x="538.75" y="852.262">double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)</text><ellipse cx="527.5" cy="864.0332" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="100" x="538.75" y="869.5569">calculateTobs( j)</text><ellipse cx="527.5" cy="881.3281" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="198.75" x="538.75" y="886.8518">rejectullHypotesis( levelOfSig,  j )</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="523.75" y="894.873"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="215" x="538.75" y="904.1467">double[][] value = calculateCmatrix()</text><ellipse cx="527.5" cy="915.918" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="135" x="538.75" y="921.4417">significancy( alphaFD)</text><ellipse cx="527.5" cy="933.2129" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="366.25" x="538.75" y="938.7366">double[] value =  confidenceIntervalForY( predict, alphaFD,x)</text><ellipse cx="527.5" cy="950.5078" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="65" x="538.75" y="956.0315">getCritFD()</text><!--MD5=[c004c0673453dc052af2b8d8e48aa3d0]
+class SendReportNhsController--><rect codeLine="113" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="94.5898" id="SendReportNhsController" style="stroke:#A80036;stroke-width:1.875;" width="247.5" x="1423.125" y="635.625"/><ellipse cx="1454.8125" cy="655.625" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1457.3125,651.25 Q1457.5664,650.625 1457.8594,650.3125 Q1458.1523,650 1458.4844,650 Q1459.0703,650 1459.4414,650.3516 Q1459.8125,650.7031 1459.8125,651.5234 L1459.8125,653.4766 Q1459.8125,654.2969 1459.4609,654.6484 Q1459.1094,655 1458.5625,655 Q1458.0742,655 1457.7617,654.7852 Q1457.4492,654.5703 1457.3125,654.0039 Q1457.2539,653.6133 1457.0391,653.3984 Q1456.6484,652.9883 1455.9453,652.7539 Q1455.2422,652.5 1454.5391,652.5 Q1453.6602,652.5 1452.918,652.8516 Q1452.1953,653.2031 1451.6289,653.9844 Q1451.0625,654.7656 1451.0625,655.8398 L1451.0625,656.9922 Q1451.0625,658.2813 1452.1172,659.1406 Q1453.1719,660 1455.0469,660 Q1456.1602,660 1456.9414,659.7461 Q1457.3906,659.6094 1457.8984,659.1602 Q1458.2305,658.9063 1458.4063,658.8281 Q1458.582,658.75 1458.7969,658.75 Q1459.207,658.75 1459.5,659.082 Q1459.8125,659.3945 1459.8125,659.8438 Q1459.8125,660.2734 1459.3828,660.7813 Q1458.7578,661.5234 1457.7617,661.9336 Q1456.4531,662.5 1454.8516,662.5 Q1452.9766,662.5 1451.4727,661.7578 Q1450.2617,661.1719 1449.4023,659.9023 Q1448.5625,658.6328 1448.5625,657.1289 L1448.5625,655.7617 Q1448.5625,654.1992 1449.3047,652.832 Q1450.0664,651.4648 1451.375,650.7422 Q1452.7031,650 1454.1875,650 Q1455.0859,650 1455.8672,650.3125 Q1456.6484,650.625 1457.3125,651.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="178.75" x="1475.1875" y="661.7627">SendReportNhsController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1424.375" x2="1669.375" y1="675.625" y2="675.625"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1424.375" x2="1669.375" y1="685.625" y2="685.625"/><ellipse cx="1436.875" cy="699.375" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="196.25" x="1448.125" y="704.8987">generateReport(NHSReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1433.125" y="712.9199"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="215" x="1448.125" y="722.1936">checkIfTestsAdClientsAreISystem()</text><!--MD5=[74783ec010d186752c4ffd5c6de5633a]
+class NHSReport--><rect codeLine="151" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="250.2441" id="NHSReport" style="stroke:#A80036;stroke-width:1.875;" width="712.5" x="1273.125" y="1243.125"/><ellipse cx="1584.6875" cy="1263.125" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1587.1875,1258.75 Q1587.4414,1258.125 1587.7344,1257.8125 Q1588.0273,1257.5 1588.3594,1257.5 Q1588.9453,1257.5 1589.3164,1257.8516 Q1589.6875,1258.2031 1589.6875,1259.0234 L1589.6875,1260.9766 Q1589.6875,1261.7969 1589.3359,1262.1484 Q1588.9844,1262.5 1588.4375,1262.5 Q1587.9492,1262.5 1587.6367,1262.2852 Q1587.3242,1262.0703 1587.1875,1261.5039 Q1587.1289,1261.1133 1586.9141,1260.8984 Q1586.5234,1260.4883 1585.8203,1260.2539 Q1585.1172,1260 1584.4141,1260 Q1583.5352,1260 1582.793,1260.3516 Q1582.0703,1260.7031 1581.5039,1261.4844 Q1580.9375,1262.2656 1580.9375,1263.3398 L1580.9375,1264.4922 Q1580.9375,1265.7813 1581.9922,1266.6406 Q1583.0469,1267.5 1584.9219,1267.5 Q1586.0352,1267.5 1586.8164,1267.2461 Q1587.2656,1267.1094 1587.7734,1266.6602 Q1588.1055,1266.4063 1588.2813,1266.3281 Q1588.457,1266.25 1588.6719,1266.25 Q1589.082,1266.25 1589.375,1266.582 Q1589.6875,1266.8945 1589.6875,1267.3438 Q1589.6875,1267.7734 1589.2578,1268.2813 Q1588.6328,1269.0234 1587.6367,1269.4336 Q1586.3281,1270 1584.7266,1270 Q1582.8516,1270 1581.3477,1269.2578 Q1580.1367,1268.6719 1579.2773,1267.4023 Q1578.4375,1266.1328 1578.4375,1264.6289 L1578.4375,1263.2617 Q1578.4375,1261.6992 1579.1797,1260.332 Q1579.9414,1258.9648 1581.25,1258.2422 Q1582.5781,1257.5 1584.0625,1257.5 Q1584.9609,1257.5 1585.7422,1257.8125 Q1586.5234,1258.125 1587.1875,1258.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="78.75" x="1610.3125" y="1269.2627">NHSReport</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1274.375" x2="1984.375" y1="1283.125" y2="1283.125"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1293.125"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="116.25" x="1298.125" y="1302.3987">testsMadeInInterval</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1310.4199"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="71.25" x="1298.125" y="1319.6936">reportString</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1274.375" x2="1984.375" y1="1327.7148" y2="1327.7148"/><ellipse cx="1286.875" cy="1341.4648" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="193.75" x="1298.125" y="1346.9885">generateReport(NhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1355.0098"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="316.25" x="1298.125" y="1364.2834">createReport(lowerLimit, upperLimit, NhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1372.3047"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="428.75" x="1298.125" y="1381.5784">generateReportString(Regression, levelOfSignificance, NhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1389.5996"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="673.75" x="1298.125" y="1398.8733">getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints, DateToday, reportString, Regression, NHSReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1406.8945"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="432.5" x="1298.125" y="1416.1682">hypothesisTestForRegressionCoefficients(Regression, NHSReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1424.1895"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="600" x="1298.125" y="1433.4631">getHistoryOfPointsSimpleDays(numberPoints, dateToday, reportString, Regression, NHSReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1441.4844"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="673.75" x="1298.125" y="1450.7581">getHistoryOfPointsMultiLinearDays(numberHistoricalPoints, dateToday, reportString, Regression, NHSReportDto)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="1283.125" y="1458.7793"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="680" x="1298.125" y="1468.053">getHistoryOfPointsMultiLinearWeeks(numberHistoricalPoints, dateToday, reportString,Regression, NHSReportDto)</text><ellipse cx="1286.875" cy="1479.8242" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="270" x="1298.125" y="1485.3479">generateReportString(nhsReportValuesDTO)</text><!--MD5=[0f6f7964b844a64b0496af0dda7914bd]
+class TestStore--><rect codeLine="129" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="388.6035" id="TestStore" style="stroke:#A80036;stroke-width:1.875;" width="633.75" x="2277.5" y="488.75"/><ellipse cx="2555.9375" cy="508.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M2558.4375,504.375 Q2558.6914,503.75 2558.9844,503.4375 Q2559.2773,503.125 2559.6094,503.125 Q2560.1953,503.125 2560.5664,503.4766 Q2560.9375,503.8281 2560.9375,504.6484 L2560.9375,506.6016 Q2560.9375,507.4219 2560.5859,507.7734 Q2560.2344,508.125 2559.6875,508.125 Q2559.1992,508.125 2558.8867,507.9102 Q2558.5742,507.6953 2558.4375,507.1289 Q2558.3789,506.7383 2558.1641,506.5234 Q2557.7734,506.1133 2557.0703,505.8789 Q2556.3672,505.625 2555.6641,505.625 Q2554.7852,505.625 2554.043,505.9766 Q2553.3203,506.3281 2552.7539,507.1094 Q2552.1875,507.8906 2552.1875,508.9648 L2552.1875,510.1172 Q2552.1875,511.4063 2553.2422,512.2656 Q2554.2969,513.125 2556.1719,513.125 Q2557.2852,513.125 2558.0664,512.8711 Q2558.5156,512.7344 2559.0234,512.2852 Q2559.3555,512.0313 2559.5313,511.9531 Q2559.707,511.875 2559.9219,511.875 Q2560.332,511.875 2560.625,512.207 Q2560.9375,512.5195 2560.9375,512.9688 Q2560.9375,513.3984 2560.5078,513.9063 Q2559.8828,514.6484 2558.8867,515.0586 Q2557.5781,515.625 2555.9766,515.625 Q2554.1016,515.625 2552.5977,514.8828 Q2551.3867,514.2969 2550.5273,513.0273 Q2549.6875,511.7578 2549.6875,510.2539 L2549.6875,508.8867 Q2549.6875,507.3242 2550.4297,505.957 Q2551.1914,504.5898 2552.5,503.8672 Q2553.8281,503.125 2555.3125,503.125 Q2556.2109,503.125 2556.9922,503.4375 Q2557.7734,503.75 2558.4375,504.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="2581.5625" y="514.8877">TestStore</text><line style="stroke:#A80036;stroke-width:1.875;" x1="2278.75" x2="2910" y1="528.75" y2="528.75"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2287.5" y="538.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="43.75" x="2302.5" y="548.0237">testList</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2287.5" y="556.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="137.5" x="2302.5" y="565.3186">valueMaxForCovidTest</text><line style="stroke:#A80036;stroke-width:1.875;" x1="2278.75" x2="2910" y1="573.3398" y2="573.3398"/><ellipse cx="2291.25" cy="587.0898" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="527.5" x="2302.5" y="592.6135">double[] return = getXListNumberTestsByWeek(lowerLimitDate, upperLimitDate, testList)</text><ellipse cx="2291.25" cy="604.3848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="428.75" x="2302.5" y="609.9084">double[] return = getXListAgesByWeek(lowerLimitDate, upperLimitDate)</text><ellipse cx="2291.25" cy="621.6797" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="355" x="2302.5" y="627.2034">getNumberPositiveCasesOnDate(date, testsMadeInInterval)</text><ellipse cx="2291.25" cy="638.9746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="381.25" x="2302.5" y="644.4983">double[] return = getYListWeek(lowerLimitDate, upperLimitDate)</text><ellipse cx="2291.25" cy="656.2695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="471.25" x="2302.5" y="661.7932">double[] return = getYList(lowerLimitDate, upperLimitDate, testsMadeInInterval)</text><ellipse cx="2291.25" cy="673.5645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="581.25" x="2302.5" y="679.0881">double[] return = getXlistNumberTestPerDay(lowerLimitDate, upperLimitDate, testsMadeInInterval)</text><ellipse cx="2291.25" cy="690.8594" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="378.75" x="2302.5" y="696.3831">double[] return = getXListAges(lowerLimitDate, upperLimitDate)</text><ellipse cx="2291.25" cy="708.1543" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="322.5" x="2302.5" y="713.678">getMeanAgesPerDay(lowerLimitDate, upperLimitDate)</text><ellipse cx="2291.25" cy="725.4492" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="332.5" x="2302.5" y="730.9729">getMeanAgesPerWeek(lowerLimitDate, upperLimitDate)</text><ellipse cx="2291.25" cy="742.7441" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="263.75" x="2302.5" y="748.2678">getNumberTestsMadeOnDate(date, testList)</text><ellipse cx="2291.25" cy="760.0391" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="201.25" x="2302.5" y="765.5627">getMeanAgesOfTestsMade(date)</text><ellipse cx="2291.25" cy="777.334" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="370" x="2302.5" y="782.8577">getCovidTestsForRegression(lowerLimitDate, upperLimitDate)</text><ellipse cx="2291.25" cy="794.6289" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="407.5" x="2302.5" y="800.1526">getTableWithHistoricalDataToSendNHS( regression, nhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2287.5" y="808.1738"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="590" x="2302.5" y="817.4475">getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints,  dateToday, regression, nhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2287.5" y="825.4688"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="601.25" x="2302.5" y="834.7424">getHistoryOfPointsSimpleDays( numberOfHistoricalPoints, DateToday,  regressionr,  nhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2287.5" y="842.7637"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="543.75" x="2302.5" y="852.0374">getHistoryOfPointsMultiLinearDays(inumberOfHistoricalPoints, regression,  nhsReportDTO)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2287.5" y="860.0586"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="526.25" x="2302.5" y="869.3323">getHistoryOfPointsMultiLinearWeeks(inumberOfHistoricalPoints, DateToday, regression)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="155" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="405.8984" id="Company" style="stroke:#A80036;stroke-width:1.875;" width="210" x="2413.125" y="1165"/><ellipse cx="2479.6875" cy="1185" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M2482.1875,1180.625 Q2482.4414,1180 2482.7344,1179.6875 Q2483.0273,1179.375 2483.3594,1179.375 Q2483.9453,1179.375 2484.3164,1179.7266 Q2484.6875,1180.0781 2484.6875,1180.8984 L2484.6875,1182.8516 Q2484.6875,1183.6719 2484.3359,1184.0234 Q2483.9844,1184.375 2483.4375,1184.375 Q2482.9492,1184.375 2482.6367,1184.1602 Q2482.3242,1183.9453 2482.1875,1183.3789 Q2482.1289,1182.9883 2481.9141,1182.7734 Q2481.5234,1182.3633 2480.8203,1182.1289 Q2480.1172,1181.875 2479.4141,1181.875 Q2478.5352,1181.875 2477.793,1182.2266 Q2477.0703,1182.5781 2476.5039,1183.3594 Q2475.9375,1184.1406 2475.9375,1185.2148 L2475.9375,1186.3672 Q2475.9375,1187.6563 2476.9922,1188.5156 Q2478.0469,1189.375 2479.9219,1189.375 Q2481.0352,1189.375 2481.8164,1189.1211 Q2482.2656,1188.9844 2482.7734,1188.5352 Q2483.1055,1188.2813 2483.2813,1188.2031 Q2483.457,1188.125 2483.6719,1188.125 Q2484.082,1188.125 2484.375,1188.457 Q2484.6875,1188.7695 2484.6875,1189.2188 Q2484.6875,1189.6484 2484.2578,1190.1563 Q2483.6328,1190.8984 2482.6367,1191.3086 Q2481.3281,1191.875 2479.7266,1191.875 Q2477.8516,1191.875 2476.3477,1191.1328 Q2475.1367,1190.5469 2474.2773,1189.2773 Q2473.4375,1188.0078 2473.4375,1186.5039 L2473.4375,1185.1367 Q2473.4375,1183.5742 2474.1797,1182.207 Q2474.9414,1180.8398 2476.25,1180.1172 Q2477.5781,1179.375 2479.0625,1179.375 Q2479.9609,1179.375 2480.7422,1179.6875 Q2481.5234,1180 2482.1875,1180.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="2505.3125" y="1191.1377">Company</text><line style="stroke:#A80036;stroke-width:1.875;" x1="2414.375" x2="2621.875" y1="1205" y2="1205"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1215"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="72.5" x="2438.125" y="1224.2737">designation;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1232.2949"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="75" x="2438.125" y="1241.5686">authFacade;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1249.5898"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="152.5" x="2438.125" y="1258.8635">parameterCategoryStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1266.8848"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="93.75" x="2438.125" y="1276.1584">employeeStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1284.1797"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="67.5" x="2438.125" y="1293.4534">clientStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1301.4746"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="97.5" x="2438.125" y="1310.7483">parameterStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1318.7695"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="97.5" x="2438.125" y="1328.0432">laboratoryStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1336.0645"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="88.75" x="2438.125" y="1345.3381">testTypeStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1353.3594"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="58.75" x="2438.125" y="1362.6331">testStore;</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="2423.125" y="1370.6543"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="98.75" x="2438.125" y="1379.928">nhsReportStore;</text><line style="stroke:#A80036;stroke-width:1.875;" x1="2414.375" x2="2621.875" y1="1387.9492" y2="1387.9492"/><ellipse cx="2426.875" cy="1401.6992" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="125" x="2438.125" y="1407.2229">getNhsReportStore()</text><ellipse cx="2426.875" cy="1418.9941" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="177.5" x="2438.125" y="1424.5178">getParameterCategoryStore()</text><ellipse cx="2426.875" cy="1436.2891" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="122.5" x="2438.125" y="1441.8127">getParameterStore()</text><ellipse cx="2426.875" cy="1453.584" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="98.75" x="2438.125" y="1459.1077">getDesignation()</text><ellipse cx="2426.875" cy="1470.8789" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="93.75" x="2438.125" y="1476.4026">getClientStore()</text><ellipse cx="2426.875" cy="1488.1738" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="102.5" x="2438.125" y="1493.6975">getAuthFacade()</text><ellipse cx="2426.875" cy="1505.4688" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="118.75" x="2438.125" y="1510.9924">getEmployeeStore()</text><ellipse cx="2426.875" cy="1522.7637" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="127.5" x="2438.125" y="1528.2874">getLaboratoryStore()</text><ellipse cx="2426.875" cy="1540.0586" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="117.5" x="2438.125" y="1545.5823">getTestTypeStore()</text><ellipse cx="2426.875" cy="1557.3535" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="87.5" x="2438.125" y="1562.8772">getTestStore()</text><!--MD5=[4591213d9d823569fad4f505afdfd028]
+class NHSReportValuesMapper--><rect codeLine="179" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="94.5898" id="NHSReportValuesMapper" style="stroke:#A80036;stroke-width:1.875;" width="462.5" x="766.875" y="1320.625"/><ellipse cx="904.0625" cy="1340.625" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M906.5625,1336.25 Q906.8164,1335.625 907.1094,1335.3125 Q907.4023,1335 907.7344,1335 Q908.3203,1335 908.6914,1335.3516 Q909.0625,1335.7031 909.0625,1336.5234 L909.0625,1338.4766 Q909.0625,1339.2969 908.7109,1339.6484 Q908.3594,1340 907.8125,1340 Q907.3242,1340 907.0117,1339.7852 Q906.6992,1339.5703 906.5625,1339.0039 Q906.5039,1338.6133 906.2891,1338.3984 Q905.8984,1337.9883 905.1953,1337.7539 Q904.4922,1337.5 903.7891,1337.5 Q902.9102,1337.5 902.168,1337.8516 Q901.4453,1338.2031 900.8789,1338.9844 Q900.3125,1339.7656 900.3125,1340.8398 L900.3125,1341.9922 Q900.3125,1343.2813 901.3672,1344.1406 Q902.4219,1345 904.2969,1345 Q905.4102,1345 906.1914,1344.7461 Q906.6406,1344.6094 907.1484,1344.1602 Q907.4805,1343.9063 907.6563,1343.8281 Q907.832,1343.75 908.0469,1343.75 Q908.457,1343.75 908.75,1344.082 Q909.0625,1344.3945 909.0625,1344.8438 Q909.0625,1345.2734 908.6328,1345.7813 Q908.0078,1346.5234 907.0117,1346.9336 Q905.7031,1347.5 904.1016,1347.5 Q902.2266,1347.5 900.7227,1346.7578 Q899.5117,1346.1719 898.6523,1344.9023 Q897.8125,1343.6328 897.8125,1342.1289 L897.8125,1340.7617 Q897.8125,1339.1992 898.5547,1337.832 Q899.3164,1336.4648 900.625,1335.7422 Q901.9531,1335 903.4375,1335 Q904.3359,1335 905.1172,1335.3125 Q905.8984,1335.625 906.5625,1336.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="177.5" x="929.6875" y="1346.7627">NHSReportValuesMapper</text><line style="stroke:#A80036;stroke-width:1.875;" x1="768.125" x2="1228.125" y1="1360.625" y2="1360.625"/><line style="stroke:#A80036;stroke-width:1.875;" x1="768.125" x2="1228.125" y1="1370.625" y2="1370.625"/><ellipse cx="780.625" cy="1384.375" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="285" x="791.875" y="1389.8987">toDTO(NhsReportDTO, Regression, tableString)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="776.875" y="1397.9199"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="430" x="791.875" y="1407.1936">hypothesisTestForRegressionCoefficients(Regression, NhsReportDTO)</text><!--MD5=[465691e82b32f20f0ec5020465cd477b]
+class NHSReportValuesDTO--><rect codeLine="203" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="648.0273" id="NHSReportValuesDTO" style="stroke:#A80036;stroke-width:1.875;" width="316.25" x="840" y="1668.75"/><ellipse cx="914.0625" cy="1688.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M916.5625,1684.375 Q916.8164,1683.75 917.1094,1683.4375 Q917.4023,1683.125 917.7344,1683.125 Q918.3203,1683.125 918.6914,1683.4766 Q919.0625,1683.8281 919.0625,1684.6484 L919.0625,1686.6016 Q919.0625,1687.4219 918.7109,1687.7734 Q918.3594,1688.125 917.8125,1688.125 Q917.3242,1688.125 917.0117,1687.9102 Q916.6992,1687.6953 916.5625,1687.1289 Q916.5039,1686.7383 916.2891,1686.5234 Q915.8984,1686.1133 915.1953,1685.8789 Q914.4922,1685.625 913.7891,1685.625 Q912.9102,1685.625 912.168,1685.9766 Q911.4453,1686.3281 910.8789,1687.1094 Q910.3125,1687.8906 910.3125,1688.9648 L910.3125,1690.1172 Q910.3125,1691.4063 911.3672,1692.2656 Q912.4219,1693.125 914.2969,1693.125 Q915.4102,1693.125 916.1914,1692.8711 Q916.6406,1692.7344 917.1484,1692.2852 Q917.4805,1692.0313 917.6563,1691.9531 Q917.832,1691.875 918.0469,1691.875 Q918.457,1691.875 918.75,1692.207 Q919.0625,1692.5195 919.0625,1692.9688 Q919.0625,1693.3984 918.6328,1693.9063 Q918.0078,1694.6484 917.0117,1695.0586 Q915.7031,1695.625 914.1016,1695.625 Q912.2266,1695.625 910.7227,1694.8828 Q909.5117,1694.2969 908.6523,1693.0273 Q907.8125,1691.7578 907.8125,1690.2539 L907.8125,1688.8867 Q907.8125,1687.3242 908.5547,1685.957 Q909.3164,1684.5898 910.625,1683.8672 Q911.9531,1683.125 913.4375,1683.125 Q914.3359,1683.125 915.1172,1683.4375 Q915.8984,1683.75 916.5625,1684.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="157.5" x="939.6875" y="1694.8877">NHSReportValuesDTO</text><line style="stroke:#A80036;stroke-width:1.875;" x1="841.25" x2="1155" y1="1708.75" y2="1708.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="841.25" x2="1155" y1="1718.75" y2="1718.75"/><ellipse cx="853.75" cy="1732.5" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="61.25" x="865" y="1738.0237">getTable()</text><ellipse cx="853.75" cy="1749.7949" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="185" x="865" y="1755.3186">getGetEquationOfRegression()</text><ellipse cx="853.75" cy="1767.0898" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="166.25" x="865" y="1772.6135">getSignificanceLevelForIC()</text><ellipse cx="853.75" cy="1784.3848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="181.25" x="865" y="1789.9084">getSignificanceLevelForHipT()</text><ellipse cx="853.75" cy="1801.6797" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="45" x="865" y="1807.2034">getDF()</text><ellipse cx="853.75" cy="1818.9746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="75" x="865" y="1824.4983">getDFError()</text><ellipse cx="853.75" cy="1836.2695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="63.75" x="865" y="1841.7932">getDFTot()</text><ellipse cx="853.75" cy="1853.5645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="60" x="865" y="1859.0881">getFStat()</text><ellipse cx="853.75" cy="1870.8594" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="65" x="865" y="1876.3831">getR2Adj()</text><ellipse cx="853.75" cy="1888.1543" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="56.25" x="865" y="1893.678">getSQR()</text><ellipse cx="853.75" cy="1905.4492" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="56.25" x="865" y="1910.9729">getMQE()</text><ellipse cx="853.75" cy="1922.7441" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="57.5" x="865" y="1928.2678">getMQR()</text><ellipse cx="853.75" cy="1940.0391" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="55" x="865" y="1945.5627">getSQE()</text><ellipse cx="853.75" cy="1957.334" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="55" x="865" y="1962.8577">getSQT()</text><ellipse cx="853.75" cy="1974.6289" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="97.5" x="865" y="1980.1526">getRegression()</text><ellipse cx="853.75" cy="1991.9238" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="283.75" x="865" y="1997.4475">getHypotesisTestsForRegressionCoefficients()</text><ellipse cx="853.75" cy="2009.2188" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="45" x="865" y="2014.7424">getR2()</text><ellipse cx="853.75" cy="2026.5137" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="61.25" x="865" y="2032.0374">getTable()</text><ellipse cx="853.75" cy="2043.8086" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="185" x="865" y="2049.3323">getGetEquationOfRegression()</text><ellipse cx="853.75" cy="2061.1035" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="166.25" x="865" y="2066.6272">getSignificanceLevelForIC()</text><ellipse cx="853.75" cy="2078.3984" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="181.25" x="865" y="2083.9221">getSignificanceLevelForHipT()</text><ellipse cx="853.75" cy="2095.6934" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="45" x="865" y="2101.217">getDF()</text><ellipse cx="853.75" cy="2112.9883" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="75" x="865" y="2118.512">getDFError()</text><ellipse cx="853.75" cy="2130.2832" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="63.75" x="865" y="2135.8069">getDFTot()</text><ellipse cx="853.75" cy="2147.5781" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="60" x="865" y="2153.1018">getFStat()</text><ellipse cx="853.75" cy="2164.873" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="65" x="865" y="2170.3967">getR2Adj()</text><ellipse cx="853.75" cy="2182.168" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="56.25" x="865" y="2187.6917">getSQR()</text><ellipse cx="853.75" cy="2199.4629" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="56.25" x="865" y="2204.9866">getMQE()</text><ellipse cx="853.75" cy="2216.7578" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="57.5" x="865" y="2222.2815">getMQR()</text><ellipse cx="853.75" cy="2234.0527" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="55" x="865" y="2239.5764">getSQE()</text><ellipse cx="853.75" cy="2251.3477" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="55" x="865" y="2256.8713">getSQT()</text><ellipse cx="853.75" cy="2268.6426" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="97.5" x="865" y="2274.1663">getRegression()</text><ellipse cx="853.75" cy="2285.9375" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="283.75" x="865" y="2291.4612">getHypotesisTestsForRegressionCoefficients()</text><ellipse cx="853.75" cy="2303.2324" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="45" x="865" y="2308.7561">getR2()</text><!--MD5=[336d9ef4cfc14703d4273106c2a9458e]
+class NHSReportDTO--><rect codeLine="223" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="198.3594" id="NHSReportDTO" style="stroke:#A80036;stroke-width:1.875;" width="262.5" x="2029.375" y="1268.75"/><ellipse cx="2100.3125" cy="1288.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M2102.8125,1284.375 Q2103.0664,1283.75 2103.3594,1283.4375 Q2103.6523,1283.125 2103.9844,1283.125 Q2104.5703,1283.125 2104.9414,1283.4766 Q2105.3125,1283.8281 2105.3125,1284.6484 L2105.3125,1286.6016 Q2105.3125,1287.4219 2104.9609,1287.7734 Q2104.6094,1288.125 2104.0625,1288.125 Q2103.5742,1288.125 2103.2617,1287.9102 Q2102.9492,1287.6953 2102.8125,1287.1289 Q2102.7539,1286.7383 2102.5391,1286.5234 Q2102.1484,1286.1133 2101.4453,1285.8789 Q2100.7422,1285.625 2100.0391,1285.625 Q2099.1602,1285.625 2098.418,1285.9766 Q2097.6953,1286.3281 2097.1289,1287.1094 Q2096.5625,1287.8906 2096.5625,1288.9648 L2096.5625,1290.1172 Q2096.5625,1291.4063 2097.6172,1292.2656 Q2098.6719,1293.125 2100.5469,1293.125 Q2101.6602,1293.125 2102.4414,1292.8711 Q2102.8906,1292.7344 2103.3984,1292.2852 Q2103.7305,1292.0313 2103.9063,1291.9531 Q2104.082,1291.875 2104.2969,1291.875 Q2104.707,1291.875 2105,1292.207 Q2105.3125,1292.5195 2105.3125,1292.9688 Q2105.3125,1293.3984 2104.8828,1293.9063 Q2104.2578,1294.6484 2103.2617,1295.0586 Q2101.9531,1295.625 2100.3516,1295.625 Q2098.4766,1295.625 2096.9727,1294.8828 Q2095.7617,1294.2969 2094.9023,1293.0273 Q2094.0625,1291.7578 2094.0625,1290.2539 L2094.0625,1288.8867 Q2094.0625,1287.3242 2094.8047,1285.957 Q2095.5664,1284.5898 2096.875,1283.8672 Q2098.2031,1283.125 2099.6875,1283.125 Q2100.5859,1283.125 2101.3672,1283.4375 Q2102.1484,1283.75 2102.8125,1284.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="110" x="2125.9375" y="1294.8877">NHSReportDTO</text><line style="stroke:#A80036;stroke-width:1.875;" x1="2030.625" x2="2290.625" y1="1308.75" y2="1308.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="2030.625" x2="2290.625" y1="1318.75" y2="1318.75"/><ellipse cx="2043.125" cy="1332.5" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="181.25" x="2054.375" y="1338.0237">getSignificanceLevelForHipT()</text><ellipse cx="2043.125" cy="1349.7949" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="166.25" x="2054.375" y="1355.3186">getSignificanceLevelForIC()</text><ellipse cx="2043.125" cy="1367.0898" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="2054.375" y="1372.6135">getToday()</text><ellipse cx="2043.125" cy="1384.3848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="205" x="2054.375" y="1389.9084">getIntervalOfDaysToFitTheModel()</text><ellipse cx="2043.125" cy="1401.6797" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="181.25" x="2054.375" y="1407.2034">getNumberOfHistoricalPoints()</text><ellipse cx="2043.125" cy="1418.9746" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="116.25" x="2054.375" y="1424.4983">getDaysOrWeeks()</text><ellipse cx="2043.125" cy="1436.2695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="102.5" x="2054.375" y="1441.7932">getModelToUse()</text><ellipse cx="2043.125" cy="1453.5645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="230" x="2054.375" y="1459.0881">String[] return = getIndependentVars()</text><!--MD5=[faa4c8b7755c5b6d1784d289f514c559]
+class NHSReportMapper--><rect codeLine="236" fill="#FEFECE" filter="url(#f114n1aymw6mns)" height="77.2949" id="NHSReportMapper" style="stroke:#A80036;stroke-width:1.875;" width="1337.5" x="1533.125" y="183.75"/><ellipse cx="2131.5625" cy="203.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M2134.0625,199.375 Q2134.3164,198.75 2134.6094,198.4375 Q2134.9023,198.125 2135.2344,198.125 Q2135.8203,198.125 2136.1914,198.4766 Q2136.5625,198.8281 2136.5625,199.6484 L2136.5625,201.6016 Q2136.5625,202.4219 2136.2109,202.7734 Q2135.8594,203.125 2135.3125,203.125 Q2134.8242,203.125 2134.5117,202.9102 Q2134.1992,202.6953 2134.0625,202.1289 Q2134.0039,201.7383 2133.7891,201.5234 Q2133.3984,201.1133 2132.6953,200.8789 Q2131.9922,200.625 2131.2891,200.625 Q2130.4102,200.625 2129.668,200.9766 Q2128.9453,201.3281 2128.3789,202.1094 Q2127.8125,202.8906 2127.8125,203.9648 L2127.8125,205.1172 Q2127.8125,206.4063 2128.8672,207.2656 Q2129.9219,208.125 2131.7969,208.125 Q2132.9102,208.125 2133.6914,207.8711 Q2134.1406,207.7344 2134.6484,207.2852 Q2134.9805,207.0313 2135.1563,206.9531 Q2135.332,206.875 2135.5469,206.875 Q2135.957,206.875 2136.25,207.207 Q2136.5625,207.5195 2136.5625,207.9688 Q2136.5625,208.3984 2136.1328,208.9063 Q2135.5078,209.6484 2134.5117,210.0586 Q2133.2031,210.625 2131.6016,210.625 Q2129.7266,210.625 2128.2227,209.8828 Q2127.0117,209.2969 2126.1523,208.0273 Q2125.3125,206.7578 2125.3125,205.2539 L2125.3125,203.8867 Q2125.3125,202.3242 2126.0547,200.957 Q2126.8164,199.5898 2128.125,198.8672 Q2129.4531,198.125 2130.9375,198.125 Q2131.8359,198.125 2132.6172,198.4375 Q2133.3984,198.75 2134.0625,199.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="130" x="2157.1875" y="209.8877">NHSReportMapper</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1534.375" x2="2869.375" y1="223.75" y2="223.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1534.375" x2="2869.375" y1="233.75" y2="233.75"/><ellipse cx="1546.875" cy="247.5" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="1305" x="1558.125" y="253.0237">toDto(Date today, Date[] intervalOfDaysToFitTheModel, String daysOrWeeks, int numberOfHistoricalPoints, String modelToUse, String[] independentVars, double significanceLevelForHipT, double significanceLevelForIC)</text><!--MD5=[d0cad0bb26dc35e972a7058c2d471564]
+link SendReportNhsController to Regression--><path codeLine="239" d="M1490.0375,730.925 C1393.3875,808.4375 1188.775,965.5125 996.875,1067.5 C890.65,1123.95 848.6875,1105.075 744.375,1165 C738.9875,1168.0875 733.6,1171.3 728.2125,1174.5875 " fill="none" id="SendReportNhsController-to-Regression" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="722.8375,1177.925,735.0367,1176.2689,728.1555,1174.6414,729.783,1167.7602,722.8375,1177.925" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#000000" points="907.7241,1119.615,919.3432,1117.0997,915.6456,1110.7506,907.7241,1119.615" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="924.375" y="1123.1189">creates</text><!--MD5=[a0252e98a7b101b0fbb51130af959374]
+link MultipleLinearRegression to Regression--><path codeLine="240" d="M640.95,963.9375 C618.025,1025.875 594.075,1090.6125 572.25,1149.625 " fill="none" id="MultipleLinearRegression-to-Regression" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="580.3875,1152.825,563.5125,1173.2375,563.975,1146.7625,580.3875,1152.825" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[9cc754621acfac278e6e970390cef43c]
+link LinearRegression to Regression--><path codeLine="241" d="M381.125,1067.525 C391.55,1095.7 401.825,1123.4875 411.675,1150.1 " fill="none" id="LinearRegression-to-Regression" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="419.9375,1147.2,420.4,1173.6875,403.525,1153.275,419.9375,1147.2" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[73819dcd97e5d2069f07dd59d6e472e1]
+link SendReportUI to NHSReportMapper--><path codeLine="242" d="M1617.475,59.225 C1722.375,88.3125 1923.675,144.125 2060.375,182.0125 " fill="none" id="SendReportUI-to-NHSReportMapper" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="2066.425,183.7,2056.926,175.8685,2060.4035,182.0254,2054.2467,185.5029,2066.425,183.7" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[17097455e3d437eca8128eb2d14abbca]
+link SendReportNhsController to NHSReportDTO--><path codeLine="243" d="M1594.9625,730.725 C1681.0375,814.5125 1865.7625,998 2008.125,1165 C2034.625,1196.1 2062.0125,1231.25 2086.125,1263.4 " fill="none" id="SendReportNhsController-to-NHSReportDTO" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="2089.975,1268.5375,2087.225,1256.5375,2086.225,1263.5375,2079.225,1262.5375,2089.975,1268.5375" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[6da8900feb30180a00dc4dbbfa6aa11e]
+link NHSReportMapper to NHSReportDTO--><path codeLine="244" d="M2190.6625,261.5875 C2187.65,273.3875 2184.7625,286.5125 2183.125,298.75 C2136.2375,649.175 2146.7,1069.9375 2155.1,1262.0125 " fill="none" id="NHSReportMapper-to-NHSReportDTO" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="2155.4,1268.75,2159.9137,1257.2962,2155.1324,1262.5057,2149.9229,1257.7244,2155.4,1268.75" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#000000" points="2189.153,689.5908,2193.226,678.4221,2185.8833,678.1611,2189.153,689.5908" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="2200.625" y="689.9939">creates</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="2178.9411" y="287.8751">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="2148.3541" y="1255.2337">*</text><!--MD5=[09df5caf0886bf77a15f719d898fd80d]
+link NHSReportValuesMapper to NHSReportValuesDTO--><path codeLine="245" d="M998.125,1416.1125 C998.125,1470.425 998.125,1565.0625 998.125,1662.075 " fill="none" id="NHSReportValuesMapper-to-NHSReportValuesDTO" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="998.125,1668.4625,1003.125,1657.2125,998.125,1662.2125,993.125,1657.2125,998.125,1668.4625" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#000000" points="1004.375,1626.4697,1008.0487,1615.1634,1000.7013,1615.1634,1004.375,1626.4697" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="1015.625" y="1626.8689">creates</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="988.7051" y="1441.9258">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="18.75" x="979.0967" y="1655.4134">1..</text><!--MD5=[9270683e4d67c8549b671ac3ec48ac6c]
+link SendReportNhsController to NHSReportValuesMapper--><path codeLine="246" d="M1509.5875,730.75 C1410.85,853.5625 1143.0875,1186.575 1039.6625,1315.2125 " fill="none" id="SendReportNhsController-to-NHSReportValuesMapper" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1035.4625,1320.4375,1046.4022,1314.7908,1039.3734,1315.5623,1038.6019,1308.5334,1035.4625,1320.4375" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#000000" points="1210.4587,1121.3406,1220.4064,1114.8311,1214.6803,1110.2272,1210.4587,1121.3406" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="35" x="1225.625" y="1123.1189">uses</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1493.9371" y="757.2334">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1032.5839" y="1307.1065">1</text><!--MD5=[adb81e9626eab0b9608444eaf57ecc00]
+reverse link TestStore to Company--><path codeLine="247" d="M2572.075,884 C2562.2,972.325 2550.6125,1076.0375 2540.7125,1164.65 " fill="none" id="TestStore-backto-Company" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="2572.775,877.675,2566.5532,888.2982,2572.0789,883.8861,2576.491,889.4119,2572.775,877.675" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#000000" points="2553.8191,1110.2584,2548.9125,1121.0868,2556.2144,1121.9028,2553.8191,1110.2584" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="46.25" x="2564.375" y="1123.1189">knows</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="2562.7668" y="904.466">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="2532.8447" y="1151.1979">1</text><!--MD5=[d5ae774112a1c426dde02b899e47752c]
+link SendReportUI to SendReportNhsController--><path codeLine="248" d="M1543.8625,69.1 C1539.85,98.0875 1534.125,143.875 1531.875,183.75 C1522.7375,345.925 1535.075,538.1375 1542.3,629.1125 " fill="none" id="SendReportUI-to-SendReportNhsController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1542.8125,635.4875,1546.8968,623.8737,1542.3127,629.2575,1536.9288,624.6734,1542.8125,635.4875" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1533.0071" y="95.8578">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1532.5596" y="622.1654">1</text><!--MD5=[fcfe72649f6f3fe19a039ba3c5cc7f60]
+link SendReportNhsController to Company--><path codeLine="249" d="M1607.7375,730.85 C1708.375,806.575 1917.2,958.9875 2106.875,1067.5 C2195.325,1118.1 2230.8625,1106.625 2314.375,1165 C2347.1125,1187.8875 2379.3375,1216.2375 2408.15,1244.4 " fill="none" id="SendReportNhsController-to-Company" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="2412.75,1248.925,2408.2147,1237.4797,2408.2862,1244.5504,2401.2155,1244.6219,2412.75,1248.925" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1607.9902" y="756.9865">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="2394.2254" y="1234.3222">1</text><!--MD5=[7165b8de830a80244c4dbf50541953b5]
+link SendReportNhsController to NHSReport--><path codeLine="250" d="M1552.475,730.75 C1564.875,833.2875 1594.9875,1082.375 1613.6375,1236.675 " fill="none" id="SendReportNhsController-to-NHSReport" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1614.4,1243.0375,1618.012,1231.2682,1613.649,1236.8328,1608.0844,1232.4698,1614.4,1243.0375" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#000000" points="1607.6251,1122.6745,1609.9152,1111.009,1602.621,1111.8908,1607.6251,1122.6745" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="1618.125" y="1123.1189">creates</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1543.9279" y="757.2334">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="18.75" x="1593.7857" y="1229.5712">1..</text><!--MD5=[8a1940c36159a8a91e9f45af1a8040d3]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+
+
+class SendReportUI {
+}
+
+Interface Regression{
++ getEquationOfRegression();
++R2();
++calculateR2Adjusted(r2);
++ double[] value =  confidenceIntervalsForRegressionCoefficients(alfa, j);
++calculateTobs(j);
++rejectullHypotesis(levelOfSig, j );
++predict( x);
++calculateFstat();
++calculateDFTot();
++calculateDFError();
++calculateDF();
++calculateSqr();
++calculateSqt();
++calculateSqe();
++calculateMQR();
++calculateMQE();
++significancy( alphaFD);
++double[] value = confidenceIntervalForY( predict, levelOfSig,  x0);
+getCritFD();
+}
+
+class LinearRegression{
+-intercept
+-slope;
+    -r2
+    -svar0
+    -svar1
+    -MeanX
+    -rss
+    -ssr
+    -sst
+    -sxx
+    -N
+    -critFD
+    +intercept()
+    +slope()
+    +R2()
+    +calculateR()
+    +calculateR2Adjusted( r2)
+    +interceptStdErr()
+    +slopeStdErr()
+    +predict(x)
+    +double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)
+    +rejectullHypotesis( levelOfSig, j)
+    +calculateTobs(j)
+   +calculateStdDev()
+    +getSsr()
+    +getSse()
+    +getSst()
+    +calculateDF()
+   +calculateSqr()
+    +calculateSqt()
+    +calculateSqe()
+    +calculateDFError()
+    +calculateDFTot()
+    +calculateMQR()
+    +calculateMQE()
+    +getEquationOfRegression()
+    +calculateFstat()
+    +significancy( alphaFD)
+    +double[] value = confidenceIntervalForY( predict, levelOfSig, x)
+    +toString(){
+    +getCritFD()
+
+
+}
+
+class MultipleLinearRegression{
+    -x
+    -double[][] Xready
+    -double[][] Y
+    -critFD
+    -double[][] coeficientsOfEquation
+    +R2()
+    +calculateR()
+    +getEquationOfRegression()
+    +calculateR2Adjusted( r2)
+    +calculateSqr()
+    +calculateSqt()
+    +calculateSqe()
+    -calculateMeanY( Y)
+    +calculateDFTot()
+    +calculateDF()
+    +calculateDFError()
+    +calculateMean ()
+    +CalculateSSTot()
+    +calculateMQR()
+    +calculateMQE()
+    +calculateFstat()
+    +predict( x)
+    +double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)
+    +calculateTobs( j)
+    +rejectullHypotesis( levelOfSig,  j )
+    -double[][] value = calculateCmatrix()
+   +significancy( alphaFD)
+    +double[] value =  confidenceIntervalForY( predict, alphaFD,x)
+    +getCritFD()
+}
+
+
+
+
+class SendReportNhsController{
+ + generateReport(NHSReportDTO)
+ -checkIfTestsAdClientsAreISystem()
+}
+class NHSReport{
+    -testsMadeInInterval
+    +generateReport(NhsReportDTO)
+    -createReport(lowerLimit, upperLimit, NhsReportDTO)
+    -generateReportString(Regression, levelOfSignificance, NhsReportDTO)
+    -getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints, DateToday, reportString, Regression, NHSReportDTO)
+    -hypothesisTestForRegressionCoefficients(Regression, NHSReportDTO)
+    -getHistoryOfPointsSimpleDays(numberPoints, dateToday, reportString, Regression, NHSReportDTO)
+    -getHistoryOfPointsMultiLinearDays(numberHistoricalPoints, dateToday, reportString, Regression, NHSReportDto)
+    -getHistoryOfPointsMultiLinearWeeks(numberHistoricalPoints, dateToday, reportString,Regression, NHSReportDto)
+}
+
+class TestStore{
+    -testList
+    -valueMaxForCovidTest
+    +double[] return = getXListNumberTestsByWeek(lowerLimitDate, upperLimitDate, testList)
+    +double[] return = getXListAgesByWeek(lowerLimitDate, upperLimitDate)
+    +getNumberPositiveCasesOnDate(date, testsMadeInInterval)
+    +double[] return = getYListWeek(lowerLimitDate, upperLimitDate)
+    +double[] return = getYList(lowerLimitDate, upperLimitDate, testsMadeInInterval)
+    +double[] return = getXlistNumberTestPerDay(lowerLimitDate, upperLimitDate, testsMadeInInterval)
+    +double[] return = getXListAges(lowerLimitDate, upperLimitDate)
+    +getMeanAgesPerDay(lowerLimitDate, upperLimitDate)
+    +getMeanAgesPerWeek(lowerLimitDate, upperLimitDate)
+    +getNumberTestsMadeOnDate(date, testList)
+    +getMeanAgesOfTestsMade(date)
+    +getCovidTestsForRegression(lowerLimitDate, upperLimitDate)
+    +getTableWithHistoricalDataToSendNHS( regression, nhsReportDTO)
+    -getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints,  dateToday, regression, nhsReportDTO)
+    -getHistoryOfPointsSimpleDays( numberOfHistoricalPoints, DateToday,  regressionr,  nhsReportDTO)
+    -getHistoryOfPointsMultiLinearDays(inumberOfHistoricalPoints, regression,  nhsReportDTO)
+    -getHistoryOfPointsMultiLinearWeeks(inumberOfHistoricalPoints, DateToday, regression)
+}
+
+class NHSReport{
+    -reportString
+    +generateReportString(nhsReportValuesDTO)
+}
+class Company{
+    -designation;
+    -authFacade;
+    -parameterCategoryStore;
+    -employeeStore;
+    -clientStore;
+    -parameterStore;
+    -laboratoryStore;
+    -testTypeStore;
+    -testStore;
+    -nhsReportStore;
+
+    +getNhsReportStore()
+    +getParameterCategoryStore()
+    +getParameterStore()
+    +getDesignation()
+    +getClientStore()
+    +getAuthFacade()
+    +getEmployeeStore()
+    +getLaboratoryStore()
+    +getTestTypeStore()
+    +getTestStore()
+}
+
+class NHSReportValuesMapper{
+    +toDTO(NhsReportDTO, Regression, tableString)
+    -hypothesisTestForRegressionCoefficients(Regression, NhsReportDTO)
+}
+class NHSReportValuesDTO{
+   +getTable()
+   +getGetEquationOfRegression()
+   +getSignificanceLevelForIC()
+   +getSignificanceLevelForHipT()
+   +getDF()
+   +getDFError()
+   +getDFTot()
+   +getFStat()
+   +getR2Adj()
+   +getSQR()
+   +getMQE()
+   +getMQR()
+   +getSQE()
+   +getSQT()
+   +getRegression()
+   +getHypotesisTestsForRegressionCoefficients()
+   +getR2()
+}
+
+class NHSReportValuesDTO{
+ +getTable()
+   +getGetEquationOfRegression()
+   +getSignificanceLevelForIC()
+    +getSignificanceLevelForHipT()
+    +getDF()
+    +getDFError()
+    +getDFTot()
+   +getFStat()
+    +getR2Adj()
+    +getSQR()
+    +getMQE()
+    +getMQR()
+    +getSQE()
+   +getSQT()
+    +getRegression()
+    +getHypotesisTestsForRegressionCoefficients()
+    +getR2()
+}
+
+class NHSReportDTO {
+
+      +getSignificanceLevelForHipT()
+       +getSignificanceLevelForIC()
+       +getToday()
+        +getIntervalOfDaysToFitTheModel()
+        +getNumberOfHistoricalPoints()
+        +getDaysOrWeeks()
+        +getModelToUse()
+        +String[] return = getIndependentVars()
+
+}
+
+class NHSReportMapper {
+    +toDto(Date today, Date[] intervalOfDaysToFitTheModel, String daysOrWeeks, int numberOfHistoricalPoints, String modelToUse, String[] independentVars, double significanceLevelForHipT, double significanceLevelForIC)
+}
+SendReportNhsController - -> Regression: creates >
+MultipleLinearRegression ..|> Regression
+LinearRegression ..|> Regression
+SendReportUI ..> NHSReportMapper
+SendReportNhsController ..> NHSReportDTO
+NHSReportMapper "1" - -> "*" NHSReportDTO: creates >
+NHSReportValuesMapper "1" - -> "1.." NHSReportValuesDTO: creates >
+SendReportNhsController "1" - -> "1" NHSReportValuesMapper: uses >
+TestStore "1" <- - "1" Company: knows <
+SendReportUI "1" ...> "1" SendReportNhsController
+SendReportNhsController "1" ..> "1" Company
+SendReportNhsController "1" - -> "1.." NHSReport: creates >
+@enduml
+
+@startuml
+
+
+
+
+
+class SendReportUI {
+}
+
+Interface Regression{
++ getEquationOfRegression();
++R2();
++calculateR2Adjusted(r2);
++ double[] value =  confidenceIntervalsForRegressionCoefficients(alfa, j);
++calculateTobs(j);
++rejectullHypotesis(levelOfSig, j );
++predict( x);
++calculateFstat();
++calculateDFTot();
++calculateDFError();
++calculateDF();
++calculateSqr();
++calculateSqt();
++calculateSqe();
++calculateMQR();
++calculateMQE();
++significancy( alphaFD);
++double[] value = confidenceIntervalForY( predict, levelOfSig,  x0);
+getCritFD();
+}
+
+class LinearRegression{
+-intercept
+-slope;
+    -r2
+    -svar0
+    -svar1
+    -MeanX
+    -rss
+    -ssr
+    -sst
+    -sxx
+    -N
+    -critFD
+    +intercept()
+    +slope()
+    +R2()
+    +calculateR()
+    +calculateR2Adjusted( r2)
+    +interceptStdErr()
+    +slopeStdErr()
+    +predict(x)
+    +double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)
+    +rejectullHypotesis( levelOfSig, j)
+    +calculateTobs(j)
+   +calculateStdDev()
+    +getSsr()
+    +getSse()
+    +getSst()
+    +calculateDF()
+   +calculateSqr()
+    +calculateSqt()
+    +calculateSqe()
+    +calculateDFError()
+    +calculateDFTot()
+    +calculateMQR()
+    +calculateMQE()
+    +getEquationOfRegression()
+    +calculateFstat()
+    +significancy( alphaFD)
+    +double[] value = confidenceIntervalForY( predict, levelOfSig, x)
+    +toString(){
+    +getCritFD()
+
+
+}
+
+class MultipleLinearRegression{
+    -x
+    -double[][] Xready
+    -double[][] Y
+    -critFD
+    -double[][] coeficientsOfEquation
+    +R2()
+    +calculateR()
+    +getEquationOfRegression()
+    +calculateR2Adjusted( r2)
+    +calculateSqr()
+    +calculateSqt()
+    +calculateSqe()
+    -calculateMeanY( Y)
+    +calculateDFTot()
+    +calculateDF()
+    +calculateDFError()
+    +calculateMean ()
+    +CalculateSSTot()
+    +calculateMQR()
+    +calculateMQE()
+    +calculateFstat()
+    +predict( x)
+    +double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)
+    +calculateTobs( j)
+    +rejectullHypotesis( levelOfSig,  j )
+    -double[][] value = calculateCmatrix()
+   +significancy( alphaFD)
+    +double[] value =  confidenceIntervalForY( predict, alphaFD,x)
+    +getCritFD()
+}
+
+
+
+
+class SendReportNhsController{
+ + generateReport(NHSReportDTO)
+ -checkIfTestsAdClientsAreISystem()
+}
+class NHSReport{
+    -testsMadeInInterval
+    +generateReport(NhsReportDTO)
+    -createReport(lowerLimit, upperLimit, NhsReportDTO)
+    -generateReportString(Regression, levelOfSignificance, NhsReportDTO)
+    -getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints, DateToday, reportString, Regression, NHSReportDTO)
+    -hypothesisTestForRegressionCoefficients(Regression, NHSReportDTO)
+    -getHistoryOfPointsSimpleDays(numberPoints, dateToday, reportString, Regression, NHSReportDTO)
+    -getHistoryOfPointsMultiLinearDays(numberHistoricalPoints, dateToday, reportString, Regression, NHSReportDto)
+    -getHistoryOfPointsMultiLinearWeeks(numberHistoricalPoints, dateToday, reportString,Regression, NHSReportDto)
+}
+
+class TestStore{
+    -testList
+    -valueMaxForCovidTest
+    +double[] return = getXListNumberTestsByWeek(lowerLimitDate, upperLimitDate, testList)
+    +double[] return = getXListAgesByWeek(lowerLimitDate, upperLimitDate)
+    +getNumberPositiveCasesOnDate(date, testsMadeInInterval)
+    +double[] return = getYListWeek(lowerLimitDate, upperLimitDate)
+    +double[] return = getYList(lowerLimitDate, upperLimitDate, testsMadeInInterval)
+    +double[] return = getXlistNumberTestPerDay(lowerLimitDate, upperLimitDate, testsMadeInInterval)
+    +double[] return = getXListAges(lowerLimitDate, upperLimitDate)
+    +getMeanAgesPerDay(lowerLimitDate, upperLimitDate)
+    +getMeanAgesPerWeek(lowerLimitDate, upperLimitDate)
+    +getNumberTestsMadeOnDate(date, testList)
+    +getMeanAgesOfTestsMade(date)
+    +getCovidTestsForRegression(lowerLimitDate, upperLimitDate)
+    +getTableWithHistoricalDataToSendNHS( regression, nhsReportDTO)
+    -getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints,  dateToday, regression, nhsReportDTO)
+    -getHistoryOfPointsSimpleDays( numberOfHistoricalPoints, DateToday,  regressionr,  nhsReportDTO)
+    -getHistoryOfPointsMultiLinearDays(inumberOfHistoricalPoints, regression,  nhsReportDTO)
+    -getHistoryOfPointsMultiLinearWeeks(inumberOfHistoricalPoints, DateToday, regression)
+}
+
+class NHSReport{
+    -reportString
+    +generateReportString(nhsReportValuesDTO)
+}
+class Company{
+    -designation;
+    -authFacade;
+    -parameterCategoryStore;
+    -employeeStore;
+    -clientStore;
+    -parameterStore;
+    -laboratoryStore;
+    -testTypeStore;
+    -testStore;
+    -nhsReportStore;
+
+    +getNhsReportStore()
+    +getParameterCategoryStore()
+    +getParameterStore()
+    +getDesignation()
+    +getClientStore()
+    +getAuthFacade()
+    +getEmployeeStore()
+    +getLaboratoryStore()
+    +getTestTypeStore()
+    +getTestStore()
+}
+
+class NHSReportValuesMapper{
+    +toDTO(NhsReportDTO, Regression, tableString)
+    -hypothesisTestForRegressionCoefficients(Regression, NhsReportDTO)
+}
+class NHSReportValuesDTO{
+   +getTable()
+   +getGetEquationOfRegression()
+   +getSignificanceLevelForIC()
+   +getSignificanceLevelForHipT()
+   +getDF()
+   +getDFError()
+   +getDFTot()
+   +getFStat()
+   +getR2Adj()
+   +getSQR()
+   +getMQE()
+   +getMQR()
+   +getSQE()
+   +getSQT()
+   +getRegression()
+   +getHypotesisTestsForRegressionCoefficients()
+   +getR2()
+}
+
+class NHSReportValuesDTO{
+ +getTable()
+   +getGetEquationOfRegression()
+   +getSignificanceLevelForIC()
+    +getSignificanceLevelForHipT()
+    +getDF()
+    +getDFError()
+    +getDFTot()
+   +getFStat()
+    +getR2Adj()
+    +getSQR()
+    +getMQE()
+    +getMQR()
+    +getSQE()
+   +getSQT()
+    +getRegression()
+    +getHypotesisTestsForRegressionCoefficients()
+    +getR2()
+}
+
+class NHSReportDTO {
+
+      +getSignificanceLevelForHipT()
+       +getSignificanceLevelForIC()
+       +getToday()
+        +getIntervalOfDaysToFitTheModel()
+        +getNumberOfHistoricalPoints()
+        +getDaysOrWeeks()
+        +getModelToUse()
+        +String[] return = getIndependentVars()
+
+}
+
+class NHSReportMapper {
+    +toDto(Date today, Date[] intervalOfDaysToFitTheModel, String daysOrWeeks, int numberOfHistoricalPoints, String modelToUse, String[] independentVars, double significanceLevelForHipT, double significanceLevelForIC)
+}
+SendReportNhsController - -> Regression: creates >
+MultipleLinearRegression ..|> Regression
+LinearRegression ..|> Regression
+SendReportUI ..> NHSReportMapper
+SendReportNhsController ..> NHSReportDTO
+NHSReportMapper "1" - -> "*" NHSReportDTO: creates >
+NHSReportValuesMapper "1" - -> "1.." NHSReportValuesDTO: creates >
+SendReportNhsController "1" - -> "1" NHSReportValuesMapper: uses >
+TestStore "1" <- - "1" Company: knows <
+SendReportUI "1" ...> "1" SendReportNhsController
+SendReportNhsController "1" ..> "1" Company
+SendReportNhsController "1" - -> "1.." NHSReport: creates >
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

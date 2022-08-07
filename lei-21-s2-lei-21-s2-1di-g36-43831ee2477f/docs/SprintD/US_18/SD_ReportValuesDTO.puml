@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant "nhsReportMapper:NhsReportMapper" as nhsReportMapper
+participant "nhsReportValuesDTO;NHSReportValuesDTO" as nhsReportValuesDto
+participant "regression:Regression" as regression
+
+activate nhsReportMapper
+
+nhsReportMapper -> nhsReportMapper: hypothesisTestForRegressionCoefficientsString = hypothesisTestForRegressionCoefficients(regression, nhsReportDTO)
+activate nhsReportMapper
+deactivate nhsReportMapper
+nhsReportMapper -> nhsReportValuesDto: create(nhsReportDTO, regression, hypothesisTestForRegressionCoefficientsString, tableString)
+activate nhsReportValuesDto
+nhsReportValuesDto -> regression: R2 = R2()
+activate regression
+deactivate regression
+nhsReportValuesDto -> regression: R2Adj = calculateR2Adjusted(R2)
+activate regression
+deactivate regression
+nhsReportValuesDto -> regression: DF = calculateDF()
+activate regression
+deactivate regression
+note left: getting more values from the regression model is similar to the messages 3, 4 and 5
+
+nhsReportValuesDto -> nhsReportValuesDto: table = tableString
+activate nhsReportValuesDto
+deactivate nhsReportValuesDto
+nhsReportValuesDto --> nhsReportMapper: nhsReportValuesDTO
+
+deactivate nhsReportValuesDto
+@enduml

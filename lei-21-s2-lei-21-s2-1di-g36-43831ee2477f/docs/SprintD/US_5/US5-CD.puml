@@ -1,0 +1,64 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US5 - Class Diagram\n
+
+' ======= classes =========
+
+class RecordTestSamplesUI
+
+class SamplesStore{
+  +getSamplebyBarcode(barcode)
+}
+
+class Company {
+  -designation
+  +getRecordTestSampleStore()
+  +getRecordSamplesStore()
+  +getRecordRegistTestSampleStore()
+}
+class RecordTestSamplesStore {
+   +addTestSample(parameterCode, result, metric)
+}
+
+
+class RegistTestSampleStore{
+   +getTestbySample(sample)
+}
+
+class RecordTestSamplesController{
+   +getTestbyBarcode(barcode)
+   +addTestSample(parameterCode, result, metric)
+}
+class RecordTestSamplesStore
+RecordTestSamplesUI ...> RecordTestSamplesController
+RecordTestSamplesController ...> Company
+RecordTestSamplesController ..> RecordTestSamplesStore
+RecordTestSamplesController ..> SamplesStore
+RecordTestSamplesController ..> RegistTestSampleStore
+
+Company "1" ----> "1" SamplesStore : "uses"
+Company "1" ----> "1" RegistTestSampleStore : "uses"
+
+@enduml

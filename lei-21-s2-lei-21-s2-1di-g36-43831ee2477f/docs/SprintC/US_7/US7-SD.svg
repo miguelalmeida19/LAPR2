@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1648px" preserveAspectRatio="none" style="width:2258px;height:1648px;background:#FCF9EA;" version="1.1" viewBox="0 0 2258 1648" width="2258px" zoomAndPan="magnify"><defs><filter height="300%" id="fh4dzu1gjhlal" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="369" x="942.25" y="92.041">SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="1131.75" y="134.3457"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="1300.1406" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="245.2422"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="181.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="267.5938"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="479.3516"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="600.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="556.4063"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="358.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="1186.9219"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="120.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="297.9453"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="214.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="628.4609"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="229.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="905.1094"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="328.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="1217.2734"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="328.2969"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="658.8125"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="935.4609"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="1277.9766"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1232" y="388.6484"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="735.5156"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="812.5703"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="1012.1641"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="1089.2188"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="260.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="1247.625"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1394.5" y="1406.6797"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1394.5" y="1480.0313"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2151.5" y="1338.3281"/><rect fill="#FCF9EA" filter="url(#fh4dzu1gjhlal)" height="555.8125" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="1725.5" x="339" y="571.4063"/><rect fill="#FCF9EA" height="276.6484" style="stroke:none;stroke-width:1.0;" width="1725.5" x="339" y="850.5703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="49" x2="49" y1="235.2422" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="423" x2="423" y1="235.2422" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="868" x2="868" y1="235.2422" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1100.5" x2="1100.5" y1="235.2422" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1236.5" x2="1236.5" y1="235.2422" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1394.5" x2="1394.5" y1="235.2422" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1825.5" x2="1825.5" y1="776.8672" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1974.5" x2="1974.5" y1="1053.5156" y2="1563.3828"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2156.5" x2="2156.5" y1="235.2422" y2="1563.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="232.166">Administrator</text><ellipse cx="49.5" cy="160.6328" fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,168.6328 L49.5,195.6328 M36.5,176.6328 L62.5,176.6328 M49.5,195.6328 L36.5,210.6328 M49.5,195.6328 L62.5,210.6328 " fill="none" filter="url(#fh4dzu1gjhlal)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="1576.916">Administrator</text><ellipse cx="49.5" cy="1589.9922" fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,1597.9922 L49.5,1624.9922 M36.5,1605.9922 L62.5,1605.9922 M49.5,1624.9922 L36.5,1639.9922 M49.5,1624.9922 L62.5,1639.9922 " fill="none" filter="url(#fh4dzu1gjhlal)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="145" x="349" y="198.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="356" y="220.166">:RegisterEmployeeUI</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="145" x="349" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="356" y="1583.916">:RegisterEmployeeUI</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="49.2188" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="133" x="800" y="181.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="807" y="202.5566">:RegisterEmployee</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="835.5" y="220.166">Controller</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="49.2188" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="133" x="800" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="807" y="1583.916">:RegisterEmployee</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="835.5" y="1601.5254">Controller</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="78" x="1059.5" y="198.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1066.5" y="220.166">:Company</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="78" x="1059.5" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1066.5" y="1583.916">:Company</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="49.2188" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="167" x="1151.5" y="181.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="1158.5" y="202.5566">:store: OrganizationRole</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1218" y="220.166">Store</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="49.2188" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="167" x="1151.5" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="1158.5" y="1583.916">:store: OrganizationRole</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1218" y="1601.5254">Store</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="49.2188" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="120" x="1332.5" y="181.0234"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="1339.5" y="202.5566">:store: Employee</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1375.5" y="220.166">Store</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="49.2188" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="120" x="1332.5" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="1339.5" y="1583.916">:store: Employee</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="1375.5" y="1601.5254">Store</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="115" x="1766.5" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1773.5" y="1583.916">emp : Employee</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="155" x="1895.5" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1902.5" y="1583.916">emp : SpecialistDoctor</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="180" x="2064.5" y="198.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="2071.5" y="220.166">AuthFacade : AuthFacade</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="180" x="2064.5" y="1562.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="2071.5" y="1583.916">AuthFacade : AuthFacade</text><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="1300.1406" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="245.2422"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="181.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="267.5938"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="479.3516"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="600.1641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="556.4063"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="358.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418.5" y="1186.9219"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="120.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="297.9453"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="214.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="628.4609"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="229.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="905.1094"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="328.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="863.5" y="1217.2734"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="328.2969"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="658.8125"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="935.4609"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1095.5" y="1277.9766"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1232" y="388.6484"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="735.5156"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="812.5703"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="1012.1641"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="1089.2188"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="260.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1389.5" y="1247.625"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1394.5" y="1406.6797"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1394.5" y="1480.0313"/><rect fill="#FFFFFF" filter="url(#fh4dzu1gjhlal)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2151.5" y="1338.3281"/><polygon fill="#FFC5A1" points="406.5,263.5938,416.5,267.5938,406.5,271.5938,410.5,267.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="54.5" x2="412.5" y1="267.5938" y2="267.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="262.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="72.5" y="262.7373">start new employee regist</text><polygon fill="#FFC5A1" points="851.5,293.9453,861.5,297.9453,851.5,301.9453,855.5,297.9453" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="428.5" x2="857.5" y1="297.9453" y2="297.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="435.5" y="293.0889">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="446.5" y="293.0889">TypeOfRoles = getTypeOfRoles()</text><polygon fill="#FFC5A1" points="1083.5,324.2969,1093.5,328.2969,1083.5,332.2969,1087.5,328.2969" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1089.5" y1="328.2969" y2="328.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="880.5" y="323.4404">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="891.5" y="323.4404">store = getUserRoleStore()</text><polygon fill="#FFC5A1" points="1220,384.6484,1230,388.6484,1220,392.6484,1224,388.6484" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1226" y1="388.6484" y2="388.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="880.5" y="383.792">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="891.5" y="383.792">Roles = getRoles()</text><polygon fill="#FFC5A1" points="65.5,445,55.5,449,65.5,453,61.5,449" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="422.5" y1="449" y2="449"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71.5" y="444.1436">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="258" x="82.5" y="444.1436">Shows all roles and ask to type one of them.</text><polygon fill="#FFC5A1" points="406.5,475.3516,416.5,479.3516,406.5,483.3516,410.5,479.3516" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="54.5" x2="412.5" y1="479.3516" y2="479.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="474.4951">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="72.5" y="474.4951">Types the role</text><polygon fill="#FFC5A1" points="65.5,522.0547,55.5,526.0547,65.5,530.0547,61.5,526.0547" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="422.5" y1="526.0547" y2="526.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71.5" y="513.0225">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="82.5" y="504.8467">request data(Employee ID, Name, Address,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="325" x="86.5" y="521.1982">Phone Number, E-Mail,SOC code,Doctor Index Number)</text><polygon fill="#FFC5A1" points="406.5,552.4063,416.5,556.4063,406.5,560.4063,410.5,556.4063" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="54.5" x2="412.5" y1="556.4063" y2="556.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61.5" y="551.5498">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="72.5" y="551.5498">types requested data</text><path d="M349,571.4063 L400,571.4063 L400,579.4063 L390,589.4063 L339,589.4063 L339,581.4063 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="555.8125" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="1725.5" x="339" y="571.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="354" y="585.9014">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="121" x="415" y="584.8252">[Different employees]</text><polygon fill="#FFC5A1" points="851.5,624.4609,861.5,628.4609,851.5,632.4609,855.5,628.4609" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="428.5" x2="857.5" y1="628.4609" y2="628.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="435.5" y="615.4287">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="386" x="446.5" y="607.2529">createNewEmployee(employeeID, organizationRole, name, adress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="450.5" y="623.6045">phoneNumber, e-Mail,socCode)</text><polygon fill="#FFC5A1" points="1083.5,654.8125,1093.5,658.8125,1083.5,662.8125,1087.5,658.8125" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1089.5" y1="658.8125" y2="658.8125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="653.9561">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="898.5" y="653.9561">empstore = getEmployeeStore()</text><polygon fill="#FFC5A1" points="1377.5,731.5156,1387.5,735.5156,1377.5,739.5156,1381.5,735.5156" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1383.5" y1="735.5156" y2="735.5156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="722.4834">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="427" x="898.5" y="714.3076">emp = createNewEmployee(employeeID, organizationRole, name, adress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="902.5" y="730.6592">phoneNumber, e-Mail,socCode)</text><polygon fill="#FFC5A1" points="1754.5,778.2188,1764.5,782.2188,1754.5,786.2188,1758.5,782.2188" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1394.5" x2="1760.5" y1="782.2188" y2="782.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1401.5" y="769.1865">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="325" x="1419.5" y="761.0107">Employee(employeeID, organizationRole, name, adress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="1423.5" y="777.3623">phoneNumber, e-Mail,socCode)</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="115" x="1766.5" y="743.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1773.5" y="765.1426">emp : Employee</text><polygon fill="#FFC5A1" points="1377.5,808.5703,1387.5,812.5703,1377.5,816.5703,1381.5,812.5703" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1383.5" y1="812.5703" y2="812.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="807.7139">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="898.5" y="807.7139">validateEmployee(emp)</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="339" x2="2064.5" y1="851.5703" y2="851.5703"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="97" x="344" y="862.9893">[SpecialistDoctor]</text><polygon fill="#FFC5A1" points="851.5,901.1094,861.5,905.1094,851.5,909.1094,855.5,905.1094" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="428.5" x2="857.5" y1="905.1094" y2="905.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="435.5" y="892.0771">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="398" x="453.5" y="883.9014">createSpecialistDoctor(employeeID, organizationRole, name, adress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="298" x="457.5" y="900.2529">phoneNumber, e-Mail,socCode,doctorIndexNumber)</text><polygon fill="#FFC5A1" points="1083.5,931.4609,1093.5,935.4609,1083.5,939.4609,1087.5,935.4609" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1089.5" y1="935.4609" y2="935.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="930.6045">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="898.5" y="930.6045">empstore = getEmployeeStore()</text><polygon fill="#FFC5A1" points="1377.5,1008.1641,1387.5,1012.1641,1377.5,1016.1641,1381.5,1012.1641" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1383.5" y1="1012.1641" y2="1012.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="999.1318">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="439" x="898.5" y="990.9561">emp = createSpecialistDoctor(employeeID, organizationRole, name, adress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="302" x="902.5" y="1007.3076">phoneNumber, e-Mail,socCode, doctorIndexNumber)</text><polygon fill="#FFC5A1" points="1883.5,1054.8672,1893.5,1058.8672,1883.5,1062.8672,1887.5,1058.8672" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1394.5" x2="1889.5" y1="1058.8672" y2="1058.8672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1401.5" y="1045.835">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="362" x="1419.5" y="1037.6592">SpecialistDoctor(employeeID, organizationRole, name, adress,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="298" x="1423.5" y="1054.0107">phoneNumber, e-Mail,socCode,doctorIndexNumber)</text><rect fill="#FEFECE" filter="url(#fh4dzu1gjhlal)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="155" x="1895.5" y="1020.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1902.5" y="1041.791">emp : SpecialistDoctor</text><polygon fill="#FFC5A1" points="1377.5,1085.2188,1387.5,1089.2188,1377.5,1093.2188,1381.5,1089.2188" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1383.5" y1="1089.2188" y2="1089.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="1084.3623">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="898.5" y="1084.3623">validateEmployee(emp)</text><polygon fill="#FFC5A1" points="65.5,1152.5703,55.5,1156.5703,65.5,1160.5703,61.5,1156.5703" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="422.5" y1="1156.5703" y2="1156.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="71.5" y="1151.7139">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="89.5" y="1151.7139">shows the data and requests a confirmation</text><polygon fill="#FFC5A1" points="406.5,1182.9219,416.5,1186.9219,406.5,1190.9219,410.5,1186.9219" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="54.5" x2="412.5" y1="1186.9219" y2="1186.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="61.5" y="1182.0654">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="79.5" y="1182.0654">confirms the data</text><polygon fill="#FFC5A1" points="851.5,1213.2734,861.5,1217.2734,851.5,1221.2734,855.5,1217.2734" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="428.5" x2="857.5" y1="1217.2734" y2="1217.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="435.5" y="1212.417">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="453.5" y="1212.417">saveEmployee()</text><polygon fill="#FFC5A1" points="1377.5,1243.625,1387.5,1247.625,1377.5,1251.625,1381.5,1247.625" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1383.5" y1="1247.625" y2="1247.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="1242.7686">22</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="898.5" y="1242.7686">saveEmployee(emp)</text><polygon fill="#FFC5A1" points="1083.5,1273.9766,1093.5,1277.9766,1083.5,1281.9766,1087.5,1277.9766" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="1089.5" y1="1277.9766" y2="1277.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="1273.1201">23</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="898.5" y="1273.1201">Facade = getAuthFacade()</text><polygon fill="#FFC5A1" points="2139.5,1334.3281,2149.5,1338.3281,2139.5,1342.3281,2143.5,1338.3281" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="873.5" x2="2145.5" y1="1338.3281" y2="1338.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="880.5" y="1333.4717">24</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="272" x="898.5" y="1333.4717">addUserWithRole(name, email, password, role)</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1404.5" x2="1446.5" y1="1398.6797" y2="1398.6797"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1446.5" x2="1446.5" y1="1398.6797" y2="1411.6797"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1405.5" x2="1446.5" y1="1411.6797" y2="1411.6797"/><polygon fill="#FFC5A1" points="1415.5,1407.6797,1405.5,1411.6797,1415.5,1415.6797,1411.5,1411.6797" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1411.5" y="1393.8232">25</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="1429.5" y="1393.8232">validateEmployee(Emp)</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1404.5" x2="1446.5" y1="1472.0313" y2="1472.0313"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1446.5" x2="1446.5" y1="1472.0313" y2="1485.0313"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="1405.5" x2="1446.5" y1="1485.0313" y2="1485.0313"/><polygon fill="#FFC5A1" points="1415.5,1481.0313,1405.5,1485.0313,1415.5,1489.0313,1411.5,1485.0313" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1411.5" y="1467.1748">26</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="1429.5" y="1467.1748">addEmployee(emp)</text><polygon fill="#FFC5A1" points="60.5,1541.3828,50.5,1545.3828,60.5,1549.3828,56.5,1545.3828" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="54.5" x2="422.5" y1="1545.3828" y2="1545.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="66.5" y="1540.5264">27</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="84.5" y="1540.5264">informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="1128.25" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="1128.25" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="1063.75" y="45.7275">Built by WeByte ©</text><!--MD5=[f842a79db57a6214c1fa8f5525d8ceab]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":RegisterEmployeeUI" as Interface
+participant ":RegisterEmployee\nController" as Controller
+participant ":Company" as Company
+participant ":store: OrganizationRole\nStore" as RoleStore
+participant ":store: Employee\nStore" as Store
+participant "emp : Employee" as Employee
+participant "emp : SpecialistDoctor" as doctor
+participant "AuthFacade : AuthFacade" as facade
+
+
+activate ADM
+ADM -> Interface : start new employee regist
+activate Interface
+Interface -> Controller : TypeOfRoles = getTypeOfRoles()
+activate Controller
+Controller -> Company : store = getUserRoleStore()
+activate Company
+deactivate Company
+Controller -> RoleStore : Roles = getRoles()
+activate RoleStore
+deactivate RoleStore
+deactivate Controller
+Interface - -> ADM : Shows all roles and ask to type one of them.
+deactivate Interface
+ADM -> Interface : Types the role
+activate Interface
+Interface - -> ADM : request data(Employee ID, Name, Address,\n Phone Number, E-Mail,SOC code,Doctor Index Number)
+deactivate Interface
+ADM -> Interface : types requested data
+activate Interface
+alt Different employees
+Interface -> Controller : createNewEmployee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+activate Controller
+
+Controller -> Company: empstore = getEmployeeStore()
+activate Company
+deactivate Company
+
+Controller -> Store : emp = createNewEmployee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+activate Store
+
+Store - -> Employee** : Employee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+
+deactivate Employee
+
+deactivate Store
+
+Controller -> Store: validateEmployee(emp)
+activate Store
+deactivate Store
+
+deactivate Controller
+else SpecialistDoctor
+Interface -> Controller : createSpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode,doctorIndexNumber)
+activate Controller
+Controller -> Company: empstore = getEmployeeStore()
+activate Company
+deactivate Company
+
+Controller -> Store : emp = createSpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode, doctorIndexNumber)
+
+activate Store
+
+Store - -> doctor** : SpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode,doctorIndexNumber)
+
+deactivate Employee
+
+deactivate Store
+
+Controller -> Store: validateEmployee(emp)
+activate Store
+deactivate Store
+end
+activate Store
+deactivate Store
+
+deactivate Controller
+
+
+Interface - -> ADM : shows the data and requests a confirmation
+
+deactivate Interface
+
+ADM -> Interface : confirms the data
+activate Interface
+
+Interface -> Controller : saveEmployee()
+activate Controller
+
+Controller -> Store : saveEmployee(emp)
+activate Store
+
+Controller -> Company: Facade = getAuthFacade()
+activate Company
+deactivate Company
+Controller -> facade: addUserWithRole(name, email, password, role)
+activate facade
+deactivate facade
+
+
+
+Store -> Store: validateEmployee(Emp)
+activate Store
+deactivate Store
+
+Store -> Store: addEmployee(emp)
+activate Store
+deactivate Store
+
+Interface - -> ADM: informs operation success
+
+deactivate ADM
+deactivate Interface
+deactivate Controller
+deactivate Company
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Administrator" as ADM
+
+participant ":RegisterEmployeeUI" as Interface
+participant ":RegisterEmployee\nController" as Controller
+participant ":Company" as Company
+participant ":store: OrganizationRole\nStore" as RoleStore
+participant ":store: Employee\nStore" as Store
+participant "emp : Employee" as Employee
+participant "emp : SpecialistDoctor" as doctor
+participant "AuthFacade : AuthFacade" as facade
+
+
+activate ADM
+ADM -> Interface : start new employee regist
+activate Interface
+Interface -> Controller : TypeOfRoles = getTypeOfRoles()
+activate Controller
+Controller -> Company : store = getUserRoleStore()
+activate Company
+deactivate Company
+Controller -> RoleStore : Roles = getRoles()
+activate RoleStore
+deactivate RoleStore
+deactivate Controller
+Interface - -> ADM : Shows all roles and ask to type one of them.
+deactivate Interface
+ADM -> Interface : Types the role
+activate Interface
+Interface - -> ADM : request data(Employee ID, Name, Address,\n Phone Number, E-Mail,SOC code,Doctor Index Number)
+deactivate Interface
+ADM -> Interface : types requested data
+activate Interface
+alt Different employees
+Interface -> Controller : createNewEmployee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+activate Controller
+
+Controller -> Company: empstore = getEmployeeStore()
+activate Company
+deactivate Company
+
+Controller -> Store : emp = createNewEmployee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+activate Store
+
+Store - -> Employee** : Employee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+
+deactivate Employee
+
+deactivate Store
+
+Controller -> Store: validateEmployee(emp)
+activate Store
+deactivate Store
+
+deactivate Controller
+else SpecialistDoctor
+Interface -> Controller : createSpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode,doctorIndexNumber)
+activate Controller
+Controller -> Company: empstore = getEmployeeStore()
+activate Company
+deactivate Company
+
+Controller -> Store : emp = createSpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode, doctorIndexNumber)
+
+activate Store
+
+Store - -> doctor** : SpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode,doctorIndexNumber)
+
+deactivate Employee
+
+deactivate Store
+
+Controller -> Store: validateEmployee(emp)
+activate Store
+deactivate Store
+end
+activate Store
+deactivate Store
+
+deactivate Controller
+
+
+Interface - -> ADM : shows the data and requests a confirmation
+
+deactivate Interface
+
+ADM -> Interface : confirms the data
+activate Interface
+
+Interface -> Controller : saveEmployee()
+activate Controller
+
+Controller -> Store : saveEmployee(emp)
+activate Store
+
+Controller -> Company: Facade = getAuthFacade()
+activate Company
+deactivate Company
+Controller -> facade: addUserWithRole(name, email, password, role)
+activate facade
+deactivate facade
+
+
+
+Store -> Store: validateEmployee(Emp)
+activate Store
+deactivate Store
+
+Store -> Store: addEmployee(emp)
+activate Store
+deactivate Store
+
+Interface - -> ADM: informs operation success
+
+deactivate ADM
+deactivate Interface
+deactivate Controller
+deactivate Company
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

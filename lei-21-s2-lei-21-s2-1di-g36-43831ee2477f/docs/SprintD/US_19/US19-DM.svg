@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="453px" preserveAspectRatio="none" style="width:387px;height:453px;background:#FCF9EA;" version="1.1" viewBox="0 0 387 453" width="387px" zoomAndPan="magnify"><defs><filter height="300%" id="f1te95au1ck3ll" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="192.5" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="192.5" y="22.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="128" y="40.7275">Built by WeByte ©</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="378" x="2" y="77.041">US19-DOMAIN MODEL</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="196" y="119.3457"/><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="29" fill="#BADFDB" filter="url(#f1te95au1ck3ll)" height="40" id="Company" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="85" x="81.5" y="135.6328"/><ellipse cx="96.5" cy="151.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M98.5,148.1328 Q98.7031,147.6328 98.9375,147.3828 Q99.1719,147.1328 99.4375,147.1328 Q99.9063,147.1328 100.2031,147.4141 Q100.5,147.6953 100.5,148.3516 L100.5,149.9141 Q100.5,150.5703 100.2188,150.8516 Q99.9375,151.1328 99.5,151.1328 Q99.1094,151.1328 98.8594,150.9609 Q98.6094,150.7891 98.5,150.3359 Q98.4531,150.0234 98.2813,149.8516 Q97.9688,149.5234 97.4063,149.3359 Q96.8438,149.1328 96.2813,149.1328 Q95.5781,149.1328 94.9844,149.4141 Q94.4063,149.6953 93.9531,150.3203 Q93.5,150.9453 93.5,151.8047 L93.5,152.7266 Q93.5,153.7578 94.3438,154.4453 Q95.1875,155.1328 96.6875,155.1328 Q97.5781,155.1328 98.2031,154.9297 Q98.5625,154.8203 98.9688,154.4609 Q99.2344,154.2578 99.375,154.1953 Q99.5156,154.1328 99.6875,154.1328 Q100.0156,154.1328 100.25,154.3984 Q100.5,154.6484 100.5,155.0078 Q100.5,155.3516 100.1563,155.7578 Q99.6563,156.3516 98.8594,156.6797 Q97.8125,157.1328 96.5313,157.1328 Q95.0313,157.1328 93.8281,156.5391 Q92.8594,156.0703 92.1719,155.0547 Q91.5,154.0391 91.5,152.8359 L91.5,151.7422 Q91.5,150.4922 92.0938,149.3984 Q92.7031,148.3047 93.75,147.7266 Q94.8125,147.1328 96,147.1328 Q96.7188,147.1328 97.3438,147.3828 Q97.9688,147.6328 98.5,148.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="110.5" y="156.543">Company</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="82.5" x2="165.5" y1="167.6328" y2="167.6328"/><!--MD5=[74783ec010d186752c4ffd5c6de5633a]
+class NHSReport--><rect codeLine="32" fill="#BADFDB" filter="url(#f1te95au1ck3ll)" height="67.6719" id="NHSReport" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="97" x="140.5" y="253.6328"/><ellipse cx="156.4" cy="269.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M158.4,266.1328 Q158.6031,265.6328 158.8375,265.3828 Q159.0719,265.1328 159.3375,265.1328 Q159.8063,265.1328 160.1031,265.4141 Q160.4,265.6953 160.4,266.3516 L160.4,267.9141 Q160.4,268.5703 160.1188,268.8516 Q159.8375,269.1328 159.4,269.1328 Q159.0094,269.1328 158.7594,268.9609 Q158.5094,268.7891 158.4,268.3359 Q158.3531,268.0234 158.1813,267.8516 Q157.8688,267.5234 157.3063,267.3359 Q156.7438,267.1328 156.1813,267.1328 Q155.4781,267.1328 154.8844,267.4141 Q154.3063,267.6953 153.8531,268.3203 Q153.4,268.9453 153.4,269.8047 L153.4,270.7266 Q153.4,271.7578 154.2438,272.4453 Q155.0875,273.1328 156.5875,273.1328 Q157.4781,273.1328 158.1031,272.9297 Q158.4625,272.8203 158.8688,272.4609 Q159.1344,272.2578 159.275,272.1953 Q159.4156,272.1328 159.5875,272.1328 Q159.9156,272.1328 160.15,272.3984 Q160.4,272.6484 160.4,273.0078 Q160.4,273.3516 160.0563,273.7578 Q159.5563,274.3516 158.7594,274.6797 Q157.7125,275.1328 156.4313,275.1328 Q154.9313,275.1328 153.7281,274.5391 Q152.7594,274.0703 152.0719,273.0547 Q151.4,272.0391 151.4,270.8359 L151.4,269.7422 Q151.4,268.4922 151.9938,267.3984 Q152.6031,266.3047 153.65,265.7266 Q154.7125,265.1328 155.9,265.1328 Q156.6188,265.1328 157.2438,265.3828 Q157.8688,265.6328 158.4,266.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="170.6" y="274.543">NHSReport</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="141.5" x2="236.5" y1="285.6328" y2="285.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="146.5" y="301.0518">-observed values</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="146.5" y="314.8877">-estimated values</text><!--MD5=[0a105ea8d9af02dadec02d3e239f1d60]
+class NHS--><rect codeLine="36" fill="#BADFDB" filter="url(#f1te95au1ck3ll)" height="40" id="NHS" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="58" x="160" y="399.6328"/><ellipse cx="175" cy="415.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M177,412.1328 Q177.2031,411.6328 177.4375,411.3828 Q177.6719,411.1328 177.9375,411.1328 Q178.4063,411.1328 178.7031,411.4141 Q179,411.6953 179,412.3516 L179,413.9141 Q179,414.5703 178.7188,414.8516 Q178.4375,415.1328 178,415.1328 Q177.6094,415.1328 177.3594,414.9609 Q177.1094,414.7891 177,414.3359 Q176.9531,414.0234 176.7813,413.8516 Q176.4688,413.5234 175.9063,413.3359 Q175.3438,413.1328 174.7813,413.1328 Q174.0781,413.1328 173.4844,413.4141 Q172.9063,413.6953 172.4531,414.3203 Q172,414.9453 172,415.8047 L172,416.7266 Q172,417.7578 172.8438,418.4453 Q173.6875,419.1328 175.1875,419.1328 Q176.0781,419.1328 176.7031,418.9297 Q177.0625,418.8203 177.4688,418.4609 Q177.7344,418.2578 177.875,418.1953 Q178.0156,418.1328 178.1875,418.1328 Q178.5156,418.1328 178.75,418.3984 Q179,418.6484 179,419.0078 Q179,419.3516 178.6563,419.7578 Q178.1563,420.3516 177.3594,420.6797 Q176.3125,421.1328 175.0313,421.1328 Q173.5313,421.1328 172.3281,420.5391 Q171.3594,420.0703 170.6719,419.0547 Q170,418.0391 170,416.8359 L170,415.7422 Q170,414.4922 170.5938,413.3984 Q171.2031,412.3047 172.25,411.7266 Q173.3125,411.1328 174.5,411.1328 Q175.2188,411.1328 175.8438,411.3828 Q176.4688,411.6328 177,412.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="189" y="420.543">NHS</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="161" x2="217" y1="431.6328" y2="431.6328"/><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect fill="#BADFDB" filter="url(#f1te95au1ck3ll)" height="40" id="Administrator" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="105" x="201.5" y="135.6328"/><ellipse cx="216.5" cy="151.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M218.5,148.1328 Q218.7031,147.6328 218.9375,147.3828 Q219.1719,147.1328 219.4375,147.1328 Q219.9063,147.1328 220.2031,147.4141 Q220.5,147.6953 220.5,148.3516 L220.5,149.9141 Q220.5,150.5703 220.2188,150.8516 Q219.9375,151.1328 219.5,151.1328 Q219.1094,151.1328 218.8594,150.9609 Q218.6094,150.7891 218.5,150.3359 Q218.4531,150.0234 218.2813,149.8516 Q217.9688,149.5234 217.4063,149.3359 Q216.8438,149.1328 216.2813,149.1328 Q215.5781,149.1328 214.9844,149.4141 Q214.4063,149.6953 213.9531,150.3203 Q213.5,150.9453 213.5,151.8047 L213.5,152.7266 Q213.5,153.7578 214.3438,154.4453 Q215.1875,155.1328 216.6875,155.1328 Q217.5781,155.1328 218.2031,154.9297 Q218.5625,154.8203 218.9688,154.4609 Q219.2344,154.2578 219.375,154.1953 Q219.5156,154.1328 219.6875,154.1328 Q220.0156,154.1328 220.25,154.3984 Q220.5,154.6484 220.5,155.0078 Q220.5,155.3516 220.1563,155.7578 Q219.6563,156.3516 218.8594,156.6797 Q217.8125,157.1328 216.5313,157.1328 Q215.0313,157.1328 213.8281,156.5391 Q212.8594,156.0703 212.1719,155.0547 Q211.5,154.0391 211.5,152.8359 L211.5,151.7422 Q211.5,150.4922 212.0938,149.3984 Q212.7031,148.3047 213.75,147.7266 Q214.8125,147.1328 216,147.1328 Q216.7188,147.1328 217.3438,147.3828 Q217.9688,147.6328 218.5,148.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="230.5" y="156.543">Administrator</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="202.5" x2="305.5" y1="167.6328" y2="167.6328"/><!--MD5=[1a29efac474ed00332939ff55dd5f4e3]
+link Company to NHSReport--><path codeLine="40" d="M125.98,175.8628 C127.94,189.6828 131.76,208.4628 139,223.6328 C143.99,234.0928 151.01,244.3928 158.2,253.5328 " fill="none" id="Company-NHSReport" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="145.9159,219.427,145.1647,209.9461,139.7354,212.1984,145.9159,219.427" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="153" y="220.1279">generates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="118.5715" y="196.992">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="146.6441" y="242.8064">*</text><!--MD5=[8ab086dc2d99d892dc6fd5d865ad098e]
+link Administrator to NHSReport--><path codeLine="41" d="M244.41,175.8128 C234.2,196.2228 217.87,228.9028 205.57,253.4928 " fill="none" id="Administrator-NHSReport" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="231.7639,219.2807,238.4377,212.5049,233.1804,209.8762,231.7639,219.2807" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="35" x="243" y="220.1279">sends</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="233.7284" y="197.283">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="203.34" y="242.7585">*</text><!--MD5=[5853f8747c18e89b10dd024359cfe8ec]
+link NHSReport to NHS--><path codeLine="42" d="M189,321.7728 C189,346.2928 189,378.8628 189,399.2828 " fill="none" id="NHSReport-NHS" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="194,365.8086,196.9389,356.7635,191.0611,356.7635,194,365.8086" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="203" y="366.1279">is sent to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="181.3766" y="342.8347">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="181.0156" y="388.8539">1</text><!--MD5=[12ddfc81d06a581c4a21ea1a127d6d1a]
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US19-DOMAIN MODEL\n
+
+class Company{
+    }
+
+    class NHSReport{
+    -observed values
+    -estimated values
+        }
+        class NHS{
+
+           }
+
+Company "1" - - "*" NHSReport : generates >
+Administrator "1" - - "*" NHSReport : sends >
+NHSReport "1" - - "1" NHS : is sent to >
+
+
+
+@enduml
+
+@startuml
+hide methods
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US19-DOMAIN MODEL\n
+
+class Company{
+    }
+
+    class NHSReport{
+    -observed values
+    -estimated values
+        }
+        class NHS{
+
+           }
+
+Company "1" - - "*" NHSReport : generates >
+Administrator "1" - - "*" NHSReport : sends >
+NHSReport "1" - - "1" NHS : is sent to >
+
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

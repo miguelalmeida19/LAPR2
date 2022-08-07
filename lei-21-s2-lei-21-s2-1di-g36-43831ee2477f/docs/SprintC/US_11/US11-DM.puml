@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+class Company{
+     - designation
+    }
+class Parameter{
+    - designation
+}
+class ParameterCategory{
+    - code
+    - description
+    - nhsid
+}
+class Administrator
+Company "1" -- "*" Parameter : capable of analysing >
+Company "1" -- "*" ParameterCategory : adopts >
+Company "1" -- "*" Administrator : knowns >
+
+Parameter "*" -- "1" ParameterCategory : presented under >
+ParameterCategory "*" -- "1" Administrator : created by >
+
+
+
+@enduml

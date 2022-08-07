@@ -1,0 +1,116 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Laboratory Coordinator" as LC
+participant ":OverviewUI" AS ui
+participant ":OverviewController" as controller
+participant "testStore:TestStore" as testStore
+participant ":Company" as company
+participant "clientStore:ClientStore" as clientStore
+participant ":Intervals" as intervals
+participant "subsequenceAlgorithm:SubSequenceAlgorithm" as algorithm
+activate LC
+LC -> ui : starts overview of tests \n and performance of company
+activate ui
+
+
+ui -> controller: getTestsMumber()
+activate controller
+
+controller -> testStore: getTestList().size()
+activate testStore
+deactivate testStore
+deactivate controller
+ui ->  controller :getTesWaitingDiagnosis()
+
+activate controller
+controller -> testStore: testList = getTestList()
+activate testStore
+deactivate testStore
+controller -> controller: counterInt=0
+loop for test in testList
+alt test isSamplesAnalysed()
+controller -> controller: counterInt++;
+end
+end
+controller --> ui: counterInt
+
+deactivate controller
+
+ui -> controller: getTestWaitingResults()
+activate controller
+controller -> controller: counterInt=0
+loop for test in testList
+alt test isRegistered()()
+controller -> controller: counterInt++;
+end
+end
+controller --> ui: counterInt
+
+deactivate controller
+
+ui -> controller: getClientsNumber()
+activate controller
+controller -> company: clientStore = getClientStore()
+activate company
+deactivate company
+controller -> clientStore: getClients().size()
+activate clientStore
+deactivate clientStore
+deactivate controller
+deactivate ui
+
+
+LC -> ui : selects first and last interval (firstInterval, lastInterval)
+activate ui
+ui --> LC : overview of all tests performed.
+
+deactivate ui
+
+LC -> ui : select algorithm(option)
+activate ui
+ui -> controller: sequenceArrayInt = getSequence(startDate, endDate)
+activate controller
+controller -> intervals: getSequence(startDate, endDate)
+activate intervals
+
+deactivate intervals
+deactivate controller
+ui -> controller: subSequenceArrayInt = getSubSequence(sequenceArrayInt)
+activate controller
+controller -> algorithm: subSequenceAlgorithm = create()
+note left: somehow it creates the object.
+activate algorithm
+deactivate algorithm
+deactivate controller
+controller -> controller: start = getStart(sequenceArrayInt, subSequenceArrayInt)
+activate controller
+deactivate controller
+
+controller -> controller: end = start + subSequenceArrayInt.length -1
+activate controller
+deactivate controller
+
+ui --> LC : shows most delayed interval in time space introduced
+deactivate ui
+LC -> ui: selects the graphis he/she wants to see
+activate ui
+ui -> controller: getTestsPerformedByDay())
+activate controller
+deactivate controller
+ui -> controller: getTestsPerformedByWeek())
+activate controller
+deactivate controller
+ui -> controller: getTestsPerformedByMonth())
+activate controller
+deactivate controller
+ui -> controller: getTestsPerformedByYear())
+activate controller
+deactivate controller
+ui --> LC: shows the graph.
+deactivate ui
+deactivate LC
+
+
+@enduml

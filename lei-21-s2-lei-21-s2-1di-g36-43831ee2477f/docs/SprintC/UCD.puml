@@ -1,0 +1,95 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+' ======= layout =========
+skinparam backgroundColor #F0F0F0
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+
+skinparam titleFontName Arial Black
+skinparam titleFontColor #D8C0A8
+
+skinparam sequence {
+ArrowColor Black
+ActorBorderColor Black
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+
+ActorFontColor Black
+ActorFontSize 17
+ActorFontName Arial
+}
+
+skinparam usecase {
+BackgroundColor DarkSeaGreen
+BorderColor DarkSlateGray
+
+BackgroundColor<< Main >> YellowGreen
+BorderColor<< Main >> YellowGreen
+
+ArrowColor Olive
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>USE CASE DIAGRAM\n
+
+' ======= the actors =========
+
+actor :Admin: as Admin #FFEFC0
+actor :Client: as Client #FFE2C8
+actor :Specialist Doctor: as Specialist_Doctor #FFE2C8
+actor :Laboratory Coordinator: as Laboratory_Coordinator #FFD5CF
+actor :Laboratory Recepcionist: as Laboratory_Recepcionist #FFC7D7
+actor :Medical Lab Technician: as Medical_Lab_Technician #FFBADE
+actor :Clinical Technologist: as Clinical_Technologist #edafd0
+
+rectangle "ManyLabs" #F0D8C0 {
+
+    left to right direction
+
+    ' ====== the use cases =========
+    (US6 - Make the diagnosis) as (Make the diagnosis) #FFE2C8
+
+    (US5 - Access client data) as (Access client data) #FFE2C8
+
+    (US4 - Ask for a test) as (Ask for a test) #FFE2C8
+
+    (US3 - Register a new client) as (Register a new client) #FFC7D7
+
+    (US2 - Record the samples collected) as (Record the samples collected) #FFBADE
+
+    (US8 - Record results of analysis) as (Record results of analysis) #edafd0
+
+    (US1 - Validate the results) as (Validate the results) #FFD5CF
+
+    (US7 - Register a new Employee) as (US7 - Register a new Employee) #FFEFC0
+    (US9 - Specify new type of test and collecting methods) as (Specify new type of test and collecting methods) #FFEFC0
+    (US10 - Specify new test parameter and categorize it) as (Specify new test parameter and categorize it) #FFEFC0
+    (US11 - Specify new parameter category) as (Specify new parameter category) #FFEFC0
+
+    ' ====== the use case links =========
+
+    Laboratory_Recepcionist -- (Register a new client)
+    Medical_Lab_Technician -- (Record the samples collected)
+    Clinical_Technologist -- (Record results of analysis)
+    Laboratory_Coordinator -- (Validate the results)
+
+    Client -- (Ask for a test)
+    Client -- (Access client data)
+
+    Admin -- (Specify new parameter category)
+    Admin -- (Specify new test parameter and categorize it)
+    Admin -- (Specify new type of test and collecting methods)
+    Admin -- (US7 - Register a new Employee)
+
+    Specialist_Doctor -- (Access client data)
+    Specialist_Doctor -- (Make the diagnosis)
+}
+
+
+@enduml

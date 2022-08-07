@@ -1,0 +1,220 @@
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+
+' ======= classes =========
+
+    ' ======= Transaction Line Items =========
+    class Sample{
+    - barcode
+    }
+    ' ======= Product/Service related to a Transaction or Transaction Line Item =========
+    class Parameter{
+    - code
+    - name
+    - description
+    }
+
+    class ParameterCategory{
+        - name
+        - code
+    }
+
+    ' ======= Business Transactions =========
+
+    class Test{
+    - code
+    - nhsCode
+    - createdAt
+    }
+
+    class LabOrder{
+    - testType
+    - parameters
+    }
+
+    class Notification{
+    - notificationMessage
+    }
+
+    ' ======= Roles of People or Organizations =========
+    class Administrator{
+    }
+
+    class Receptionist{
+    }
+
+    class MedicalLabTechnician{
+    }
+
+    class Client{
+    - nhsNumber
+    - birthDate
+    - sex
+    - tin
+    - phoneNumber
+    - e-mail
+    - name
+    }
+
+    class SpecialistDoctor{
+    - doctorIndexNumber
+    }
+
+    class LaboratoryCoordinator{
+    }
+
+    class ClinicalChemistryTechnologist{
+    - laboratoryId;
+    - name;
+    - address;
+    - phoneNumber;
+    - tinnumber
+    }
+
+    class Employee{
+    - username
+    - employeeId
+    - organizationRole
+    - name
+    - address
+    - phoneNumber
+    - e-Mail
+    - socCode
+    }
+
+    ' ======= Places =========
+    class ClinicalAnalysisLaboratory{
+    - laboratoryId
+    - name
+    - address
+    - phoneNumber
+    - tinNumber
+    }
+
+    class ChemicalLaboratory{
+    - name
+    - address
+    - phoneNumber
+    - tinNumber
+    }
+    ' ======= Noteworthy Events =========
+    class TestParameterResult{
+    - value
+    }
+    ' ======= Descriptions of Things =========
+    class TestType{
+    - code
+    - description
+    - collecting method
+    }
+
+
+    ' ======= Organizations =========
+    class Company{
+     - designation
+    }
+    class NHS{
+    }
+    ' ======= Other External/Collaborating Systems =========
+    class Validation{
+    - testReferenceValues
+    - date
+    - time
+    }
+    ' ======= Records of finance, work, contracts, legal matters =========
+    ' ======= Documents mentioned/used to perform some work =========
+    class NHSReport{
+    -report
+    }
+
+    class Report{
+    }
+
+Administrator "1" -- "*" ClinicalAnalysisLaboratory : creates >
+Administrator "1" -- "*" Employee : registers >
+Administrator "1" -- "*" Receptionist : creates >
+Administrator "1" -- "*" TestType : specifies >
+
+Client "*" -- "1" Employee : is rolled as >
+
+ClinicalChemistryTechnologist "1" -- "1" Employee : is rolled as >
+Administrator "1" -- "*" NHSReport : can send >
+Company "1" -- "*" ChemicalLaboratory : owns >
+Company "1" -- "*" ClinicalAnalysisLaboratory : owns >
+Company "1" -- "*" NHSReport : generates >
+Company "1" -- "*" Parameter : capable of analysing >
+Company "1" -- "*" ParameterCategory : adopts >
+Company "1" -- "*" Test : performs >
+Company "1" -- "*" TestType : conducts >
+Company "1" -- "1" Administrator : knows >
+
+NHSReport "*" -- "1" NHS : are sent to >
+
+Employee "1" -- "*" TestParameterResult : has access to >
+
+LaboratoryCoordinator "1" -- "*" Validation : does >
+LaboratoryCoordinator "1" -- "1" Employee : is rolled as >
+LaboratoryCoordinator "1" -- "*" Test : imports >
+
+LabOrder "*" -- "1" Receptionist : is delivered >
+
+MedicalLabTechnician "1" -- "1" Employee : is rolled as >
+
+Notification "1" -- "1" Client : is sent >
+
+Parameter "*" -- "1" Administrator : created by >
+Parameter "*" -- "1" ParameterCategory : presented under >
+Parameter "1" -- "1" TestParameterResult : has >
+
+ParameterCategory "*" -- "1" Administrator : created by >
+
+Receptionist "1" -- "*" Client : registers >
+Receptionist "1" -- "*" Test : registers >
+Receptionist "1" -- "1" Employee : is rolled as >
+
+Report "1" -- "*" Client : is sent to >
+
+Sample "*" -- "1" ClinicalChemistryTechnologist : are analyzed by >
+Sample "*" -- "1" MedicalLabTechnician : recorded in system by >
+
+SpecialistDoctor "*" -- "1" Employee : is rolled as >
+SpecialistDoctor "1" -- "*" Report : writes >
+SpecialistDoctor "1" -- "*" Validation : uses >
+
+Test "*" -- "1" Validation : is submitted for >
+Test "1" -- "*" Parameter : requests analysis of >
+Test "1" -- "*" Sample : collects >
+Test "1" -- "*" TestType : is of >
+Test "1" -- "1" Client : requested by >
+Test "1" -- "1" LabOrder : associated with >
+
+TestParameterResult "*" -- "1" Report : delivered as >
+TestParameterResult "*" -- "1" Sample : obtained through >
+TestParameterResult "1" -- "1" Notification : results in >
+
+Validation "1" -- "*" TestParameterResult : validates >
+@enduml

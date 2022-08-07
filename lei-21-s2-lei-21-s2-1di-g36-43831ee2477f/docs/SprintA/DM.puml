@@ -1,0 +1,204 @@
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+
+' ======= classes =========
+
+    ' ======= Transaction Line Items =========
+    class Sample{
+    - barcode
+    }
+    ' ======= Product/Service related to a Transaction or Transaction Line Item =========
+    class Parameter{
+    }
+    class LinearRegressionAlgorithm{
+    }
+    ' ======= Business Transactions =========
+    class Covid19Test{
+    - result
+    }
+
+    class BloodTest{
+    - rbc
+    - wbc
+    - plt
+    }
+
+    class Test{
+    - code
+    - nhs_code
+    - createdAt
+    }
+    ' ======= Roles of People or Organizations =========
+    class Administrator{
+    }
+
+    class Receptionist{
+    }
+
+    class MedicalLabTechnician{
+    }
+
+    class Client{
+    - nhsNumber
+    - birthDate
+    - sex
+    - tin
+    - phoneNumber
+    - e-mail
+    - name
+    }
+
+    class SpecialistDoctor{
+    }
+
+    class LaboratoryCoordinator{
+    }
+
+    class ClinicalChemistryTechnologist{
+    - laboratory_Id;
+    - name;
+    - address;
+    - phone_Number;
+    - tin_number
+    }
+
+    class User{
+    - username
+    - password
+    - employee_ID
+    - organization_Role
+    - name
+    - address
+    - phoneNumber
+    - e-Mail
+    - soc_code
+    }
+
+    class Admin{
+    - username
+    - password
+    }
+    ' ======= Places =========
+    class ClinicalAnalysisLaboratory{
+    }
+
+    class ChemicalLaboratory{
+    - name
+    - address
+    - phone_number
+    - tin_number
+    }
+    ' ======= Noteworthy Events =========
+    class ResultsOfTheClinicalAnalyses{
+    - description
+    }
+    class ResultsOfTests{
+    }
+    ' ======= Descriptions of Things =========
+    class TestType{
+    - designation
+    }
+    class Category{
+    - code
+    - description
+    - nhs_id
+    }
+    class Other{
+    }
+    ' ======= Organizations =========
+    class Company{
+     - designation
+    }
+    class NHS{
+    }
+    ' ======= Other External/Collaborating Systems =========
+    class ExternalModule{
+    }
+    ' ======= Records of finance, work, contracts, legal matters =========
+    class ClientData{
+    - data
+    }
+    ' ======= Documents mentioned/used to perform some work =========
+    class DailyReport{
+    }
+
+    class Reports{
+    }
+
+    class ConfigurationFile{
+    }
+
+Company "1" -- "*" ChemicalLaboratory : owns >
+Company "1" -- "*" ClinicalAnalysisLaboratory : owns >
+Company "1" -- "*" Test : performs >
+Company "1" -- "*" TestType : conducts >
+
+Test "1" -- "*" Sample : collects >
+Test "1" -- "*" Client : requested by >
+Test "1" -- "*" TestType : is of >
+Test "1" -- "*" Parameter : requests analysis of >
+Test "*" -- "1" ExternalModule : validated by >
+
+Parameter "1" -- "*" Category : presented under >
+Category "1" -- "*" Administrator : created by >
+
+Client "1" -- "1" ClientData : is allowed to access >
+Client "*" -- "1" User : is rolled as >
+
+SpecialistDoctor "1" -- "*" Reports : writes >
+SpecialistDoctor "*" -- "1" User : is rolled as >
+
+Reports "1" -- "1" Client : is sent to >
+
+Sample "*" -- "1" MedicalLabTechnician : recorded in system by >
+Sample "*" -- "1" ClinicalChemistryTechnologist : are analyzed by >
+
+LinearRegressionAlgorithm "1" -- "*" ResultsOfTests : predicts >
+LinearRegressionAlgorithm "1" -- "1" ConfigurationFile : configured by >
+
+Receptionist "1" -- "*" Client : registers >
+Receptionist "1" -- "1" User : is rolled as >
+Receptionist "1" -- "*" Test : registers >
+
+TestType "1" -- "1" Covid19Test : categorized into >
+TestType "1" -- "1" BloodTest : categorized into >
+TestType "1" -- "*" Other : categorized into >
+
+Administrator "1" -- "1" Admin : is rolled as >
+Administrator "1" -- "*" Other : creates >
+Administrator "1" -- "*" User : manages >
+
+MedicalLabTechnician "1" -- "1" User : is rolled as >
+LaboratoryCoordinator "1" -- "1" User : is rolled as >
+ClinicalChemistryTechnologist "1" -- "1" User : is rolled as >
+Company "1" -- "*" DailyReport : generates >
+DailyReport "*" -- "1" NHS : are sent to >
+
+LaboratoryCoordinator "1" -- "*" ResultsOfTheClinicalAnalyses : validates >
+User "1" -- "*" ResultsOfTheClinicalAnalyses : has access to >
+
+@enduml

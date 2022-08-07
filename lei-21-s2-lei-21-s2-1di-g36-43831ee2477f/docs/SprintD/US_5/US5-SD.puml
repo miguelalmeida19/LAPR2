@@ -1,0 +1,136 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Medical Lab Technician" as medicalLabTechnician
+
+participant "RecordTestSamplesUI" as RecordTestSamplesUI
+participant ":RecordTestSamplesController" as Controller
+participant ":Company" as company
+participant "store:TestStore" as Store
+participant "mapper:TestMapper" as mapper
+participant ":Test" as Test
+participant "TestDTO:TestDTO" as DTO
+participant "listTest : List<Test>" as TestList
+participant "listTestDTO : List<TestDTO>" as listTestDTO
+participant "sample :Sample" as Sample
+participant "listSample : List<Sample>" as SampleList
+activate medicalLabTechnician
+medicalLabTechnician -> RecordTestSamplesUI : record new test samples results
+activate RecordTestSamplesUI
+RecordTestSamplesUI -> Controller : listTestDTO = getTestListDTO()
+activate Controller
+Controller -> company : store = getTestStore()
+activate company
+deactivate company
+Controller -> Store : listTest = getListRegisteredTest()
+activate Store
+Store -> TestList**: create()
+
+loop for tests stored
+
+alt test in registered state
+Store -> Store : add(test)
+end
+end
+deactivate Store
+Controller -> mapper : testListDTO = toDTO(testList)
+activate mapper
+
+
+mapper -> listTestDTO**: create()
+loop    for each object in testList
+mapper -> TestList: test = get(i)
+activate TestList
+deactivate TestList
+mapper -> mapper: testDTO = toDTO(test)
+activate mapper
+mapper -> TestDTO** : create(test)
+deactivate mapper
+mapper -> listTestDTO: add(testDTO)
+activate mapper
+deactivate mapper
+deactivate mapper
+
+activate listTestDTO
+deactivate listTestDTO
+end
+deactivate Controller
+
+
+
+
+
+
+RecordTestSamplesUI -> medicalLabTechnician : shows all tests and asks to select one
+
+deactivate RecordTestSamplesUI
+medicalLabTechnician -> RecordTestSamplesUI : selects the test
+activate RecordTestSamplesUI
+RecordTestSamplesUI -> medicalLabTechnician : request number of barcode
+deactivate RecordTestSamplesUI
+medicalLabTechnician -> RecordTestSamplesUI : types requested data (number of barcode)
+activate RecordTestSamplesUI
+RecordTestSamplesUI -> Controller: registerSample(numberOfBarcode,testDTO)
+activate Controller
+
+
+Controller -> mapper : test = toTest(testDTO)
+
+activate mapper
+
+deactivate mapper
+loop for numberOfBarcode
+
+Controller -> Test : addSample()
+activate Test
+Test -> Sample** : sample = create()
+activate Sample
+Sample -> Sample : generateCode()
+activate Sample
+deactivate Sample
+deactivate Sample
+Test -> Test : addSampleCreated(sample)
+activate Test
+deactivate Test
+deactivate Test
+
+end
+
+
+
+
+
+
+
+
+
+RecordTestSamplesUI -> medicalLabTechnician : informs operation success
+deactivate RecordTestSamplesUI
+
+deactivate medicalLabTechnician
+
+@enduml

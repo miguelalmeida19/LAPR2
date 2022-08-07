@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="848.0" prefWidth="1353.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.AuthUI">
+   <center>
+      <AnchorPane fx:id="page" onKeyPressed="#keypressed" prefHeight="787.0" prefWidth="800.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" fillWidth="false" layoutX="16.0" layoutY="122.0" prefHeight="661.0" prefWidth="1321.0" AnchorPane.bottomAnchor="281.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="122.0">
+               <children>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="1321.0">
+                     <children>
+                        <ImageView fitHeight="279.0" fitWidth="277.0" layoutX="522.0" layoutY="7.0">
+                           <image>
+                              <Image url="@../images/logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="107.0" prefWidth="576.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="7.0" prefHeight="81.0" prefWidth="574.0" text="Login" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="7.0">
+                           <font>
+                              <Font name="Candara Bold" size="46.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane cache="true" cacheHint="SPEED" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="109.0" prefWidth="483.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="email" alignment="CENTER" layoutX="83.0" layoutY="22.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keypressed" onMouseClicked="#emailClicked" prefHeight="50.0" prefWidth="317.0" promptText="email/id" styleClass="login" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="83.0" />
+                        <ImageView fx:id="rocketEmail" fitHeight="148.0" fitWidth="147.0" layoutX="168.0" layoutY="-27.0">
+                           <image>
+                              <Image url="@../images/rocket.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane cache="true" cacheHint="SPEED" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="109.0" prefWidth="483.0">
+                     <children>
+                        <PasswordField fx:id="passowrd" alignment="CENTER" layoutX="81.0" layoutY="23.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keypressed" onMouseClicked="#passwordClicked" prefHeight="50.0" prefWidth="319.0" promptText="password" styleClass="login" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="83.0" />
+                        <ImageView fx:id="rocketPass" fitHeight="148.0" fitWidth="147.0" layoutX="167.0" layoutY="-26.0">
+                           <image>
+                              <Image url="@../images/rocket.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin></AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="8.0" prefWidth="600.0" style="-fx-background-color: #CC8400;">
+         <children>
+            <HBox layoutX="487.0" prefHeight="28.0" prefWidth="113.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="28.0" prefWidth="56.0">
+                     <children>
+                        <ImageView fx:id="minimize" fitHeight="21.0" fitWidth="21.0" layoutX="30.0" layoutY="7.0" onMouseClicked="#minimize" styleClass="titlebuttons">
+                           <image>
+                              <Image url="@../images/minimize.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="28.0" prefWidth="61.0">
+                     <children>
+                        <ImageView fx:id="close" fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="1.0" onMouseClicked="#close" styleClass="titlebuttons">
+                           <image>
+                              <Image url="@../images/exit.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children></AnchorPane>
+   </top>
+</BorderPane>

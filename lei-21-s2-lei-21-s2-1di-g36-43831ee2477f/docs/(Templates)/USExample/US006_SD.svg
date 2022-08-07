@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1073.6px" preserveAspectRatio="none" style="width:1940px;height:1073px;" version="1.1" viewBox="0 0 1940 1073" width="1940px" zoomAndPan="magnify"><defs><filter height="300%" id="fr0k1bhwiezx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2" dy="3.2" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="913.3922" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="66.4" y="78.7906"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="35.6969" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="95.8391"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="114.3453" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="154.9844"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="514.4656" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="292.7781"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="161.4906" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="830.6922"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="47.4484" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="796.8" y="178.4328"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="491.0172" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="796.8" y="316.2266"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="138.0422" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="796.8" y="854.1406"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="935.2" y="407.1234"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1044" y="474.5719"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1145.2" y="542.0203"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1227.2" y="201.8813"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1227.2" y="339.675"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1227.2" y="609.4688"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="130.3266" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1312" y="676.9172"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="114.5938" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1312" y="877.5891"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="70.4" x2="70.4" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="359.6" x2="359.6" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="800.4" x2="800.4" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="939.2" x2="939.2" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1048" x2="1048" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1148.8" x2="1148.8" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1231.2" x2="1231.2" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1316" x2="1316" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1724" x2="1724" y1="716.1078" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1787.2" x2="1787.2" y1="70.7906" y2="1006.5828"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 5.0,5.0;" x1="1880" x2="1880" y1="70.7906" y2="1006.5828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="128" x="4" y="68.4281">Organization Employee</text><ellipse cx="70.4" cy="12" fill="#FEFECE" filter="url(#fr0k1bhwiezx)" rx="6.4" ry="6.4" style="stroke: #A80036; stroke-width: 1.6;"/><path d="M70.4,18.4 L70.4,40 M60,24.8 L80.8,24.8 M70.4,40 L60,52 M70.4,40 L80.8,52 " fill="none" filter="url(#fr0k1bhwiezx)" style="stroke: #A80036; stroke-width: 1.6;"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="128" x="4" y="1016.6109">Organization Employee</text><ellipse cx="70.4" cy="1026.9734" fill="#FEFECE" filter="url(#fr0k1bhwiezx)" rx="6.4" ry="6.4" style="stroke: #A80036; stroke-width: 1.6;"/><path d="M70.4,1033.3734 L70.4,1054.9734 M60,1039.7734 L80.8,1039.7734 M70.4,1054.9734 L60,1066.9734 M70.4,1054.9734 L80.8,1066.9734 " fill="none" filter="url(#fr0k1bhwiezx)" style="stroke: #A80036; stroke-width: 1.6;"/><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="87.2" x="314.8" y="42.4"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="76" x="320.4" y="58.8281">:CreateTaskUI</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="87.2" x="314.8" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="76" x="320.4" y="1022.2109">:CreateTaskUI</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="132" x="733.2" y="42.4"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="120.8" x="738.8" y="58.8281">:CreateTaskController</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="132" x="733.2" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="120.8" x="738.8" y="1022.2109">:CreateTaskController</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="96" x="889.6" y="42.4"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="84.8" x="895.2" y="58.8281">ApplicationPOT</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="96" x="889.6" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="84.8" x="895.2" y="1022.2109">ApplicationPOT</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="99.2" x="996.8" y="29.2094"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="20.8" x="1036" y="45.6375">app</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="88" x="1002.4" y="58.8281">:ApplicationPOT</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="99.2" x="996.8" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="20.8" x="1036" y="1022.2109">app</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="88" x="1002.4" y="1035.4016">:ApplicationPOT</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="80.8" x="1107.2" y="29.2094"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="40.8" x="1127.2" y="45.6375">session</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="69.6" x="1112.8" y="58.8281">:UserSession</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="80.8" x="1107.2" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="40.8" x="1127.2" y="1022.2109">session</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="69.6" x="1112.8" y="1035.4016">:UserSession</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="60.8" x="1199.2" y="42.4"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="49.6" x="1204.8" y="58.8281">:Platform</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="24.3906" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="60.8" x="1199.2" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="49.6" x="1204.8" y="1022.2109">:Platform</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="86.4" x="1271.2" y="29.2094"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="19.2" x="1304.8" y="45.6375">org</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="75.2" x="1276.8" y="58.8281">:Organization</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="86.4" x="1271.2" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="19.2" x="1304.8" y="1022.2109">org</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="75.2" x="1276.8" y="1035.4016">:Organization</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="40" x="1702.4" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="22.4" x="1711.2" y="1022.2109">task</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="28.8" x="1708" y="1035.4016">:Task</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="64" x="1753.6" y="29.2094"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="16" x="1777.6" y="45.6375">cat</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="52.8" x="1759.2" y="58.8281">:Category</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="64" x="1753.6" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="16" x="1777.6" y="1022.2109">cat</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="52.8" x="1759.2" y="1035.4016">:Category</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="100" x="1828.8" y="29.2094"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="8.8" x="1874.4" y="45.6375">lc</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="88.8" x="1834.4" y="58.8281">:List&lt;Category&gt;</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="100" x="1828.8" y="1005.7828"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="8.8" x="1874.4" y="1022.2109">lc</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="88.8" x="1834.4" y="1035.4016">:List&lt;Category&gt;</text><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="913.3922" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="66.4" y="78.7906"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="35.6969" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="95.8391"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="114.3453" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="154.9844"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="514.4656" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="292.7781"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="161.4906" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="356" y="830.6922"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="47.4484" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="796.8" y="178.4328"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="491.0172" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="796.8" y="316.2266"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="138.0422" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="796.8" y="854.1406"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="935.2" y="407.1234"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1044" y="474.5719"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1145.2" y="542.0203"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1227.2" y="201.8813"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1227.2" y="339.675"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="24" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1227.2" y="609.4688"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="130.3266" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1312" y="676.9172"/><rect fill="#FFFFFF" filter="url(#fr0k1bhwiezx)" height="114.5938" style="stroke: #A80036; stroke-width: 0.8;" width="8" x="1312" y="877.5891"/><polygon fill="#A80036" points="346.4,92.6391,354.4,95.8391,346.4,99.0391,349.6,95.8391" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="74.4" x2="351.2" y1="95.8391" y2="95.8391"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="80" y="92.0453">1</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="127.2" x="90.4" y="92.0453">asks to create a new task</text><polygon fill="#A80036" points="83.2,128.3359,75.2,131.5359,83.2,134.7359,80,131.5359" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="78.4" x2="359.2" y1="131.5359" y2="131.5359"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="88" y="121.618">2</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="238.4" x="98.4" y="115.4938">requests data (reference, designation,  informal</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="248.8" x="101.6" y="127.7422">description, technical description, duration, cost)</text><polygon fill="#A80036" points="346.4,151.7844,354.4,154.9844,346.4,158.1844,349.6,154.9844" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="74.4" x2="351.2" y1="154.9844" y2="154.9844"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="80" y="151.1906">3</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="104.8" x="90.4" y="151.1906">types requested data</text><polygon fill="#A80036" points="787.2,175.2328,795.2,178.4328,787.2,181.6328,790.4,178.4328" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="364" x2="792" y1="178.4328" y2="178.4328"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="369.6" y="174.6391">4</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="116.8" x="380" y="174.6391">lc=getTaskCategories()</text><polygon fill="#A80036" points="1217.6,198.6813,1225.6,201.8813,1217.6,205.0813,1220.8,201.8813" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1222.4" y1="201.8813" y2="201.8813"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="810.4" y="198.0875">5</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="116.8" x="820.8" y="198.0875">lc=getTaskCategories()</text><polygon fill="#A80036" points="83.2,266.1297,75.2,269.3297,83.2,272.5297,80,269.3297" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="78.4" x2="359.2" y1="269.3297" y2="269.3297"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="88" y="265.5359">6</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="241.6" x="98.4" y="265.5359">shows task categories list and ask to select one</text><polygon fill="#A80036" points="346.4,289.5781,354.4,292.7781,346.4,295.9781,349.6,292.7781" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="74.4" x2="351.2" y1="292.7781" y2="292.7781"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="80" y="288.9844">7</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="115.2" x="90.4" y="288.9844">selects a task category</text><polygon fill="#A80036" points="787.2,313.0266,795.2,316.2266,787.2,319.4266,790.4,316.2266" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="364" x2="792" y1="316.2266" y2="316.2266"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="369.6" y="312.4328">8</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="407.2" x="380" y="312.4328">createTask(ref,designation,informalDesc,technicalDesc,duration,cost,categoryId)</text><polygon fill="#A80036" points="1217.6,336.475,1225.6,339.675,1217.6,342.875,1220.8,339.675" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1222.4" y1="339.675" y2="339.675"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="7.2" x="810.4" y="335.8813">9</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="164" x="820.8" y="335.8813">cat=getCategoryById(categoryId)</text><polygon fill="#A80036" points="925.6,403.9234,933.6,407.1234,925.6,410.3234,928.8,407.1234" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="930.4" y1="407.1234" y2="407.1234"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="810.4" y="403.3297">10</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="97.6" x="828" y="403.3297">app = getInstance()</text><polygon fill="#A80036" points="1034.4,471.3719,1042.4,474.5719,1034.4,477.7719,1037.6,474.5719" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1039.2" y1="474.5719" y2="474.5719"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="810.4" y="470.7781">11</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="151.2" x="828" y="470.7781">session = getCurrentSession()</text><polygon fill="#A80036" points="1135.6,538.8203,1143.6,542.0203,1135.6,545.2203,1138.8,542.0203" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1140.4" y1="542.0203" y2="542.0203"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="810.4" y="538.2266">12</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="113.6" x="828" y="538.2266">email = getUserEmail()</text><polygon fill="#A80036" points="1217.6,606.2688,1225.6,609.4688,1217.6,612.6688,1220.8,609.4688" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1222.4" y1="609.4688" y2="609.4688"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="810.4" y="605.675">13</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="206.4" x="828" y="605.675">org = getOrganizationByUserEmail(email)</text><polygon fill="#A80036" points="1302.4,673.7172,1310.4,676.9172,1302.4,680.1172,1305.6,676.9172" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1307.2" y1="676.9172" y2="676.9172"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="810.4" y="673.1234">14</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="399.2" x="828" y="673.1234">task=createTask(ref,designation,informalDesc,technicalDesc,duration,cost,cat)</text><polygon fill="#A80036" points="1692.8,697.1656,1700.8,700.3656,1692.8,703.5656,1696,700.3656" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="1320" x2="1697.6" y1="700.3656" y2="700.3656"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="1325.6" y="696.5719">15</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="345.6" x="1343.2" y="696.5719">create(ref,designation,informalDesc,technicalDesc,duration,cost,cat)</text><rect fill="#FEFECE" filter="url(#fr0k1bhwiezx)" height="37.5813" style="stroke: #A80036; stroke-width: 1.2000000000000002;" width="40" x="1702.4" y="683.3172"/><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="22.4" x="1711.2" y="699.7453">task</text><text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacingAndGlyphs" textLength="28.8" x="1708" y="712.9359">:Task</text><line style="stroke: #A80036; stroke-width: 0.8;" x1="1320" x2="1353.6" y1="749.9469" y2="749.9469"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="1353.6" x2="1353.6" y1="749.9469" y2="760.3469"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="1320.8" x2="1353.6" y1="760.3469" y2="760.3469"/><polygon fill="#A80036" points="1328.8,757.1469,1320.8,760.3469,1328.8,763.5469,1325.6,760.3469" style="stroke: #A80036; stroke-width: 0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="1325.6" y="746.1531">16</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="91.2" x="1343.2" y="746.1531">validateTask(task)</text><polygon fill="#A80036" points="372.8,780.5953,364.8,783.7953,372.8,786.9953,369.6,783.7953" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="368" x2="796" y1="783.7953" y2="783.7953"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="377.6" y="780.0016">17</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="28.8" x="395.2" y="780.0016">result</text><polygon fill="#A80036" points="83.2,804.0438,75.2,807.2438,83.2,810.4438,80,807.2438" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="78.4" x2="359.2" y1="807.2438" y2="807.2438"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="88" y="803.45">18</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="208" x="105.6" y="803.45">shows all data and requests confirmation</text><polygon fill="#A80036" points="346.4,827.4922,354.4,830.6922,346.4,833.8922,349.6,830.6922" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="74.4" x2="351.2" y1="830.6922" y2="830.6922"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="80" y="826.8984">19</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="88.8" x="97.6" y="826.8984">confirms the data</text><polygon fill="#A80036" points="787.2,850.9406,795.2,854.1406,787.2,857.3406,790.4,854.1406" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="364" x2="792" y1="854.1406" y2="854.1406"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="369.6" y="850.3469">20</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="52.8" x="387.2" y="850.3469">saveTask()</text><polygon fill="#A80036" points="1302.4,874.3891,1310.4,877.5891,1302.4,880.7891,1305.6,877.5891" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="804.8" x2="1307.2" y1="877.5891" y2="877.5891"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="810.4" y="873.7953">21</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="74.4" x="828" y="873.7953">saveTask(task)</text><line style="stroke: #A80036; stroke-width: 0.8;" x1="1320" x2="1353.6" y1="901.0375" y2="901.0375"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="1353.6" x2="1353.6" y1="901.0375" y2="911.4375"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="1320.8" x2="1353.6" y1="911.4375" y2="911.4375"/><polygon fill="#A80036" points="1328.8,908.2375,1320.8,911.4375,1328.8,914.6375,1325.6,911.4375" style="stroke: #A80036; stroke-width: 0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="1325.6" y="897.2438">22</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="91.2" x="1343.2" y="897.2438">validateTask(task)</text><line style="stroke: #A80036; stroke-width: 0.8;" x1="1320" x2="1353.6" y1="934.8859" y2="934.8859"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="1353.6" x2="1353.6" y1="934.8859" y2="945.2859"/><line style="stroke: #A80036; stroke-width: 0.8;" x1="1320.8" x2="1353.6" y1="945.2859" y2="945.2859"/><polygon fill="#A80036" points="1328.8,942.0859,1320.8,945.2859,1328.8,948.4859,1325.6,945.2859" style="stroke: #A80036; stroke-width: 0.8;"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="1325.6" y="931.0922">23</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="70.4" x="1343.2" y="931.0922">addTask(task)</text><polygon fill="#A80036" points="372.8,965.5344,364.8,968.7344,372.8,971.9344,369.6,968.7344" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="368" x2="796" y1="968.7344" y2="968.7344"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="377.6" y="964.9406">24</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="28.8" x="395.2" y="964.9406">result</text><polygon fill="#A80036" points="79.2,988.9828,71.2,992.1828,79.2,995.3828,76,992.1828" style="stroke: #A80036; stroke-width: 0.8;"/><line style="stroke: #A80036; stroke-width: 0.8; stroke-dasharray: 2.0,2.0;" x1="74.4" x2="359.2" y1="992.1828" y2="992.1828"/><text fill="#000000" font-family="sans-serif" font-size="10.4" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14.4" x="84" y="988.3891">25</text><text fill="#000000" font-family="sans-serif" font-size="10.4" lengthAdjust="spacingAndGlyphs" textLength="133.6" x="101.6" y="988.3891">informs operation success</text><!--MD5=[77837b7147d24c1053ce4f63409fb40f]
+@startuml
+autonumber
+'hide footbox
+actor "Organization Employee" as ADM
+
+participant ":CreateTaskUI" as UI
+participant ":CreateTaskController" as CTRL
+participant "ApplicationPOT" as _APP
+participant "app\n:ApplicationPOT" as APP
+participant "session\n:UserSession" as SESSAO
+participant ":Platform" as PLAT
+participant "org\n:Organization" as ORG
+participant "task\n:Task" as TAREFA
+participant "cat\n:Category" as CAT
+participant "lc\n:List<Category>" as LIST_CAT
+
+activate ADM
+ADM -> UI : asks to create a new task
+activate UI
+UI - -> ADM : requests data (reference, designation,  informal \n description, technical description, duration, cost)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : lc=getTaskCategories()
+activate CTRL
+
+CTRL -> PLAT : lc=getTaskCategories()
+activate PLAT
+|||
+deactivate PLAT
+deactivate CTRL
+
+UI - -> ADM : shows task categories list and ask to select one
+deactivate PLAT
+deactivate UI
+
+ADM -> UI : selects a task category
+activate UI
+
+UI -> CTRL : createTask(ref,designation,informalDesc,technicalDesc,duration,cost,categoryId)
+activate CTRL
+
+CTRL -> PLAT : cat=getCategoryById(categoryId)
+activate PLAT
+|||
+deactivate PLAT
+
+CTRL -> _APP: app = getInstance()
+activate _APP
+|||
+deactivate _APP
+
+CTRL -> APP: session = getCurrentSession()
+activate APP
+|||
+deactivate APP
+
+CTRL -> SESSAO: email = getUserEmail()
+activate SESSAO
+|||
+deactivate SESSAO
+
+CTRL -> PLAT: org = getOrganizationByUserEmail(email)
+activate PLAT
+|||
+deactivate PLAT
+
+CTRL -> ORG: task=createTask(ref,designation,informalDesc,technicalDesc,duration,cost,cat)
+activate ORG
+
+ORG - -> TAREFA**: create(ref,designation,informalDesc,technicalDesc,duration,cost,cat)
+ORG -> ORG: validateTask(task)
+
+CTRL - -> UI: result
+
+UI - -> ADM: shows all data and requests confirmation
+deactivate ORG
+deactivate PLAT
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+UI -> CTRL : saveTask()
+activate CTRL
+
+CTRL -> ORG : saveTask(task)
+activate ORG
+
+ORG -> ORG: validateTask(task)
+ORG -> ORG: addTask(task)
+
+CTRL - -> UI: result
+
+UI - -> ADM : informs operation success
+deactivate ORG
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml
+
+@startuml
+autonumber
+actor "Organization Employee" as ADM
+
+participant ":CreateTaskUI" as UI
+participant ":CreateTaskController" as CTRL
+participant "ApplicationPOT" as _APP
+participant "app\n:ApplicationPOT" as APP
+participant "session\n:UserSession" as SESSAO
+participant ":Platform" as PLAT
+participant "org\n:Organization" as ORG
+participant "task\n:Task" as TAREFA
+participant "cat\n:Category" as CAT
+participant "lc\n:List<Category>" as LIST_CAT
+
+activate ADM
+ADM -> UI : asks to create a new task
+activate UI
+UI - -> ADM : requests data (reference, designation,  informal \n description, technical description, duration, cost)
+deactivate UI
+
+ADM -> UI : types requested data
+activate UI
+
+UI -> CTRL : lc=getTaskCategories()
+activate CTRL
+
+CTRL -> PLAT : lc=getTaskCategories()
+activate PLAT
+|||
+deactivate PLAT
+deactivate CTRL
+
+UI - -> ADM : shows task categories list and ask to select one
+deactivate PLAT
+deactivate UI
+
+ADM -> UI : selects a task category
+activate UI
+
+UI -> CTRL : createTask(ref,designation,informalDesc,technicalDesc,duration,cost,categoryId)
+activate CTRL
+
+CTRL -> PLAT : cat=getCategoryById(categoryId)
+activate PLAT
+|||
+deactivate PLAT
+
+CTRL -> _APP: app = getInstance()
+activate _APP
+|||
+deactivate _APP
+
+CTRL -> APP: session = getCurrentSession()
+activate APP
+|||
+deactivate APP
+
+CTRL -> SESSAO: email = getUserEmail()
+activate SESSAO
+|||
+deactivate SESSAO
+
+CTRL -> PLAT: org = getOrganizationByUserEmail(email)
+activate PLAT
+|||
+deactivate PLAT
+
+CTRL -> ORG: task=createTask(ref,designation,informalDesc,technicalDesc,duration,cost,cat)
+activate ORG
+
+ORG - -> TAREFA**: create(ref,designation,informalDesc,technicalDesc,duration,cost,cat)
+ORG -> ORG: validateTask(task)
+
+CTRL - -> UI: result
+
+UI - -> ADM: shows all data and requests confirmation
+deactivate ORG
+deactivate PLAT
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirms the data
+activate UI
+UI -> CTRL : saveTask()
+activate CTRL
+
+CTRL -> ORG : saveTask(task)
+activate ORG
+
+ORG -> ORG: validateTask(task)
+ORG -> ORG: addTask(task)
+
+CTRL - -> UI: result
+
+UI - -> ADM : informs operation success
+deactivate ORG
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 WET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PT
+--></g></svg>

@@ -1,0 +1,87 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+
+endheader
+title <b>US4 - System Sequence Diagram\n
+autonumber
+
+actor ":Receptionist" as Receptionist
+participant ":System" as System
+
+activate Receptionist
+
+
+Receptionist -> System: Starts registering a test.
+activate System
+System -> Receptionist: asks to introduce the client TIN
+deactivate System
+Receptionist -> System: types the TIN of the client.
+
+' ===================================================
+activate System
+System --> Receptionist : Shows all the types of test and ask to select one of them.
+deactivate System
+ System <-- Receptionist : selects the test type
+
+' ===================================================
+activate System
+
+System -> Receptionist : Shows all the parameter categories and ask to select some of them
+deactivate System
+loop while !parameterCategoriesSelected
+Receptionist -> System: selects the parameter category
+activate System
+
+
+end
+' ===================================================
+
+activate System
+System --> Receptionist : Shows all the parameters and ask to select some of them.
+deactivate System
+loop while !parametersSelected
+System <-- Receptionist : selects the test parameters.
+activate System
+end
+' ===================================================
+
+activate System
+Receptionist <-- System: Request data (nhsCode )
+
+
+deactivate System
+System <- Receptionist : Types the requested data.
+activate System
+Receptionist <-- System :  Shows all the data and requests a confirmation
+deactivate System
+
+Receptionist -> System : confirms the data
+
+activate System
+System --> Receptionist : informs operation success
+deactivate System
+@enduml
+Receptionist <-- System: Request data (code, name, description )

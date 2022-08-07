@@ -1,0 +1,181 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ":ConsultTestsUI" as ConsultTestsUI
+participant ":ConsultTestsController" as ConsultTestsController
+participant ":Company" as Company
+participant "ClientStore:ClientStore" as ClientStore
+participant "testStore:TestStore" as TestStore
+
+participant ":mapper:ClientMapper" as ClientMapper
+participant  "ClientList : List<Client>" as ClientList
+participant "listClientDTO : List<ClientDTO>" as listClientDTO
+participant "ClientDTO : ClientDTO" as ClientDTO
+participant ":mapper:TestMapper" as TestMapper
+participant ":mapper:ParameterResultMapper" as ParameterResultMapper
+participant  "testsList : List<Test>" as TestList
+participant "listTestParameterResult : List<Test>" as listTestParameterResult
+participant "listTestDTO : List<TestDTO>" as listTestDTO
+participant "listTestParameterResultDTO : List<ParameterResultDTO>" as listTestParameterResultDTO
+participant "TestParameterResultDTO : TestParameterResultDTO" as TestParameterResultDTO
+participant "TestDTO : TestDTO" as TestDTO
+participant "<<interface>> sortAlgorithm: SortAlgorithm" as SortAlgorithm
+
+
+
+activate CCT
+activate ConsultTestsUI
+CCT -> ConsultTestsUI : starts the view of tests
+ConsultTestsUI -> ConsultTestsController : listClientDTO = getClientList()
+activate ConsultTestsController
+ConsultTestsController -> Company : ClientStore = getClientStore()
+activate Company
+deactivate Company
+
+activate ClientStore
+ConsultTestsController -> ClientStore: clientList = getClientList()
+ClientStore --> ClientList** : create()
+loop for clients stored
+ClientStore --> ClientStore : add(client)
+end
+deactivate ClientStore
+ConsultTestsController -> ClientMapper: listClientDTO = toDTO(ClientList)
+activate ClientMapper
+deactivate ConsultTestsController
+ClientMapper -> listClientDTO**: create()
+loop #97b8a5 for each object in testsList
+ClientMapper -> ClientList: client = get(i)
+activate ClientList
+deactivate ClientList
+ClientMapper -> ClientMapper: clientDTO = toDTO(client)
+activate ClientMapper
+ClientMapper -> ClientDTO** : create(client)
+deactivate ClientMapper
+ClientMapper -> listClientDTO: add(clientDTO)
+activate listClientDTO
+deactivate listClientDTO
+deactivate ClientMapper
+end
+ConsultTestsUI -->CCT: asks the way to choose clients(TIN or name)
+deactivate ConsultTestsUI
+CCT --> ConsultTestsUI:chooses the way to sort
+activate ConsultTestsUI
+ConsultTestsUI -> ConsultTestsController:arrayToSort[]=getClientNameTin()
+activate ConsultTestsController
+
+deactivate ConsultTestsController
+ConsultTestsUI -> ConsultTestsController:arrayToSort[]=getClientTinName()
+activate ConsultTestsController
+deactivate ConsultTestsController
+ConsultTestsUI -> ConsultTestsController: sortList()
+activate ConsultTestsController
+ConsultTestsController-> SortAlgorithm : sort(arrayToSort[])
+activate SortAlgorithm
+ref over SortAlgorithm
+MergeSort-SD
+QuickSort-SD
+end
+deactivate SortAlgorithm
+deactivate ConsultTestsController
+deactivate ConsultTestsController
+ConsultTestsUI --> CCT :shows clients who already have tests
+deactivate ConsultTestsUI
+CCT -> ConsultTestsUI:selects the client
+activate ConsultTestsUI
+ConsultTestsUI -> ConsultTestsController : listTestDTO = getTestList()
+activate ConsultTestsController
+ConsultTestsController -> Company : testStore = getTestStore()
+
+activate Company
+activate TestStore
+
+ConsultTestsController -> TestStore: testsList = getTestList()
+deactivate Company
+
+TestStore --> TestList** : create()
+loop for tests validated
+TestStore --> TestStore : add(test)
+
+end
+deactivate TestStore
+ConsultTestsController -> TestMapper: listTestDTO = toDTO(testsList)
+activate TestMapper
+deactivate ConsultTestsController
+TestMapper -> listTestDTO**: create()
+loop #97b8a5 for each object in testsList
+TestMapper -> TestList: test = get(i)
+activate TestList
+deactivate TestList
+TestMapper -> TestMapper: testDTO = toDTO(test)
+activate TestMapper
+TestMapper -> TestDTO** : create(test)
+deactivate TestMapper
+TestMapper -> listTestDTO: add(testDTO)
+activate listTestDTO
+deactivate listTestDTO
+end
+deactivate TestMapper
+ConsultTestsUI -> ConsultTestsController: listTestsAvailable = getTestsAvailable(listTestDTO)
+activate ConsultTestsController
+deactivate ConsultTestsController
+loop #97b8a5 for each client selected
+ConsultTestsUI --> CCT : shows tests associated with the client
+deactivate ConsultTestsUI
+CCT-->ConsultTestsUI: selects the test
+activate ConsultTestsUI
+ConsultTestsUI -> ConsultTestsController : listTestParameterResultDTO = getlistTestParameterResult()
+activate ConsultTestsController
+activate TestStore
+ConsultTestsController -> TestStore: listTestParameterResult = getlistTestParameterResult()
+TestStore --> listTestParameterResult** : create()
+loop #97b8a5 for tests stored
+TestStore --> TestStore : add(parameterResult)
+end
+deactivate TestStore
+ConsultTestsController -> ParameterResultMapper: listTestParameterResultDTO = toDTO(listTestParameterResult)
+activate ParameterResultMapper
+deactivate ConsultTestsController
+ParameterResultMapper -> listTestParameterResultDTO**: create()
+loop #97b8a5 for each object in testsList
+ParameterResultMapper -> listTestParameterResult: parameterResult = get(i)
+activate listTestParameterResult
+deactivate listTestParameterResult
+ParameterResultMapper -> ParameterResultMapper: testParameterResultDTO = toDTO(parameterResult)
+
+ParameterResultMapper -> TestParameterResultDTO** : create(parameterResult)
+ParameterResultMapper -> listTestParameterResultDTO: add(testParameterResultDTO)
+activate listTestParameterResultDTO
+deactivate listTestParameterResultDTO
+end
+deactivate ParameterResultMapper
+ConsultTestsUI->>CCT :shows the data and informs operation success
+end
+@enduml

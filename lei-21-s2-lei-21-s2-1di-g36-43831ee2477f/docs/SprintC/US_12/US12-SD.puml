@@ -1,0 +1,88 @@
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as clinicalChemistryTechnologist
+
+participant ":RecordTestResultsUI" as RecordTestResultsUI
+participant ":RecordTestResultsController" as RecordTestResultsController
+participant "Company" as company
+participant ":store:TestStore" as TestStore
+participant "Test" as Test
+
+activate clinicalChemistryTechnologist
+activate RecordTestResultsUI
+clinicalChemistryTechnologist -> RecordTestResultsUI : starts recording new test results
+RecordTestResultsUI --> clinicalChemistryTechnologist : request data (barcode)
+deactivate RecordTestResultsUI
+clinicalChemistryTechnologist -> RecordTestResultsUI : types requested data
+activate RecordTestResultsUI
+RecordTestResultsUI -> RecordTestResultsController : Test = getTestbyBarcode(barcode)
+activate RecordTestResultsController
+RecordTestResultsController -> company : TestStore = getTestStore()
+activate company
+
+RecordTestResultsController -> TestStore : Test = getTestbyBarcode(barcode)
+deactivate company
+
+activate TestStore
+deactivate RecordTestResultsController
+RecordTestResultsUI --> clinicalChemistryTechnologist : shows the test associated with the sample's barcode and requests a confirmation
+deactivate TestStore
+deactivate RecordTestResultsUI
+loop for each parameter test
+RecordTestResultsUI --> clinicalChemistryTechnologist : asks for test parameter
+activate RecordTestResultsUI
+clinicalChemistryTechnologist -> RecordTestResultsUI : selects test parameter
+RecordTestResultsUI --> clinicalChemistryTechnologist : request the result value and metric
+deactivate RecordTestResultsUI
+clinicalChemistryTechnologist -> RecordTestResultsUI : types requested data
+activate RecordTestResultsUI
+RecordTestResultsUI -> RecordTestResultsController : addTestResult(parameterCode, result, metric)
+activate RecordTestResultsController
+RecordTestResultsController -> Test : addTestResult(parameterCode, result, metric)
+deactivate RecordTestResultsController
+
+activate Test
+
+ref over Test
+SD_ADDTestResult(parameterCode, result, metric)
+end ref
+
+
+Test --> RecordTestResultsController: ok
+deactivate Test
+activate RecordTestResultsController
+RecordTestResultsController --> RecordTestResultsUI: ok
+RecordTestResultsUI --> clinicalChemistryTechnologist : ok
+deactivate RecordTestResultsController
+deactivate RecordTestResultsUI
+end
+
+'FAlTAM OS VALIDATES
+'Falta o ref
+@enduml

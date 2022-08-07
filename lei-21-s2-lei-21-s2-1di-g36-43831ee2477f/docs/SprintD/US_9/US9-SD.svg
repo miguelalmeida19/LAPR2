@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1197.5px" preserveAspectRatio="none" style="width:1927px;height:1197px;background:#FCF9EA;" version="1.1" viewBox="0 0 1927 1197" width="1927.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fsb1kfg4hjtbd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="37.5" font-weight="bold" lengthAdjust="spacing" textLength="461.25" x="730.3125" y="115.0513">SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="37.5" lengthAdjust="spacing" textLength="0" x="967.1875" y="167.9321"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="761.9141" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="55.625" y="306.5527"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="471.875" y="334.4922"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="322.959" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="471.875" y="410.3711"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="297.1973" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="471.875" y="771.2695"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="247.0801" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="939.375" y="448.3105"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="259.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="939.375" y="809.209"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1183.125" y="486.25"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1426.875" y="561.6895"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1426.875" y="657.8906"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="232.5684" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1426.875" y="847.1484"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1433.125" y="895.0879"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1433.125" y="986.7773"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="61.25" x2="61.25" y1="294.0527" y2="1090.9668"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="477.5" x2="477.5" y1="294.0527" y2="1090.9668"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="945" x2="945" y1="294.0527" y2="1090.9668"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1189.375" x2="1189.375" y1="294.0527" y2="1090.9668"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1433.125" x2="1433.125" y1="294.0527" y2="1090.9668"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1854.375" x2="1854.375" y1="613.3203" y2="1090.9668"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="6.25" y="290.2075">Administrator</text><ellipse cx="61.875" cy="200.791" fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M61.875,210.791 L61.875,244.541 M45.625,220.791 L78.125,220.791 M61.875,244.541 L45.625,263.291 M61.875,244.541 L78.125,263.291 " fill="none" filter="url(#fsb1kfg4hjtbd)" style="stroke:#A80036;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="6.25" y="1107.8833">Administrator</text><ellipse cx="61.875" cy="1124.2285" fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M61.875,1134.2285 L61.875,1167.9785 M45.625,1144.2285 L78.125,1144.2285 M61.875,1167.9785 L45.625,1186.7285 M61.875,1167.9785 L78.125,1186.7285 " fill="none" filter="url(#fsb1kfg4hjtbd)" style="stroke:#A80036;stroke-width:2.5;"/><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="126.25" x="412.5" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="108.75" x="421.25" y="275.2075">:CreateTestUI</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="126.25" x="412.5" y="1089.7168"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="108.75" x="421.25" y="1116.6333">:CreateTestUI</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="61.5234" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="111.25" x="887.5" y="226.2793"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="93.75" x="896.25" y="253.1958">:CreateTest</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="77.5" x="904.375" y="275.2075">Controller</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="61.5234" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="111.25" x="887.5" y="1089.7168"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="93.75" x="896.25" y="1116.6333">:CreateTest</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="77.5" x="904.375" y="1138.645">Controller</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="97.5" x="1138.125" y="248.291"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="80" x="1146.875" y="275.2075">:Company</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="97.5" x="1138.125" y="1089.7168"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="80" x="1146.875" y="1116.6333">:Company</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="61.5234" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="147.5" x="1356.875" y="226.2793"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="130" x="1365.625" y="253.1958">:store: TestType</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="42.5" x="1409.375" y="275.2075">Store</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="61.5234" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="147.5" x="1356.875" y="1089.7168"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="130" x="1365.625" y="1116.6333">:store: TestType</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="42.5" x="1409.375" y="1138.645">Store</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="116.25" x="1794.375" y="1089.7168"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="98.75" x="1803.125" y="1116.6333">c : TestType</text><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="761.9141" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="55.625" y="306.5527"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="471.875" y="334.4922"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="322.959" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="471.875" y="410.3711"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="297.1973" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="471.875" y="771.2695"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="247.0801" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="939.375" y="448.3105"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="259.2578" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="939.375" y="809.209"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1183.125" y="486.25"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1426.875" y="561.6895"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1426.875" y="657.8906"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="232.5684" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1426.875" y="847.1484"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1433.125" y="895.0879"/><rect fill="#FFFFFF" filter="url(#fsb1kfg4hjtbd)" height="35" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1433.125" y="986.7773"/><polygon fill="#FFC5A1" points="456.875,329.4922,469.375,334.4922,456.875,339.4922,461.875,334.4922" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="68.125" x2="464.375" y1="334.4922" y2="334.4922"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="76.875" y="328.4216">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="166.25" x="90.625" y="328.4216">start a new type of test</text><polygon fill="#FFC5A1" points="81.875,367.4316,69.375,372.4316,81.875,377.4316,76.875,372.4316" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="74.375" x2="476.875" y1="372.4316" y2="372.4316"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="89.375" y="366.3611">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="360" x="103.125" y="366.3611">request_data(code, description, collectingMethod)</text><polygon fill="#FFC5A1" points="456.875,405.3711,469.375,410.3711,456.875,415.3711,461.875,410.3711" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="68.125" x2="464.375" y1="410.3711" y2="410.3711"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="76.875" y="404.3005">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="180" x="90.625" y="404.3005">types the requested data</text><polygon fill="#FFC5A1" points="924.375,443.3105,936.875,448.3105,924.375,453.3105,929.375,448.3105" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="484.375" x2="931.875" y1="448.3105" y2="448.3105"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="493.125" y="442.24">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="417.5" x="506.875" y="442.24">createNewTestTypes(code, description, collectingMethod)</text><polygon fill="#FFC5A1" points="1168.125,481.25,1180.625,486.25,1168.125,491.25,1173.125,486.25" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="951.875" x2="1175.625" y1="486.25" y2="486.25"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="960.625" y="480.1794">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="193.75" x="974.375" y="480.1794">store = getTestTypeStore()</text><polygon fill="#FFC5A1" points="1411.875,556.6895,1424.375,561.6895,1411.875,566.6895,1416.875,561.6895" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="951.875" x2="1419.375" y1="561.6895" y2="561.6895"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="960.625" y="555.6189">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="437.5" x="974.375" y="555.6189">c = createNewTestType(code, description, collectingMethod)</text><polygon fill="#FFC5A1" points="1779.375,594.6289,1791.875,599.6289,1779.375,604.6289,1784.375,599.6289" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="1433.125" x2="1786.875" y1="599.6289" y2="599.6289"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1441.875" y="593.5583">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="311.25" x="1455.625" y="593.5583">create(code, description, collectingMethod)</text><rect fill="#FEFECE" filter="url(#fsb1kfg4hjtbd)" height="39.5117" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.875;" width="116.25" x="1794.375" y="571.6895"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="98.75" x="1803.125" y="598.606">c : TestType</text><polygon fill="#FFC5A1" points="1411.875,652.8906,1424.375,657.8906,1411.875,662.8906,1416.875,657.8906" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="951.875" x2="1419.375" y1="657.8906" y2="657.8906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="960.625" y="651.8201">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="103.75" x="974.375" y="651.8201">validateTest(c)</text><polygon fill="#FFC5A1" points="81.875,728.3301,69.375,733.3301,81.875,738.3301,76.875,733.3301" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="74.375" x2="476.875" y1="733.3301" y2="733.3301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="89.375" y="727.2595">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="315" x="103.125" y="727.2595">shows the data and requests a confirmation</text><polygon fill="#FFC5A1" points="456.875,766.2695,469.375,771.2695,456.875,776.2695,461.875,771.2695" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="68.125" x2="464.375" y1="771.2695" y2="771.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="76.875" y="765.199">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="125" x="99.375" y="765.199">confirms the data</text><polygon fill="#FFC5A1" points="924.375,804.209,936.875,809.209,924.375,814.209,929.375,809.209" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="484.375" x2="931.875" y1="809.209" y2="809.209"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="493.125" y="803.1384">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="82.5" x="515.625" y="803.1384">saveTest(c)</text><polygon fill="#FFC5A1" points="1411.875,842.1484,1424.375,847.1484,1411.875,852.1484,1416.875,847.1484" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="951.875" x2="1419.375" y1="847.1484" y2="847.1484"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="960.625" y="841.0779">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="82.5" x="983.125" y="841.0779">saveTest(c)</text><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1445.625" x2="1498.125" y1="885.0879" y2="885.0879"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1498.125" x2="1498.125" y1="885.0879" y2="901.3379"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1446.875" x2="1498.125" y1="901.3379" y2="901.3379"/><polygon fill="#FFC5A1" points="1459.375,896.3379,1446.875,901.3379,1459.375,906.3379,1454.375,901.3379" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1454.375" y="879.0173">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="103.75" x="1476.875" y="879.0173">validateTest(c)</text><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1445.625" x2="1498.125" y1="976.7773" y2="976.7773"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1498.125" x2="1498.125" y1="976.7773" y2="993.0273"/><line style="stroke:#FFC5A1;stroke-width:1.25;" x1="1446.875" x2="1498.125" y1="993.0273" y2="993.0273"/><polygon fill="#FFC5A1" points="1459.375,988.0273,1446.875,993.0273,1459.375,998.0273,1454.375,993.0273" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="1454.375" y="970.7068">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="111.25" x="1476.875" y="970.7068">addTestType(c)</text><polygon fill="#FFC5A1" points="75.625,1063.4668,63.125,1068.4668,75.625,1073.4668,70.625,1068.4668" style="stroke:#FFC5A1;stroke-width:1.25;"/><line style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="68.125" x2="476.875" y1="1068.4668" y2="1068.4668"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="83.125" y="1062.3962">15</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="155" x="105.625" y="1062.3962">informs Test success</text><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="0" x="962.8125" y="19.2261"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="0" x="962.8125" y="34.9487"/><text fill="#000000" font-family="sans-serif" font-size="18.75" font-weight="bold" lengthAdjust="spacing" textLength="157.5" x="882.1875" y="57.1594">Built by WeByte ©</text><!--MD5=[9f0b5be0d760ca4fcc783a0194f5af47]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Administrator" as admin
+
+participant ":CreateTestUI" as UI
+participant ":CreateTest\nController" as CTRL
+participant ":Company" as Company
+participant ":store: TestType\nStore" as Store
+participant "c : TestType" as Client
+
+activate admin
+admin -> UI : start a new type of test
+activate UI
+UI - -> admin : request_data(code, description, collectingMethod)
+deactivate UI
+
+admin -> UI : types the requested data
+activate UI
+
+UI -> CTRL : createNewTestTypes(code, description, collectingMethod)
+activate CTRL
+
+CTRL -> Company: store = getTestTypeStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : c = createNewTestType(code, description, collectingMethod)
+
+activate Store
+
+Store - -> Client** : create(code, description, collectingMethod)
+
+deactivate Client
+
+deactivate Store
+
+CTRL -> Store: validateTest(c)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI - -> admin : shows the data and requests a confirmation
+
+deactivate UI
+
+admin -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveTest(c)
+activate CTRL
+
+CTRL -> Store : saveTest(c)
+
+activate Store
+
+Store -> Store: validateTest(c)
+activate Store
+deactivate Store
+
+Store -> Store: addTestType(c)
+activate Store
+deactivate Store
+
+UI - -> admin: informs Test success
+
+deactivate admin
+deactivate UI
+deactivate CTRL
+deactivate Company
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Administrator" as admin
+
+participant ":CreateTestUI" as UI
+participant ":CreateTest\nController" as CTRL
+participant ":Company" as Company
+participant ":store: TestType\nStore" as Store
+participant "c : TestType" as Client
+
+activate admin
+admin -> UI : start a new type of test
+activate UI
+UI - -> admin : request_data(code, description, collectingMethod)
+deactivate UI
+
+admin -> UI : types the requested data
+activate UI
+
+UI -> CTRL : createNewTestTypes(code, description, collectingMethod)
+activate CTRL
+
+CTRL -> Company: store = getTestTypeStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : c = createNewTestType(code, description, collectingMethod)
+
+activate Store
+
+Store - -> Client** : create(code, description, collectingMethod)
+
+deactivate Client
+
+deactivate Store
+
+CTRL -> Store: validateTest(c)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI - -> admin : shows the data and requests a confirmation
+
+deactivate UI
+
+admin -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveTest(c)
+activate CTRL
+
+CTRL -> Store : saveTest(c)
+
+activate Store
+
+Store -> Store: validateTest(c)
+activate Store
+deactivate Store
+
+Store -> Store: addTestType(c)
+activate Store
+deactivate Store
+
+UI - -> admin: informs Test success
+
+deactivate admin
+deactivate UI
+deactivate CTRL
+deactivate Company
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

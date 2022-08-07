@@ -1,0 +1,146 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Administrator" as ADM
+
+participant ":RegisterEmployeeUI" as Interface
+participant ":RegisterEmployee\nController" as Controller
+participant ":Company" as Company
+participant ":store: OrganizationRole\nStore" as RoleStore
+participant ":store: Employee\nStore" as Store
+participant "emp : Employee" as Employee
+participant "emp : SpecialistDoctor" as doctor
+participant "AuthFacade : AuthFacade" as facade
+
+
+activate ADM
+ADM -> Interface : start new employee regist
+activate Interface
+Interface -> Controller : TypeOfRoles = getTypeOfRoles()
+activate Controller
+Controller -> Company : store = getUserRoleStore()
+activate Company
+deactivate Company
+Controller -> RoleStore : Roles = getRoles()
+activate RoleStore
+deactivate RoleStore
+deactivate Controller
+Interface --> ADM : Shows all roles and ask to type one of them.
+deactivate Interface
+ADM -> Interface : Types the role
+activate Interface
+Interface --> ADM : request data(Employee ID, Name, Address,\n Phone Number, E-Mail,SOC code,Doctor Index Number)
+deactivate Interface
+ADM -> Interface : types requested data
+activate Interface
+alt Different employees
+Interface -> Controller : createNewEmployee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+activate Controller
+
+Controller -> Company: empstore = getEmployeeStore()
+activate Company
+deactivate Company
+
+Controller -> Store : emp = createNewEmployee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+activate Store
+
+Store --> Employee** : Employee(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode)
+
+deactivate Employee
+
+deactivate Store
+
+Controller -> Store: validateEmployee(emp)
+activate Store
+deactivate Store
+
+deactivate Controller
+else SpecialistDoctor
+Interface -> Controller : createSpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode,doctorIndexNumber)
+activate Controller
+Controller -> Company: empstore = getEmployeeStore()
+activate Company
+deactivate Company
+
+Controller -> Store : emp = createSpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode, doctorIndexNumber)
+
+activate Store
+
+Store --> doctor** : SpecialistDoctor(employeeID, organizationRole, name, adress,\n phoneNumber, e-Mail,socCode,doctorIndexNumber)
+
+deactivate Employee
+
+deactivate Store
+
+Controller -> Store: validateEmployee(emp)
+activate Store
+deactivate Store
+end
+activate Store
+deactivate Store
+
+deactivate Controller
+
+
+Interface --> ADM : shows the data and requests a confirmation
+
+deactivate Interface
+
+ADM -> Interface : confirms the data
+activate Interface
+
+Interface -> Controller : saveEmployee()
+activate Controller
+
+Controller -> Store : saveEmployee(emp)
+activate Store
+
+Controller -> Company: Facade = getAuthFacade()
+activate Company
+deactivate Company
+Controller -> facade: addUserWithRole(name, email, password, role)
+activate facade
+deactivate facade
+
+
+
+Store -> Store: validateEmployee(Emp)
+activate Store
+deactivate Store
+
+Store -> Store: addEmployee(emp)
+activate Store
+deactivate Store
+
+Interface --> ADM: informs operation success
+
+deactivate ADM
+deactivate Interface
+deactivate Controller
+deactivate Company
+
+@enduml

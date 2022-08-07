@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="491px" preserveAspectRatio="none" style="width:355px;height:491px;background:#FCF9EA;" version="1.1" viewBox="0 0 355 491" width="355px" zoomAndPan="magnify"><defs><filter height="300%" id="f8dob8q08dv94" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="176.5" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="176.5" y="22.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="112" y="40.7275">Built by WeByte ©</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="346" x="2" y="77.041">US8 - Domain Model</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="180" y="119.3457"/><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="26" fill="#BADFDB" filter="url(#f8dob8q08dv94)" height="61.8359" id="Company" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="85" x="101.5" y="135.6328"/><ellipse cx="116.5" cy="151.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M118.5,148.1328 Q118.7031,147.6328 118.9375,147.3828 Q119.1719,147.1328 119.4375,147.1328 Q119.9063,147.1328 120.2031,147.4141 Q120.5,147.6953 120.5,148.3516 L120.5,149.9141 Q120.5,150.5703 120.2188,150.8516 Q119.9375,151.1328 119.5,151.1328 Q119.1094,151.1328 118.8594,150.9609 Q118.6094,150.7891 118.5,150.3359 Q118.4531,150.0234 118.2813,149.8516 Q117.9688,149.5234 117.4063,149.3359 Q116.8438,149.1328 116.2813,149.1328 Q115.5781,149.1328 114.9844,149.4141 Q114.4063,149.6953 113.9531,150.3203 Q113.5,150.9453 113.5,151.8047 L113.5,152.7266 Q113.5,153.7578 114.3438,154.4453 Q115.1875,155.1328 116.6875,155.1328 Q117.5781,155.1328 118.2031,154.9297 Q118.5625,154.8203 118.9688,154.4609 Q119.2344,154.2578 119.375,154.1953 Q119.5156,154.1328 119.6875,154.1328 Q120.0156,154.1328 120.25,154.3984 Q120.5,154.6484 120.5,155.0078 Q120.5,155.3516 120.1563,155.7578 Q119.6563,156.3516 118.8594,156.6797 Q117.8125,157.1328 116.5313,157.1328 Q115.0313,157.1328 113.8281,156.5391 Q112.8594,156.0703 112.1719,155.0547 Q111.5,154.0391 111.5,152.8359 L111.5,151.7422 Q111.5,150.4922 112.0938,149.3984 Q112.7031,148.3047 113.75,147.7266 Q114.8125,147.1328 116,147.1328 Q116.7188,147.1328 117.3438,147.3828 Q117.9688,147.6328 118.5,148.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="130.5" y="156.543">Company</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="102.5" x2="185.5" y1="167.6328" y2="167.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="107.5" y="183.0518">-designation</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="102.5" x2="185.5" y1="189.4688" y2="189.4688"/><!--MD5=[1934a092c0e7d4da7dc7075b6f4b6b03]
+class ClinicalAnalysisLaboratory--><rect codeLine="30" fill="#BADFDB" filter="url(#f8dob8q08dv94)" height="75.6719" id="ClinicalAnalysisLaboratory" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="177" x="55.5" y="401.6328"/><ellipse cx="70.5" cy="417.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M72.5,414.1328 Q72.7031,413.6328 72.9375,413.3828 Q73.1719,413.1328 73.4375,413.1328 Q73.9063,413.1328 74.2031,413.4141 Q74.5,413.6953 74.5,414.3516 L74.5,415.9141 Q74.5,416.5703 74.2188,416.8516 Q73.9375,417.1328 73.5,417.1328 Q73.1094,417.1328 72.8594,416.9609 Q72.6094,416.7891 72.5,416.3359 Q72.4531,416.0234 72.2813,415.8516 Q71.9688,415.5234 71.4063,415.3359 Q70.8438,415.1328 70.2813,415.1328 Q69.5781,415.1328 68.9844,415.4141 Q68.4063,415.6953 67.9531,416.3203 Q67.5,416.9453 67.5,417.8047 L67.5,418.7266 Q67.5,419.7578 68.3438,420.4453 Q69.1875,421.1328 70.6875,421.1328 Q71.5781,421.1328 72.2031,420.9297 Q72.5625,420.8203 72.9688,420.4609 Q73.2344,420.2578 73.375,420.1953 Q73.5156,420.1328 73.6875,420.1328 Q74.0156,420.1328 74.25,420.3984 Q74.5,420.6484 74.5,421.0078 Q74.5,421.3516 74.1563,421.7578 Q73.6563,422.3516 72.8594,422.6797 Q71.8125,423.1328 70.5313,423.1328 Q69.0313,423.1328 67.8281,422.5391 Q66.8594,422.0703 66.1719,421.0547 Q65.5,420.0391 65.5,418.8359 L65.5,417.7422 Q65.5,416.4922 66.0938,415.3984 Q66.7031,414.3047 67.75,413.7266 Q68.8125,413.1328 70,413.1328 Q70.7188,413.1328 71.3438,413.3828 Q71.9688,413.6328 72.5,414.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="145" x="84.5" y="422.543">ClinicalAnalysisLaboratory</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="56.5" x2="231.5" y1="433.6328" y2="433.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="61.5" y="449.0518">-NameOfCompany</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="61.5" y="462.8877">-TypeOfTest</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="56.5" x2="231.5" y1="469.3047" y2="469.3047"/><!--MD5=[da547346deef918ea16944ba046651ef]
+class Administrator--><rect codeLine="35" fill="#BADFDB" filter="url(#f8dob8q08dv94)" height="48" id="Administrator" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="105" x="195.5" y="275.6328"/><ellipse cx="210.5" cy="291.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M212.5,288.1328 Q212.7031,287.6328 212.9375,287.3828 Q213.1719,287.1328 213.4375,287.1328 Q213.9063,287.1328 214.2031,287.4141 Q214.5,287.6953 214.5,288.3516 L214.5,289.9141 Q214.5,290.5703 214.2188,290.8516 Q213.9375,291.1328 213.5,291.1328 Q213.1094,291.1328 212.8594,290.9609 Q212.6094,290.7891 212.5,290.3359 Q212.4531,290.0234 212.2813,289.8516 Q211.9688,289.5234 211.4063,289.3359 Q210.8438,289.1328 210.2813,289.1328 Q209.5781,289.1328 208.9844,289.4141 Q208.4063,289.6953 207.9531,290.3203 Q207.5,290.9453 207.5,291.8047 L207.5,292.7266 Q207.5,293.7578 208.3438,294.4453 Q209.1875,295.1328 210.6875,295.1328 Q211.5781,295.1328 212.2031,294.9297 Q212.5625,294.8203 212.9688,294.4609 Q213.2344,294.2578 213.375,294.1953 Q213.5156,294.1328 213.6875,294.1328 Q214.0156,294.1328 214.25,294.3984 Q214.5,294.6484 214.5,295.0078 Q214.5,295.3516 214.1563,295.7578 Q213.6563,296.3516 212.8594,296.6797 Q211.8125,297.1328 210.5313,297.1328 Q209.0313,297.1328 207.8281,296.5391 Q206.8594,296.0703 206.1719,295.0547 Q205.5,294.0391 205.5,292.8359 L205.5,291.7422 Q205.5,290.4922 206.0938,289.3984 Q206.7031,288.3047 207.75,287.7266 Q208.8125,287.1328 210,287.1328 Q210.7188,287.1328 211.3438,287.3828 Q211.9688,287.6328 212.5,288.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="224.5" y="296.543">Administrator</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="196.5" x2="299.5" y1="307.6328" y2="307.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="196.5" x2="299.5" y1="315.6328" y2="315.6328"/><!--MD5=[aafc5d8a5829a6a8d6dc892cb1ff5d24]
+link Company to ClinicalAnalysisLaboratory--><path codeLine="37" d="M140.1,197.8328 C137.5,219.4528 134.34,249.2828 133,275.6328 C130.81,318.8328 135.13,368.4028 138.98,401.4328 " fill="none" id="Company-ClinicalAnalysisLaboratory" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="137.9725,304.8085,140.9611,295.7797,135.0834,295.7474,137.9725,304.8085" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="147" y="305.1279">owns</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="131.6894" y="218.8496">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="132.6405" y="390.7591">*</text><!--MD5=[eaea43e34e45c5b9d20b595fc78f1f20]
+link Company to Administrator--><path codeLine="38" d="M167.86,197.6828 C186.57,221.2528 212.24,253.5828 229.43,275.2428 " fill="none" id="Company-Administrator" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="214.1087,240.7247,210.7868,231.8131,206.1832,235.4677,214.1087,240.7247" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="220" y="242.1279">knows</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="164.8684" y="218.9167">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="219.2942" y="264.8857">*</text><!--MD5=[23b8a99c177c2cd6d714b2cbaa81b3c4]
+link Administrator to ClinicalAnalysisLaboratory--><path codeLine="40" d="M230.59,323.7328 C214.63,344.9128 190.72,376.6428 172.06,401.4028 " fill="none" id="Administrator-ClinicalAnalysisLaboratory" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="207.9909,366.8017,215.7815,361.3468,211.0873,357.8094,207.9909,366.8017" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="220" y="368.1279">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="218.4932" y="345.0952">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="171.6129" y="390.7237">*</text><!--MD5=[a2e967c184df82cf865149524dbfaace]
+@startuml
+'https://plantuml.com/class-diagram
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US8 - Domain Model\n
+class Company{
+ - designation
+}
+
+class ClinicalAnalysisLaboratory{
+- NameOfCompany
+- TypeOfTest
+}
+
+class Administrator
+
+Company "1" - - "*" ClinicalAnalysisLaboratory : owns >
+Company "1" - - "*" Administrator : knows >
+
+Administrator "1" - - "*" ClinicalAnalysisLaboratory : creates >
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US8 - Domain Model\n
+class Company{
+ - designation
+}
+
+class ClinicalAnalysisLaboratory{
+- NameOfCompany
+- TypeOfTest
+}
+
+class Administrator
+
+Company "1" - - "*" ClinicalAnalysisLaboratory : owns >
+Company "1" - - "*" Administrator : knows >
+
+Administrator "1" - - "*" ClinicalAnalysisLaboratory : creates >
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

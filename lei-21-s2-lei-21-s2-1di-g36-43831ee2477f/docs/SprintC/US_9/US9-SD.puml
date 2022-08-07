@@ -1,0 +1,108 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Administrator" as admin
+
+participant ":CreateTestUI" as UI
+participant ":CreateTest\nController" as CTRL
+participant ":Company" as Company
+participant ":store: TestType\nStore" as Store
+participant "c : TestType" as Client
+participant ":store: ParameterCategory\nStore" as CategoryStore
+
+activate admin
+admin -> UI : start a new type of test
+activate UI
+UI -> CTRL : categories = getParameterCategoryList()
+CTRL -> Company: store = getParameterCategoryStore()
+CTRL -> CategoryStore: categoriesList = getParameterCategoryList()
+UI --> admin : request_data(code, description, collectingMethod)
+
+deactivate UI
+loop while !allCategoriesSelected
+admin -> UI: selects the categories.
+end
+activate LaboratoryUI
+admin <-- UI: Request data (code, description,collectingMethod)
+
+admin -> UI : types the requested data
+activate UI
+
+UI -> CTRL : createNewTestTypes(code, description, collectingMethod)
+activate CTRL
+
+CTRL -> Company: store = getTestTypeStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : c = createNewTestType(code, description, collectingMethod)
+
+activate Store
+
+Store --> Client** : create(code, description, collectingMethod)
+
+deactivate Client
+
+deactivate Store
+
+CTRL -> Store: validateTest(c)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI --> admin : shows the data and requests a confirmation
+
+deactivate UI
+
+admin -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveTest(c)
+activate CTRL
+
+CTRL -> Store : saveTest(c)
+
+activate Store
+
+Store -> Store: validateTest(c)
+activate Store
+deactivate Store
+
+Store -> Store: addTestType(c)
+activate Store
+deactivate Store
+
+UI --> admin: informs Test success
+
+deactivate admin
+deactivate UI
+deactivate CTRL
+deactivate Company
+
+@enduml

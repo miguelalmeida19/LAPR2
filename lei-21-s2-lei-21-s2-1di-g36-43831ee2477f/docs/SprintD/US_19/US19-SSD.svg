@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="371px" preserveAspectRatio="none" style="width:652px;height:371px;background:#FCF9EA;" version="1.1" viewBox="0 0 652 371" width="652px" zoomAndPan="magnify"><defs><filter height="300%" id="f10ejjo2ib7uc6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="627" x="9" y="92.041">US19-SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="327.5" y="134.3457"/><rect fill="#FFFFFF" filter="url(#f10ejjo2ib7uc6)" height="31.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="142.75" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f10ejjo2ib7uc6)" height="31.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="468.75" y="245.2422"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="147.25" x2="147.25" y1="235.2422" y2="285.5938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="473.75" x2="473.75" y1="235.2422" y2="285.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="129.25" y="232.166">Task</text><ellipse cx="147.75" cy="160.6328" fill="#FEFECE" filter="url(#f10ejjo2ib7uc6)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M147.75,168.6328 L147.75,195.6328 M134.75,176.6328 L160.75,176.6328 M147.75,195.6328 L134.75,210.6328 M147.75,195.6328 L160.75,210.6328 " fill="none" filter="url(#f10ejjo2ib7uc6)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="129.25" y="299.127">Task</text><ellipse cx="147.75" cy="312.2031" fill="#FEFECE" filter="url(#f10ejjo2ib7uc6)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M147.75,320.2031 L147.75,347.2031 M134.75,328.2031 L160.75,328.2031 M147.75,347.2031 L134.75,362.2031 M147.75,347.2031 L160.75,362.2031 " fill="none" filter="url(#f10ejjo2ib7uc6)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f10ejjo2ib7uc6)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="80" x="431.75" y="198.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="438.75" y="220.166">:Controller</text><rect fill="#FEFECE" filter="url(#f10ejjo2ib7uc6)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="80" x="431.75" y="284.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="438.75" y="306.127">:Controller</text><rect fill="#FFFFFF" filter="url(#f10ejjo2ib7uc6)" height="31.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="142.75" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f10ejjo2ib7uc6)" height="31.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="468.75" y="245.2422"/><polygon fill="#FFC5A1" points="456.75,263.5938,466.75,267.5938,456.75,271.5938,460.75,267.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="152.75" x2="462.75" y1="267.5938" y2="267.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="159.75" y="262.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="281" x="170.75" y="262.7373">Send a report about Covid-19 to NHS at 6:00 AM</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="324" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="324" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="259.5" y="45.7275">Built by WeByte ©</text><!--MD5=[6ef39cc42131962ab2d14c1b0896c2d1]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US19-SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Task" as task
+participant ":Controller" as Controller
+
+activate task
+activate Controller
+task -> Controller : Send a report about Covid-19 to NHS at 6:00 AM
+
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US19-SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Task" as task
+participant ":Controller" as Controller
+
+activate task
+activate Controller
+task -> Controller : Send a report about Covid-19 to NHS at 6:00 AM
+
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

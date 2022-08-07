@@ -1,0 +1,69 @@
+@startuml
+'https://plantuml.com/class-diagram
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>DOMAIN MODEL\n
+class Employee{
+     - username
+         - employeeId
+         - organizationRole
+         - name
+         - address
+         - phoneNumber
+         - e-Mail
+         - socCode
+    }
+class LaboratoryCoordinator{
+    }
+class Validation{
+    - testReferenceValues
+        - date
+        - time
+}
+class TestParameterResult{
+    - value
+    }
+    class Report{
+    -diagnosis
+        }
+        class Client{
+           - nhsNumber
+           - birthDate
+           - sex
+           - tin
+           - phoneNumber
+           - e-mail
+           - name
+           }
+LaboratoryCoordinator "*" -- "1" Employee : is rolled as >
+LaboratoryCoordinator "1" -- "*" Validation : does >
+Validation "1" -- "*" TestParameterResult : validates >
+TestParameterResult "*" -- "1" Report : delivered as >
+Report "1" -- "1" Client : is sent to >
+
+
+
+@enduml

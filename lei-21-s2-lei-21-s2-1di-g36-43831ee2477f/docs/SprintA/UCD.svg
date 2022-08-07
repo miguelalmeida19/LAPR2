@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="684px" preserveAspectRatio="none" style="width:360px;height:684px;background:#F0F0F0;" version="1.1" viewBox="0 0 360 684" width="360px" zoomAndPan="magnify"><defs><filter height="300%" id="f1duz9ccypj2mp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.2"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.4" dy="2.4" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="0" x="177" y="6.2285"/><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="0" x="177" y="13.7754"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="75.6" x="138.3" y="24.4365">Built by WeByte ©</text><text fill="#D8C0A8" font-family="Arial Black" font-size="18" font-weight="bold" lengthAdjust="spacing" textLength="211.2" x="70.5" y="46.2246">USE CASE DIAGRAM</text><text fill="#D8C0A8" font-family="Arial Black" font-size="18" lengthAdjust="spacing" textLength="0" x="179.1" y="71.6074"/><!--MD5=[cf1651d31d5f33993ae35e66637ebfa8]
+cluster ManyLabs--><rect fill="#F0D8C0" filter="url(#f1duz9ccypj2mp)" height="595.8" style="stroke:#000000;stroke-width:0.8999999999999999;" width="216" x="136.8" y="81.3797"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="42" x="223.8" y="91.2996">ManyLabs</text><ellipse cx="244.9014" cy="375.4" fill="#FFE2C8" filter="url(#f1duz9ccypj2mp)" rx="49.9014" ry="11.4203" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="73.2" x="208.3014" y="377.6371">Make the diagnosis</text><ellipse cx="244.7274" cy="331.5052" fill="#FFE2C8" filter="url(#f1duz9ccypj2mp)" rx="47.9274" ry="11.0255" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="68.4" x="209.9024" y="333.9211">Access client data</text><ellipse cx="244.7566" cy="289.631" fill="#FFE2C8" filter="url(#f1duz9ccypj2mp)" rx="41.0566" ry="9.6513" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.8" x="218.0566" y="292.341">Ask for a test</text><ellipse cx="244.7256" cy="461.8248" fill="#FFC7D7" filter="url(#f1duz9ccypj2mp)" rx="44.0256" ry="10.2451" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="58.2" x="213.8256" y="464.5348">Register a Test</text><ellipse cx="244.7797" cy="504.8556" fill="#FFC7D7" filter="url(#f1duz9ccypj2mp)" rx="52.1797" ry="11.8759" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="78.6" x="205.4797" y="507.0927">Register a new client</text><ellipse cx="244.7082" cy="553.0813" fill="#FFBADE" filter="url(#f1duz9ccypj2mp)" rx="66.8082" ry="14.8016" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="111.6" x="188.9082" y="555.3184">Record the samples collected</text><ellipse cx="244.7367" cy="604.087" fill="#FFBADE" filter="url(#f1duz9ccypj2mp)" rx="69.8367" ry="15.4073" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.2" x="185.6367" y="606.3241">Identify samples with a barcode</text><ellipse cx="244.7703" cy="653.8338" fill="#EDAFD0" filter="url(#f1duz9ccypj2mp)" rx="60.5703" ry="13.5541" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="97.8" x="195.8703" y="656.0709">Record results of analysis</text><ellipse cx="244.6509" cy="419.1499" fill="#FFD5CF" filter="url(#f1duz9ccypj2mp)" rx="49.6509" ry="11.3702" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="72.6" x="208.3509" y="421.387">Validate the results</text><ellipse cx="244.8783" cy="124.1154" fill="#FFEFC0" filter="url(#f1duz9ccypj2mp)" rx="98.4783" ry="21.1357" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="178.8" x="155.4783" y="126.3525">Specify new type of test and collecting methods</text><ellipse cx="244.8085" cy="186.3214" fill="#FFEFC0" filter="url(#f1duz9ccypj2mp)" rx="93.0085" ry="20.0417" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="167.4" x="161.1085" y="188.5585">Specify new test parameter and categorize it</text><ellipse cx="244.899" cy="243.5195" fill="#FFEFC0" filter="url(#f1duz9ccypj2mp)" rx="71.499" ry="15.7398" style="stroke:#2F4F4F;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="121.8" x="183.999" y="245.7566">Specify new parameter category</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="57" cy="166.5797" fill="#FFEFC0" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,171.3797 L57,187.5797 M49.2,176.1797 L64.8,176.1797 M57,187.5797 L49.2,196.5797 M57,187.5797 L64.8,196.5797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="27.6" x="43.2" y="209.4472">Admin</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><ellipse cx="57" cy="269.1797" fill="#FFE2C8" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,273.9797 L57,290.1797 M49.2,278.7797 L64.8,278.7797 M57,290.1797 L49.2,299.1797 M57,290.1797 L64.8,299.1797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="24.6" x="44.7" y="312.0472">Client</text><!--MD5=[91cc9547c238c12fc08e1eac045c630f]
+entity Specialist_Doctor--><ellipse cx="57" cy="341.1797" fill="#FFE2C8" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,345.9797 L57,362.1797 M49.2,350.7797 L64.8,350.7797 M57,362.1797 L49.2,371.1797 M57,362.1797 L64.8,371.1797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="74.4" x="19.8" y="384.0472">Specialist Doctor</text><!--MD5=[86ca36d98dd7344748974765df6365a3]
+entity Laboratory_Coordinator--><ellipse cx="57" cy="413.1797" fill="#FFD5CF" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,417.9797 L57,434.1797 M49.2,422.7797 L64.8,422.7797 M57,434.1797 L49.2,443.1797 M57,434.1797 L64.8,443.1797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="102" x="6" y="456.0472">Laboratory Coordinator</text><!--MD5=[73fb61af3c47350e56cc0c1e610142c4]
+entity Laboratory_Recepcionist--><ellipse cx="57" cy="485.1797" fill="#FFC7D7" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,489.9797 L57,506.1797 M49.2,494.7797 L64.8,494.7797 M57,506.1797 L49.2,515.1797 M57,506.1797 L64.8,515.1797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="106.8" x="3.6" y="528.0472">Laboratory Recepcionist</text><!--MD5=[7efebae5ce314d6e413b34fb3f4e4d9b]
+entity Medical_Lab_Technician--><ellipse cx="57" cy="559.5797" fill="#FFBADE" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,564.3797 L57,580.5797 M49.2,569.1797 L64.8,569.1797 M57,580.5797 L49.2,589.5797 M57,580.5797 L64.8,589.5797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="103.8" x="5.1" y="602.4472">Medical Lab Technician</text><!--MD5=[38478e34f8276790b4b9602503dced4f]
+entity Clinical_Technologist--><ellipse cx="57" cy="633.9797" fill="#EDAFD0" filter="url(#f1duz9ccypj2mp)" rx="4.8" ry="4.8" style="stroke:#000000;stroke-width:0.8999999999999999;"/><path d="M57,638.7797 L57,654.9797 M49.2,643.5797 L64.8,643.5797 M57,654.9797 L49.2,663.9797 M57,654.9797 L64.8,663.9797 " fill="none" filter="url(#f1duz9ccypj2mp)" style="stroke:#000000;stroke-width:0.8999999999999999;"/><text fill="#000000" font-family="Arial" font-size="10.2" lengthAdjust="spacing" textLength="89.4" x="12.3" y="676.8472">Clinical Technologist</text><!--MD5=[696e08b03c45c12aa72f28b3de02b2a2]
+link Laboratory_Recepcionist to Register a Test--><path d="M110.43,487.9577 C117.642,485.8757 124.98,483.8897 132,482.1797 C157.008,476.0957 185.55,470.9297 207.588,467.3177 " fill="none" id="Laboratory_Recepcionist-Register a Test" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[98ec9a60e1c4a003e228a68bc0a353e6]
+link Laboratory_Recepcionist to Register a new client--><path d="M110.574,504.9797 C136.272,504.9797 167.022,504.9797 192.546,504.9797 " fill="none" id="Laboratory_Recepcionist-Register a new client" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[c88297ac00795e22ce242926b475eaf7]
+link Medical_Lab_Technician to Record the samples collected--><path d="M109.086,572.0957 C133.68,568.6157 163.164,564.4457 188.304,560.8877 " fill="none" id="Medical_Lab_Technician-Record the samples collected" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[2ef8bd6c5a1157a7edb55a311a61de70]
+link Medical_Lab_Technician to Identify samples with a barcode--><path d="M109.086,586.1657 C132.492,589.2557 160.332,592.9217 184.638,596.1257 " fill="none" id="Medical_Lab_Technician-Identify samples with a barcode" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[7e05b8d133d09b6f9798bb0024b6fe2f]
+link Clinical_Technologist to Record results of analysis--><path d="M101.82,653.7797 C126.396,653.7797 157.314,653.7797 184.062,653.7797 " fill="none" id="Clinical_Technologist-Record results of analysis" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[c4a465edfbe20214d604a86429af8cf5]
+link Laboratory_Coordinator to Validate the results--><path d="M108.096,429.2477 C135.888,427.1897 170.154,424.6577 197.346,422.6417 " fill="none" id="Laboratory_Coordinator-Validate the results" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[b5eb43e3f68720073af0f8fd5405f430]
+link Client to Ask for a test--><path d="M69.558,289.0157 C96.06,289.1057 160.782,289.3097 203.556,289.4477 " fill="none" id="Client-Ask for a test" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[91eeb9ce52c6cee33302f2340f11536d]
+link Client to Access client data--><path d="M69.39,292.4957 C84,296.7857 109.71,304.1237 132,309.3797 C156.642,315.1877 184.572,320.7197 206.4,324.8057 " fill="none" id="Client-Access client data" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[c1d494e05cf816c04c7226b069af41bb]
+link Admin to Specify new parameter category--><path d="M70.8,192.5597 C85.494,199.2617 110.058,209.9357 132,216.9797 C151.242,223.1597 172.77,228.5717 191.778,232.8617 " fill="none" id="Admin-Specify new parameter category" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[43608ed3d6b20ec170402c717c955d3d]
+link Admin to Specify new test parameter and categorize it--><path d="M71.022,186.3797 C88.362,186.3797 120.09,186.3797 151.698,186.3797 " fill="none" id="Admin-Specify new test parameter and categorize it" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[a5ada21b0cf33534bf8137c42b2f8cbb]
+link Admin to Specify new type of test and collecting methods--><path d="M70.866,180.3857 C85.608,173.8517 110.22,163.3157 132,155.7797 C148.074,150.2177 165.678,144.8837 182.076,140.2217 " fill="none" id="Admin-Specify new type of test and collecting methods" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[3bd19aae97124cc2b4a88c34fe3d7d20]
+link Specialist_Doctor to Access client data--><path d="M94.242,355.2077 C126.138,350.1797 172.248,342.9137 204.9,337.7717 " fill="none" id="Specialist_Doctor-Access client data" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[e35dee07a752a2582ddcebfe6da4cb34]
+link Specialist_Doctor to Make the diagnosis--><path d="M94.242,363.8057 C123.804,366.0857 165.576,369.3137 197.526,371.7797 " fill="none" id="Specialist_Doctor-Make the diagnosis" style="stroke:#808000;stroke-width:0.6;"/><!--MD5=[c479596e758ffdfef24fd755c1f78f4a]
+@startuml
+'https://plantuml.com/use-case-diagram
+
+' ======= layout =========
+skinparam backgroundColor #F0F0F0
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+
+skinparam titleFontName Arial Black
+skinparam titleFontColor #D8C0A8
+
+skinparam sequence {
+ArrowColor Black
+ActorBorderColor Black
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+
+ActorFontColor Black
+ActorFontSize 17
+ActorFontName Arial
+}
+
+skinparam usecase {
+BackgroundColor DarkSeaGreen
+BorderColor DarkSlateGray
+
+BackgroundColor<< Main >> YellowGreen
+BorderColor<< Main >> YellowGreen
+
+ArrowColor Olive
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>USE CASE DIAGRAM\n
+
+' ======= the actors =========
+
+actor :Admin: as Admin #FFEFC0
+actor :Client: as Client #FFE2C8
+actor :Specialist Doctor: as Specialist_Doctor #FFE2C8
+actor :Laboratory Coordinator: as Laboratory_Coordinator #FFD5CF
+actor :Laboratory Recepcionist: as Laboratory_Recepcionist #FFC7D7
+actor :Medical Lab Technician: as Medical_Lab_Technician #FFBADE
+actor :Clinical Technologist: as Clinical_Technologist #edafd0
+
+rectangle "ManyLabs" #F0D8C0 {
+
+    left to right direction
+
+    ' ====== the use cases =========
+    (Make the diagnosis) as (Make the diagnosis) #FFE2C8
+
+    (Access client data) as (Access client data) #FFE2C8
+    (Ask for a test) as (Ask for a test) #FFE2C8
+
+    (Register a Test) as (Register a Test) #FFC7D7
+    (Register a new client) as (Register a new client) #FFC7D7
+
+    (Record the samples collected) as (Record the samples collected) #FFBADE
+    (Identify samples with a barcode) as (Identify samples with a barcode) #FFBADE
+
+    (Record results of analysis) as (Record results of analysis) #edafd0
+
+    (Validate the results) as (Validate the results) #FFD5CF
+
+    (Specify new type of test and collecting methods) as (Specify new type of test and collecting methods) #FFEFC0
+    (Specify new test parameter and categorize it) as (Specify new test parameter and categorize it) #FFEFC0
+    (Specify new parameter category) as (Specify new parameter category) #FFEFC0
+
+    ' ====== the use case links =========
+
+    Laboratory_Recepcionist - - (Register a Test)
+    Laboratory_Recepcionist - - (Register a new client)
+    Medical_Lab_Technician - - (Record the samples collected)
+    Medical_Lab_Technician - - (Identify samples with a barcode)
+    Clinical_Technologist - - (Record results of analysis)
+    Laboratory_Coordinator - - (Validate the results)
+
+    Client - - (Ask for a test)
+    Client - - (Access client data)
+
+    Admin - - (Specify new parameter category)
+    Admin - - (Specify new test parameter and categorize it)
+    Admin - - (Specify new type of test and collecting methods)
+
+    Specialist_Doctor - - (Access client data)
+    Specialist_Doctor - - (Make the diagnosis)
+}
+
+
+@enduml
+
+@startuml
+
+skinparam backgroundColor #F0F0F0
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+
+skinparam titleFontName Arial Black
+skinparam titleFontColor #D8C0A8
+
+skinparam sequence {
+ArrowColor Black
+ActorBorderColor Black
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+
+ActorFontColor Black
+ActorFontSize 17
+ActorFontName Arial
+}
+
+skinparam usecase {
+BackgroundColor DarkSeaGreen
+BorderColor DarkSlateGray
+
+BackgroundColor<< Main >> YellowGreen
+BorderColor<< Main >> YellowGreen
+
+ArrowColor Olive
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>USE CASE DIAGRAM\n
+
+
+actor :Admin: as Admin #FFEFC0
+actor :Client: as Client #FFE2C8
+actor :Specialist Doctor: as Specialist_Doctor #FFE2C8
+actor :Laboratory Coordinator: as Laboratory_Coordinator #FFD5CF
+actor :Laboratory Recepcionist: as Laboratory_Recepcionist #FFC7D7
+actor :Medical Lab Technician: as Medical_Lab_Technician #FFBADE
+actor :Clinical Technologist: as Clinical_Technologist #edafd0
+
+rectangle "ManyLabs" #F0D8C0 {
+
+    left to right direction
+
+    (Make the diagnosis) as (Make the diagnosis) #FFE2C8
+
+    (Access client data) as (Access client data) #FFE2C8
+    (Ask for a test) as (Ask for a test) #FFE2C8
+
+    (Register a Test) as (Register a Test) #FFC7D7
+    (Register a new client) as (Register a new client) #FFC7D7
+
+    (Record the samples collected) as (Record the samples collected) #FFBADE
+    (Identify samples with a barcode) as (Identify samples with a barcode) #FFBADE
+
+    (Record results of analysis) as (Record results of analysis) #edafd0
+
+    (Validate the results) as (Validate the results) #FFD5CF
+
+    (Specify new type of test and collecting methods) as (Specify new type of test and collecting methods) #FFEFC0
+    (Specify new test parameter and categorize it) as (Specify new test parameter and categorize it) #FFEFC0
+    (Specify new parameter category) as (Specify new parameter category) #FFEFC0
+
+
+    Laboratory_Recepcionist - - (Register a Test)
+    Laboratory_Recepcionist - - (Register a new client)
+    Medical_Lab_Technician - - (Record the samples collected)
+    Medical_Lab_Technician - - (Identify samples with a barcode)
+    Clinical_Technologist - - (Record results of analysis)
+    Laboratory_Coordinator - - (Validate the results)
+
+    Client - - (Ask for a test)
+    Client - - (Access client data)
+
+    Admin - - (Specify new parameter category)
+    Admin - - (Specify new test parameter and categorize it)
+    Admin - - (Specify new type of test and collecting methods)
+
+    Specialist_Doctor - - (Access client data)
+    Specialist_Doctor - - (Make the diagnosis)
+}
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

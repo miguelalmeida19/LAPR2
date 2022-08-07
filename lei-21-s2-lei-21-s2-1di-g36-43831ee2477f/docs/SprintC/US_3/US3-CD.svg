@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="719px" preserveAspectRatio="none" style="width:763px;height:719px;background:#FCF9EA;" version="1.1" viewBox="0 0 763 719" width="763px" zoomAndPan="magnify"><defs><filter height="300%" id="fah7e3yd4bgje" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="376.5" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="376.5" y="22.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="312" y="40.7275">Built by WeByte ©</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="351" x="199.5" y="77.041">US3 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="380" y="119.3457"/><!--MD5=[0deb7dd7aafd8ac89375ffa110837fa5]
+class CreateClientUI--><rect codeLine="28" fill="#BADFDB" filter="url(#fah7e3yd4bgje)" height="48" id="CreateClientUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="113" x="118" y="135.6328"/><ellipse cx="133" cy="151.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M135,148.1328 Q135.2031,147.6328 135.4375,147.3828 Q135.6719,147.1328 135.9375,147.1328 Q136.4063,147.1328 136.7031,147.4141 Q137,147.6953 137,148.3516 L137,149.9141 Q137,150.5703 136.7188,150.8516 Q136.4375,151.1328 136,151.1328 Q135.6094,151.1328 135.3594,150.9609 Q135.1094,150.7891 135,150.3359 Q134.9531,150.0234 134.7813,149.8516 Q134.4688,149.5234 133.9063,149.3359 Q133.3438,149.1328 132.7813,149.1328 Q132.0781,149.1328 131.4844,149.4141 Q130.9063,149.6953 130.4531,150.3203 Q130,150.9453 130,151.8047 L130,152.7266 Q130,153.7578 130.8438,154.4453 Q131.6875,155.1328 133.1875,155.1328 Q134.0781,155.1328 134.7031,154.9297 Q135.0625,154.8203 135.4688,154.4609 Q135.7344,154.2578 135.875,154.1953 Q136.0156,154.1328 136.1875,154.1328 Q136.5156,154.1328 136.75,154.3984 Q137,154.6484 137,155.0078 Q137,155.3516 136.6563,155.7578 Q136.1563,156.3516 135.3594,156.6797 Q134.3125,157.1328 133.0313,157.1328 Q131.5313,157.1328 130.3281,156.5391 Q129.3594,156.0703 128.6719,155.0547 Q128,154.0391 128,152.8359 L128,151.7422 Q128,150.4922 128.5938,149.3984 Q129.2031,148.3047 130.25,147.7266 Q131.3125,147.1328 132.5,147.1328 Q133.2188,147.1328 133.8438,147.3828 Q134.4688,147.6328 135,148.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="147" y="156.543">CreateClientUI</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="119" x2="230" y1="167.6328" y2="167.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="119" x2="230" y1="175.6328" y2="175.6328"/><!--MD5=[55cb992be19579b505cea3c5691093cb]
+class ClientStore--><rect codeLine="31" fill="#BADFDB" filter="url(#fah7e3yd4bgje)" height="117.1797" id="ClientStore" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="263" x="165" y="554.1328"/><ellipse cx="261.75" cy="570.1328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M263.75,566.6328 Q263.9531,566.1328 264.1875,565.8828 Q264.4219,565.6328 264.6875,565.6328 Q265.1563,565.6328 265.4531,565.9141 Q265.75,566.1953 265.75,566.8516 L265.75,568.4141 Q265.75,569.0703 265.4688,569.3516 Q265.1875,569.6328 264.75,569.6328 Q264.3594,569.6328 264.1094,569.4609 Q263.8594,569.2891 263.75,568.8359 Q263.7031,568.5234 263.5313,568.3516 Q263.2188,568.0234 262.6563,567.8359 Q262.0938,567.6328 261.5313,567.6328 Q260.8281,567.6328 260.2344,567.9141 Q259.6563,568.1953 259.2031,568.8203 Q258.75,569.4453 258.75,570.3047 L258.75,571.2266 Q258.75,572.2578 259.5938,572.9453 Q260.4375,573.6328 261.9375,573.6328 Q262.8281,573.6328 263.4531,573.4297 Q263.8125,573.3203 264.2188,572.9609 Q264.4844,572.7578 264.625,572.6953 Q264.7656,572.6328 264.9375,572.6328 Q265.2656,572.6328 265.5,572.8984 Q265.75,573.1484 265.75,573.5078 Q265.75,573.8516 265.4063,574.2578 Q264.9063,574.8516 264.1094,575.1797 Q263.0625,575.6328 261.7813,575.6328 Q260.2813,575.6328 259.0781,575.0391 Q258.1094,574.5703 257.4219,573.5547 Q256.75,572.5391 256.75,571.3359 L256.75,570.2422 Q256.75,568.9922 257.3438,567.8984 Q257.9531,566.8047 259,566.2266 Q260.0625,565.6328 261.25,565.6328 Q261.9688,565.6328 262.5938,565.8828 Q263.2188,566.1328 263.75,566.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="282.25" y="575.043">ClientStore</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="166" x2="427" y1="586.1328" y2="586.1328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="166" x2="427" y1="594.1328" y2="594.1328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="245" x="171" y="609.5518">+createNewClient(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="174" y="623.3877">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="171" y="637.2236">+validateClient(c)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="171" y="651.0596">+saveClient(c)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="171" y="664.8955">-addClient(c)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="38" fill="#BADFDB" filter="url(#fah7e3yd4bgje)" height="75.6719" id="Company" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="93" x="7" y="574.6328"/><ellipse cx="25.6" cy="590.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M27.6,587.1328 Q27.8031,586.6328 28.0375,586.3828 Q28.2719,586.1328 28.5375,586.1328 Q29.0063,586.1328 29.3031,586.4141 Q29.6,586.6953 29.6,587.3516 L29.6,588.9141 Q29.6,589.5703 29.3188,589.8516 Q29.0375,590.1328 28.6,590.1328 Q28.2094,590.1328 27.9594,589.9609 Q27.7094,589.7891 27.6,589.3359 Q27.5531,589.0234 27.3813,588.8516 Q27.0688,588.5234 26.5063,588.3359 Q25.9438,588.1328 25.3813,588.1328 Q24.6781,588.1328 24.0844,588.4141 Q23.5063,588.6953 23.0531,589.3203 Q22.6,589.9453 22.6,590.8047 L22.6,591.7266 Q22.6,592.7578 23.4438,593.4453 Q24.2875,594.1328 25.7875,594.1328 Q26.6781,594.1328 27.3031,593.9297 Q27.6625,593.8203 28.0688,593.4609 Q28.3344,593.2578 28.475,593.1953 Q28.6156,593.1328 28.7875,593.1328 Q29.1156,593.1328 29.35,593.3984 Q29.6,593.6484 29.6,594.0078 Q29.6,594.3516 29.2563,594.7578 Q28.7563,595.3516 27.9594,595.6797 Q26.9125,596.1328 25.6313,596.1328 Q24.1313,596.1328 22.9281,595.5391 Q21.9594,595.0703 21.2719,594.0547 Q20.6,593.0391 20.6,591.8359 L20.6,590.7422 Q20.6,589.4922 21.1938,588.3984 Q21.8031,587.3047 22.85,586.7266 Q23.9125,586.1328 25.1,586.1328 Q25.8188,586.1328 26.4438,586.3828 Q27.0688,586.6328 27.6,587.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="40.4" y="595.543">Company</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="99" y1="606.6328" y2="606.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="13" y="622.0518">-designation</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="8" x2="99" y1="628.4688" y2="628.4688"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="13" y="643.8877">+getClientStore()</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="42" fill="#BADFDB" filter="url(#fah7e3yd4bgje)" height="186.3594" id="Client" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="263" x="486" y="519.6328"/><ellipse cx="597.25" cy="535.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M599.25,532.1328 Q599.4531,531.6328 599.6875,531.3828 Q599.9219,531.1328 600.1875,531.1328 Q600.6563,531.1328 600.9531,531.4141 Q601.25,531.6953 601.25,532.3516 L601.25,533.9141 Q601.25,534.5703 600.9688,534.8516 Q600.6875,535.1328 600.25,535.1328 Q599.8594,535.1328 599.6094,534.9609 Q599.3594,534.7891 599.25,534.3359 Q599.2031,534.0234 599.0313,533.8516 Q598.7188,533.5234 598.1563,533.3359 Q597.5938,533.1328 597.0313,533.1328 Q596.3281,533.1328 595.7344,533.4141 Q595.1563,533.6953 594.7031,534.3203 Q594.25,534.9453 594.25,535.8047 L594.25,536.7266 Q594.25,537.7578 595.0938,538.4453 Q595.9375,539.1328 597.4375,539.1328 Q598.3281,539.1328 598.9531,538.9297 Q599.3125,538.8203 599.7188,538.4609 Q599.9844,538.2578 600.125,538.1953 Q600.2656,538.1328 600.4375,538.1328 Q600.7656,538.1328 601,538.3984 Q601.25,538.6484 601.25,539.0078 Q601.25,539.3516 600.9063,539.7578 Q600.4063,540.3516 599.6094,540.6797 Q598.5625,541.1328 597.2813,541.1328 Q595.7813,541.1328 594.5781,540.5391 Q593.6094,540.0703 592.9219,539.0547 Q592.25,538.0391 592.25,536.8359 L592.25,535.7422 Q592.25,534.4922 592.8438,533.3984 Q593.4531,532.3047 594.5,531.7266 Q595.5625,531.1328 596.75,531.1328 Q597.4688,531.1328 598.0938,531.3828 Q598.7188,531.6328 599.25,532.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="617.75" y="540.543">Client</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="487" x2="748" y1="551.6328" y2="551.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="492" y="567.0518">-citizenCardNumber</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="492" y="580.8877">-nhsNumber</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="492" y="594.7236">-birthDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="22" x="492" y="608.5596">-sex</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="15" x="492" y="622.3955">-tin</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="492" y="636.2314">-phoneNumber</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="32" x="492" y="650.0674">-e-mail</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="492" y="663.9033">-name</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="487" x2="748" y1="670.3203" y2="670.3203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="191" x="492" y="685.7393">+Client(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="495" y="699.5752">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><!--MD5=[7b68a60807ef0d5ecf982988765ba5ca]
+class CreateClientController--><rect codeLine="53" fill="#BADFDB" filter="url(#fah7e3yd4bgje)" height="89.5078" id="CreateClientController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="263" x="43" y="306.6328"/><ellipse cx="108.75" cy="322.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M110.75,319.1328 Q110.9531,318.6328 111.1875,318.3828 Q111.4219,318.1328 111.6875,318.1328 Q112.1563,318.1328 112.4531,318.4141 Q112.75,318.6953 112.75,319.3516 L112.75,320.9141 Q112.75,321.5703 112.4688,321.8516 Q112.1875,322.1328 111.75,322.1328 Q111.3594,322.1328 111.1094,321.9609 Q110.8594,321.7891 110.75,321.3359 Q110.7031,321.0234 110.5313,320.8516 Q110.2188,320.5234 109.6563,320.3359 Q109.0938,320.1328 108.5313,320.1328 Q107.8281,320.1328 107.2344,320.4141 Q106.6563,320.6953 106.2031,321.3203 Q105.75,321.9453 105.75,322.8047 L105.75,323.7266 Q105.75,324.7578 106.5938,325.4453 Q107.4375,326.1328 108.9375,326.1328 Q109.8281,326.1328 110.4531,325.9297 Q110.8125,325.8203 111.2188,325.4609 Q111.4844,325.2578 111.625,325.1953 Q111.7656,325.1328 111.9375,325.1328 Q112.2656,325.1328 112.5,325.3984 Q112.75,325.6484 112.75,326.0078 Q112.75,326.3516 112.4063,326.7578 Q111.9063,327.3516 111.1094,327.6797 Q110.0625,328.1328 108.7813,328.1328 Q107.2813,328.1328 106.0781,327.5391 Q105.1094,327.0703 104.4219,326.0547 Q103.75,325.0391 103.75,323.8359 L103.75,322.7422 Q103.75,321.4922 104.3438,320.3984 Q104.9531,319.3047 106,318.7266 Q107.0625,318.1328 108.25,318.1328 Q108.9688,318.1328 109.5938,318.3828 Q110.2188,318.6328 110.75,319.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="129.25" y="327.543">CreateClientController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="44" x2="305" y1="338.6328" y2="338.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="44" x2="305" y1="346.6328" y2="346.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="245" x="49" y="362.0518">+createNewClient(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="52" y="375.8877">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="49" y="389.7236">+saveClient(c)</text><!--MD5=[8090ea5979f93a1303155e437990326e]
+link CreateClientUI to CreateClientController--><path codeLine="58" d="M174.5,183.9328 C174.5,213.0428 174.5,263.6428 174.5,301.4728 " fill="none" id="CreateClientUI-to-CreateClientController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="174.5,306.4928,178.5,297.4928,174.5,301.4928,170.5,297.4928,174.5,306.4928" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[847feef31dc0a43ae624abe8cae832f5]
+link CreateClientController to Company--><path codeLine="59" d="M153.84,396.8628 C131.26,445.1928 95.35,522.0428 73.17,569.5228 " fill="none" id="CreateClientController-to-Company" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="70.94,574.3128,78.3885,567.8692,73.0669,569.7877,71.1484,564.4662,70.94,574.3128" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[529d1c67480f8a4484a8895d72e2d26c]
+link CreateClientController to ClientStore--><path codeLine="60" d="M195.33,396.8628 C215.07,438.7628 244.91,502.1128 267.08,549.1628 " fill="none" id="CreateClientController-to-ClientStore" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="269.33,553.9528,269.1096,544.1064,267.1976,549.4303,261.8736,547.5183,269.33,553.9528" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[a11230341c8e65219708844feaa40162]
+link Company to ClientStore--><path codeLine="61" d="M100.07,612.6328 C117.48,612.6328 138.27,612.6328 159.7,612.6328 " fill="none" id="Company-to-ClientStore" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#FFC5A1" points="164.86,612.6328,155.86,608.6328,159.86,612.6328,155.86,616.6328,164.86,612.6328" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="118.5" y="606.1279">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="108.0499" y="608.9071">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="150.0472" y="609.6704">1</text><!--MD5=[1d934105a045dbf126514c6917bd5072]
+link ClientStore to Client--><path codeLine="62" d="M428.45,612.6328 C445.61,612.6328 463.22,612.6328 480.46,612.6328 " fill="none" id="ClientStore-to-Client" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#FFC5A1" points="485.8,612.6328,476.8,608.6328,480.8,612.6328,476.8,616.6328,485.8,612.6328" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="446.5" y="606.1279">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="435.8574" y="609.6951">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="473.0416" y="609.6652">*</text><!--MD5=[1c6d7381b80221a3dc76d57c63eb3420]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US3 - Class Diagram\n
+
+' ======= classes =========
+
+class CreateClientUI{
+}
+
+class ClientStore{
+ + createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+ + validateClient(c)
+ + saveClient(c)
+ - addClient(c)
+}
+
+class Company{
+ - designation
+ + getClientStore()
+}
+class Client{
+ - citizenCardNumber
+ - nhsNumber
+ - birthDate
+ - sex
+ - tin
+ - phoneNumber
+ - e-mail
+ - name
+ + Client(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+}
+class CreateClientController{
+ + createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+ + saveClient(c)
+}
+
+CreateClientUI ..-> CreateClientController
+CreateClientController ..-> Company
+CreateClientController ..-> ClientStore
+Company "1" -> "1" ClientStore : uses
+ClientStore "1" -> "*" Client : has
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US3 - Class Diagram\n
+
+
+class CreateClientUI{
+}
+
+class ClientStore{
+ + createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+ + validateClient(c)
+ + saveClient(c)
+ - addClient(c)
+}
+
+class Company{
+ - designation
+ + getClientStore()
+}
+class Client{
+ - citizenCardNumber
+ - nhsNumber
+ - birthDate
+ - sex
+ - tin
+ - phoneNumber
+ - e-mail
+ - name
+ + Client(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+}
+class CreateClientController{
+ + createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+ + saveClient(c)
+}
+
+CreateClientUI ..-> CreateClientController
+CreateClientController ..-> Company
+CreateClientController ..-> ClientStore
+Company "1" -> "1" ClientStore : uses
+ClientStore "1" -> "*" Client : has
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

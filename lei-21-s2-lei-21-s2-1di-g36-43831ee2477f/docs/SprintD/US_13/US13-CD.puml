@@ -1,0 +1,146 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US14 - Class Diagram\n
+
+' ======= classes =========
+
+class ConsultTestsUI{
+}
+class Company{
+  -designation
+   +getTestStore()
+}
+class TestStore{
++add(test)
++add(parameterResult)
++getlistTestParameterResult()
++getTestList()
+}
+class ClientStore{
+ +add(client)
+ +getClientList()
+ }
+class TestMapper{
++toDTO(testList)
++toDTO(test)
+}
+class ClientMapper{
++toDTO(ClientList)
++toDTO(client)
+}
+class ParameterResultMapper{
++toDTO(listTestParameterResult)
++toDTO(parameterResult)
+}
+class TestDTO{
+ testTypeDTO;
+    - parameterDTOS;
+    - nhsCode;
+    - testCode;
+    - testCreationDate;
+    - laboratoryMapper;
+    - reportMapper;
+    - laboratory;
+    - reportMadeDate;
+    - samplesAnalysedDate;
+    - report;
+    + getReport()
+    + getNhsCode()
+    + getTestCode()
+    + getParameterDTO()
+    + getTestTypeDTO()
+    + getTestCreationDate()
+    + getReportMadeDate()
+    + getSamplesAnalysedDate()
+    + getTestParameterFor()
+    + getLaboratory()
+    + toString()
+
+}
+class TestParameterResultDTO{
+ -testParameterResult
+ -result
+ -metric
+ -refValue
+ +getMetric()
+ +getResult()
+ +getRefValue()
+}
+class ConsultTestsController{
+ +getTestList()
+ +getlistTestParameterResult()
+ +getClientTinName()
+ +getClientNameTin()
+ +getClientList()
+ +getTestsAvailable(listTestDTO)
+}
+class ClientDTO{
+-tin
+-citizenCardNumber
+-nhsNumber
+-birth
+-sex
+-phoneNumber
+-name
+-email
+-adress
++getTin()
++getEmail()
+}
+interface SortAlgorithm{
++sort()
+}
+class MergeSort{
++mergeSort()
++merge()
+}
+class QuickSort{
++partition()
++quickSortString()
+}
+ConsultTestsUI ..-> ConsultTestsController
+ConsultTestsUI ..-> TestMapper
+ConsultTestsUI ..-> TestDTO
+ConsultTestsUI ..-> TestParameterResultDTO
+ConsultTestsUI ..-> ParameterResultMapper
+ConsultTestsUI ..-> ClientMapper
+ConsultTestsUI ..-> ClientDTO
+Company "1" -> "1" TestStore : uses
+Company "1" -> "1" ClientStore : uses
+ConsultTestsController ..-> TestStore
+ConsultTestsController ..-> ClientStore
+ConsultTestsController ..-> TestDTO
+ConsultTestsController ..-> TestParameterResultDTO
+ConsultTestsController ..-> ClientDTO
+ParameterResultMapper "1" --> "*" TestParameterResultDTO : creates >
+TestMapper "1" --> "*" TestDTO : creates >
+ClientMapper "1"--> "*"ClientDTO: creates >
+ClientDTO --> SortAlgorithm: sorted by
+SortAlgorithm --> MergeSort
+SortAlgorithm --> QuickSort
+
+
+
+@enduml

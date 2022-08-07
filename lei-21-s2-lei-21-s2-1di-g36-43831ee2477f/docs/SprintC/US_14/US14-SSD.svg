@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="676px" preserveAspectRatio="none" style="width:550px;height:676px;background:#FCF9EA;" version="1.1" viewBox="0 0 550 676" width="550px" zoomAndPan="magnify"><defs><filter height="300%" id="f8y17krxfi523" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="525" x="9" y="92.041">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="276.5" y="134.3457"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="335.8672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="117" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="353.6484"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="414.3516"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="475.0547"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="45.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="535.7578"/><rect fill="#FCF9EA" filter="url(#f8y17krxfi523)" height="261.1641" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="431" x="56" y="312.9453"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="122" x2="122" y1="235.2422" y2="591.1094"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="443" x2="443" y1="235.2422" y2="591.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="66" y="232.166">Specialist Doctor</text><ellipse cx="122" cy="160.6328" fill="#FEFECE" filter="url(#f8y17krxfi523)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M122,168.6328 L122,195.6328 M109,176.6328 L135,176.6328 M122,195.6328 L109,210.6328 M122,195.6328 L135,210.6328 " fill="none" filter="url(#f8y17krxfi523)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="66" y="604.6426">Specialist Doctor</text><ellipse cx="122" cy="617.7188" fill="#FEFECE" filter="url(#f8y17krxfi523)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M122,625.7188 L122,652.7188 M109,633.7188 L135,633.7188 M122,652.7188 L109,667.7188 M122,652.7188 L135,667.7188 " fill="none" filter="url(#f8y17krxfi523)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f8y17krxfi523)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="409" y="198.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="416" y="220.166">:System</text><rect fill="#FEFECE" filter="url(#f8y17krxfi523)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="64" x="409" y="590.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="416" y="611.6426">:System</text><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="335.8672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="117" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="52.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="245.2422"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="353.6484"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="414.3516"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="475.0547"/><rect fill="#FFFFFF" filter="url(#f8y17krxfi523)" height="45.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="438" y="535.7578"/><polygon fill="#FFC5A1" points="426,263.5938,436,267.5938,426,271.5938,430,267.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="127" x2="432" y1="267.5938" y2="267.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="134" y="262.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="145" y="262.7373">starts new report</text><polygon fill="#FFC5A1" points="138,293.9453,128,297.9453,138,301.9453,134,297.9453" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="132" x2="442" y1="297.9453" y2="297.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="144" y="293.0889">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="155" y="293.0889">shows tests waiting for diagnosis</text><path d="M66,312.9453 L129,312.9453 L129,320.9453 L119,330.9453 L56,330.9453 L56,322.9453 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="261.1641" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="431" x="56" y="312.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="71" y="327.4404">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="129" x="144" y="326.3643">[for each test selected]</text><polygon fill="#FFC5A1" points="426,349.6484,436,353.6484,426,357.6484,430,353.6484" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="127" x2="432" y1="353.6484" y2="353.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="134" y="348.792">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="173" x="145" y="348.792">selects the test to write report</text><polygon fill="#FFC5A1" points="138,380,128,384,138,388,134,384" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="132" x2="442" y1="384" y2="384"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="144" y="379.1436">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="155" y="379.1436">shows the data and requests a confirmation</text><polygon fill="#FFC5A1" points="426,410.3516,436,414.3516,426,418.3516,430,414.3516" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="127" x2="432" y1="414.3516" y2="414.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="134" y="409.4951">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="145" y="409.4951">confirms the data</text><polygon fill="#FFC5A1" points="138,440.7031,128,444.7031,138,448.7031,134,444.7031" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="132" x2="442" y1="444.7031" y2="444.7031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="144" y="439.8467">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="155" y="439.8467">asks for diagnosis</text><polygon fill="#FFC5A1" points="426,471.0547,436,475.0547,426,479.0547,430,475.0547" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="127" x2="432" y1="475.0547" y2="475.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="134" y="470.1982">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="145" y="470.1982">writes diagnosis</text><polygon fill="#FFC5A1" points="138,501.4063,128,505.4063,138,509.4063,134,505.4063" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="132" x2="442" y1="505.4063" y2="505.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="144" y="500.5498">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="155" y="500.5498">asks for report</text><polygon fill="#FFC5A1" points="426,531.7578,436,535.7578,426,539.7578,430,535.7578" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="127" x2="432" y1="535.7578" y2="535.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="134" y="530.9014">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="145" y="530.9014">writes report</text><polygon fill="#FFC5A1" points="138,562.1094,128,566.1094,138,570.1094,134,566.1094" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="132" x2="437" y1="566.1094" y2="566.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="144" y="561.2529">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="269" x="162" y="561.2529">shows the data and informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="273" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="273" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="208.5" y="45.7275">Built by WeByte ©</text><!--MD5=[f3e952c3e54a9cf546630a8aaec4b6df]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Specialist Doctor" as SPEC
+
+participant ":System" as System
+
+activate SPEC
+activate System
+SPEC -> System : starts new report
+System - -> SPEC : shows tests waiting for diagnosis
+deactivate System
+loop for each test selected
+SPEC -> System : selects the test to write report
+activate System
+System - -> SPEC : shows the data and requests a confirmation
+deactivate System
+SPEC -> System : confirms the data
+activate System
+System - -> SPEC : asks for diagnosis
+deactivate System
+SPEC -> System : writes diagnosis
+
+activate System
+System - -> SPEC : asks for report
+deactivate System
+SPEC -> System : writes report
+activate System
+System - -> SPEC : shows the data and informs operation success
+end
+deactivate System
+deactivate System
+deactivate SPEC
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Specialist Doctor" as SPEC
+
+participant ":System" as System
+
+activate SPEC
+activate System
+SPEC -> System : starts new report
+System - -> SPEC : shows tests waiting for diagnosis
+deactivate System
+loop for each test selected
+SPEC -> System : selects the test to write report
+activate System
+System - -> SPEC : shows the data and requests a confirmation
+deactivate System
+SPEC -> System : confirms the data
+activate System
+System - -> SPEC : asks for diagnosis
+deactivate System
+SPEC -> System : writes diagnosis
+
+activate System
+System - -> SPEC : asks for report
+deactivate System
+SPEC -> System : writes report
+activate System
+System - -> SPEC : shows the data and informs operation success
+end
+deactivate System
+deactivate System
+deactivate SPEC
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

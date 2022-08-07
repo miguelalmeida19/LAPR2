@@ -1,0 +1,62 @@
+.titlebuttons:hover {
+    -fx-scale-x: 110%;
+    -fx-scale-y: 110%;
+    -fx-opacity: 50%;
+}
+
+.login{
+    -fx-border-radius: 30;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 25;
+}
+#button{
+    -fx-background-color: #e6b566;
+    -fx-border-width: 0 0 0.5 0;
+    -fx-text-fill: white;
+}
+#button:hover{
+
+    -fx-border-color: white;
+}
+#titlebarMinimizeButton{
+    -fx-border-style: none;
+
+    -fx-text-fill:  #000000;
+    -fx-background-color:  transparent;
+    -fx-border-width:0;
+
+    -fx-border-insets: 0;
+}
+#titlebarExitButton{
+
+
+    -fx-text-fill:  #000000;
+    -fx-background-color:  transparent;
+    -fx-border-insets: 0;
+    -fx-border-width:0;
+
+}
+#titlebarMaximizeButton{
+
+
+    -fx-text-fill:  #000000;
+    -fx-background-color:  transparent;
+    -fx-border-insets: 0;
+    -fx-border-width:0;
+
+}
+#titlebarExitButton:hover{
+
+    -fx-text-fill: red;
+}
+#titlebarMinimizeButton:hover{
+    -fx-text-fill: #147aff;
+}
+#titlebarMaximizeButton:hover{
+    -fx-text-fill: #147aff;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-background-color: #E2E2E2;
+}

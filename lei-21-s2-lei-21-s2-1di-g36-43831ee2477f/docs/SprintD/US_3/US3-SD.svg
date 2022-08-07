@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="704.9px" preserveAspectRatio="none" style="width:1067px;height:704px;background:#FCF9EA;" version="1.1" viewBox="0 0 1067 704" width="1067.5px" zoomAndPan="magnify"><defs><filter height="300%" id="f1by0swqil7o67" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.3999999999999997"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.7999999999999994" dy="2.7999999999999994" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="21" font-weight="bold" lengthAdjust="spacing" textLength="258.3" x="402.85" y="64.4287">SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="21" lengthAdjust="spacing" textLength="0" x="535.5" y="94.042"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="461.0758" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="29.4" y="171.6695"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="32.6922" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="275.8" y="187.3156"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="203.8148" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="275.8" y="241.2539"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="166.4305" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="275.8" y="466.3148"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="149.8766" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="518.7" y="273.9461"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="145.1844" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="518.7" y="487.5609"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="21" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="641.2" y="295.1922"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="32.6922" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="763" y="348.8844"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="21" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="763" y="402.8227"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="130.2383" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="763" y="508.807"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="19.6" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="766.5" y="535.6531"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="19.6" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="766.5" y="586.9992"/><line style="stroke:#A80036;stroke-width:0.6999999999999998;stroke-dasharray:5.0,5.0;" x1="32.9" x2="32.9" y1="164.6695" y2="645.3453"/><line style="stroke:#A80036;stroke-width:0.6999999999999998;stroke-dasharray:5.0,5.0;" x1="278.95" x2="278.95" y1="164.6695" y2="645.3453"/><line style="stroke:#A80036;stroke-width:0.6999999999999998;stroke-dasharray:5.0,5.0;" x1="521.85" x2="521.85" y1="164.6695" y2="645.3453"/><line style="stroke:#A80036;stroke-width:0.6999999999999998;stroke-dasharray:5.0,5.0;" x1="644.7" x2="644.7" y1="164.6695" y2="645.3453"/><line style="stroke:#A80036;stroke-width:0.6999999999999998;stroke-dasharray:5.0,5.0;" x1="766.5" x2="766.5" y1="164.6695" y2="645.3453"/><line style="stroke:#A80036;stroke-width:0.6999999999999998;stroke-dasharray:5.0,5.0;" x1="1034.6" x2="1034.6" y1="377.8305" y2="645.3453"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="54.6" x="3.5" y="162.5162">Receptionist</text><ellipse cx="32.9" cy="112.443" fill="#FEFECE" filter="url(#f1by0swqil7o67)" rx="5.6" ry="5.6" style="stroke:#A80036;stroke-width:1.3999999999999997;"/><path d="M32.9,118.043 L32.9,136.943 M23.8,123.643 L42,123.643 M32.9,136.943 L23.8,147.443 M32.9,136.943 L42,147.443 " fill="none" filter="url(#f1by0swqil7o67)" style="stroke:#A80036;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="54.6" x="3.5" y="654.8186">Receptionist</text><ellipse cx="32.9" cy="663.9719" fill="#FEFECE" filter="url(#f1by0swqil7o67)" rx="5.6" ry="5.6" style="stroke:#A80036;stroke-width:1.3999999999999997;"/><path d="M32.9,669.5719 L32.9,688.4719 M23.8,675.1719 L42,675.1719 M32.9,688.4719 L23.8,698.9719 M32.9,688.4719 L42,698.9719 " fill="none" filter="url(#f1by0swqil7o67)" style="stroke:#A80036;stroke-width:1.3999999999999997;"/><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="22.1266" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="76.3" x="239.75" y="139.043"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="66.5" x="244.65" y="154.1162">:CreateClientUI</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="22.1266" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="76.3" x="239.75" y="644.6453"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="66.5" x="244.65" y="659.7186">:CreateClientUI</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="34.4531" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="67.9" x="486.85" y="126.7164"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.1" x="491.75" y="141.7896">:CreateClient</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="43.4" x="499.1" y="154.1162">Controller</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="34.4531" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="67.9" x="486.85" y="644.6453"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.1" x="491.75" y="659.7186">:CreateClient</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="43.4" x="499.1" y="672.0451">Controller</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="22.1266" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="54.6" x="616" y="139.043"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="44.8" x="620.9" y="154.1162">:Company</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="22.1266" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="54.6" x="616" y="644.6453"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="44.8" x="620.9" y="659.7186">:Company</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="34.4531" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="65.8" x="732.2" y="126.7164"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="56" x="737.1" y="141.7896">:store: Client</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="23.8" x="753.2" y="154.1162">Store</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="34.4531" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="65.8" x="732.2" y="644.6453"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="56" x="737.1" y="659.7186">:store: Client</text><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="23.8" x="753.2" y="672.0451">Store</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="22.1266" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="48.3" x="1009.4" y="644.6453"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="38.5" x="1014.3" y="659.7186">c : Client</text><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="461.0758" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="29.4" y="171.6695"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="32.6922" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="275.8" y="187.3156"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="203.8148" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="275.8" y="241.2539"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="166.4305" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="275.8" y="466.3148"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="149.8766" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="518.7" y="273.9461"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="145.1844" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="518.7" y="487.5609"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="21" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="641.2" y="295.1922"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="32.6922" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="763" y="348.8844"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="21" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="763" y="402.8227"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="130.2383" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="763" y="508.807"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="19.6" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="766.5" y="535.6531"/><rect fill="#FFFFFF" filter="url(#f1by0swqil7o67)" height="19.6" style="stroke:#A80036;stroke-width:0.6999999999999998;" width="7" x="766.5" y="586.9992"/><polygon fill="#FFC5A1" points="267.4,184.5156,274.4,187.3156,267.4,190.1156,270.2,187.3156" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="36.4" x2="271.6" y1="187.3156" y2="187.3156"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="41.3" y="183.9161">1</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="86.8" x="49" y="183.9161">start new client regist</text><polygon fill="#FFC5A1" points="44.1,217.2078,37.1,220.0078,44.1,222.8078,41.3,220.0078" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="39.9" x2="278.6" y1="220.0078" y2="220.0078"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="48.3" y="210.8853">2</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="186.9" x="56" y="205.1622">request_data(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="212.1" x="58.8" y="216.6083">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><polygon fill="#FFC5A1" points="267.4,238.4539,274.4,241.2539,267.4,244.0539,270.2,241.2539" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="36.4" x2="271.6" y1="241.2539" y2="241.2539"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="41.3" y="237.8544">3</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="85.4" x="49" y="237.8544">types requested data</text><polygon fill="#FFC5A1" points="510.3,271.1461,517.3,273.9461,510.3,276.7461,513.1,273.9461" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="282.8" x2="514.5" y1="273.9461" y2="273.9461"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="287.7" y="264.8235">4</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="200.2" x="295.4" y="259.1005">createNewClient(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="212.1" x="298.2" y="270.5466">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><polygon fill="#FFC5A1" points="632.8,292.3922,639.8,295.1922,632.8,297.9922,635.6,295.1922" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="525.7" x2="637" y1="295.1922" y2="295.1922"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="530.6" y="291.7927">5</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="94.5" x="538.3" y="291.7927">store = getClientStore()</text><polygon fill="#FFC5A1" points="754.6,346.0844,761.6,348.8844,754.6,351.6844,757.4,348.8844" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="525.7" x2="758.8" y1="348.8844" y2="348.8844"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="530.6" y="339.7618">6</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="216.3" x="538.3" y="334.0388">c = createNewClient(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="212.1" x="541.1" y="345.4849">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><polygon fill="#FFC5A1" points="1001,378.7766,1008,381.5766,1001,384.3766,1003.8,381.5766" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="766.5" x2="1005.2" y1="381.5766" y2="381.5766"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="771.4" y="372.454">7</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="159.6" x="779.1" y="366.731">create(citizenCardNumber, nhsNumber,</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="212.1" x="781.9" y="378.1771">birthDate, sex, tin, phoneNumber, e-mail and name.)</text><rect fill="#FEFECE" filter="url(#f1by0swqil7o67)" height="22.1266" rx="7" ry="7" style="stroke:#A80036;stroke-width:1.0499999999999998;" width="48.3" x="1009.4" y="354.55"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="38.5" x="1014.3" y="369.6232">c : Client</text><polygon fill="#FFC5A1" points="754.6,400.0227,761.6,402.8227,754.6,405.6227,757.4,402.8227" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="525.7" x2="758.8" y1="402.8227" y2="402.8227"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="530.6" y="399.4231">8</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="63.7" x="538.3" y="399.4231">validateClient(c)</text><polygon fill="#FFC5A1" points="44.1,442.2687,37.1,445.0687,44.1,447.8687,41.3,445.0687" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="39.9" x2="278.6" y1="445.0687" y2="445.0687"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="48.3" y="441.6692">9</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="176.4" x="56" y="441.6692">shows the data and requests a confirmation</text><polygon fill="#FFC5A1" points="267.4,463.5148,274.4,466.3148,267.4,469.1148,270.2,466.3148" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="36.4" x2="271.6" y1="466.3148" y2="466.3148"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="41.3" y="462.9153">10</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="70" x="53.9" y="462.9153">confirms the data</text><polygon fill="#FFC5A1" points="510.3,484.7609,517.3,487.5609,510.3,490.3609,513.1,487.5609" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="282.8" x2="514.5" y1="487.5609" y2="487.5609"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="287.7" y="484.1614">11</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="51.8" x="300.3" y="484.1614">saveClient(c)</text><polygon fill="#FFC5A1" points="754.6,506.007,761.6,508.807,754.6,511.607,757.4,508.807" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="525.7" x2="758.8" y1="508.807" y2="508.807"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="530.6" y="505.4075">12</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="51.8" x="543.2" y="505.4075">saveClient(c)</text><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="773.5" x2="802.9" y1="530.0531" y2="530.0531"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="802.9" x2="802.9" y1="530.0531" y2="539.1531"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="774.2" x2="802.9" y1="539.1531" y2="539.1531"/><polygon fill="#FFC5A1" points="781.2,536.3531,774.2,539.1531,781.2,541.9531,778.4,539.1531" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="778.4" y="526.6536">13</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="63.7" x="791" y="526.6536">validateClient(c)</text><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="773.5" x2="802.9" y1="581.3992" y2="581.3992"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="802.9" x2="802.9" y1="581.3992" y2="590.4992"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;" x1="774.2" x2="802.9" y1="590.4992" y2="590.4992"/><polygon fill="#FFC5A1" points="781.2,587.6992,774.2,590.4992,781.2,593.2992,778.4,590.4992" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="778.4" y="577.9997">14</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="48.3" x="791" y="577.9997">addClient(c)</text><polygon fill="#FFC5A1" points="40.6,629.9453,33.6,632.7453,40.6,635.5453,37.8,632.7453" style="stroke:#FFC5A1;stroke-width:0.6999999999999998;"/><line style="stroke:#FFC5A1;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="36.4" x2="278.6" y1="632.7453" y2="632.7453"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="44.8" y="629.3458">15</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="106.4" x="57.4" y="629.3458">informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="0" x="533.05" y="10.7666"/><text fill="#888888" font-family="sans-serif" font-size="7" lengthAdjust="spacing" textLength="0" x="533.05" y="19.5713"/><text fill="#000000" font-family="sans-serif" font-size="10.5" font-weight="bold" lengthAdjust="spacing" textLength="88.2" x="487.9" y="32.0093">Built by WeByte ©</text><!--MD5=[80bb88f60975683b4bb9989c529f1ecc]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Receptionist" as RCP
+
+participant ":CreateClientUI" as UI
+participant ":CreateClient\nController" as CTRL
+participant ":Company" as Company
+participant ":store: Client\nStore" as Store
+participant "c : Client" as Client
+
+activate RCP
+RCP -> UI : start new client regist
+activate UI
+UI - -> RCP : request_data(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+deactivate UI
+
+RCP -> UI : types requested data
+activate UI
+
+UI -> CTRL : createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+activate CTRL
+
+CTRL -> Company: store = getClientStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : c = createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+
+activate Store
+
+Store - -> Client** : create(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+
+deactivate Client
+
+deactivate Store
+
+CTRL -> Store: validateClient(c)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI - -> RCP : shows the data and requests a confirmation
+
+deactivate UI
+
+RCP -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveClient(c)
+activate CTRL
+
+CTRL -> Store : saveClient(c)
+
+activate Store
+
+Store -> Store: validateClient(c)
+activate Store
+deactivate Store
+
+Store -> Store: addClient(c)
+activate Store
+deactivate Store
+
+UI - -> RCP: informs operation success
+
+deactivate RCP
+deactivate UI
+deactivate CTRL
+deactivate Company
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+actor "Receptionist" as RCP
+
+participant ":CreateClientUI" as UI
+participant ":CreateClient\nController" as CTRL
+participant ":Company" as Company
+participant ":store: Client\nStore" as Store
+participant "c : Client" as Client
+
+activate RCP
+RCP -> UI : start new client regist
+activate UI
+UI - -> RCP : request_data(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+deactivate UI
+
+RCP -> UI : types requested data
+activate UI
+
+UI -> CTRL : createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+activate CTRL
+
+CTRL -> Company: store = getClientStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : c = createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+
+activate Store
+
+Store - -> Client** : create(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+
+deactivate Client
+
+deactivate Store
+
+CTRL -> Store: validateClient(c)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI - -> RCP : shows the data and requests a confirmation
+
+deactivate UI
+
+RCP -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveClient(c)
+activate CTRL
+
+CTRL -> Store : saveClient(c)
+
+activate Store
+
+Store -> Store: validateClient(c)
+activate Store
+deactivate Store
+
+Store -> Store: addClient(c)
+activate Store
+deactivate Store
+
+UI - -> RCP: informs operation success
+
+deactivate RCP
+deactivate UI
+deactivate CTRL
+deactivate Company
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="643px" preserveAspectRatio="none" style="width:343px;height:643px;" version="1.1" viewBox="0 0 343 643" width="343px" zoomAndPan="magnify"><defs><filter height="300%" id="f3h7ugbdnguud" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[634d73a9c2b632c8315a0d703c87098d]
+class SendReportUI--><rect codeLine="7" fill="#FEFECE" filter="url(#f3h7ugbdnguud)" height="48" id="SendReportUI" style="stroke:#A80036;stroke-width:1.5;" width="110" x="100.5" y="7"/><ellipse cx="115.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M117.5,19.5 Q117.7031,19 117.9375,18.75 Q118.1719,18.5 118.4375,18.5 Q118.9063,18.5 119.2031,18.7813 Q119.5,19.0625 119.5,19.7188 L119.5,21.2813 Q119.5,21.9375 119.2188,22.2188 Q118.9375,22.5 118.5,22.5 Q118.1094,22.5 117.8594,22.3281 Q117.6094,22.1563 117.5,21.7031 Q117.4531,21.3906 117.2813,21.2188 Q116.9688,20.8906 116.4063,20.7031 Q115.8438,20.5 115.2813,20.5 Q114.5781,20.5 113.9844,20.7813 Q113.4063,21.0625 112.9531,21.6875 Q112.5,22.3125 112.5,23.1719 L112.5,24.0938 Q112.5,25.125 113.3438,25.8125 Q114.1875,26.5 115.6875,26.5 Q116.5781,26.5 117.2031,26.2969 Q117.5625,26.1875 117.9688,25.8281 Q118.2344,25.625 118.375,25.5625 Q118.5156,25.5 118.6875,25.5 Q119.0156,25.5 119.25,25.7656 Q119.5,26.0156 119.5,26.375 Q119.5,26.7188 119.1563,27.125 Q118.6563,27.7188 117.8594,28.0469 Q116.8125,28.5 115.5313,28.5 Q114.0313,28.5 112.8281,27.9063 Q111.8594,27.4375 111.1719,26.4219 Q110.5,25.4063 110.5,24.2031 L110.5,23.1094 Q110.5,21.8594 111.0938,20.7656 Q111.7031,19.6719 112.75,19.0938 Q113.8125,18.5 115,18.5 Q115.7188,18.5 116.3438,18.75 Q116.9688,19 117.5,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="129.5" y="27.9102">SendReportUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="101.5" x2="209.5" y1="39" y2="39"/><line style="stroke:#A80036;stroke-width:1.5;" x1="101.5" x2="209.5" y1="47" y2="47"/><!--MD5=[c004c0673453dc052af2b8d8e48aa3d0]
+class SendReportNhsController--><rect codeLine="10" fill="#FEFECE" filter="url(#f3h7ugbdnguud)" height="75.6719" id="SendReportNhsController" style="stroke:#A80036;stroke-width:1.5;" width="198" x="56.5" y="178"/><ellipse cx="81.85" cy="194" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M83.85,190.5 Q84.0531,190 84.2875,189.75 Q84.5219,189.5 84.7875,189.5 Q85.2563,189.5 85.5531,189.7813 Q85.85,190.0625 85.85,190.7188 L85.85,192.2813 Q85.85,192.9375 85.5688,193.2188 Q85.2875,193.5 84.85,193.5 Q84.4594,193.5 84.2094,193.3281 Q83.9594,193.1563 83.85,192.7031 Q83.8031,192.3906 83.6313,192.2188 Q83.3188,191.8906 82.7563,191.7031 Q82.1938,191.5 81.6313,191.5 Q80.9281,191.5 80.3344,191.7813 Q79.7563,192.0625 79.3031,192.6875 Q78.85,193.3125 78.85,194.1719 L78.85,195.0938 Q78.85,196.125 79.6938,196.8125 Q80.5375,197.5 82.0375,197.5 Q82.9281,197.5 83.5531,197.2969 Q83.9125,197.1875 84.3188,196.8281 Q84.5844,196.625 84.725,196.5625 Q84.8656,196.5 85.0375,196.5 Q85.3656,196.5 85.6,196.7656 Q85.85,197.0156 85.85,197.375 Q85.85,197.7188 85.5063,198.125 Q85.0063,198.7188 84.2094,199.0469 Q83.1625,199.5 81.8813,199.5 Q80.3813,199.5 79.1781,198.9063 Q78.2094,198.4375 77.5219,197.4219 Q76.85,196.4063 76.85,195.2031 L76.85,194.1094 Q76.85,192.8594 77.4438,191.7656 Q78.0531,190.6719 79.1,190.0938 Q80.1625,189.5 81.35,189.5 Q82.0688,189.5 82.6938,189.75 Q83.3188,190 83.85,190.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="98.15" y="198.9102">SendReportNhsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="253.5" y1="210" y2="210"/><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="253.5" y1="218" y2="218"/><ellipse cx="67.5" cy="229" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="76.5" y="233.4189">generateReport(NHSReportDTO)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="239.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="76.5" y="247.2549">checkIfTestsAdClientsAreISystem()</text><!--MD5=[74783ec010d186752c4ffd5c6de5633a]
+class NHSReport--><rect codeLine="19" fill="#FEFECE" filter="url(#f3h7ugbdnguud)" height="89.5078" id="NHSReport" style="stroke:#A80036;stroke-width:1.5;" width="119" x="7" y="435.5"/><ellipse cx="32.8" cy="451.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M34.8,448 Q35.0031,447.5 35.2375,447.25 Q35.4719,447 35.7375,447 Q36.2063,447 36.5031,447.2813 Q36.8,447.5625 36.8,448.2188 L36.8,449.7813 Q36.8,450.4375 36.5188,450.7188 Q36.2375,451 35.8,451 Q35.4094,451 35.1594,450.8281 Q34.9094,450.6563 34.8,450.2031 Q34.7531,449.8906 34.5813,449.7188 Q34.2688,449.3906 33.7063,449.2031 Q33.1438,449 32.5813,449 Q31.8781,449 31.2844,449.2813 Q30.7062,449.5625 30.2531,450.1875 Q29.8,450.8125 29.8,451.6719 L29.8,452.5938 Q29.8,453.625 30.6437,454.3125 Q31.4875,455 32.9875,455 Q33.8781,455 34.5031,454.7969 Q34.8625,454.6875 35.2688,454.3281 Q35.5344,454.125 35.675,454.0625 Q35.8156,454 35.9875,454 Q36.3156,454 36.55,454.2656 Q36.8,454.5156 36.8,454.875 Q36.8,455.2188 36.4563,455.625 Q35.9563,456.2188 35.1594,456.5469 Q34.1125,457 32.8313,457 Q31.3312,457 30.1281,456.4063 Q29.1594,455.9375 28.4719,454.9219 Q27.8,453.9063 27.8,452.7031 L27.8,451.6094 Q27.8,450.3594 28.3937,449.2656 Q29.0031,448.1719 30.05,447.5938 Q31.1125,447 32.3,447 Q33.0188,447 33.6438,447.25 Q34.2688,447.5 34.8,448 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="49.2" y="456.4102">NHSReport</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="125" y1="467.5" y2="467.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="475.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="27" y="482.9189">testsMadeInInterval</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="489.3359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="27" y="496.7549">testStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="503.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="27" y="510.5908">reportString</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="125" y1="517.0078" y2="517.0078"/><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="22" fill="#FEFECE" filter="url(#f3h7ugbdnguud)" height="297.0469" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="168" x="161.5" y="332"/><ellipse cx="214.75" cy="348" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M216.75,344.5 Q216.9531,344 217.1875,343.75 Q217.4219,343.5 217.6875,343.5 Q218.1563,343.5 218.4531,343.7813 Q218.75,344.0625 218.75,344.7188 L218.75,346.2813 Q218.75,346.9375 218.4688,347.2188 Q218.1875,347.5 217.75,347.5 Q217.3594,347.5 217.1094,347.3281 Q216.8594,347.1563 216.75,346.7031 Q216.7031,346.3906 216.5313,346.2188 Q216.2188,345.8906 215.6563,345.7031 Q215.0938,345.5 214.5313,345.5 Q213.8281,345.5 213.2344,345.7813 Q212.6563,346.0625 212.2031,346.6875 Q211.75,347.3125 211.75,348.1719 L211.75,349.0938 Q211.75,350.125 212.5938,350.8125 Q213.4375,351.5 214.9375,351.5 Q215.8281,351.5 216.4531,351.2969 Q216.8125,351.1875 217.2188,350.8281 Q217.4844,350.625 217.625,350.5625 Q217.7656,350.5 217.9375,350.5 Q218.2656,350.5 218.5,350.7656 Q218.75,351.0156 218.75,351.375 Q218.75,351.7188 218.4063,352.125 Q217.9063,352.7188 217.1094,353.0469 Q216.0625,353.5 214.7813,353.5 Q213.2813,353.5 212.0781,352.9063 Q211.1094,352.4375 210.4219,351.4219 Q209.75,350.4063 209.75,349.2031 L209.75,348.1094 Q209.75,346.8594 210.3438,345.7656 Q210.9531,344.6719 212,344.0938 Q213.0625,343.5 214.25,343.5 Q214.9688,343.5 215.5938,343.75 Q216.2188,344 216.75,344.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="235.25" y="352.9102">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="162.5" x2="328.5" y1="364" y2="364"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="372"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="181.5" y="379.4189">designation;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="385.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="181.5" y="393.2549">authFacade;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="399.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="181.5" y="407.0908">parameterCategoryStore;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="413.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="181.5" y="420.9268">employeeStore;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="427.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="181.5" y="434.7627">clientStore;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="441.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="181.5" y="448.5986">parameterStore;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="455.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="181.5" y="462.4346">laboratoryStore;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="468.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="181.5" y="476.2705">testTypeStore;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="169.5" y="482.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="181.5" y="490.1064">nhsReportStore;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="162.5" x2="328.5" y1="496.5234" y2="496.5234"/><ellipse cx="172.5" cy="507.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="181.5" y="511.9424">getNhsReportStore()</text><ellipse cx="172.5" cy="521.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="181.5" y="525.7783">getParameterCategoryStore()</text><ellipse cx="172.5" cy="535.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="181.5" y="539.6143">getParameterStore()</text><ellipse cx="172.5" cy="549.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="181.5" y="553.4502">getDesignation()</text><ellipse cx="172.5" cy="562.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="181.5" y="567.2861">getClientStore()</text><ellipse cx="172.5" cy="576.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="181.5" y="581.1221">getAuthFacade()</text><ellipse cx="172.5" cy="590.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="181.5" y="594.958">getEmployeeStore()</text><ellipse cx="172.5" cy="604.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="181.5" y="608.7939">getLaboratoryStore()</text><ellipse cx="172.5" cy="618.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="181.5" y="622.6299">getTestTypeStore()</text><!--MD5=[d5ae774112a1c426dde02b899e47752c]
+link SendReportUI to SendReportNhsController--><path codeLine="47" d="M155.5,55.18 C155.5,84.6 155.5,135.93 155.5,172.48 " fill="none" id="SendReportUI-to-SendReportNhsController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="155.5,177.76,159.5,168.76,155.5,172.76,151.5,168.76,155.5,177.76" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="147.6469" y="76.5618">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="147.8766" y="167.0792">1</text><!--MD5=[fcfe72649f6f3fe19a039ba3c5cc7f60]
+link SendReportNhsController to Company--><path codeLine="48" d="M182.37,254.04 C188.33,263.47 194.16,273.83 198.5,284 C204.32,297.63 209.49,312.12 214.09,326.8 " fill="none" id="SendReportNhsController-to-Company" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="215.62,331.78,216.7902,322.0009,214.1466,327.002,209.1454,324.3584,215.62,331.78" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="179.2407" y="275.2168">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="206.8988" y="321.2021">1</text><!--MD5=[7165b8de830a80244c4dbf50541953b5]
+link SendReportNhsController to NHSReport--><path codeLine="49" d="M142.94,254.05 C127.29,300.19 100.52,379.15 83.17,430.32 " fill="none" id="SendReportNhsController-to-NHSReport" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="81.53,435.18,88.197,427.9308,83.1283,430.4423,80.6167,425.3736,81.53,435.18" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="135.8944,297.911,141.5822,290.2887,136.0157,288.4012,135.8944,297.911" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="146.5" y="298.4951">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="133.2801" y="275.2284">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="15" x="67.683" y="424.5751">1..</text><!--MD5=[2914e923254afc88042ab8a7e69591ad]
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+
+
+class SendReportUI {
+}
+
+class SendReportNhsController{
+ + generateReport(NHSReportDTO)
+ -checkIfTestsAdClientsAreISystem()
+}
+class NHSReport{
+    -testsMadeInInterval
+    -testStore
+}
+
+class NHSReport{
+    -reportString
+}
+class Company{
+    -designation;
+    -authFacade;
+    -parameterCategoryStore;
+    -employeeStore;
+    -clientStore;
+    -parameterStore;
+    -laboratoryStore;
+    -testTypeStore;
+    -nhsReportStore;
+
+    +getNhsReportStore()
+    +getParameterCategoryStore()
+    +getParameterStore()
+    +getDesignation()
+    +getClientStore()
+    +getAuthFacade()
+    +getEmployeeStore()
+    +getLaboratoryStore()
+    +getTestTypeStore()
+    }
+
+
+
+
+SendReportUI "1" ...> "1" SendReportNhsController
+SendReportNhsController "1" ..> "1" Company
+SendReportNhsController "1" - -> "1.." NHSReport: creates >
+@enduml
+
+@startuml
+
+
+
+
+
+class SendReportUI {
+}
+
+class SendReportNhsController{
+ + generateReport(NHSReportDTO)
+ -checkIfTestsAdClientsAreISystem()
+}
+class NHSReport{
+    -testsMadeInInterval
+    -testStore
+}
+
+class NHSReport{
+    -reportString
+}
+class Company{
+    -designation;
+    -authFacade;
+    -parameterCategoryStore;
+    -employeeStore;
+    -clientStore;
+    -parameterStore;
+    -laboratoryStore;
+    -testTypeStore;
+    -nhsReportStore;
+
+    +getNhsReportStore()
+    +getParameterCategoryStore()
+    +getParameterStore()
+    +getDesignation()
+    +getClientStore()
+    +getAuthFacade()
+    +getEmployeeStore()
+    +getLaboratoryStore()
+    +getTestTypeStore()
+    }
+
+
+
+
+SendReportUI "1" ...> "1" SendReportNhsController
+SendReportNhsController "1" ..> "1" Company
+SendReportNhsController "1" - -> "1.." NHSReport: creates >
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

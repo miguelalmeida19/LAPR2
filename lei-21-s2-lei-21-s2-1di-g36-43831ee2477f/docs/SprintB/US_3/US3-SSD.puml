@@ -1,0 +1,47 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Receptionist" as Receptionist
+
+participant ":System" as System
+
+activate Receptionist
+activate System
+Receptionist -> System : start new client regist
+System --> Receptionist : request_data(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phone_number, e-mail and name.)
+deactivate System
+Receptionist -> System : types requested data
+activate System
+System --> Receptionist : shows the data and requests a confirmation
+deactivate System
+Receptionist -> System : confirms the data
+activate System
+System --> Receptionist : informs operation success
+deactivate System
+deactivate Receptionist
+
+@enduml

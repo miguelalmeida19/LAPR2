@@ -1,0 +1,107 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Receptionist" as RCP
+
+participant ":CreateClientUI" as UI
+participant ":CreateClient\nController" as CTRL
+participant ":Company" as Company
+participant ":store: Client\nStore" as Store
+participant "c : Client" as Client
+participant "AuthFacade : AuthFacade" as facade
+
+activate RCP
+RCP -> UI : start new client regist
+activate UI
+UI --> RCP : request_data(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+deactivate UI
+
+RCP -> UI : types requested data
+activate UI
+
+UI -> CTRL : createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+activate CTRL
+
+CTRL -> Company: store = getClientStore()
+activate Company
+deactivate Company
+
+CTRL -> Store : c = createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+
+activate Store
+
+Store --> Client** : create(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+
+deactivate Client
+
+deactivate Store
+
+CTRL -> Store: validateClient(c)
+
+activate Store
+deactivate Store
+
+deactivate CTRL
+
+UI --> RCP : shows the data and requests a confirmation
+
+deactivate UI
+
+RCP -> UI : confirms the data
+activate UI
+
+UI -> CTRL : saveClient()
+activate CTRL
+
+CTRL -> Store : saveClient(c)
+activate Store
+CTRL -> Company: Facade = getAuthFacade()
+activate Company
+deactivate Company
+CTRL -> facade: addUser(name, email, password)
+activate facade
+deactivate facade
+
+
+
+
+Store -> Store: validateClient(c)
+activate Store
+deactivate Store
+
+Store -> Store: addClient(c)
+activate Store
+deactivate Store
+
+UI --> RCP: informs operation success
+
+deactivate RCP
+deactivate UI
+deactivate CTRL
+deactivate Company
+
+@enduml

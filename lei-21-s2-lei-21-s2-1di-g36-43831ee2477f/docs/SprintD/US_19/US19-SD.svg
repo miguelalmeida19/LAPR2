@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="556px" preserveAspectRatio="none" style="width:763px;height:556px;background:#FCF9EA;" version="1.1" viewBox="0 0 763 556" width="763px" zoomAndPan="magnify"><defs><filter height="300%" id="f1weln9w57zyod" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="471" x="143.75" y="92.041">US19-SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="384.25" y="134.3457"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="153.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="258" y="219.5938"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="489.5" y="403.5156"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="489.5" y="463.8672"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715.5" y="343.1641"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715.5" y="403.5156"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715.5" y="463.8672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="263" x2="263" y1="187.2422" y2="511.8672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="494" x2="494" y1="260.8984" y2="511.8672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="720.5" x2="720.5" y1="307.5078" y2="511.8672"/><rect fill="#FEFECE" filter="url(#f1weln9w57zyod)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="106" x="208" y="150.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="215" y="172.166">:SendReportUI</text><rect fill="#FEFECE" filter="url(#f1weln9w57zyod)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="106" x="208" y="510.8672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="215" y="532.4004">:SendReportUI</text><rect fill="#FEFECE" filter="url(#f1weln9w57zyod)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="175" x="405" y="510.8672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="412" y="532.4004">task: OperationSendTask</text><rect fill="#FEFECE" filter="url(#f1weln9w57zyod)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="62" x="687.5" y="510.8672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="694.5" y="532.4004">t: Timer</text><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="153.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="258" y="219.5938"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="489.5" y="403.5156"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="489.5" y="463.8672"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715.5" y="343.1641"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715.5" y="403.5156"/><rect fill="#FFFFFF" filter="url(#f1weln9w57zyod)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="715.5" y="463.8672"/><ellipse cx="7.5" cy="218.8438" rx="4" ry="4" style="stroke:#FFC5A1;stroke-width:1.5;fill:none;"/><polygon fill="#FFC5A1" points="246,215.5938,256,219.5938,246,223.5938,250,219.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="12" x2="252" y1="219.5938" y2="219.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="15" y="214.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="26" y="214.7373">ScheculeOperationToSend(SendTask)</text><polygon fill="#FFC5A1" points="393,245.9453,403,249.9453,393,253.9453,397,249.9453" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="268" x2="399" y1="249.9453" y2="249.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="275" y="245.0889">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="286" y="245.0889">create(SendTask)</text><rect fill="#FEFECE" filter="url(#f1weln9w57zyod)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="175" x="405" y="227.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="412" y="249.127">task: OperationSendTask</text><polygon fill="#FFC5A1" points="675.5,292.5547,685.5,296.5547,675.5,300.5547,679.5,296.5547" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="268" x2="681.5" y1="296.5547" y2="296.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="275" y="291.6982">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="286" y="291.6982">create(SendTask)</text><rect fill="#FEFECE" filter="url(#f1weln9w57zyod)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="62" x="687.5" y="274.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="694.5" y="295.7363">t: Timer</text><polygon fill="#FFC5A1" points="703.5,339.1641,713.5,343.1641,703.5,347.1641,707.5,343.1641" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="268" x2="709.5" y1="343.1641" y2="343.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="275" y="338.3076">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="229" x="286" y="338.3076">schedule (AutomaticReportNHSSender)</text><polygon fill="#FFC5A1" points="510.5,399.5156,500.5,403.5156,510.5,407.5156,506.5,403.5156" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="504.5" x2="714.5" y1="403.5156" y2="403.5156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="516.5" y="398.6592">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="527.5" y="398.6592">run(AutomaticReportNHSSender)</text><polygon fill="#FFC5A1" points="510.5,459.8672,500.5,463.8672,510.5,467.8672,506.5,463.8672" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="504.5" x2="714.5" y1="463.8672" y2="463.8672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="516.5" y="459.0107">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="527.5" y="459.0107">run(SendTask</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="380.75" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="380.75" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="316.25" y="45.7275">Built by WeByte ©</text><!--MD5=[c2c277cf0ae1be988fb25b1cabc7d3d1]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US19-SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+
+
+participant ":SendReportUI" as un
+participant "task: OperationSendTask" as SendTask
+participant "t: Timer" as timer
+
+
+
+[o-> un : ScheculeOperationToSend(SendTask)
+activate un
+
+un - -> SendTask** : create(SendTask)
+un - -> timer** : create(SendTask)
+
+un -> timer : schedule (AutomaticReportNHSSender)
+activate timer
+deactivate un
+deactivate timer
+
+timer -> SendTask: run(AutomaticReportNHSSender)
+activate timer
+deactivate timer
+activate SendTask
+deactivate SendTask
+
+timer -> SendTask: run(SendTask
+activate SendTask
+deactivate SendTask
+activate timer
+deactivate timer
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US19-SEQUENCE DIAGRAM\n
+autonumber
+
+
+participant ":SendReportUI" as un
+participant "task: OperationSendTask" as SendTask
+participant "t: Timer" as timer
+
+
+
+[o-> un : ScheculeOperationToSend(SendTask)
+activate un
+
+un - -> SendTask** : create(SendTask)
+un - -> timer** : create(SendTask)
+
+un -> timer : schedule (AutomaticReportNHSSender)
+activate timer
+deactivate un
+deactivate timer
+
+timer -> SendTask: run(AutomaticReportNHSSender)
+activate timer
+deactivate timer
+activate SendTask
+deactivate SendTask
+
+timer -> SendTask: run(SendTask
+activate SendTask
+deactivate SendTask
+activate timer
+deactivate timer
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

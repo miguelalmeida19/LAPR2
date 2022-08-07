@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="355px" preserveAspectRatio="none" style="width:394px;height:355px;background:#FCF9EA;" version="1.1" viewBox="0 0 394 355" width="394px" zoomAndPan="magnify"><defs><filter height="300%" id="fscokvptyncvc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="369" x="9" y="92.041">SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="198.5" y="134.3457"/><rect fill="#FFFFFF" filter="url(#fscokvptyncvc)" height="104.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="90.5" y="197.2422"/><rect fill="#FFFFFF" filter="url(#fscokvptyncvc)" height="65.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="95.5" y="227.5938"/><rect fill="#FFFFFF" filter="url(#fscokvptyncvc)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="282.5" y="262.9453"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="95" x2="95" y1="187.2422" y2="310.9453"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="287" x2="287" y1="187.2422" y2="310.9453"/><rect fill="#FEFECE" filter="url(#fscokvptyncvc)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="159" x="14" y="150.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="21" y="172.166">:ValidateTestController</text><rect fill="#FEFECE" filter="url(#fscokvptyncvc)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="159" x="14" y="309.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="21" y="331.4785">:ValidateTestController</text><rect fill="#FEFECE" filter="url(#fscokvptyncvc)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="167" x="202" y="150.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="209" y="172.166">:EmailNotificationSender</text><rect fill="#FEFECE" filter="url(#fscokvptyncvc)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="167" x="202" y="309.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="209" y="331.4785">:EmailNotificationSender</text><rect fill="#FFFFFF" filter="url(#fscokvptyncvc)" height="104.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="90.5" y="197.2422"/><rect fill="#FFFFFF" filter="url(#fscokvptyncvc)" height="65.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="95.5" y="227.5938"/><rect fill="#FFFFFF" filter="url(#fscokvptyncvc)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="282.5" y="262.9453"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="100.5" x2="147.5" y1="214.5938" y2="214.5938"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="147.5" x2="147.5" y1="214.5938" y2="227.5938"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="106.5" x2="147.5" y1="227.5938" y2="227.5938"/><polygon fill="#FFC5A1" points="116.5,223.5938,106.5,227.5938,116.5,231.5938,112.5,227.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="112.5" y="209.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="123.5" y="209.7373">sendTestDoneNotification()</text><polygon fill="#FFC5A1" points="270.5,258.9453,280.5,262.9453,270.5,266.9453,274.5,262.9453" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="105.5" x2="276.5" y1="262.9453" y2="262.9453"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="112.5" y="258.0889">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="123.5" y="258.0889">sendTestDoneNotification</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="195" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="195" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="130.5" y="45.7275">Built by WeByte ©</text><!--MD5=[205a0fd93d8f13ef22bd8ce48df403a6]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+
+
+participant ":ValidateTestController" as Controller
+participant ":EmailNotificationSender" as Noti
+
+activate Controller
+Controller -> Controller : sendTestDoneNotification()
+activate Controller
+Controller -> Noti : sendTestDoneNotification
+activate Noti
+deactivate Controller
+deactivate Noti
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+
+
+participant ":ValidateTestController" as Controller
+participant ":EmailNotificationSender" as Noti
+
+activate Controller
+Controller -> Controller : sendTestDoneNotification()
+activate Controller
+Controller -> Noti : sendTestDoneNotification
+activate Noti
+deactivate Controller
+deactivate Noti
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

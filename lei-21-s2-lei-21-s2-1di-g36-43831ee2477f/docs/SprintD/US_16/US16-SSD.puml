@@ -1,0 +1,31 @@
+@startuml
+autonumber
+
+actor "Laboratory Coordinator" as LC
+
+activate LC
+LC -> ":System" : starts overview of tests \n and performance of company
+activate ":System"
+
+
+":System" --> LC : shows overall performance of the company
+
+deactivate ":System"
+
+
+LC -> ":System" : selects first and last interval (firstInterval, lastInterval)
+activate ":System"
+":System" --> LC : overview of all tests performed.
+
+deactivate ":System"
+
+LC -> ":System" : select algorithm(option)
+activate ":System"
+":System" --> LC : shows most delayed interval in time space introduced
+deactivate ":System"
+LC -> ":System":selects the graphis he/she wants to see
+activate ":System"
+":System" --> LC:  shows the graph.
+deactivate ":System"
+deactivate LC
+@enduml

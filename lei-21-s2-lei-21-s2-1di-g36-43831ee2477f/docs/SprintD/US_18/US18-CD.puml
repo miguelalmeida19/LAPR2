@@ -1,0 +1,252 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+
+
+class SendReportUI {
+}
+
+Interface Regression{
++ getEquationOfRegression();
++R2();
++calculateR2Adjusted(r2);
++ double[] value =  confidenceIntervalsForRegressionCoefficients(alfa, j);
++calculateTobs(j);
++rejectullHypotesis(levelOfSig, j );
++predict( x);
++calculateFstat();
++calculateDFTot();
++calculateDFError();
++calculateDF();
++calculateSqr();
++calculateSqt();
++calculateSqe();
++calculateMQR();
++calculateMQE();
++significancy( alphaFD);
++double[] value = confidenceIntervalForY( predict, levelOfSig,  x0);
+getCritFD();
+}
+
+class LinearRegression{
+-intercept
+-slope;
+    -r2
+    -svar0
+    -svar1
+    -MeanX
+    -rss
+    -ssr
+    -sst
+    -sxx
+    -N
+    -critFD
+    +intercept()
+    +slope()
+    +R2()
+    +calculateR()
+    +calculateR2Adjusted( r2)
+    +interceptStdErr()
+    +slopeStdErr()
+    +predict(x)
+    +double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)
+    +rejectullHypotesis( levelOfSig, j)
+    +calculateTobs(j)
+   +calculateStdDev()
+    +getSsr()
+    +getSse()
+    +getSst()
+    +calculateDF()
+   +calculateSqr()
+    +calculateSqt()
+    +calculateSqe()
+    +calculateDFError()
+    +calculateDFTot()
+    +calculateMQR()
+    +calculateMQE()
+    +getEquationOfRegression()
+    +calculateFstat()
+    +significancy( alphaFD)
+    +double[] value = confidenceIntervalForY( predict, levelOfSig, x)
+    +toString(){
+    +getCritFD()
+
+
+}
+
+class MultipleLinearRegression{
+    -x
+    -double[][] Xready
+    -double[][] Y
+    -critFD
+    -double[][] coeficientsOfEquation
+    +R2()
+    +calculateR()
+    +getEquationOfRegression()
+    +calculateR2Adjusted( r2)
+    +calculateSqr()
+    +calculateSqt()
+    +calculateSqe()
+    -calculateMeanY( Y)
+    +calculateDFTot()
+    +calculateDF()
+    +calculateDFError()
+    +calculateMean ()
+    +CalculateSSTot()
+    +calculateMQR()
+    +calculateMQE()
+    +calculateFstat()
+    +predict( x)
+    +double[] value = confidenceIntervalsForRegressionCoefficients( alfa,  j)
+    +calculateTobs( j)
+    +rejectullHypotesis( levelOfSig,  j )
+    -double[][] value = calculateCmatrix()
+   +significancy( alphaFD)
+    +double[] value =  confidenceIntervalForY( predict, alphaFD,x)
+    +getCritFD()
+}
+
+
+
+
+class SendReportNhsController{
+ + generateReport(NHSReportDTO)
+ -checkIfTestsAdClientsAreISystem()
+}
+class NHSReport{
+    -testsMadeInInterval
+    +generateReport(NhsReportDTO)
+    -createReport(lowerLimit, upperLimit, NhsReportDTO)
+    -generateReportString(Regression, levelOfSignificance, NhsReportDTO)
+    -getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints, DateToday, reportString, Regression, NHSReportDTO)
+    -hypothesisTestForRegressionCoefficients(Regression, NHSReportDTO)
+    -getHistoryOfPointsSimpleDays(numberPoints, dateToday, reportString, Regression, NHSReportDTO)
+    -getHistoryOfPointsMultiLinearDays(numberHistoricalPoints, dateToday, reportString, Regression, NHSReportDto)
+    -getHistoryOfPointsMultiLinearWeeks(numberHistoricalPoints, dateToday, reportString,Regression, NHSReportDto)
+}
+
+class TestStore{
+    -testList
+    -valueMaxForCovidTest
+    +double[] return = getXListNumberTestsByWeek(lowerLimitDate, upperLimitDate, testList)
+    +double[] return = getXListAgesByWeek(lowerLimitDate, upperLimitDate)
+    +getNumberPositiveCasesOnDate(date, testsMadeInInterval)
+    +double[] return = getYListWeek(lowerLimitDate, upperLimitDate)
+    +double[] return = getYList(lowerLimitDate, upperLimitDate, testsMadeInInterval)
+    +double[] return = getXlistNumberTestPerDay(lowerLimitDate, upperLimitDate, testsMadeInInterval)
+    +double[] return = getXListAges(lowerLimitDate, upperLimitDate)
+    +getMeanAgesPerDay(lowerLimitDate, upperLimitDate)
+    +getMeanAgesPerWeek(lowerLimitDate, upperLimitDate)
+    +getNumberTestsMadeOnDate(date, testList)
+    +getMeanAgesOfTestsMade(date)
+    +getCovidTestsForRegression(lowerLimitDate, upperLimitDate)
+    +getTableWithHistoricalDataToSendNHS( regression, nhsReportDTO)
+    -getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints,  dateToday, regression, nhsReportDTO)
+    -getHistoryOfPointsSimpleDays( numberOfHistoricalPoints, DateToday,  regressionr,  nhsReportDTO)
+    -getHistoryOfPointsMultiLinearDays(inumberOfHistoricalPoints, regression,  nhsReportDTO)
+    -getHistoryOfPointsMultiLinearWeeks(inumberOfHistoricalPoints, DateToday, regression)
+}
+
+class NHSReport{
+    -reportString
+    +generateReportString(nhsReportValuesDTO)
+}
+class Company{
+    -designation;
+    -authFacade;
+    -parameterCategoryStore;
+    -employeeStore;
+    -clientStore;
+    -parameterStore;
+    -laboratoryStore;
+    -testTypeStore;
+    -testStore;
+    -nhsReportStore;
+
+    +getNhsReportStore()
+    +getParameterCategoryStore()
+    +getParameterStore()
+    +getDesignation()
+    +getClientStore()
+    +getAuthFacade()
+    +getEmployeeStore()
+    +getLaboratoryStore()
+    +getTestTypeStore()
+    +getTestStore()
+}
+
+class NHSReportValuesMapper{
+    +toDTO(NhsReportDTO, Regression, tableString)
+    -hypothesisTestForRegressionCoefficients(Regression, NhsReportDTO)
+}
+class NHSReportValuesDTO{
+   +getTable()
+   +getGetEquationOfRegression()
+   +getSignificanceLevelForIC()
+   +getSignificanceLevelForHipT()
+   +getDF()
+   +getDFError()
+   +getDFTot()
+   +getFStat()
+   +getR2Adj()
+   +getSQR()
+   +getMQE()
+   +getMQR()
+   +getSQE()
+   +getSQT()
+   +getRegression()
+   +getHypotesisTestsForRegressionCoefficients()
+   +getR2()
+}
+
+class NHSReportValuesDTO{
+ +getTable()
+   +getGetEquationOfRegression()
+   +getSignificanceLevelForIC()
+    +getSignificanceLevelForHipT()
+    +getDF()
+    +getDFError()
+    +getDFTot()
+   +getFStat()
+    +getR2Adj()
+    +getSQR()
+    +getMQE()
+    +getMQR()
+    +getSQE()
+   +getSQT()
+    +getRegression()
+    +getHypotesisTestsForRegressionCoefficients()
+    +getR2()
+}
+
+class NHSReportDTO {
+
+      +getSignificanceLevelForHipT()
+       +getSignificanceLevelForIC()
+       +getToday()
+        +getIntervalOfDaysToFitTheModel()
+        +getNumberOfHistoricalPoints()
+        +getDaysOrWeeks()
+        +getModelToUse()
+        +String[] return = getIndependentVars()
+
+}
+
+class NHSReportMapper {
+    +toDto(Date today, Date[] intervalOfDaysToFitTheModel, String daysOrWeeks, int numberOfHistoricalPoints, String modelToUse, String[] independentVars, double significanceLevelForHipT, double significanceLevelForIC)
+}
+SendReportNhsController --> Regression: creates >
+MultipleLinearRegression ..|> Regression
+LinearRegression ..|> Regression
+SendReportUI ..> NHSReportMapper
+SendReportNhsController ..> NHSReportDTO
+NHSReportMapper "1" --> "*" NHSReportDTO: creates >
+NHSReportValuesMapper "1" --> "1.." NHSReportValuesDTO: creates >
+SendReportNhsController "1" --> "1" NHSReportValuesMapper: uses >
+TestStore "1" <-- "1" Company: knows <
+SendReportUI "1" ...> "1" SendReportNhsController
+SendReportNhsController "1" ..> "1" Company
+SendReportNhsController "1" --> "1.." NHSReport: creates >
+@enduml

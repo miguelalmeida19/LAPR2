@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="878.8px" preserveAspectRatio="none" style="width:902px;height:878px;background:#FCF9EA;" version="1.1" viewBox="0 0 902 878" width="902.2px" zoomAndPan="magnify"><defs><filter height="300%" id="fy1at68itwrz4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.6"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.2" dy="5.2" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="39" font-weight="bold" lengthAdjust="spacing" textLength="682.5" x="107.575" y="119.6533">SYSTEM SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="39" lengthAdjust="spacing" textLength="0" x="455.325" y="174.6494"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="437.9273" style="stroke:#A80036;stroke-width:1.3;" width="13" x="151.45" y="318.8148"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="68.5141" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="318.8148"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="39.457" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="426.7859"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="39.457" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="505.7"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="39.457" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="617.5711"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="48.557" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="696.4852"/><rect fill="#FCF9EA" filter="url(#fy1at68itwrz4)" height="142.2281" rx="13" ry="13" style="stroke:#000000;stroke-width:2.6;" width="871.65" x="13" y="564.657"/><line style="stroke:#A80036;stroke-width:1.3;stroke-dasharray:5.0,5.0;" x1="157.3" x2="157.3" y1="305.8148" y2="768.4422"/><line style="stroke:#A80036;stroke-width:1.3;stroke-dasharray:5.0,5.0;" x1="827.45" x2="827.45" y1="305.8148" y2="768.4422"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="256.1" x="26" y="301.8158">Clinical Chemistry Technologist</text><ellipse cx="157.95" cy="208.8227" fill="#FEFECE" filter="url(#fy1at68itwrz4)" rx="10.4" ry="10.4" style="stroke:#A80036;stroke-width:2.6;"/><path d="M157.95,219.2227 L157.95,254.3227 M141.05,229.6227 L174.85,229.6227 M157.95,254.3227 L141.05,273.8227 M157.95,254.3227 L174.85,273.8227 " fill="none" filter="url(#fy1at68itwrz4)" style="stroke:#A80036;stroke-width:2.6;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="256.1" x="26" y="786.0354">Clinical Chemistry Technologist</text><ellipse cx="157.95" cy="803.0344" fill="#FEFECE" filter="url(#fy1at68itwrz4)" rx="10.4" ry="10.4" style="stroke:#A80036;stroke-width:2.6;"/><path d="M157.95,813.4344 L157.95,848.5344 M141.05,823.8344 L174.85,823.8344 M157.95,848.5344 L141.05,868.0344 M157.95,848.5344 L174.85,868.0344 " fill="none" filter="url(#fy1at68itwrz4)" style="stroke:#A80036;stroke-width:2.6;"/><rect fill="#FEFECE" filter="url(#fy1at68itwrz4)" height="41.0922" rx="13" ry="13" style="stroke:#A80036;stroke-width:1.9500000000000002;" width="83.2" x="783.25" y="258.2227"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="65" x="792.35" y="286.2158">:System</text><rect fill="#FEFECE" filter="url(#fy1at68itwrz4)" height="41.0922" rx="13" ry="13" style="stroke:#A80036;stroke-width:1.9500000000000002;" width="83.2" x="783.25" y="767.1422"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="65" x="792.35" y="795.1354">:System</text><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="437.9273" style="stroke:#A80036;stroke-width:1.3;" width="13" x="151.45" y="318.8148"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="68.5141" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="318.8148"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="39.457" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="426.7859"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="39.457" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="505.7"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="39.457" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="617.5711"/><rect fill="#FFFFFF" filter="url(#fy1at68itwrz4)" height="48.557" style="stroke:#A80036;stroke-width:1.3;" width="13" x="820.95" y="696.4852"/><polygon fill="#FFC5A1" points="805.35,342.6719,818.35,347.8719,805.35,353.0719,810.55,347.8719" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;" x1="164.45" x2="813.15" y1="347.8719" y2="347.8719"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="173.55" y="341.5585">1</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="241.8" x="187.85" y="341.5585">starts recording new test results</text><polygon fill="#FFC5A1" points="178.75,382.1289,165.75,387.3289,178.75,392.5289,173.55,387.3289" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;stroke-dasharray:2.0,2.0;" x1="170.95" x2="826.15" y1="387.3289" y2="387.3289"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="186.55" y="381.0155">2</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="169" x="200.85" y="381.0155">request data (barcode)</text><polygon fill="#FFC5A1" points="805.35,421.5859,818.35,426.7859,805.35,431.9859,810.55,426.7859" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;" x1="164.45" x2="813.15" y1="426.7859" y2="426.7859"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="173.55" y="420.4726">3</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="158.6" x="187.85" y="420.4726">types requested data</text><polygon fill="#FFC5A1" points="178.75,461.043,165.75,466.243,178.75,471.443,173.55,466.243" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;stroke-dasharray:2.0,2.0;" x1="170.95" x2="826.15" y1="466.243" y2="466.243"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="186.55" y="459.9296">4</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="611" x="200.85" y="459.9296">shows the test associated with the sample's barcode and requests a confirmation</text><polygon fill="#FFC5A1" points="805.35,500.5,818.35,505.7,805.35,510.9,810.55,505.7" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;" x1="164.45" x2="813.15" y1="505.7" y2="505.7"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="173.55" y="499.3866">5</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="130" x="187.85" y="499.3866">confirms the data</text><polygon fill="#FFC5A1" points="178.75,539.957,165.75,545.157,178.75,550.357,173.55,545.157" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;stroke-dasharray:2.0,2.0;" x1="170.95" x2="826.15" y1="545.157" y2="545.157"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="186.55" y="538.8437">6</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="197.6" x="200.85" y="538.8437">informs operation success</text><path d="M26,564.657 L107.9,564.657 L107.9,575.057 L94.9,588.057 L13,588.057 L13,577.657 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.3;"/><rect fill="none" height="142.2281" rx="13" ry="13" style="stroke:#000000;stroke-width:2.6;" width="871.65" x="13" y="564.657"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="36.4" x="32.5" y="583.5007">loop</text><text fill="#000000" font-family="sans-serif" font-size="14.3" font-weight="bold" lengthAdjust="spacing" textLength="180.7" x="127.4" y="582.1017">[for each parameter test]</text><polygon fill="#FFC5A1" points="805.35,612.3711,818.35,617.5711,805.35,622.7711,810.55,617.5711" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;" x1="164.45" x2="813.15" y1="617.5711" y2="617.5711"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="173.55" y="611.2577">7</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="169" x="187.85" y="611.2577">selects test parameter</text><polygon fill="#FFC5A1" points="178.75,651.8281,165.75,657.0281,178.75,662.2281,173.55,657.0281" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;stroke-dasharray:2.0,2.0;" x1="170.95" x2="826.15" y1="657.0281" y2="657.0281"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="186.55" y="650.7147">8</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="258.7" x="200.85" y="650.7147">request the result value and metric</text><polygon fill="#FFC5A1" points="805.35,691.2852,818.35,696.4852,805.35,701.6852,810.55,696.4852" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;" x1="164.45" x2="813.15" y1="696.4852" y2="696.4852"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="9.1" x="173.55" y="690.1718">9</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="158.6" x="187.85" y="690.1718">types requested data</text><polygon fill="#FFC5A1" points="178.75,739.8422,165.75,745.0422,178.75,750.2422,173.55,745.0422" style="stroke:#FFC5A1;stroke-width:1.3;"/><line style="stroke:#FFC5A1;stroke-width:1.3;stroke-dasharray:2.0,2.0;" x1="170.95" x2="826.15" y1="745.0422" y2="745.0422"/><text fill="#000000" font-family="sans-serif" font-size="16.9" font-weight="bold" lengthAdjust="spacing" textLength="18.2" x="186.55" y="738.7288">10</text><text fill="#000000" font-family="sans-serif" font-size="16.9" lengthAdjust="spacing" textLength="197.6" x="209.95" y="738.7288">informs operation success</text><text fill="#888888" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="450.775" y="19.9951"/><text fill="#888888" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="450.775" y="36.3467"/><text fill="#000000" font-family="sans-serif" font-size="19.5" font-weight="bold" lengthAdjust="spacing" textLength="163.8" x="366.925" y="59.4458">Built by WeByte ©</text><!--MD5=[31cb3fbaca6b3b9af4eeb10fd3b7c184]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as clinicalChemistryTechnologist
+
+participant ":System" as System
+
+activate clinicalChemistryTechnologist
+activate System
+clinicalChemistryTechnologist -> System : starts recording new test results
+System - -> clinicalChemistryTechnologist : request data (barcode)
+deactivate System
+clinicalChemistryTechnologist -> System : types requested data
+activate System
+System - -> clinicalChemistryTechnologist : shows the test associated with the sample's barcode and requests a confirmation
+deactivate System
+clinicalChemistryTechnologist -> System : confirms the data
+activate System
+System - -> clinicalChemistryTechnologist : informs operation success
+deactivate System
+loop for each parameter test
+clinicalChemistryTechnologist -> System : selects test parameter
+activate System
+System - -> clinicalChemistryTechnologist : request the result value and metric
+deactivate System
+clinicalChemistryTechnologist -> System : types requested data
+activate System
+end
+System - -> clinicalChemistryTechnologist : informs operation success
+deactivate System
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+actor "Clinical Chemistry Technologist" as clinicalChemistryTechnologist
+
+participant ":System" as System
+
+activate clinicalChemistryTechnologist
+activate System
+clinicalChemistryTechnologist -> System : starts recording new test results
+System - -> clinicalChemistryTechnologist : request data (barcode)
+deactivate System
+clinicalChemistryTechnologist -> System : types requested data
+activate System
+System - -> clinicalChemistryTechnologist : shows the test associated with the sample's barcode and requests a confirmation
+deactivate System
+clinicalChemistryTechnologist -> System : confirms the data
+activate System
+System - -> clinicalChemistryTechnologist : informs operation success
+deactivate System
+loop for each parameter test
+clinicalChemistryTechnologist -> System : selects test parameter
+activate System
+System - -> clinicalChemistryTechnologist : request the result value and metric
+deactivate System
+clinicalChemistryTechnologist -> System : types requested data
+activate System
+end
+System - -> clinicalChemistryTechnologist : informs operation success
+deactivate System
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

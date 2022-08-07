@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="642.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.RoleUI">
+   <children>
+      <VBox prefHeight="642.0" prefWidth="116.0" style="-fx-background-color: #052b42;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane id="lateralMenuPane" fx:id="lateralMenuPane" prefHeight="699.0" prefWidth="285.0" style="-fx-background-color: #FBC687;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Circle id="circle" fx:id="circle" fill="#fba641" layoutX="67.0" layoutY="74.0" radius="37.0" stroke="WHITE" strokeType="INSIDE" />
+                  <VBox alignment="TOP_CENTER" layoutX="4.0" layoutY="147.0" prefHeight="386.0" prefWidth="276.0" spacing="10.0">
+                     <children>
+                        <Button id="button" fx:id="button" mnemonicParsing="false" onAction="#buttonHandlerAction" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button1" mnemonicParsing="false" onAction="#buttonHandlerAction1" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button id="button" fx:id="button2" layoutX="18.0" layoutY="74.0" mnemonicParsing="false" onAction="#buttonHandlerAction2" prefHeight="54.0" prefWidth="261.0" text="Página do cheiro" textFill="WHITE" wrapText="true">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <stylesheets>
+                              <URL value="@/styles/styles.css" />
+                           </stylesheets>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Label fx:id="name" layoutX="114.0" layoutY="21.0" prefHeight="86.0" prefWidth="152.0" text="role" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="email" layoutX="114.0" layoutY="109.0" prefHeight="18.0" prefWidth="137.0" text="email@isep.ipp.pt" textFill="#797272">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+                  <Button id="button" fx:id="session" alignment="CENTER" layoutX="30.0" layoutY="561.0" mnemonicParsing="false" onAction="#sessionClicked" prefHeight="30.0" prefWidth="225.0" style="-fx-background-color: f5b971;" text="Logout">
+                     <stylesheets>
+                        <URL value="@/styles/styles.css" />
+                     </stylesheets>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="281.0" prefHeight="642.0" prefWidth="960.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="281.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="mainContent" layoutX="134.0" layoutY="94.0" prefHeight="455.0" prefWidth="674.0" AnchorPane.bottomAnchor="93.0" AnchorPane.leftAnchor="134.0" AnchorPane.rightAnchor="152.0" AnchorPane.topAnchor="94.0" />
+            <Label fx:id="welcome" alignment="CENTER" layoutX="340.0" layoutY="283.0" text="Welcome" AnchorPane.bottomAnchor="282.0" AnchorPane.leftAnchor="340.0" AnchorPane.rightAnchor="359.0" AnchorPane.topAnchor="283.0">
+               <font>
+                  <Font name="Arial Black" size="52.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="titleBarContainer" layoutX="118.0" prefHeight="54.0" prefWidth="960.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_RIGHT" layoutX="746.0" layoutY="11.0" prefHeight="32.0" prefWidth="200.0">
+               <children>
+                  <Button id="titlebarMinimizeButton" fx:id="minimizeButton" mnemonicParsing="false" onAction="#minimizeAction" stylesheets="@/styles/styles.css" text="➖">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button id="titlebarExitButton" fx:id="exitButton" mnemonicParsing="false" onAction="#exitAction" stylesheets="@/styles/styles.css" text="❌">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

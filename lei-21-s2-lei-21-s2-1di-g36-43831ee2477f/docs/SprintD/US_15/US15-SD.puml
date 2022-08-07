@@ -1,0 +1,106 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stCBackgroundColor ffc5a1
+
+
+
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Laboratory Coordinator" as LC
+
+participant ":ValidateTestUI" as UI
+participant ":ValidateTestController" as Controller
+participant ":Company" as Company
+participant "store:TestStore" as Store
+participant "mapper:TestMapper" as TestMapper
+
+participant "TestDTO : TestDTO" as TestDTO
+activate LC
+activate UI
+
+LC -> UI : starts new report
+UI -> Controller : listTestDTO = getTestList()
+activate Controller
+Controller -> Company : Store = getStore()
+activate Company
+deactivate Company
+
+activate Store
+Controller -> Store: testsList = getTestList()
+Store --> TestList** : create()
+loop #97b8a5 for tests stored
+
+alt #c6ebc9 test in "DIAGNOSIS MADE" state
+Store --> Store : add(test)
+end
+end
+deactivate Store
+Controller -> TestMapper: testListDTO = toDTO(testList)
+activate TestMapper
+deactivate Controller
+TestMapper -> listTestDTO**: create()
+loop #97b8a5 for each object in testsList
+TestMapper -> TestList: test = get(i)
+activate TestList
+deactivate TestList
+TestMapper -> TestMapper: testDTO = toDTO(test)
+activate TestMapper
+TestMapper -> TestDTO** : create(test)
+deactivate TestMapper
+TestMapper -> listTestDTO: add(testDTO)
+activate listTestDTO
+deactivate listTestDTO
+end
+deactivate TestMapper
+
+
+UI --> LC : shows tests waiting for validation
+
+
+deactivate UI
+loop #97b8a5 for each test
+LC -> UI : selects the test to validate
+activate UI
+UI -> Controller : test = listTestDiagnosisMade.get(option-1)
+activate Controller
+UI --> LC : shows the test selected and requests a confirmation
+deactivate Controller
+deactivate UI
+LC -> UI : confirms the data
+activate UI
+UI --> LC : shows test data and request validation
+deactivate UI
+LC -> UI : validates the test
+activate UI
+UI -> Controller : validateTest(test)
+activate Controller
+Controller -> Store : validateTest(test)
+deactivate Controller
+activate Store
+UI --> LC : informs validation successful
+deactivate Store
+deactivate UI
+deactivate LC
+end
+@enduml

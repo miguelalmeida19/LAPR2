@@ -1,0 +1,106 @@
+@startuml
+'https://plantuml.com/class-diagram
+@startuml
+hide methods
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US17 - Class Diagram\n
+class Employee{
+- username
+- employeeId
+- organizationRole
+- name
+- address
+- phoneNumber
+- e-Mail
+- socCode
+}
+class Company{
+- designation
+}
+class LaboratoryCoordinator{
+}
+
+class TestParameterResult{
+- value
+}
+class Test{
+-code
+-nhscode
+-date
+}
+class Parameter{
+- code
+- name
+- description
+}
+
+class ParameterCategory{
+    - name
+    - code
+}
+class Client{
+- nhsNumber
+- birthDate
+- sex
+- tin
+- phoneNumber
+- e-mail
+- name
+}
+class Validation{
+- testReferenceValues
+- date
+- time
+}
+class Notification{
+- notificationMessage
+}
+class TestType{
+- code
+- description
+- collecting method
+}
+class ClinicalAnalysisLaboratory{
+- laboratoryId
+- name
+- address
+- phoneNumber
+- tinNumber
+}
+Company "1" -- "*" Employee : employ >
+Company "1" -- "*" Test : performs >
+LaboratoryCoordinator "*" -- "1" Employee : is rolled as >
+LaboratoryCoordinator "1" -- "*" Validation : does >
+Validation "1" -- "*" TestParameterResult : validates >
+TestParameterResult "1" -- "1" Notification : results in >
+Test "1" -- "*" TestType : is of >
+Test "1" -- "*" Client : requested by >
+Notification "1" -- "1" Client : is sent >
+LaboratoryCoordinator "1" -- "*" Test : imports >
+Test "1" -- "*" Parameter : requests analysis of >
+Parameter "*" -- "1" ParameterCategory : presented under >
+Test "1" -- "*" ClinicalAnalysisLaboratory : is registered in >
+
+@enduml

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1702.5px" preserveAspectRatio="none" style="width:3722px;height:1702px;" version="1.1" viewBox="0 0 3722 1702" width="3722.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fdllsbs5dkfyx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="1459.8242" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="80.625" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="1459.8242" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="80.625" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="152.4512"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="228.3301"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="304.209"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="380.0879"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="455.9668"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="69.6289" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="531.8457"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="46.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="639.4141"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="724.043"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="799.9219"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="708.5352" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="875.8008"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="670.5957" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="893.125" y="913.7402"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1201.875" y="1005.8691"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1372.5" y="1497.6465"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1930" y="1228.877"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="2968.125" y="1087.5586"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="3605.625" y="1422.207"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="98.8184" style="stroke:#000000;stroke-width:2.5;" width="680.625" x="12.5" y="550.5957"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="80" x2="80" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="611.875" x2="611.875" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="899.375" x2="899.375" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1208.125" x2="1208.125" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1378.125" x2="1378.125" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1631.875" x2="1631.875" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1935.625" x2="1935.625" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2158.125" x2="2158.125" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2348.125" x2="2348.125" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2578.125" x2="2578.125" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2754.375" x2="2754.375" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="2974.375" x2="2974.375" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="3310.625" x2="3310.625" y1="112.0117" y2="1595.5859"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="3611.875" x2="3611.875" y1="1377.6367" y2="1595.5859"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="25" y="108.1665">Administrator</text><ellipse cx="80.625" cy="18.75" fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M80.625,28.75 L80.625,62.5 M64.375,38.75 L96.875,38.75 M80.625,62.5 L64.375,81.25 M80.625,62.5 L96.875,81.25 " fill="none" filter="url(#fdllsbs5dkfyx)" style="stroke:#A80036;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="25" y="1612.5024">Administrator</text><ellipse cx="80.625" cy="1628.8477" fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" rx="10" ry="10" style="stroke:#A80036;stroke-width:2.5;"/><path d="M80.625,1638.8477 L80.625,1672.5977 M64.375,1648.8477 L96.875,1648.8477 M80.625,1672.5977 L64.375,1691.3477 M80.625,1672.5977 L96.875,1691.3477 " fill="none" filter="url(#fdllsbs5dkfyx)" style="stroke:#A80036;stroke-width:2.5;"/><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="132.5" x="543.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="115" x="551.875" y="93.1665">:SendReportUI</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="132.5" x="543.125" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="115" x="551.875" y="1621.2524">:SendReportUI</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="195" x="799.375" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="177.5" x="808.125" y="93.1665">:SendReportController</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="195" x="799.375" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="177.5" x="808.125" y="1621.2524">:SendReportController</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="97.5" x="1156.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="80" x="1165.625" y="93.1665">:Company</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="97.5" x="1156.875" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="80" x="1165.625" y="1621.2524">:Company</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="208.75" x="1271.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="191.25" x="1280.625" y="93.1665">nhsAPI : ExternalModule</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="208.75" x="1271.875" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="191.25" x="1280.625" y="1621.2524">nhsAPI : ExternalModule</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="263.75" x="1498.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="246.25" x="1506.875" y="93.1665">nhsReportDTO:NhsReportDTO</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="263.75" x="1498.125" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="246.25" x="1506.875" y="1621.2524">nhsReportDTO:NhsReportDTO</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="308.75" x="1779.375" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="291.25" x="1788.125" y="93.1665">nhsReportMapper:NhsReportMapper</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="308.75" x="1779.375" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="291.25" x="1788.125" y="1621.2524">nhsReportMapper:NhsReportMapper</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="100" x="2105.625" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="82.5" x="2114.375" y="93.1665">:TestStore</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="100" x="2105.625" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="82.5" x="2114.375" y="1621.2524">:TestStore</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="246.25" x="2223.125" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="228.75" x="2231.875" y="93.1665">mlr:MultipleLinearRegression</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="246.25" x="2223.125" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="228.75" x="2231.875" y="1621.2524">mlr:MultipleLinearRegression</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="177.5" x="2486.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="160" x="2495.625" y="93.1665">sr:LinearRegression</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="177.5" x="2486.875" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="160" x="2495.625" y="1621.2524">sr:LinearRegression</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="141.25" x="2681.875" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="123.75" x="2690.625" y="93.1665">x:List&lt;double[]&gt;</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="141.25" x="2681.875" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="123.75" x="2690.625" y="1621.2524">x:List&lt;double[]&gt;</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="262.5" x="2840.625" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="245" x="2849.375" y="93.1665">nhsAPI: NHSApiExternalModule</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="262.5" x="2840.625" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="245" x="2849.375" y="1621.2524">nhsAPI: NHSApiExternalModule</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="375" x="3120.625" y="66.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="357.5" x="3129.375" y="93.1665">nhsReportValuesDTO:NHSReportValuesDTO</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="375" x="3120.625" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="357.5" x="3129.375" y="1621.2524">nhsReportValuesDTO:NHSReportValuesDTO</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="192.5" x="3513.125" y="1594.3359"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="175" x="3521.875" y="1621.2524">nhsReport:NHSReport</text><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="1459.8242" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="80.625" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="1459.8242" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="80.625" y="124.5117"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="152.4512"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="228.3301"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="304.209"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="380.0879"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="455.9668"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="69.6289" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="531.8457"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="46.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="639.4141"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="724.043"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="799.9219"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="708.5352" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="605.625" y="875.8008"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="670.5957" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="893.125" y="913.7402"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1201.875" y="1005.8691"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1372.5" y="1497.6465"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1930" y="1228.877"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="2968.125" y="1087.5586"/><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="37.5" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="3605.625" y="1422.207"/><polygon fill="#A80036" points="590.625,147.4512,603.125,152.4512,590.625,157.4512,595.625,152.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="152.4512" y2="152.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="101.875" y="146.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="343.75" x="115.625" y="146.3806">starts the creation of the report to send to NHS.</text><polygon fill="#A80036" points="106.875,185.3906,94.375,190.3906,106.875,195.3906,101.875,190.3906" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="190.3906" y2="190.3906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="114.375" y="184.3201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="221.25" x="128.125" y="184.3201">asks to select the current day.</text><polygon fill="#A80036" points="590.625,223.3301,603.125,228.3301,590.625,233.3301,595.625,228.3301" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="228.3301" y2="228.3301"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="101.875" y="222.2595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="166.25" x="115.625" y="222.2595">selects the current day</text><polygon fill="#A80036" points="106.875,261.2695,94.375,266.2695,106.875,271.2695,101.875,266.2695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="266.2695" y2="266.2695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="114.375" y="260.199">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="380" x="128.125" y="260.199">asks to select to send the day or week data to NHS.</text><polygon fill="#A80036" points="590.625,299.209,603.125,304.209,590.625,309.209,595.625,304.209" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="304.209" y2="304.209"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="101.875" y="298.1384">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="311.25" x="115.625" y="298.1384">selects to send the day/week data to NHS.</text><polygon fill="#A80036" points="106.875,337.1484,94.375,342.1484,106.875,347.1484,101.875,342.1484" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="342.1484" y2="342.1484"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="114.375" y="336.0779">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="468.75" x="128.125" y="336.0779">asks to introduce the number of historical points to send to NHS.</text><polygon fill="#A80036" points="590.625,375.0879,603.125,380.0879,590.625,385.0879,595.625,380.0879" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="380.0879" y2="380.0879"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="101.875" y="374.0173">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="383.75" x="115.625" y="374.0173">types the number of historical points to send to NHS.</text><polygon fill="#A80036" points="106.875,413.0273,94.375,418.0273,106.875,423.0273,101.875,418.0273" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="418.0273" y2="418.0273"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="114.375" y="411.9568">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="358.75" x="128.125" y="411.9568">asks to define the interval of days to fit the model.</text><polygon fill="#A80036" points="590.625,450.9668,603.125,455.9668,590.625,460.9668,595.625,455.9668" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="455.9668" y2="455.9668"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="101.875" y="449.8962">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="310" x="115.625" y="449.8962">selects the interval of days to fit the model.</text><polygon fill="#A80036" points="106.875,488.9063,94.375,493.9063,106.875,498.9063,101.875,493.9063" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="493.9063" y2="493.9063"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="487.8357">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="313.75" x="136.875" y="487.8357">asks to select the regression model to use.</text><polygon fill="#A80036" points="590.625,526.8457,603.125,531.8457,590.625,536.8457,595.625,531.8457" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="531.8457" y2="531.8457"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="101.875" y="525.7751">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="307.5" x="124.375" y="525.7751">selects the linear regression model to use.</text><path d="M12.5,550.5957 L88.75,550.5957 L88.75,560.5957 L76.25,573.0957 L12.5,573.0957 L12.5,550.5957 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.25;"/><rect fill="none" height="98.8184" style="stroke:#000000;stroke-width:2.5;" width="680.625" x="12.5" y="550.5957"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="20" x="31.25" y="568.7146">alt</text><text fill="#000000" font-family="sans-serif" font-size="13.75" font-weight="bold" lengthAdjust="spacing" textLength="325" x="107.5" y="567.3694">[simple linear regression model was selected]</text><polygon fill="#A80036" points="106.875,596.4746,94.375,601.4746,106.875,606.4746,101.875,601.4746" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="601.4746" y2="601.4746"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="595.4041">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="281.25" x="136.875" y="595.4041">asks to select the independent variable</text><polygon fill="#A80036" points="590.625,634.4141,603.125,639.4141,590.625,644.4141,595.625,639.4141" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="639.4141" y2="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="101.875" y="633.3435">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="236.25" x="124.375" y="633.3435">selects the independent variable.</text><polygon fill="#A80036" points="106.875,681.1035,94.375,686.1035,106.875,691.1035,101.875,686.1035" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="686.1035" y2="686.1035"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="680.033">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="436.25" x="136.875" y="680.033">asks to  introduce the significance level for hypothesis tests.</text><polygon fill="#A80036" points="590.625,719.043,603.125,724.043,590.625,729.043,595.625,724.043" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="724.043" y2="724.043"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="101.875" y="717.9724">15</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="193.75" x="124.375" y="717.9724">types the significance level</text><polygon fill="#A80036" points="106.875,756.9824,94.375,761.9824,106.875,766.9824,101.875,761.9824" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="761.9824" y2="761.9824"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="755.9119">16</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="457.5" x="136.875" y="755.9119">asks to  introduce the significance level for confidence intervals.</text><polygon fill="#A80036" points="590.625,794.9219,603.125,799.9219,590.625,804.9219,595.625,799.9219" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="799.9219" y2="799.9219"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="101.875" y="793.8513">17</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="193.75" x="124.375" y="793.8513">types the significance level</text><polygon fill="#A80036" points="106.875,832.8613,94.375,837.8613,106.875,842.8613,101.875,837.8613" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="610.625" y1="837.8613" y2="837.8613"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="831.7908">18</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="336.25" x="136.875" y="831.7908">shows all the data ans asks for a confirmation.</text><polygon fill="#A80036" points="590.625,870.8008,603.125,875.8008,590.625,880.8008,595.625,875.8008" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="93.125" x2="598.125" y1="875.8008" y2="875.8008"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="101.875" y="869.7302">19</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="151.25" x="124.375" y="869.7302">confirms all the data.</text><polygon fill="#A80036" points="878.125,908.7402,890.625,913.7402,878.125,918.7402,883.125,913.7402" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="618.125" x2="885.625" y1="913.7402" y2="913.7402"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="626.875" y="907.6697">20</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="228.75" x="649.375" y="907.6697">generateReport(NhsReportDTO)</text><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="958.125" y1="951.6797" y2="951.6797"/><line style="stroke:#A80036;stroke-width:1.25;" x1="958.125" x2="958.125" y1="951.6797" y2="967.9297"/><line style="stroke:#A80036;stroke-width:1.25;" x1="906.875" x2="958.125" y1="967.9297" y2="967.9297"/><polygon fill="#A80036" points="919.375,962.9297,906.875,967.9297,919.375,972.9297,914.375,967.9297" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="945.6091">21</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="256.25" x="936.875" y="945.6091">checkIfTestsAdClientsAreISystem()</text><polygon fill="#A80036" points="1186.875,1000.8691,1199.375,1005.8691,1186.875,1010.8691,1191.875,1005.8691" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="1194.375" y1="1005.8691" y2="1005.8691"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="999.7986">22</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="188.75" x="936.875" y="999.7986">testStore = getTestStore()</text><polygon fill="#A80036" points="2953.125,1082.5586,2965.625,1087.5586,2953.125,1092.5586,2958.125,1087.5586" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="2960.625" y1="1087.5586" y2="1087.5586"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="1081.488">23</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="55" x="936.875" y="1081.488">create()</text><path d="M400,1059.6191 L400,1092.1191 L881.25,1092.1191 L881.25,1072.1191 L868.75,1059.6191 L400,1059.6191 " fill="#FBFB77" filter="url(#fdllsbs5dkfyx)" style="stroke:#A80036;stroke-width:1.25;"/><path d="M868.75,1059.6191 L868.75,1072.1191 L881.25,1072.1191 L868.75,1059.6191 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="455" x="407.5" y="1082.738">somehow it creates the object of the NHS API. (java reflection))</text><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="53.3789" style="stroke:#000000;stroke-width:2.5;" width="202.5" x="795.625" y="1141.3086"/><polygon fill="#EEEEEE" points="795.625,1141.3086,873.125,1141.3086,873.125,1151.3086,860.625,1163.8086,795.625,1163.8086,795.625,1141.3086" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="21.25" x="811.875" y="1160.6775">ref</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="172.5" x="813.125" y="1185.6775">SD_RegressionCreation</text><polygon fill="#A80036" points="1915,1223.877,1927.5,1228.877,1915,1233.877,1920,1228.877" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="1922.5" y1="1228.877" y2="1228.877"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="1222.8064">24</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="503.75" x="936.875" y="1222.8064">nhsReportValuesDTO = toDTO(nhsReportDto, regression, tableString)</text><rect fill="#FFFFFF" filter="url(#fdllsbs5dkfyx)" height="53.3789" style="stroke:#000000;stroke-width:2.5;" width="316.25" x="1775.625" y="1276.377"/><polygon fill="#EEEEEE" points="1775.625,1276.377,1853.125,1276.377,1853.125,1286.377,1840.625,1298.877,1775.625,1298.877,1775.625,1276.377" style="stroke:#000000;stroke-width:2.5;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="21.25" x="1791.875" y="1295.7458">ref</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="161.25" x="1855.625" y="1320.7458">SD_ReportValuesDTO</text><polygon fill="#A80036" points="3498.125,1358.9453,3510.625,1363.9453,3498.125,1368.9453,3503.125,1363.9453" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="3505.625" y1="1363.9453" y2="1363.9453"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="1357.8748">25</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="55" x="936.875" y="1357.8748">create()</text><rect fill="#FEFECE" filter="url(#fdllsbs5dkfyx)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="192.5" x="3513.125" y="1336.0059"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="175" x="3521.875" y="1362.9224">nhsReport:NHSReport</text><polygon fill="#A80036" points="3590.625,1417.207,3603.125,1422.207,3590.625,1427.207,3595.625,1422.207" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="3598.125" y1="1422.207" y2="1422.207"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="1416.1365">26</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="422.5" x="936.875" y="1416.1365">reportString = generateReportString(nhsReportValuesDTO)</text><polygon fill="#A80036" points="1357.5,1492.6465,1370,1497.6465,1357.5,1502.6465,1362.5,1497.6465" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="905.625" x2="1365" y1="1497.6465" y2="1497.6465"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="914.375" y="1491.5759">27</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="178.75" x="936.875" y="1491.5759">SendReport(reportString)</text><polygon fill="#A80036" points="106.875,1568.0859,94.375,1573.0859,106.875,1578.0859,101.875,1573.0859" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="99.375" x2="604.375" y1="1573.0859" y2="1573.0859"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="114.375" y="1567.0154">28</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="195" x="136.875" y="1567.0154">informs operation success.</text><!--MD5=[d54d11ccad5ac183b7e4916fcf83e5dd]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as admin
+
+participant ":SendReportUI" as system
+participant ":SendReportController" as controller
+participant ":Company" as company
+
+participant "nhsAPI : ExternalModule" as nhsAPI
+participant "nhsReportDTO:NhsReportDTO" as nhsReportDto
+participant "nhsReportMapper:NhsReportMapper" as nhsReportMapper
+participant ":TestStore" as testStore
+participant "mlr:MultipleLinearRegression" as mlr
+participant "sr:LinearRegression" as sr
+participant "x:List<double[]>" as listX
+participant "nhsAPI: NHSApiExternalModule" as api
+participant "nhsReportValuesDTO:NHSReportValuesDTO" as nhsReportValuesDTO
+participant "nhsReport:NHSReport" as nhsReport
+
+activate admin
+
+
+activate admin
+admin -> system: starts the creation of the report to send to NHS.
+activate system
+system -> admin: asks to select the current day.
+deactivate system
+
+admin -> system: selects the current day
+activate system
+system -> admin: asks to select to send the day or week data to NHS.
+deactivate system
+
+admin -> system: selects to send the day/week data to NHS.
+activate system
+system -> admin: asks to introduce the number of historical points to send to NHS.
+deactivate system
+admin -> system: types the number of historical points to send to NHS.
+activate system
+system -> admin: asks to define the interval of days to fit the model.
+deactivate system
+admin -> system: selects the interval of days to fit the model.
+activate system
+system -> admin: asks to select the regression model to use.
+
+deactivate system
+admin -> system: selects the linear regression model to use.
+alt simple linear regression model was selected
+
+activate system
+system -> admin: asks to select the independent variable
+
+deactivate system
+admin -> system: selects the independent variable.
+activate system
+end
+system -> admin: asks to  introduce the significance level for hypothesis tests.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin:  asks to  introduce the significance level for confidence intervals.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin: shows all the data ans asks for a confirmation.
+deactivate system
+admin -> system: confirms all the data.
+activate system
+
+system -> controller: generateReport(NhsReportDTO)
+
+
+activate controller
+
+' ##################################
+controller -> controller: checkIfTestsAdClientsAreISystem()
+controller -> company: testStore = getTestStore()
+activate company
+deactivate company
+
+controller -> api: create()
+activate api
+deactivate api
+note left: somehow it creates the object of the NHS API. (java reflection))
+
+
+
+' ##################################
+ref over controller
+  SD_RegressionCreation
+end ref
+
+
+controller -> nhsReportMapper : nhsReportValuesDTO = toDTO(nhsReportDto, regression, tableString)
+activate nhsReportMapper
+ref over nhsReportMapper
+    SD_ReportValuesDTO
+end ref
+deactivate nhsReportMapper
+controller -> nhsReport**: create()
+
+controller -> nhsReport: reportString = generateReportString(nhsReportValuesDTO)
+activate nhsReport
+deactivate nhsReport
+
+controller -> nhsAPI: SendReport(reportString)
+
+activate nhsAPI
+deactivate nhsAPI
+
+system -> admin: informs operation success.
+@enduml
+
+@startuml
+
+autonumber
+
+actor Administrator as admin
+
+participant ":SendReportUI" as system
+participant ":SendReportController" as controller
+participant ":Company" as company
+
+participant "nhsAPI : ExternalModule" as nhsAPI
+participant "nhsReportDTO:NhsReportDTO" as nhsReportDto
+participant "nhsReportMapper:NhsReportMapper" as nhsReportMapper
+participant ":TestStore" as testStore
+participant "mlr:MultipleLinearRegression" as mlr
+participant "sr:LinearRegression" as sr
+participant "x:List<double[]>" as listX
+participant "nhsAPI: NHSApiExternalModule" as api
+participant "nhsReportValuesDTO:NHSReportValuesDTO" as nhsReportValuesDTO
+participant "nhsReport:NHSReport" as nhsReport
+
+activate admin
+
+
+activate admin
+admin -> system: starts the creation of the report to send to NHS.
+activate system
+system -> admin: asks to select the current day.
+deactivate system
+
+admin -> system: selects the current day
+activate system
+system -> admin: asks to select to send the day or week data to NHS.
+deactivate system
+
+admin -> system: selects to send the day/week data to NHS.
+activate system
+system -> admin: asks to introduce the number of historical points to send to NHS.
+deactivate system
+admin -> system: types the number of historical points to send to NHS.
+activate system
+system -> admin: asks to define the interval of days to fit the model.
+deactivate system
+admin -> system: selects the interval of days to fit the model.
+activate system
+system -> admin: asks to select the regression model to use.
+
+deactivate system
+admin -> system: selects the linear regression model to use.
+alt simple linear regression model was selected
+
+activate system
+system -> admin: asks to select the independent variable
+
+deactivate system
+admin -> system: selects the independent variable.
+activate system
+end
+system -> admin: asks to  introduce the significance level for hypothesis tests.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin:  asks to  introduce the significance level for confidence intervals.
+deactivate system
+
+admin -> system: types the significance level
+activate system
+system -> admin: shows all the data ans asks for a confirmation.
+deactivate system
+admin -> system: confirms all the data.
+activate system
+
+system -> controller: generateReport(NhsReportDTO)
+
+
+activate controller
+
+controller -> controller: checkIfTestsAdClientsAreISystem()
+controller -> company: testStore = getTestStore()
+activate company
+deactivate company
+
+controller -> api: create()
+activate api
+deactivate api
+note left: somehow it creates the object of the NHS API. (java reflection))
+
+
+
+ref over controller
+  SD_RegressionCreation
+end ref
+
+
+controller -> nhsReportMapper : nhsReportValuesDTO = toDTO(nhsReportDto, regression, tableString)
+activate nhsReportMapper
+ref over nhsReportMapper
+    SD_ReportValuesDTO
+end ref
+deactivate nhsReportMapper
+controller -> nhsReport**: create()
+
+controller -> nhsReport: reportString = generateReportString(nhsReportValuesDTO)
+activate nhsReport
+deactivate nhsReport
+
+controller -> nhsAPI: SendReport(reportString)
+
+activate nhsAPI
+deactivate nhsAPI
+
+system -> admin: informs operation success.
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

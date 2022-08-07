@@ -1,0 +1,28 @@
+@startuml
+autonumber
+actor "Organization Employee" as OE
+
+activate OE
+OE -> ":System" : asks to create a new task
+activate ":System"
+":System" --> OE : shows task categories list and ask to select one
+deactivate ":System"
+
+OE -> ":System" : selects a task category
+activate ":System"
+":System" --> OE : requests data (reference, designation,  informal \n description, technical description, duration, cost)
+deactivate ":System"
+
+OE -> ":System" : types requested data
+activate ":System"
+":System" --> OE : shows all data and requests confirmation
+deactivate ":System"
+
+OE -> ":System" : confirms the data
+activate ":System"
+":System" --> OE : informs operation success
+deactivate ":System"
+
+deactivate OE
+
+@enduml

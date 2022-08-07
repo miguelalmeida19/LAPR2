@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="647px" preserveAspectRatio="none" style="width:814px;height:647px;background:#FCF9EA;" version="1.1" viewBox="0 0 814 647" width="814px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qy7vvsvcmrx0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="369" x="221.5" y="92.041">SEQUENCE DIAGRAM</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="411" y="134.3457"/><rect fill="#FFFFFF" filter="url(#f1qy7vvsvcmrx0)" height="368.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="180" y="224.5938"/><rect fill="#FFFFFF" filter="url(#f1qy7vvsvcmrx0)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="185" y="380"/><rect fill="#FCF9EA" filter="url(#f1qy7vvsvcmrx0)" height="340.8125" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="353" x="121" y="244.5938"/><rect fill="#FCF9EA" filter="url(#f1qy7vvsvcmrx0)" height="148.4063" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="333" x="131" y="430"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="185" x2="185" y1="187.2422" y2="602.4063"/><rect fill="#FEFECE" filter="url(#f1qy7vvsvcmrx0)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="84" x="141" y="150.6328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="152" y="172.166">:QuickSort</text><rect fill="#FEFECE" filter="url(#f1qy7vvsvcmrx0)" height="31.6094" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="84" x="141" y="601.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="152" y="622.9395">:QuickSort</text><rect fill="#FFFFFF" filter="url(#f1qy7vvsvcmrx0)" height="368.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="180" y="224.5938"/><rect fill="#FFFFFF" filter="url(#f1qy7vvsvcmrx0)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="185" y="380"/><ellipse cx="7.5" cy="223.8438" rx="4" ry="4" style="stroke:#FFC5A1;stroke-width:1.5;fill:none;"/><polygon fill="#FFC5A1" points="168,220.5938,178,224.5938,168,228.5938,172,224.5938" style="stroke:#FFC5A1;stroke-width:1.0;"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="12" x2="174" y1="224.5938" y2="224.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="15" y="219.7373">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="26" y="219.7373">array= sort(String[]array)</text><path d="M195,212.2422 L195,218.2422 A10,10 0 0 0 205,228.2422 L785,228.2422 A10,10 0 0 0 795,218.2422 L795,212.2422 L785,202.2422 L205,202.2422 A10,10 0 0 0 195,212.2422 " fill="#FBFB77" filter="url(#f1qy7vvsvcmrx0)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M785,202.2422 L785,207.2422 A5,5 0 0 0 790,212.2422 L795,212.2422 L785,202.2422 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="579" x="201" y="220.7373">String[]array contains name and tin of client or it contais the other way around, ordering from the first</text><path d="M131,244.5938 L186,244.5938 L186,252.5938 L176,262.5938 L121,262.5938 L121,254.5938 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="340.8125" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="353" x="121" y="244.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="20" x="136" y="259.0889">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="121" x="201" y="258.0127">[order by tin or name]</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="190" x2="232" y1="285.2969" y2="285.2969"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="232" x2="232" y1="285.2969" y2="298.2969"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="191" x2="232" y1="298.2969" y2="298.2969"/><polygon fill="#FFC5A1" points="201,294.2969,191,298.2969,201,302.2969,197,298.2969" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="197" y="280.4404">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="208" y="280.4404">index1 = 0</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="190" x2="232" y1="328.6484" y2="328.6484"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="232" x2="232" y1="328.6484" y2="341.6484"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="191" x2="232" y1="341.6484" y2="341.6484"/><polygon fill="#FFC5A1" points="201,337.6484,191,341.6484,201,345.6484,197,341.6484" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="197" y="323.792">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="208" y="323.792">index2 = array[].length-1</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="195" x2="237" y1="372" y2="372"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="237" x2="237" y1="372" y2="385"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="196" x2="237" y1="385" y2="385"/><polygon fill="#FFC5A1" points="206,381,196,385,206,389,202,385" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="202" y="367.1436">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="213" y="367.1436">partition(array[], index1, index2)</text><path d="M141,430 L196,430 L196,438 L186,448 L131,448 L131,440 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="148.4063" rx="10" ry="10" style="stroke:#000000;stroke-width:2.0;" width="333" x="131" y="430"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="20" x="146" y="444.4951">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="86" x="211" y="443.4189">[index1&lt;index2]</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="190" x2="232" y1="470.7031" y2="470.7031"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="232" x2="232" y1="470.7031" y2="483.7031"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="191" x2="232" y1="483.7031" y2="483.7031"/><polygon fill="#FFC5A1" points="201,479.7031,191,483.7031,201,487.7031,197,483.7031" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="197" y="465.8467">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="208" y="465.8467">pivotIndex= partition(array[],index1,index2)</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="190" x2="232" y1="514.0547" y2="514.0547"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="232" x2="232" y1="514.0547" y2="527.0547"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="191" x2="232" y1="527.0547" y2="527.0547"/><polygon fill="#FFC5A1" points="201,523.0547,191,527.0547,201,531.0547,197,527.0547" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="197" y="509.1982">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="203" x="208" y="509.1982">quickSort(array[],index1,pivotIndex)</text><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="190" x2="232" y1="557.4063" y2="557.4063"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="232" x2="232" y1="557.4063" y2="570.4063"/><line style="stroke:#FFC5A1;stroke-width:1.0;" x1="191" x2="232" y1="570.4063" y2="570.4063"/><polygon fill="#FFC5A1" points="201,566.4063,191,570.4063,201,574.4063,197,570.4063" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="197" y="552.5498">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="208" y="552.5498">quickSort(array[],pivotIndex+1,index2)</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="407.5" y="15.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="407.5" y="27.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="343" y="45.7275">Built by WeByte ©</text><!--MD5=[4f9739c234671f70eb200be4652eba31]
+@startuml
+ ' ======= layout =========
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stCBackgroundColor ffc5a1
+
+
+
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+ ' ======= title =========
+ center header
+
+
+ <font color=Black size=15><b>Built by WeByte ©</font>
+ endheader
+ title <b>SEQUENCE DIAGRAM\n
+ autonumber
+ 'hide footbox
+ participant  " :QuickSort" as QuickSort
+
+[o->QuickSort: array= sort(String[]array)
+note left:  String[]array contains name and tin of client or it contais the other way around, ordering from the first
+activate QuickSort
+opt order by tin or name
+QuickSort->QuickSort: index1 = 0
+QuickSort->QuickSort: index2 = array[].length-1
+
+QuickSort->QuickSort: partition(array[], index1, index2)
+activate QuickSort
+deactivate QuickSort
+opt index1<index2
+QuickSort->QuickSort: pivotIndex= partition(array[],index1,index2)
+QuickSort->QuickSort: quickSort(array[],index1,pivotIndex)
+QuickSort->QuickSort: quickSort(array[],pivotIndex+1,index2)
+end
+end
+
+@enduml
+
+@startuml
+ skinparam backgroundColor #fcf9ea
+ skinparam titleBorderRoundCorner 15
+ skinparam titleFontSize 30
+ skinparam classAttributeIconSize 0
+ skinparam titleFontName Arial Black
+ skinparam titleFontColor #f8a978
+ skinparam roundcorner 20
+ skinparam stCBackgroundColor ffc5a1
+
+
+
+ skinparam class {
+
+ ArrowColor ffc5a1
+ BorderColor White
+ BackgroundColor badfdb
+ }
+
+ center header
+
+
+ <font color=Black size=15><b>Built by WeByte ©</font>
+ endheader
+ title <b>SEQUENCE DIAGRAM\n
+ autonumber
+ participant  " :QuickSort" as QuickSort
+
+[o->QuickSort: array= sort(String[]array)
+note left:  String[]array contains name and tin of client or it contais the other way around, ordering from the first
+activate QuickSort
+opt order by tin or name
+QuickSort->QuickSort: index1 = 0
+QuickSort->QuickSort: index2 = array[].length-1
+
+QuickSort->QuickSort: partition(array[], index1, index2)
+activate QuickSort
+deactivate QuickSort
+opt index1<index2
+QuickSort->QuickSort: pivotIndex= partition(array[],index1,index2)
+QuickSort->QuickSort: quickSort(array[],index1,pivotIndex)
+QuickSort->QuickSort: quickSort(array[],pivotIndex+1,index2)
+end
+end
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/class-diagram
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+class Administrator{
+
+}
+
+class Company{
+-designation
+}
+
+class NHSReport {
+-report
+}
+
+class NHS{
+
+}
+
+Administrator "1" -- "*" NHSReport : can send >
+Company "1" -- "*" NHSReport: generates >
+NHSReport "*" -- "1" NHS : are sent to
+@enduml

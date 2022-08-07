@@ -1,0 +1,107 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+' Still working on that'
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+
+endheader
+title <b>US10 - Sequence Diagram\n
+autonumber
+
+actor ":Administrator" as Administrator
+
+participant ":CreateParameterUI" as ParameterUI
+
+participant ":CreateParameterController" as controller
+participant "Company" as company
+participant ":store: ParameterStore" as store
+participant ":store:ParameterCategoryStore" as categoryStore
+
+participant "par: Parameter" as parameter
+
+activate Administrator
+activate ParameterUI
+Administrator -> ParameterUI: starts the creation of a new parameter.
+ParameterUI -> controller: parameterCategories = getParameterCategoryList()
+activate controller
+controller -> company : store = getParameterCategoryStore()
+activate company
+deactivate company
+
+controller -> categoryStore : parameterCategories = getParameterCategoryList()
+activate categoryStore
+deactivate categoryStore
+
+deactivate controller
+
+
+
+Administrator <-- ParameterUI : Shows all categories and ask to select one of them.
+
+deactivate ParameterUI
+
+Administrator -> ParameterUI: selects the category .
+
+activate ParameterUI
+
+Administrator <-- ParameterUI: Request data (code, name, description)
+deactivate ParameterUI
+Administrator -> ParameterUI: Types the requested data.
+activate ParameterUI
+ParameterUI -> controller: createNewParameter(code, designation, description, parameterCategoryCode)
+activate controller
+
+controller -> company : store = getParameterStore()
+activate company
+deactivate company
+
+controller -> categoryStore : category = getParameterCategoryByCode(code)
+activate categoryStore
+deactivate categoryStore
+
+
+controller -> store : par = createParameter(code, designation, category, description)
+activate store
+store -> parameter** : create(code, designation, category, description)
+
+deactivate store
+
+controller -> store : validateParameter(par)
+activate store
+deactivate store
+ParameterUI --> Administrator : Shows all the data and requests a confirmation
+
+deactivate ParameterUI
+Administrator -> ParameterUI : confirms the data
+deactivate controller
+activate ParameterUI
+ParameterUI -> controller : saveParameter()
+
+activate controller
+controller -> store : saveParameter(par)
+activate store
+store -> store : validateParameter(par)
+store -> store : addParameter(par)
+ParameterUI --> Administrator : informs operation success
+
+@enduml

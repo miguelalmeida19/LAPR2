@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1382px" preserveAspectRatio="none" style="width:1012px;height:1382px;background:#FCF9EA;" version="1.1" viewBox="0 0 1012 1382" width="1012px" zoomAndPan="magnify"><defs><filter height="300%" id="fqp4626pqnysg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="501.3" y="10.3809"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="0" x="501.3" y="22.959"/><text fill="#000000" font-family="sans-serif" font-size="15" font-weight="bold" lengthAdjust="spacing" textLength="126" x="436.8" y="40.7275">Built by WeByte ©</text><text fill="#F8A978" font-family="Arial Black" font-size="30" font-weight="bold" lengthAdjust="spacing" textLength="372" x="313.8" y="77.041">US14 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="30" lengthAdjust="spacing" textLength="0" x="504.8" y="119.3457"/><!--MD5=[71fba8c2abd557a2f7006580273aba3e]
+class WriteReportUI--><rect codeLine="28" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="48" id="WriteReportUI" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="109" x="211.1" y="135.6328"/><ellipse cx="226.1" cy="151.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M228.1,148.1328 Q228.3031,147.6328 228.5375,147.3828 Q228.7719,147.1328 229.0375,147.1328 Q229.5063,147.1328 229.8031,147.4141 Q230.1,147.6953 230.1,148.3516 L230.1,149.9141 Q230.1,150.5703 229.8188,150.8516 Q229.5375,151.1328 229.1,151.1328 Q228.7094,151.1328 228.4594,150.9609 Q228.2094,150.7891 228.1,150.3359 Q228.0531,150.0234 227.8813,149.8516 Q227.5688,149.5234 227.0063,149.3359 Q226.4438,149.1328 225.8813,149.1328 Q225.1781,149.1328 224.5844,149.4141 Q224.0063,149.6953 223.5531,150.3203 Q223.1,150.9453 223.1,151.8047 L223.1,152.7266 Q223.1,153.7578 223.9438,154.4453 Q224.7875,155.1328 226.2875,155.1328 Q227.1781,155.1328 227.8031,154.9297 Q228.1625,154.8203 228.5688,154.4609 Q228.8344,154.2578 228.975,154.1953 Q229.1156,154.1328 229.2875,154.1328 Q229.6156,154.1328 229.85,154.3984 Q230.1,154.6484 230.1,155.0078 Q230.1,155.3516 229.7563,155.7578 Q229.2563,156.3516 228.4594,156.6797 Q227.4125,157.1328 226.1313,157.1328 Q224.6313,157.1328 223.4281,156.5391 Q222.4594,156.0703 221.7719,155.0547 Q221.1,154.0391 221.1,152.8359 L221.1,151.7422 Q221.1,150.4922 221.6938,149.3984 Q222.3031,148.3047 223.35,147.7266 Q224.4125,147.1328 225.6,147.1328 Q226.3188,147.1328 226.9438,147.3828 Q227.5688,147.6328 228.1,148.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="77" x="240.1" y="156.543">WriteReportUI</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="212.1" x2="319.1" y1="167.6328" y2="167.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="212.1" x2="319.1" y1="175.6328" y2="175.6328"/><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="30" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="75.6719" id="Company" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="88" x="453.6" y="749.6328"/><ellipse cx="469.95" cy="765.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M471.95,762.1328 Q472.1531,761.6328 472.3875,761.3828 Q472.6219,761.1328 472.8875,761.1328 Q473.3563,761.1328 473.6531,761.4141 Q473.95,761.6953 473.95,762.3516 L473.95,763.9141 Q473.95,764.5703 473.6688,764.8516 Q473.3875,765.1328 472.95,765.1328 Q472.5594,765.1328 472.3094,764.9609 Q472.0594,764.7891 471.95,764.3359 Q471.9031,764.0234 471.7313,763.8516 Q471.4188,763.5234 470.8563,763.3359 Q470.2938,763.1328 469.7313,763.1328 Q469.0281,763.1328 468.4344,763.4141 Q467.8563,763.6953 467.4031,764.3203 Q466.95,764.9453 466.95,765.8047 L466.95,766.7266 Q466.95,767.7578 467.7938,768.4453 Q468.6375,769.1328 470.1375,769.1328 Q471.0281,769.1328 471.6531,768.9297 Q472.0125,768.8203 472.4188,768.4609 Q472.6844,768.2578 472.825,768.1953 Q472.9656,768.1328 473.1375,768.1328 Q473.4656,768.1328 473.7,768.3984 Q473.95,768.6484 473.95,769.0078 Q473.95,769.3516 473.6063,769.7578 Q473.1063,770.3516 472.3094,770.6797 Q471.2625,771.1328 469.9813,771.1328 Q468.4813,771.1328 467.2781,770.5391 Q466.3094,770.0703 465.6219,769.0547 Q464.95,768.0391 464.95,766.8359 L464.95,765.7422 Q464.95,764.4922 465.5438,763.3984 Q466.1531,762.3047 467.2,761.7266 Q468.2625,761.1328 469.45,761.1328 Q470.1688,761.1328 470.7938,761.3828 Q471.4188,761.6328 471.95,762.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="484.25" y="770.543">Company</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="454.6" x2="540.6" y1="781.6328" y2="781.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="459.6" y="797.0518">-designation</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="454.6" x2="540.6" y1="803.4688" y2="803.4688"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="459.6" y="818.8877">+getTestStore()</text><!--MD5=[0f6f7964b844a64b0496af0dda7914bd]
+class TestStore--><rect codeLine="34" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="103.3438" id="TestStore" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="154" x="606.6" y="736.1328"/><ellipse cx="652.85" cy="752.1328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M654.85,748.6328 Q655.0531,748.1328 655.2875,747.8828 Q655.5219,747.6328 655.7875,747.6328 Q656.2563,747.6328 656.5531,747.9141 Q656.85,748.1953 656.85,748.8516 L656.85,750.4141 Q656.85,751.0703 656.5688,751.3516 Q656.2875,751.6328 655.85,751.6328 Q655.4594,751.6328 655.2094,751.4609 Q654.9594,751.2891 654.85,750.8359 Q654.8031,750.5234 654.6313,750.3516 Q654.3188,750.0234 653.7563,749.8359 Q653.1938,749.6328 652.6313,749.6328 Q651.9281,749.6328 651.3344,749.9141 Q650.7563,750.1953 650.3031,750.8203 Q649.85,751.4453 649.85,752.3047 L649.85,753.2266 Q649.85,754.2578 650.6938,754.9453 Q651.5375,755.6328 653.0375,755.6328 Q653.9281,755.6328 654.5531,755.4297 Q654.9125,755.3203 655.3188,754.9609 Q655.5844,754.7578 655.725,754.6953 Q655.8656,754.6328 656.0375,754.6328 Q656.3656,754.6328 656.6,754.8984 Q656.85,755.1484 656.85,755.5078 Q656.85,755.8516 656.5063,756.2578 Q656.0063,756.8516 655.2094,757.1797 Q654.1625,757.6328 652.8813,757.6328 Q651.3813,757.6328 650.1781,757.0391 Q649.2094,756.5703 648.5219,755.5547 Q647.85,754.5391 647.85,753.3359 L647.85,752.2422 Q647.85,750.9922 648.4438,749.8984 Q649.0531,748.8047 650.1,748.2266 Q651.1625,747.6328 652.35,747.6328 Q653.0688,747.6328 653.6938,747.8828 Q654.3188,748.1328 654.85,748.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="673.35" y="757.043">TestStore</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="607.6" x2="759.6" y1="768.1328" y2="768.1328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="607.6" x2="759.6" y1="776.1328" y2="776.1328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="612.6" y="791.5518">+add(test)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="612.6" y="805.3877">+add(parameterResult)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="612.6" y="819.2236">+getlistTestParameterResult()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="612.6" y="833.0596">+getTestList()</text><!--MD5=[144698ec4d0188f6929a3b58a3eeb1f6]
+class TestMapper--><rect codeLine="40" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="75.6719" id="TestMapper" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="97" x="23.1" y="426.6328"/><ellipse cx="38.1" cy="442.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M40.1,439.1328 Q40.3031,438.6328 40.5375,438.3828 Q40.7719,438.1328 41.0375,438.1328 Q41.5063,438.1328 41.8031,438.4141 Q42.1,438.6953 42.1,439.3516 L42.1,440.9141 Q42.1,441.5703 41.8188,441.8516 Q41.5375,442.1328 41.1,442.1328 Q40.7094,442.1328 40.4594,441.9609 Q40.2094,441.7891 40.1,441.3359 Q40.0531,441.0234 39.8813,440.8516 Q39.5688,440.5234 39.0063,440.3359 Q38.4438,440.1328 37.8813,440.1328 Q37.1781,440.1328 36.5844,440.4141 Q36.0063,440.6953 35.5531,441.3203 Q35.1,441.9453 35.1,442.8047 L35.1,443.7266 Q35.1,444.7578 35.9438,445.4453 Q36.7875,446.1328 38.2875,446.1328 Q39.1781,446.1328 39.8031,445.9297 Q40.1625,445.8203 40.5688,445.4609 Q40.8344,445.2578 40.975,445.1953 Q41.1156,445.1328 41.2875,445.1328 Q41.6156,445.1328 41.85,445.3984 Q42.1,445.6484 42.1,446.0078 Q42.1,446.3516 41.7563,446.7578 Q41.2563,447.3516 40.4594,447.6797 Q39.4125,448.1328 38.1313,448.1328 Q36.6313,448.1328 35.4281,447.5391 Q34.4594,447.0703 33.7719,446.0547 Q33.1,445.0391 33.1,443.8359 L33.1,442.7422 Q33.1,441.4922 33.6938,440.3984 Q34.3031,439.3047 35.35,438.7266 Q36.4125,438.1328 37.6,438.1328 Q38.3188,438.1328 38.9438,438.3828 Q39.5688,438.6328 40.1,439.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="52.1" y="447.543">TestMapper</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="24.1" x2="119.1" y1="458.6328" y2="458.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="24.1" x2="119.1" y1="466.6328" y2="466.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="29.1" y="482.0518">+toDTO(testList)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="29.1" y="495.8877">+toDTO(test)</text><!--MD5=[59198e61dddd1f8bddb26fa690657aaa]
+class ParameterResultMapper--><rect codeLine="44" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="75.6719" id="ParameterResultMapper" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="169" x="43.1" y="313.6328"/><ellipse cx="59" cy="329.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M61,326.1328 Q61.2031,325.6328 61.4375,325.3828 Q61.6719,325.1328 61.9375,325.1328 Q62.4063,325.1328 62.7031,325.4141 Q63,325.6953 63,326.3516 L63,327.9141 Q63,328.5703 62.7188,328.8516 Q62.4375,329.1328 62,329.1328 Q61.6094,329.1328 61.3594,328.9609 Q61.1094,328.7891 61,328.3359 Q60.9531,328.0234 60.7813,327.8516 Q60.4688,327.5234 59.9063,327.3359 Q59.3438,327.1328 58.7813,327.1328 Q58.0781,327.1328 57.4844,327.4141 Q56.9063,327.6953 56.4531,328.3203 Q56,328.9453 56,329.8047 L56,330.7266 Q56,331.7578 56.8438,332.4453 Q57.6875,333.1328 59.1875,333.1328 Q60.0781,333.1328 60.7031,332.9297 Q61.0625,332.8203 61.4688,332.4609 Q61.7344,332.2578 61.875,332.1953 Q62.0156,332.1328 62.1875,332.1328 Q62.5156,332.1328 62.75,332.3984 Q63,332.6484 63,333.0078 Q63,333.3516 62.6563,333.7578 Q62.1563,334.3516 61.3594,334.6797 Q60.3125,335.1328 59.0313,335.1328 Q57.5313,335.1328 56.3281,334.5391 Q55.3594,334.0703 54.6719,333.0547 Q54,332.0391 54,330.8359 L54,329.7422 Q54,328.4922 54.5938,327.3984 Q55.2031,326.3047 56.25,325.7266 Q57.3125,325.1328 58.5,325.1328 Q59.2188,325.1328 59.8438,325.3828 Q60.4688,325.6328 61,326.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="73.2" y="334.543">ParameterResultMapper</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="44.1" x2="211.1" y1="345.6328" y2="345.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="44.1" x2="211.1" y1="353.6328" y2="353.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="49.1" y="369.0518">+toDTO(listTestParameterResult)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="49.1" y="382.8877">+toDTO(parameterResult)</text><!--MD5=[9fb704ffefcaf68bf1a361787afa998b]
+class TestDTO--><rect codeLine="48" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="352.3906" id="TestDTO" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="150" x="190.6" y="611.6328"/><ellipse cx="236.85" cy="627.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M238.85,624.1328 Q239.0531,623.6328 239.2875,623.3828 Q239.5219,623.1328 239.7875,623.1328 Q240.2563,623.1328 240.5531,623.4141 Q240.85,623.6953 240.85,624.3516 L240.85,625.9141 Q240.85,626.5703 240.5688,626.8516 Q240.2875,627.1328 239.85,627.1328 Q239.4594,627.1328 239.2094,626.9609 Q238.9594,626.7891 238.85,626.3359 Q238.8031,626.0234 238.6313,625.8516 Q238.3188,625.5234 237.7563,625.3359 Q237.1938,625.1328 236.6313,625.1328 Q235.9281,625.1328 235.3344,625.4141 Q234.7563,625.6953 234.3031,626.3203 Q233.85,626.9453 233.85,627.8047 L233.85,628.7266 Q233.85,629.7578 234.6938,630.4453 Q235.5375,631.1328 237.0375,631.1328 Q237.9281,631.1328 238.5531,630.9297 Q238.9125,630.8203 239.3188,630.4609 Q239.5844,630.2578 239.725,630.1953 Q239.8656,630.1328 240.0375,630.1328 Q240.3656,630.1328 240.6,630.3984 Q240.85,630.6484 240.85,631.0078 Q240.85,631.3516 240.5063,631.7578 Q240.0063,632.3516 239.2094,632.6797 Q238.1625,633.1328 236.8813,633.1328 Q235.3813,633.1328 234.1781,632.5391 Q233.2094,632.0703 232.5219,631.0547 Q231.85,630.0391 231.85,628.8359 L231.85,627.7422 Q231.85,626.4922 232.4438,625.3984 Q233.0531,624.3047 234.1,623.7266 Q235.1625,623.1328 236.35,623.1328 Q237.0688,623.1328 237.6938,623.3828 Q238.3188,623.6328 238.85,624.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="257.35" y="632.543">TestDTO</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="191.6" x2="339.6" y1="643.6328" y2="643.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="196.6" y="659.0518">testTypeDTO;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="196.6" y="672.8877">-parameterDTOS;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="196.6" y="686.7236">-nhsCode;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="196.6" y="700.5596">-testCode;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="196.6" y="714.3955">-testCreationDate;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="196.6" y="728.2314">-laboratoryMapper;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="196.6" y="742.0674">-reportMapper;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="196.6" y="755.9033">-laboratory;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="196.6" y="769.7393">-reportMadeDate;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="196.6" y="783.5752">-samplesAnalysedDate;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="36" x="196.6" y="797.4111">-report;</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="191.6" x2="339.6" y1="803.8281" y2="803.8281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="196.6" y="819.2471">+getReport()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="196.6" y="833.083">+getNhsCode()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="196.6" y="846.9189">+getTestCode()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="196.6" y="860.7549">+getParameterDTO()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="196.6" y="874.5908">+getTestTypeDTO()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="196.6" y="888.4268">+getTestCreationDate()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="196.6" y="902.2627">+getReportMadeDate()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="196.6" y="916.0986">+getSamplesAnalysedDate()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="196.6" y="929.9346">+getTestParameterFor()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="196.6" y="943.7705">+getLaboratory()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="196.6" y="957.6064">+toString()</text><!--MD5=[9029832ed3ecb3cabd268e0ea1743d60]
+class TestParameterResultDTO--><rect codeLine="73" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="144.8516" id="TestParameterResultDTO" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="175" x="796.1" y="715.1328"/><ellipse cx="811.1" cy="731.1328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M813.1,727.6328 Q813.3031,727.1328 813.5375,726.8828 Q813.7719,726.6328 814.0375,726.6328 Q814.5063,726.6328 814.8031,726.9141 Q815.1,727.1953 815.1,727.8516 L815.1,729.4141 Q815.1,730.0703 814.8188,730.3516 Q814.5375,730.6328 814.1,730.6328 Q813.7094,730.6328 813.4594,730.4609 Q813.2094,730.2891 813.1,729.8359 Q813.0531,729.5234 812.8813,729.3516 Q812.5688,729.0234 812.0063,728.8359 Q811.4438,728.6328 810.8813,728.6328 Q810.1781,728.6328 809.5844,728.9141 Q809.0063,729.1953 808.5531,729.8203 Q808.1,730.4453 808.1,731.3047 L808.1,732.2266 Q808.1,733.2578 808.9438,733.9453 Q809.7875,734.6328 811.2875,734.6328 Q812.1781,734.6328 812.8031,734.4297 Q813.1625,734.3203 813.5688,733.9609 Q813.8344,733.7578 813.975,733.6953 Q814.1156,733.6328 814.2875,733.6328 Q814.6156,733.6328 814.85,733.8984 Q815.1,734.1484 815.1,734.5078 Q815.1,734.8516 814.7563,735.2578 Q814.2563,735.8516 813.4594,736.1797 Q812.4125,736.6328 811.1313,736.6328 Q809.6313,736.6328 808.4281,736.0391 Q807.4594,735.5703 806.7719,734.5547 Q806.1,733.5391 806.1,732.3359 L806.1,731.2422 Q806.1,729.9922 806.6938,728.8984 Q807.3031,727.8047 808.35,727.2266 Q809.4125,726.6328 810.6,726.6328 Q811.3188,726.6328 811.9438,726.8828 Q812.5688,727.1328 813.1,727.6328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="825.1" y="736.043">TestParameterResultDTO</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="797.1" x2="970.1" y1="747.1328" y2="747.1328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="802.1" y="762.5518">-testParameterResult</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="802.1" y="776.3877">-result</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="802.1" y="790.2236">-metric</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="802.1" y="804.0596">-refValue</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="797.1" x2="970.1" y1="810.4766" y2="810.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="802.1" y="825.8955">+getMetric()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="802.1" y="839.7314">+getResult()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="802.1" y="853.5674">+getRefValue()</text><!--MD5=[d7b8916e3117ca4a3ffdab4f31ea783a]
+class WriteReportController--><rect codeLine="82" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="89.5078" id="WriteReportController" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="213" x="349.1" y="306.6328"/><ellipse cx="392" cy="322.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M394,319.1328 Q394.2031,318.6328 394.4375,318.3828 Q394.6719,318.1328 394.9375,318.1328 Q395.4062,318.1328 395.7031,318.4141 Q396,318.6953 396,319.3516 L396,320.9141 Q396,321.5703 395.7187,321.8516 Q395.4375,322.1328 395,322.1328 Q394.6094,322.1328 394.3594,321.9609 Q394.1094,321.7891 394,321.3359 Q393.9531,321.0234 393.7812,320.8516 Q393.4687,320.5234 392.9062,320.3359 Q392.3437,320.1328 391.7812,320.1328 Q391.0781,320.1328 390.4844,320.4141 Q389.9062,320.6953 389.4531,321.3203 Q389,321.9453 389,322.8047 L389,323.7266 Q389,324.7578 389.8437,325.4453 Q390.6875,326.1328 392.1875,326.1328 Q393.0781,326.1328 393.7031,325.9297 Q394.0625,325.8203 394.4687,325.4609 Q394.7344,325.2578 394.875,325.1953 Q395.0156,325.1328 395.1875,325.1328 Q395.5156,325.1328 395.75,325.3984 Q396,325.6484 396,326.0078 Q396,326.3516 395.6562,326.7578 Q395.1562,327.3516 394.3594,327.6797 Q393.3125,328.1328 392.0312,328.1328 Q390.5312,328.1328 389.3281,327.5391 Q388.3594,327.0703 387.6719,326.0547 Q387,325.0391 387,323.8359 L387,322.7422 Q387,321.4922 387.5937,320.3984 Q388.2031,319.3047 389.25,318.7266 Q390.3125,318.1328 391.5,318.1328 Q392.2187,318.1328 392.8437,318.3828 Q393.4687,318.6328 394,319.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="412.2" y="327.543">WriteReportController</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="350.1" x2="561.1" y1="338.6328" y2="338.6328"/><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="350.1" x2="561.1" y1="346.6328" y2="346.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="355.1" y="362.0518">+getTestList()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="355.1" y="375.8877">+getlistTestParameterResult()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="201" x="355.1" y="389.7236">+createReport(report,diagnosis,testCode)</text><!--MD5=[df38be88ccee13e832d6fafd6288a4ca]
+class Test--><rect codeLine="87" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="158.6875" id="Test" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="167" x="346.1" y="1041.6328"/><ellipse cx="413.35" cy="1057.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M415.35,1054.1328 Q415.5531,1053.6328 415.7875,1053.3828 Q416.0219,1053.1328 416.2875,1053.1328 Q416.7562,1053.1328 417.0531,1053.4141 Q417.35,1053.6953 417.35,1054.3516 L417.35,1055.9141 Q417.35,1056.5703 417.0687,1056.8516 Q416.7875,1057.1328 416.35,1057.1328 Q415.9594,1057.1328 415.7094,1056.9609 Q415.4594,1056.7891 415.35,1056.3359 Q415.3031,1056.0234 415.1312,1055.8516 Q414.8187,1055.5234 414.2562,1055.3359 Q413.6937,1055.1328 413.1312,1055.1328 Q412.4281,1055.1328 411.8344,1055.4141 Q411.2562,1055.6953 410.8031,1056.3203 Q410.35,1056.9453 410.35,1057.8047 L410.35,1058.7266 Q410.35,1059.7578 411.1937,1060.4453 Q412.0375,1061.1328 413.5375,1061.1328 Q414.4281,1061.1328 415.0531,1060.9297 Q415.4125,1060.8203 415.8187,1060.4609 Q416.0844,1060.2578 416.225,1060.1953 Q416.3656,1060.1328 416.5375,1060.1328 Q416.8656,1060.1328 417.1,1060.3984 Q417.35,1060.6484 417.35,1061.0078 Q417.35,1061.3516 417.0062,1061.7578 Q416.5062,1062.3516 415.7094,1062.6797 Q414.6625,1063.1328 413.3812,1063.1328 Q411.8812,1063.1328 410.6781,1062.5391 Q409.7094,1062.0703 409.0219,1061.0547 Q408.35,1060.0391 408.35,1058.8359 L408.35,1057.7422 Q408.35,1056.4922 408.9437,1055.3984 Q409.5531,1054.3047 410.6,1053.7266 Q411.6625,1053.1328 412.85,1053.1328 Q413.5687,1053.1328 414.1937,1053.3828 Q414.8187,1053.6328 415.35,1054.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="433.85" y="1062.543">Test</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="347.1" x2="512.1" y1="1073.6328" y2="1073.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="352.1" y="1089.0518">-TINOfClient;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="352.1" y="1102.8877">-testParameterList</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="352.1" y="1116.7236">-testType</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="352.1" y="1130.5596">-nhsCode</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="352.1" y="1144.3955">-testCode</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="347.1" x2="512.1" y1="1150.8125" y2="1150.8125"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="352.1" y="1166.2314">+createReport(report,diagnosis)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="352.1" y="1180.0674">+validateReport(rep)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="352.1" y="1193.9033">+addReport(rep)</text><!--MD5=[f00dbe8c0302c6aec2cb26b3c659c8fc]
+class Report--><rect codeLine="97" fill="#BADFDB" filter="url(#fqp4626pqnysg)" height="89.5078" id="Report" rx="10" ry="10" style="stroke:#FFFFFF;stroke-width:1.5;" width="135" x="362.1" y="1278.6328"/><ellipse cx="406.85" cy="1294.6328" fill="#FFC5A1" rx="11" ry="11" style="stroke:#FFFFFF;stroke-width:1.0;"/><path d="M408.85,1291.1328 Q409.0531,1290.6328 409.2875,1290.3828 Q409.5219,1290.1328 409.7875,1290.1328 Q410.2562,1290.1328 410.5531,1290.4141 Q410.85,1290.6953 410.85,1291.3516 L410.85,1292.9141 Q410.85,1293.5703 410.5687,1293.8516 Q410.2875,1294.1328 409.85,1294.1328 Q409.4594,1294.1328 409.2094,1293.9609 Q408.9594,1293.7891 408.85,1293.3359 Q408.8031,1293.0234 408.6312,1292.8516 Q408.3187,1292.5234 407.7562,1292.3359 Q407.1937,1292.1328 406.6312,1292.1328 Q405.9281,1292.1328 405.3344,1292.4141 Q404.7562,1292.6953 404.3031,1293.3203 Q403.85,1293.9453 403.85,1294.8047 L403.85,1295.7266 Q403.85,1296.7578 404.6937,1297.4453 Q405.5375,1298.1328 407.0375,1298.1328 Q407.9281,1298.1328 408.5531,1297.9297 Q408.9125,1297.8203 409.3187,1297.4609 Q409.5844,1297.2578 409.725,1297.1953 Q409.8656,1297.1328 410.0375,1297.1328 Q410.3656,1297.1328 410.6,1297.3984 Q410.85,1297.6484 410.85,1298.0078 Q410.85,1298.3516 410.5062,1298.7578 Q410.0062,1299.3516 409.2094,1299.6797 Q408.1625,1300.1328 406.8812,1300.1328 Q405.3812,1300.1328 404.1781,1299.5391 Q403.2094,1299.0703 402.5219,1298.0547 Q401.85,1297.0391 401.85,1295.8359 L401.85,1294.7422 Q401.85,1293.4922 402.4437,1292.3984 Q403.0531,1291.3047 404.1,1290.7266 Q405.1625,1290.1328 406.35,1290.1328 Q407.0687,1290.1328 407.6937,1290.3828 Q408.3187,1290.6328 408.85,1291.1328 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="37" x="427.35" y="1299.543">Report</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="363.1" x2="496.1" y1="1310.6328" y2="1310.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="368.1" y="1326.0518">-report</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="368.1" y="1339.8877">-diagnosis</text><line style="stroke:#FFFFFF;stroke-width:1.5;" x1="363.1" x2="496.1" y1="1346.3047" y2="1346.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="368.1" y="1361.7236">+create(report,diagnosis)</text><!--MD5=[4ff913b72b026e4c95390310e4df5ddd]
+link WriteReportUI to WriteReportController--><path codeLine="102" d="M288.9,183.9328 C318.37,213.4028 369.85,264.8828 407.83,302.8628 " fill="none" id="WriteReportUI-to-WriteReportController" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="411.46,306.4928,407.9245,297.3004,407.9245,302.9573,402.2676,302.9573,411.46,306.4928" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[64e95d8f3c681180d827cf515c6ed731]
+link WriteReportUI to TestMapper--><path codeLine="103" d="M210.87,176.3628 C153.07,196.2328 64.97,236.5928 25.6,306.6328 C6,341.5028 13.75,358.4328 25.6,396.6328 C28.32,405.3928 32.62,414.0128 37.52,422.0128 " fill="none" id="WriteReportUI-to-TestMapper" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="40.3,426.3928,38.8513,416.6511,37.6193,422.1722,32.0982,420.9402,40.3,426.3928" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[b14f4b55bc9aa939c7cd06f1c0b56da5]
+link WriteReportUI to TestDTO--><path codeLine="104" d="M265.6,183.8128 C265.6,200.6728 265.6,224.0728 265.6,244.6328 C265.6,244.6328 265.6,244.6328 265.6,542.6328 C265.6,563.2228 265.6,584.7928 265.6,606.2228 " fill="none" id="WriteReportUI-to-TestDTO" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="265.6,611.3728,269.6,602.3728,265.6,606.3728,261.6,602.3728,265.6,611.3728" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[c2a661ba762a193098d08c8ad122323e]
+link WriteReportUI to TestParameterResultDTO--><path codeLine="105" d="M320.35,163.4628 C457.63,171.2728 805.6,195.8928 805.6,244.6328 C805.6,244.6328 805.6,244.6328 805.6,542.6328 C805.6,600.6728 825.87,662.9628 845.75,710.0728 " fill="none" id="WriteReportUI-to-TestParameterResultDTO" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="847.8,714.8728,847.9461,705.025,845.8373,710.2741,840.5882,708.1653,847.8,714.8728" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[5385e18fe147b2ab8c92578e9fe2c4b6]
+link WriteReportUI to ParameterResultMapper--><path codeLine="106" d="M248.68,183.9328 C226.04,215.1028 185.52,270.8828 157.63,309.2828 " fill="none" id="WriteReportUI-to-ParameterResultMapper" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="154.64,313.4028,163.1706,308.4805,157.5826,309.3604,156.7026,303.7724,154.64,313.4028" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[72163acd41df4db10e2bb78c0e4b52d4]
+link Test to Report--><path codeLine="107" d="M429.6,1200.8028 C429.6,1225.2828 429.6,1251.5528 429.6,1273.4228 " fill="none" id="Test-to-Report" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#FFC5A1" points="429.6,1278.5928,433.6,1269.5928,429.6,1273.5928,425.6,1269.5928,429.6,1278.5928" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="434.6,1244.8086,437.5389,1235.7635,431.6611,1235.7635,434.6,1244.8086" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="443.6" y="1245.1279">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="422.2992" y="1221.8606">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="422.0422" y="1267.7019">1</text><!--MD5=[a3405a5a29c0a1359ce5b85a18cd6043]
+link WriteReportController to Company--><path codeLine="108" d="M459.86,396.6328 C467.96,480.3528 485.49,661.5428 493.48,744.1028 " fill="none" id="WriteReportController-to-Company" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="494,749.3928,497.135,740.0562,493.5293,744.415,489.1705,740.8093,494,749.3928" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[7f6cf7f175eae0af66201860de5de971]
+link Company to TestStore--><path codeLine="109" d="M541.68,787.6328 C559.51,787.6328 580.68,787.6328 601.17,787.6328 " fill="none" id="Company-to-TestStore" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#FFC5A1" points="606.36,787.6328,597.36,783.6328,601.36,787.6328,597.36,791.6328,606.36,787.6328" style="stroke:#FFC5A1;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="560.1" y="781.1279">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="549.5604" y="783.8592">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="591.6645" y="784.3658">1</text><!--MD5=[aa4aa685cc8a1bee089823f9a2dac854]
+link WriteReportController to TestStore--><path codeLine="110" d="M562.45,389.5428 C579.2,399.3528 594.83,411.5628 606.6,426.6328 C676.22,515.8028 686.38,653.7628 686.02,730.4228 " fill="none" id="WriteReportController-to-TestStore" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="685.97,735.8328,690.047,726.8674,686.0129,730.833,682.0473,726.7989,685.97,735.8328" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[d2c887862af794255aa293b427ffc580]
+link WriteReportController to TestDTO--><path codeLine="111" d="M404.91,396.6828 C396.28,405.9328 388.04,416.0928 381.6,426.6328 C348.21,481.2628 323.43,546.5128 305.54,606.3528 " fill="none" id="WriteReportController-to-TestDTO" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="304.05,611.3928,310.4511,603.9078,305.4763,606.6006,302.7835,601.6257,304.05,611.3928" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[8e27b0da590698a8aa4b76a8fcb22499]
+link WriteReportController to TestParameterResultDTO--><path codeLine="112" d="M493.64,396.7928 C521.94,428.2628 562.46,470.5028 602.6,502.6328 C674.43,560.1328 714,546.1128 778.6,611.6328 C806.58,640.0128 830.24,677.2328 847.98,710.0428 " fill="none" id="WriteReportController-to-TestParameterResultDTO" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="850.55,714.8528,849.8259,705.0306,848.1889,710.4454,842.7741,708.8084,850.55,714.8528" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[b0f4f6db8206580012ef9cd998ed01c5]
+link TestStore to Test--><path codeLine="113" d="M649.32,839.1528 C624.97,874.5128 591.12,922.5828 559.6,963.6328 C539.81,989.4028 517.45,1016.8728 496.93,1041.4728 " fill="none" id="TestStore-Test" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="536.5918,1006.8024,544.3812,1001.3457,539.6862,997.8093,536.5918,1006.8024" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="456" x="548.6" y="1008.1279">knows &gt;ParameterResultMapper "1" --&gt; "*" TestParameterResultDTO : creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="637.0072" y="861.0185">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="498.1091" y="1030.6445">*</text><!--MD5=[f6fda4afaf882dd39139bcbf06c50c8c]
+link TestMapper to TestDTO--><path codeLine="114" d="M94.04,502.7728 C117.03,540.8128 154.09,602.1328 187.89,658.0628 " fill="none" id="TestMapper-to-TestDTO" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#FFC5A1" points="190.53,662.4128,189.3056,652.6404,187.947,658.1317,182.4557,656.7731,190.53,662.4128" style="stroke:#FFC5A1;stroke-width:1.0;"/><polygon fill="#000000" points="130.1862,546.0878,128.023,536.8265,122.9925,539.8667,130.1862,546.0878" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="136.6" y="547.1279">creates</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="90.0586" y="523.6757">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="177.5306" y="646.1676">*</text><!--MD5=[7278674e9ca3925782f5c87c1bd9dd49]
+link WriteReportController to Test--><path codeLine="115" d="M451.53,397.0428 C447,448.5928 439.88,536.1828 436.6,611.6328 C430.1,761.0428 429.13,935.3628 429.23,1036.2128 " fill="none" id="WriteReportController-to-Test" style="stroke:#FFC5A1;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="429.23,1041.2528,433.2043,1032.2414,429.2157,1036.2528,425.2043,1032.2643,429.23,1041.2528" style="stroke:#FFC5A1;stroke-width:1.0;"/><!--MD5=[50f8d645f9712e774b58bb36bec40c1f]
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US14 - Class Diagram\n
+
+' ======= classes =========
+
+class WriteReportUI{
+}
+class Company{
+  -designation
+   +getTestStore()
+}
+class TestStore{
++add(test)
++add(parameterResult)
++getlistTestParameterResult()
++getTestList()
+}
+class TestMapper{
++toDTO(testList)
++toDTO(test)
+}
+class ParameterResultMapper{
++toDTO(listTestParameterResult)
++toDTO(parameterResult)
+}
+class TestDTO{
+ testTypeDTO;
+    - parameterDTOS;
+    - nhsCode;
+    - testCode;
+    - testCreationDate;
+    - laboratoryMapper;
+    - reportMapper;
+    - laboratory;
+    - reportMadeDate;
+    - samplesAnalysedDate;
+    - report;
+    + getReport()
+    + getNhsCode()
+    + getTestCode()
+    + getParameterDTO()
+    + getTestTypeDTO()
+    + getTestCreationDate()
+    + getReportMadeDate()
+    + getSamplesAnalysedDate()
+    + getTestParameterFor()
+    + getLaboratory()
+    + toString()
+
+}
+class TestParameterResultDTO{
+ -testParameterResult
+ -result
+ -metric
+ -refValue
+ +getMetric()
+ +getResult()
+ +getRefValue()
+}
+class WriteReportController{
+ +getTestList()
+ +getlistTestParameterResult()
+ +createReport(report,diagnosis,testCode)
+}
+class Test{
+     - TINOfClient;
+     - testParameterList
+     - testType
+     - nhsCode
+     - testCode
++createReport(report,diagnosis)
++validateReport(rep)
++addReport(rep)
+}
+class Report{
+-report
+-diagnosis
++create(report,diagnosis)
+}
+WriteReportUI ..-> WriteReportController
+WriteReportUI ..-> TestMapper
+WriteReportUI ..-> TestDTO
+WriteReportUI ..-> TestParameterResultDTO
+WriteReportUI ..-> ParameterResultMapper
+Test "1"- -> "1" Report : creates >
+WriteReportController ..-> Company
+Company "1" -> "1" TestStore : uses
+WriteReportController ..-> TestStore
+WriteReportController ..-> TestDTO
+WriteReportController ..-> TestParameterResultDTO
+TestStore "1" - - "*" Test: knows >ParameterResultMapper "1" - -> "*" TestParameterResultDTO : creates >
+TestMapper "1" - -> "*" TestDTO : creates >
+WriteReportController ..-> Test
+
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US14 - Class Diagram\n
+
+
+class WriteReportUI{
+}
+class Company{
+  -designation
+   +getTestStore()
+}
+class TestStore{
++add(test)
++add(parameterResult)
++getlistTestParameterResult()
++getTestList()
+}
+class TestMapper{
++toDTO(testList)
++toDTO(test)
+}
+class ParameterResultMapper{
++toDTO(listTestParameterResult)
++toDTO(parameterResult)
+}
+class TestDTO{
+ testTypeDTO;
+    - parameterDTOS;
+    - nhsCode;
+    - testCode;
+    - testCreationDate;
+    - laboratoryMapper;
+    - reportMapper;
+    - laboratory;
+    - reportMadeDate;
+    - samplesAnalysedDate;
+    - report;
+    + getReport()
+    + getNhsCode()
+    + getTestCode()
+    + getParameterDTO()
+    + getTestTypeDTO()
+    + getTestCreationDate()
+    + getReportMadeDate()
+    + getSamplesAnalysedDate()
+    + getTestParameterFor()
+    + getLaboratory()
+    + toString()
+
+}
+class TestParameterResultDTO{
+ -testParameterResult
+ -result
+ -metric
+ -refValue
+ +getMetric()
+ +getResult()
+ +getRefValue()
+}
+class WriteReportController{
+ +getTestList()
+ +getlistTestParameterResult()
+ +createReport(report,diagnosis,testCode)
+}
+class Test{
+     - TINOfClient;
+     - testParameterList
+     - testType
+     - nhsCode
+     - testCode
++createReport(report,diagnosis)
++validateReport(rep)
++addReport(rep)
+}
+class Report{
+-report
+-diagnosis
++create(report,diagnosis)
+}
+WriteReportUI ..-> WriteReportController
+WriteReportUI ..-> TestMapper
+WriteReportUI ..-> TestDTO
+WriteReportUI ..-> TestParameterResultDTO
+WriteReportUI ..-> ParameterResultMapper
+Test "1"- -> "1" Report : creates >
+WriteReportController ..-> Company
+Company "1" -> "1" TestStore : uses
+WriteReportController ..-> TestStore
+WriteReportController ..-> TestDTO
+WriteReportController ..-> TestParameterResultDTO
+TestStore "1" - - "*" Test: knows >ParameterResultMapper "1" - -> "*" TestParameterResultDTO : creates >
+TestMapper "1" - -> "*" TestDTO : creates >
+WriteReportController ..-> Test
+
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

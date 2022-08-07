@@ -1,0 +1,75 @@
+@startuml
+'https://plantuml.com/class-diagram
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US04 - Domain Model\n
+class Company{
+ - designation
+}
+class Test{
+    - code
+    - nhsCode
+    - createdAt
+    }
+class Parameter{
+- code
+- name
+- description
+}
+class ParameterCategory{
+- code
+- name
+}
+ class LabOrder{
+ }
+ class Sample{
+        - barcode
+        }
+class TestType{
+    - code
+    - description
+    - collecting method
+    }
+class Client{
+    - nhsNumber
+    - birthDate
+    - sex
+    - tin
+    - phoneNumber
+    - e-mail
+    - name
+    }
+LabOrder "1" -- "1..*" Parameter : requests analysis of >
+LabOrder "1" -- "1" TestType : has >
+TestType "1" -- "1..*" ParameterCategory : has >
+Company "1" -- "*" Parameter : capable of analysing >
+Company "1" -- "*" ParameterCategory : adopts >
+Company "1" -- "*" Test : performs >
+Company "1" -- "*" TestType : conducts >
+Test "1" -- "*" Parameter : requests analysis of >
+Test "1" -- "*" Sample : collects >
+Test "1" -- "*" TestType : is of >
+Test "1" -- "1" Client : requested by >
+Test "1" -- "1" LabOrder : associated with >
+@enduml

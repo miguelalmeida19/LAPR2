@@ -1,0 +1,86 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant ":SendReportController" as controller
+participant "testsMadeInInterval:List<Test>" as testMadeIntervalList
+participant "testStore:TestStore" as testStore
+participant ":Company" as company
+participant "regression:Regression"
+participant "nhsReportValuesDTO:NHSReportValuesDTO" as nhsReportValuesDTO
+participant ":MultipleLinearRegression" as mlr
+participant ":LinearRegression" as lr
+participant "x:List<double[]>" as xList
+participant "nhsReportDTO: NHSReportDTO"
+activate controller
+controller -> controller: lowerLimit= getIntervalOfDaysToFitTheModel()[0]
+activate controller
+deactivate controller
+controller -> controller: upperLimit = getIntervalOfDaysToFitTheModel()[1]
+activate controller
+deactivate controller
+controller -> testStore: testsMadeInInterval = getCovidTestsForRegression(lowerLimit, upperLimit)
+activate testStore
+deactivate testStore
+controller -> testStore: Y = getYList(lowerLimit, upperLimit, testsMadeInInterval)
+activate testStore
+deactivate testStore
+
+controller -> controller: nhsReportValuesDTO
+controller -> controller: tableString
+controller -> controller: regression
+alt getModelToUse() equals to "multiple"
+controller -> xList: create()
+activate xList
+deactivate xList
+alt getDaysOrWeeks equals "days"
+controller -> testStore: x1 = getXListNumberTestPerDay(lowerLimit, upperLimit, testsMadeInInterval)
+activate testStore
+deactivate testStore
+controller -> testStore: x2 = getXListAges(lowerLimit, upperLimit)
+activate testStore
+deactivate testStore
+controller -> mlr: regression = create(x, Y)
+activate mlr
+deactivate mlr
+else
+controller -> testStore: x1 = getXListNumberTestsByWeek(lowerLimit, upperLimit, testsMadeInInterval)
+activate testStore
+deactivate testStore
+controller -> testStore: x2 =getXListAgesByWeek(lowerLimit, upperLimit)
+activate testStore
+deactivate testStore
+
+controller -> testStore: Y = getYListWeek(lowerLimit, upperLimit)
+activate testStore
+deactivate testStore
+controller -> mlr: regression = create(x,Y)
+end
+controller -> testStore: tableString = getTableWithHistoricalDataToSednNHS(regression, nhsReportDTO)
+activate testStore
+deactivate testStore
+else
+alt getDaysOrWeeks() equals to "days"
+alt getIndependentVars()[0] equals to "tests/day"
+controller -> testStore: x = getXListNumberTestPerDay(lowerLimit, upperLimit, testsMadeInInterval)
+activate testStore
+deactivate testStore
+else
+controller -> testStore: x = getXListAges(lowerLimit, upperLimit)
+end
+controller -> lr: create(x,Y)
+else
+controller -> testStore: Y = getYListWeek(lowerLimit, upperLimit)
+activate testStore
+deactivate testStore
+alt getIndependentVars()[0] equals to "tests/day"
+controller -> testStore: x = getXListNumberTestsByWeek(lowerLimit, upperLimit, testsMadeInInterval)
+else
+controller -> testStore: x = getXListAgesByWeek(lowerLimit, upperLimit)
+end
+controller -> lr: create(x,Y)
+end
+controller -> testStore: tableString = getTableWithHistoricalDataToSednNHS(regression, nhsReportDTO)
+end
+@enduml

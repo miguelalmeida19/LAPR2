@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1506.25px" preserveAspectRatio="none" style="width:450px;height:1506px;background:#FCF9EA;" version="1.1" viewBox="0 0 450 1506" width="450px" zoomAndPan="magnify"><defs><filter height="300%" id="ffpp1mllzhul0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="0" x="223.75" y="12.9761"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="0" x="223.75" y="28.6987"/><text fill="#000000" font-family="sans-serif" font-size="18.75" font-weight="bold" lengthAdjust="spacing" textLength="157.5" x="143.125" y="50.9094">Built by WeByte ©</text><text fill="#F8A978" font-family="Arial Black" font-size="37.5" font-weight="bold" lengthAdjust="spacing" textLength="438.75" x="2.5" y="96.3013">US8 - Class Diagram</text><text fill="#F8A978" font-family="Arial Black" font-size="37.5" lengthAdjust="spacing" textLength="0" x="228.125" y="149.1821"/><!--MD5=[5518e6815e09c51d4db6e17774f331d2]
+class CreateParameterUI--><rect codeLine="29" fill="#BADFDB" filter="url(#ffpp1mllzhul0)" height="60" id="CreateParameterUI" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="173.75" x="138.75" y="169.541"/><ellipse cx="157.5" cy="189.541" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M160,185.166 Q160.2539,184.541 160.5469,184.2285 Q160.8398,183.916 161.1719,183.916 Q161.7578,183.916 162.1289,184.2676 Q162.5,184.6191 162.5,185.4395 L162.5,187.3926 Q162.5,188.2129 162.1484,188.5645 Q161.7969,188.916 161.25,188.916 Q160.7617,188.916 160.4492,188.7012 Q160.1367,188.4863 160,187.9199 Q159.9414,187.5293 159.7266,187.3145 Q159.3359,186.9043 158.6328,186.6699 Q157.9297,186.416 157.2266,186.416 Q156.3477,186.416 155.6055,186.7676 Q154.8828,187.1191 154.3164,187.9004 Q153.75,188.6816 153.75,189.7559 L153.75,190.9082 Q153.75,192.1973 154.8047,193.0566 Q155.8594,193.916 157.7344,193.916 Q158.8477,193.916 159.6289,193.6621 Q160.0781,193.5254 160.5859,193.0762 Q160.918,192.8223 161.0938,192.7441 Q161.2695,192.666 161.4844,192.666 Q161.8945,192.666 162.1875,192.998 Q162.5,193.3105 162.5,193.7598 Q162.5,194.1895 162.0703,194.6973 Q161.4453,195.4395 160.4492,195.8496 Q159.1406,196.416 157.5391,196.416 Q155.6641,196.416 154.1602,195.6738 Q152.9492,195.0879 152.0898,193.8184 Q151.25,192.5488 151.25,191.0449 L151.25,189.6777 Q151.25,188.1152 151.9922,186.748 Q152.7539,185.3809 154.0625,184.6582 Q155.3906,183.916 156.875,183.916 Q157.7734,183.916 158.5547,184.2285 Q159.3359,184.541 160,185.166 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="133.75" x="175" y="195.6787">CreateParameterUI</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="140" x2="311.25" y1="209.541" y2="209.541"/><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="140" x2="311.25" y1="219.541" y2="219.541"/><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="31" fill="#BADFDB" filter="url(#ffpp1mllzhul0)" height="94.5898" id="Company" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="145" x="84.375" y="632.041"/><ellipse cx="120.5625" cy="652.041" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M123.0625,647.666 Q123.3164,647.041 123.6094,646.7285 Q123.9023,646.416 124.2344,646.416 Q124.8203,646.416 125.1914,646.7676 Q125.5625,647.1191 125.5625,647.9395 L125.5625,649.8926 Q125.5625,650.7129 125.2109,651.0645 Q124.8594,651.416 124.3125,651.416 Q123.8242,651.416 123.5117,651.2012 Q123.1992,650.9863 123.0625,650.4199 Q123.0039,650.0293 122.7891,649.8145 Q122.3984,649.4043 121.6953,649.1699 Q120.9922,648.916 120.2891,648.916 Q119.4102,648.916 118.668,649.2676 Q117.9453,649.6191 117.3789,650.4004 Q116.8125,651.1816 116.8125,652.2559 L116.8125,653.4082 Q116.8125,654.6973 117.8672,655.5566 Q118.9219,656.416 120.7969,656.416 Q121.9102,656.416 122.6914,656.1621 Q123.1406,656.0254 123.6484,655.5762 Q123.9805,655.3223 124.1563,655.2441 Q124.332,655.166 124.5469,655.166 Q124.957,655.166 125.25,655.498 Q125.5625,655.8105 125.5625,656.2598 Q125.5625,656.6895 125.1328,657.1973 Q124.5078,657.9395 123.5117,658.3496 Q122.2031,658.916 120.6016,658.916 Q118.7266,658.916 117.2227,658.1738 Q116.0117,657.5879 115.1523,656.3184 Q114.3125,655.0488 114.3125,653.5449 L114.3125,652.1777 Q114.3125,650.6152 115.0547,649.248 Q115.8164,647.8809 117.125,647.1582 Q118.4531,646.416 119.9375,646.416 Q120.8359,646.416 121.6172,646.7285 Q122.3984,647.041 123.0625,647.666 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="141.9375" y="658.1787">Company</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="85.625" x2="228.125" y1="672.041" y2="672.041"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="73.75" x="91.875" y="691.3147">-designation</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="85.625" x2="228.125" y1="699.3359" y2="699.3359"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="130" x="91.875" y="718.6096">+getParameterStore()</text><!--MD5=[be7802b157a16874d39c59ca0e2b25be]
+class ParameterStore--><rect codeLine="55" fill="#BADFDB" filter="url(#ffpp1mllzhul0)" height="129.1797" id="ParameterStore" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="353.75" x="48.75" y="979.541"/><ellipse cx="165.9375" cy="999.541" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M168.4375,995.166 Q168.6914,994.541 168.9844,994.2285 Q169.2773,993.916 169.6094,993.916 Q170.1953,993.916 170.5664,994.2676 Q170.9375,994.6191 170.9375,995.4395 L170.9375,997.3926 Q170.9375,998.2129 170.5859,998.5645 Q170.2344,998.916 169.6875,998.916 Q169.1992,998.916 168.8867,998.7012 Q168.5742,998.4863 168.4375,997.9199 Q168.3789,997.5293 168.1641,997.3145 Q167.7734,996.9043 167.0703,996.6699 Q166.3672,996.416 165.6641,996.416 Q164.7852,996.416 164.043,996.7676 Q163.3203,997.1191 162.7539,997.9004 Q162.1875,998.6816 162.1875,999.7559 L162.1875,1000.9082 Q162.1875,1002.1973 163.2422,1003.0566 Q164.2969,1003.916 166.1719,1003.916 Q167.2852,1003.916 168.0664,1003.6621 Q168.5156,1003.5254 169.0234,1003.0762 Q169.3555,1002.8223 169.5313,1002.7441 Q169.707,1002.666 169.9219,1002.666 Q170.332,1002.666 170.625,1002.998 Q170.9375,1003.3105 170.9375,1003.7598 Q170.9375,1004.1895 170.5078,1004.6973 Q169.8828,1005.4395 168.8867,1005.8496 Q167.5781,1006.416 165.9766,1006.416 Q164.1016,1006.416 162.5977,1005.6738 Q161.3867,1005.0879 160.5273,1003.8184 Q159.6875,1002.5488 159.6875,1001.0449 L159.6875,999.6777 Q159.6875,998.1152 160.4297,996.748 Q161.1914,995.3809 162.5,994.6582 Q163.8281,993.916 165.3125,993.916 Q166.2109,993.916 166.9922,994.2285 Q167.7734,994.541 168.4375,995.166 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="108.75" x="191.5625" y="1005.6787">ParameterStore</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="50" x2="401.25" y1="1019.541" y2="1019.541"/><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="50" x2="401.25" y1="1029.541" y2="1029.541"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="338.75" x="56.25" y="1048.8147">+createParameter(id, designation, category, description)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="145" x="56.25" y="1066.1096">+validateParameter(par)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="128.75" x="56.25" y="1083.4045">+saveParameter(par)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="121.25" x="56.25" y="1100.6995">+addParameter(par)</text><!--MD5=[1f6362a5c8f21d8d6a0fce68f3a92a4e]
+class Parameter--><rect codeLine="42" fill="#BADFDB" filter="url(#ffpp1mllzhul0)" height="129.1797" id="Parameter" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="307.5" x="71.875" y="1360.791"/><ellipse cx="184.0625" cy="1380.791" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M186.5625,1376.416 Q186.8164,1375.791 187.1094,1375.4785 Q187.4023,1375.166 187.7344,1375.166 Q188.3203,1375.166 188.6914,1375.5176 Q189.0625,1375.8691 189.0625,1376.6895 L189.0625,1378.6426 Q189.0625,1379.4629 188.7109,1379.8145 Q188.3594,1380.166 187.8125,1380.166 Q187.3242,1380.166 187.0117,1379.9512 Q186.6992,1379.7363 186.5625,1379.1699 Q186.5039,1378.7793 186.2891,1378.5645 Q185.8984,1378.1543 185.1953,1377.9199 Q184.4922,1377.666 183.7891,1377.666 Q182.9102,1377.666 182.168,1378.0176 Q181.4453,1378.3691 180.8789,1379.1504 Q180.3125,1379.9316 180.3125,1381.0059 L180.3125,1382.1582 Q180.3125,1383.4473 181.3672,1384.3066 Q182.4219,1385.166 184.2969,1385.166 Q185.4102,1385.166 186.1914,1384.9121 Q186.6406,1384.7754 187.1484,1384.3262 Q187.4805,1384.0723 187.6563,1383.9941 Q187.832,1383.916 188.0469,1383.916 Q188.457,1383.916 188.75,1384.248 Q189.0625,1384.5605 189.0625,1385.0098 Q189.0625,1385.4395 188.6328,1385.9473 Q188.0078,1386.6895 187.0117,1387.0996 Q185.7031,1387.666 184.1016,1387.666 Q182.2266,1387.666 180.7227,1386.9238 Q179.5117,1386.3379 178.6523,1385.0684 Q177.8125,1383.7988 177.8125,1382.2949 L177.8125,1380.9277 Q177.8125,1379.3652 178.5547,1377.998 Q179.3164,1376.6309 180.625,1375.9082 Q181.9531,1375.166 183.4375,1375.166 Q184.3359,1375.166 185.1172,1375.4785 Q185.8984,1375.791 186.5625,1376.416 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="72.5" x="209.6875" y="1386.9287">Parameter</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="73.125" x2="378.125" y1="1400.791" y2="1400.791"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="15" x="79.375" y="1420.0647">-id</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="73.75" x="79.375" y="1437.3596">-designation</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="71.25" x="79.375" y="1454.6545">-description</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="73.125" x2="378.125" y1="1462.6758" y2="1462.6758"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="292.5" x="79.375" y="1481.9495">Parameter(id, designation, category, description)</text><!--MD5=[b9009a04d919d78a73c2eeec1e385786]
+class CreateParameterController--><rect codeLine="51" fill="#BADFDB" filter="url(#ffpp1mllzhul0)" height="94.5898" id="CreateParameterController" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.875;" width="402.5" x="24.375" y="383.291"/><ellipse cx="127.1875" cy="403.291" fill="#FFC5A1" rx="13.75" ry="13.75" style="stroke:#FFFFFF;stroke-width:1.25;"/><path d="M129.6875,398.916 Q129.9414,398.291 130.2344,397.9785 Q130.5273,397.666 130.8594,397.666 Q131.4453,397.666 131.8164,398.0176 Q132.1875,398.3691 132.1875,399.1895 L132.1875,401.1426 Q132.1875,401.9629 131.8359,402.3145 Q131.4844,402.666 130.9375,402.666 Q130.4492,402.666 130.1367,402.4512 Q129.8242,402.2363 129.6875,401.6699 Q129.6289,401.2793 129.4141,401.0645 Q129.0234,400.6543 128.3203,400.4199 Q127.6172,400.166 126.9141,400.166 Q126.0352,400.166 125.293,400.5176 Q124.5703,400.8691 124.0039,401.6504 Q123.4375,402.4316 123.4375,403.5059 L123.4375,404.6582 Q123.4375,405.9473 124.4922,406.8066 Q125.5469,407.666 127.4219,407.666 Q128.5352,407.666 129.3164,407.4121 Q129.7656,407.2754 130.2734,406.8262 Q130.6055,406.5723 130.7813,406.4941 Q130.957,406.416 131.1719,406.416 Q131.582,406.416 131.875,406.748 Q132.1875,407.0605 132.1875,407.5098 Q132.1875,407.9395 131.7578,408.4473 Q131.1328,409.1895 130.1367,409.5996 Q128.8281,410.166 127.2266,410.166 Q125.3516,410.166 123.8477,409.4238 Q122.6367,408.8379 121.7773,407.5684 Q120.9375,406.2988 120.9375,404.7949 L120.9375,403.4277 Q120.9375,401.8652 121.6797,400.498 Q122.4414,399.1309 123.75,398.4082 Q125.0781,397.666 126.5625,397.666 Q127.4609,397.666 128.2422,397.9785 Q129.0234,398.291 129.6875,398.916 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="186.25" x="152.8125" y="409.4287">CreateParameterController</text><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="25.625" x2="425.625" y1="423.291" y2="423.291"/><line style="stroke:#FFFFFF;stroke-width:1.875;" x1="25.625" x2="425.625" y1="433.291" y2="433.291"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="387.5" x="31.875" y="452.5647">+createNewParameter(code, designation, category, description)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="108.75" x="31.875" y="469.8596">+saveParameter()</text><!--MD5=[9d3dd688f78c4545f26622cd23f9dd25]
+link CreateParameterUI to CreateParameterController--><path codeLine="56" d="M225.625,229.766 C225.625,266.541 225.625,330.7035 225.625,376.391 " fill="none" id="CreateParameterUI-to-CreateParameterController" style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="225.625,382.991,230.625,371.741,225.625,376.741,220.625,371.741,225.625,382.991" style="stroke:#FFC5A1;stroke-width:1.25;"/><!--MD5=[6d585fb02c26694275539b4f1508918e]
+link CreateParameterController to Company--><path codeLine="57" d="M212.6875,478.3535 C201.0125,520.191 183.8375,581.7035 171.625,625.441 " fill="none" id="CreateParameterController-to-Company" style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="169.8625,631.766,177.7013,622.273,171.5417,625.7458,168.0689,619.5863,169.8625,631.766" style="stroke:#FFC5A1;stroke-width:1.25;"/><!--MD5=[46706d5726812879537e05899d80bc9e]
+link CreateParameterController to ParameterStore--><path codeLine="58" d="M267.15,478.6785 C282.225,500.2285 295.625,527.1035 295.625,554.541 C295.625,554.541 295.625,554.541 295.625,903.291 C295.625,927.541 287.05,951.891 275.9125,973.291 " fill="none" id="CreateParameterController-to-ParameterStore" style="stroke:#FFC5A1;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFC5A1" points="272.7,979.2535,282.4389,971.7225,275.6653,973.7517,273.636,966.9781,272.7,979.2535" style="stroke:#FFC5A1;stroke-width:1.25;"/><!--MD5=[daf3d7412afa2c7651483be0b6e971d1]
+link Company to ParameterStore--><path codeLine="59" d="M165.725,727.3535 C177.55,789.616 198.6125,900.5035 212.35,972.8035 " fill="none" id="Company-to-ParameterStore" style="stroke:#FFC5A1;stroke-width:1.25;"/><polygon fill="#FFC5A1" points="213.575,979.241,216.3657,967.2504,212.3974,973.103,206.5448,969.1346,213.575,979.241" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="35" x="193.125" y="860.1599">uses</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="157.6882" y="753.504">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="202.6179" y="966.0761">1</text><!--MD5=[a0992dda039fed1bb57aff5aacace800]
+link ParameterStore to Parameter--><path codeLine="60" d="M225.625,1108.566 C225.625,1176.5285 225.625,1284.1285 225.625,1354.3785 " fill="none" id="ParameterStore-to-Parameter" style="stroke:#FFC5A1;stroke-width:1.25;"/><polygon fill="#FFC5A1" points="225.625,1360.6285,230.625,1349.3785,225.625,1354.3785,220.625,1349.3785,225.625,1360.6285" style="stroke:#FFC5A1;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="226.875" y="1241.4099">creates</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="216.2871" y="1135.4667">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="218.9355" y="1347.0163">*</text><!--MD5=[19443709be2e948acae15dd03a1da438]
+@startuml
+'https://plantuml.com/class-diagram
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US8 - Class Diagram\n
+
+' ======= classes =========
+
+class CreateParameterUI
+
+class Company {
+  -designation
+  +getParameterStore()
+}
+class ParameterStore {
+   +createParameter(id, designation, category, description)
+   +validateParameter(par)
+   +saveParameter(par)
+   +addParameter(par)
+}
+
+class Parameter {
+  -id
+  -designation
+  -description
+  Parameter(id, designation, category, description)
+
+
+}
+
+class CreateParameterController{
+   +createNewParameter(code, designation, category, description)
+   +saveParameter()
+}
+class ParameterStore
+CreateParameterUI ...> CreateParameterController
+CreateParameterController ...> Company
+CreateParameterController ..> ParameterStore
+Company "1" - - - -> "1" ParameterStore : "uses"
+ParameterStore "1" - - - -> "*" Parameter : "creates"
+
+@enduml
+
+@startuml
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US8 - Class Diagram\n
+
+
+class CreateParameterUI
+
+class Company {
+  -designation
+  +getParameterStore()
+}
+class ParameterStore {
+   +createParameter(id, designation, category, description)
+   +validateParameter(par)
+   +saveParameter(par)
+   +addParameter(par)
+}
+
+class Parameter {
+  -id
+  -designation
+  -description
+  Parameter(id, designation, category, description)
+
+
+}
+
+class CreateParameterController{
+   +createNewParameter(code, designation, category, description)
+   +saveParameter()
+}
+class ParameterStore
+CreateParameterUI ...> CreateParameterController
+CreateParameterController ...> Company
+CreateParameterController ..> ParameterStore
+Company "1" - - - -> "1" ParameterStore : "uses"
+ParameterStore "1" - - - -> "*" Parameter : "creates"
+
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 09:49:39 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,52 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>SYSTEM SEQUENCE DIAGRAM\n
+autonumber
+'hide footbox
+actor "Laboratory Coordinator" as LC
+
+participant ":System" as System
+
+activate LC
+activate System
+LC -> System : starts new validation
+System --> LC : shows tests waiting for validation
+deactivate System
+loop for each test
+LC -> System : selects the test to validate
+activate System
+System --> LC : shows the test selected and requests a confirmation
+deactivate System
+LC -> System : confirms the data
+activate System
+System --> LC : shows test data and request validation
+deactivate System
+LC -> System : validates the test
+activate System
+System --> LC : informs test success
+deactivate LC
+deactivate System
+end loop
+
+@enduml

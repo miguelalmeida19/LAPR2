@@ -1,0 +1,140 @@
+@startuml
+' ======= layout =========
+skinparam backgroundColor #fcf9ea
+skinparam titleBorderRoundCorner 15
+skinparam titleFontSize 30
+skinparam classAttributeIconSize 0
+skinparam titleFontName Arial Black
+skinparam titleFontColor #f8a978
+skinparam roundcorner 20
+skinparam stereotypeCBackgroundColor ffc5a1
+skinparam class {
+
+ArrowColor ffc5a1
+BorderColor White
+BackgroundColor badfdb
+}
+
+
+' ======= title =========
+center header
+
+
+<font color=Black size=15><b>Built by WeByte ©</font>
+endheader
+title <b>US17 - Class Diagram\n
+
+' ======= classes =========
+class TestStore{
+-testList
+-valueMaxForCovidTest
+-getHistoryOfPointsSimpleWeek(numberOfHistoricalPoints,  dateToday, regression, nhsReportDTO)
+-getHistoryOfPointsSimpleDays( numberOfHistoricalPoints, DateToday,  regressionr,  nhsReportDTO)
+-getHistoryOfPointsMultiLinearDays(inumberOfHistoricalPoints, regression,  nhsReportDTO)
+-getHistoryOfPointsMultiLinearWeeks(inumberOfHistoricalPoints, DateToday, regression)
++double[] value = getXListNumberTestsByWeek(lowerLimitDate, upperLimitDate, testList)
++double[] value = getXListAgesByWeek(lowerLimitDate, upperLimitDate)
++getNumberPositiveCasesOnDate(date, testsMadeInInterval)
++double[] value = getYListWeek(lowerLimitDate, upperLimitDate)
++double[] value = getYList(lowerLimitDate, upperLimitDate, testsMadeInInterval)
++double[] value = getXlistNumberTestPerDay(lowerLimitDate, upperLimitDate, testsMadeInInterval)
++double[] value = getXListAges(lowerLimitDate, upperLimitDate)
++getMeanAgesPerDay(lowerLimitDate, upperLimitDate)
++getMeanAgesPerWeek(lowerLimitDate, upperLimitDate)
++getNumberTestsMadeOnDate(date, testList)
++getMeanAgesOfTestsMade(date)
++getCovidTestsForRegression(lowerLimitDate, upperLimitDate)
++getTableWithHistoricalDataToSendNHS( regression, nhsReportDTO)
+}
+class Employee{
+- username
+- employeeId
+- organizationRole
+- name
+- address
+- phoneNumber
+- e-Mail
+- socCode
+}
+class Company{
+- designation
+}
+class ImportTestsUI{
+}
+class ImportTestController{
++getFiles()
++getTestDTOList()
++getTestList(String filename)
+}
+class ParameterStore {
+   +createParameter(id, designation, category, description)
+   +validateParameter(par)
+   +saveParameter(par)
+   +addParameter(par)
+}
+class ClientStore{
+ + createNewClient(citizenCardNumber, nhsNumber,\n birthDate, sex, tin, phoneNumber, e-mail and name.)
+ + validateClient(c)
+ + saveClient(c)
+ - addClient(c)
+}
+class Test{
+-code
+-nhscode
+-date
+}
+class TestTypeStore{
++createTestType(String code, String description, String collectingMethod, List<ParameterCategory> parameterCategoryList)
++validateTest(TestType testType)
++saveTest(TestType testType)
++addTestType(TestType testType)
++getTestTypes()
++getTestTypeByCodes(List<String> testTypeCodes)
++getTestTypeByName(String name)
++getListOfTestType()
+}
+class Client{
+- nhsNumber
+- birthDate
+- sex
+- tin
+- phoneNumber
+- e-mail
+- name
+}
+class ParameterCategoryStore{
++ createParameterCategoryCode(String description)
++ getParameterCategoryList()
++ add(ParameterCategory category)
++ getParameterCategoryByDescription(String description)
++ saveParameterCategory(ParameterCategory pc)
++ validateParameterCategory(ParameterCategory pc)
++ createParametercategory(String code, String description)
+}
+
+Company "1" ..-> "*" Employee : employees >
+Company "1" ..-> "*" Test : performs >
+Test "1" ..-> "*" Client
+
+ImportTestsUI ..-> ImportTestController
+ImportTestController ..-> TestStore
+
+Company ..-> TestStore
+Company ..-> TestTypeStore
+Company ..-> ParameterStore
+Company ..-> ParameterCategoryStore
+Company ..-> ClientStore
+Company ..-> LaboratoryStore
+
+TestStore ..-> Test
+TestStore ..-> Parameter
+TestStore ..-> ParameterCategory
+TestStore ..-> TestType
+TestStore ..-> Laboratory
+
+ParameterCategory ..-> Test
+Parameter ..-> Test
+TestType ..-> Test
+Laboratory ..-> Test
+
+@enduml
